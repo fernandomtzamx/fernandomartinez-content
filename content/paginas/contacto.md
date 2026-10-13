@@ -18,7 +18,7 @@ Cuéntame qué está pasando. Mientras más concreto, mejor: "tenemos 3 mil lead
 ### Correo
 [fernando@publi20.com](mailto:fernando@publi20.com?subject=Platiquemos)
 
-Lo reviso yo. Respondo en uno o dos días hábiles.
+Lo leo yo, no un asistente.
 </div>
 <div class="fm-card" markdown="1">
 ### LinkedIn
