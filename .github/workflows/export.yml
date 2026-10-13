@@ -1,0 +1,32 @@
+name: Exportar sitio actual
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/export_joomla.py"
+      - ".github/workflows/export.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: pip install -q requests beautifulsoup4
+      - run: mkdir -p migracion && python scripts/export_joomla.py 2>&1 | tee migracion/export.log || true
+        shell: bash
+      - name: Guardar exportación
+        run: |
+          mkdir -p migracion
+          git config user.name "fm-bot"
+          git config user.email "fm-bot@users.noreply.github.com"
+          git add migracion
+          git commit -m "Exportación del sitio actual [skip ci]" || exit 0
+          git pull --rebase -q origin main && git push -q origin HEAD:main
