@@ -175,6 +175,30 @@
    "blog-35-3-formas-de-hacer-marketing-digital-con-realidad-virtual.html"
   ]
  },
+ "/images/fernando-martinez-enginecx.png": {
+  "status": 200,
+  "bytes": 1101169,
+  "paginas": [
+   "fernando-arturo-martinez-aguilar.html",
+   "inicio.html"
+  ]
+ },
+ "/images/fernando-martinez.png": {
+  "status": 200,
+  "bytes": 3653,
+  "paginas": [
+   "base-de-conocimiento.html",
+   "blog-12-entre-aportar-al-teleton-y-el-odio-a-televisa.html",
+   "blog-13-como-funciona-los-5-pilares-del-inbound-marketing.html",
+   "blog-14-que-es-el-inbound-marketing.html",
+   "blog-15-reducir-tiempo-carga-sitio-web-joomla.html",
+   "blog-16-para-que-sirve-un-blog-en-mi-sitio-web.html",
+   "blog-17-10-palabras-que-debes-quitar-de-tu-sitio-web-ya.html",
+   "blog-2-5-cosas-que-hace-la-gente-super-exitosa.html",
+   "blog-20-la-grave-desconexion-entre-el-reconocimiento-de-marca-y-las-ventas.html",
+   "blog-22-plantillas-administrador-joomla.html"
+  ]
+ },
  "/images/recursos/25-cosas-que-hacer-en-la-web-para-tener-mas-trafico-y-clientes.png": {
   "status": 200,
   "bytes": 229768,
@@ -187,6 +211,13 @@
   "bytes": 86858,
   "paginas": [
    "recursos-twitter-summary-card-for-joomla-articles-plugin.html"
+  ]
+ },
+ "/images/recursos/imagenes-libres-de-derechos-gratis.png": {
+  "status": 200,
+  "bytes": 314812,
+  "paginas": [
+   "recursos.html"
   ]
  },
  "/images/recursos/joomla-brand-remover-administrator-plugin.png": {
