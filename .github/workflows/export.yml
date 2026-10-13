@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - "scripts/export_joomla.py"
+      - "scripts/resolve_links.py"
       - ".github/workflows/export.yml"
   workflow_dispatch:
 
@@ -20,7 +21,10 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -q requests beautifulsoup4
-      - run: mkdir -p migracion && python scripts/export_joomla.py 2>&1 | tee migracion/export.log || true
+      - run: |
+          mkdir -p migracion
+          if [ ! -f migracion/origen/inventario.json ]; then python scripts/export_joomla.py 2>&1 | tee migracion/export.log || true; fi
+          python scripts/resolve_links.py 2>&1 | tee migracion/enlaces.log || true
         shell: bash
       - name: Guardar exportación
         run: |
