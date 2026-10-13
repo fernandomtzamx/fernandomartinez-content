@@ -6,17 +6,21 @@ on:
     paths:
       - "content/**"
       - "images/**"
+      - "assets/**"
+      - "docs/sitio.yml"
       - "scripts/publish.py"
+      - "scripts/site_setup.py"
+      - "scripts/article.css"
       - "scripts/wp_info.py"
       - ".github/workflows/publish.yml"
   workflow_dispatch:
     inputs:
       mode:
-        description: "check = probar credenciales, all = republicar todo content/, info = diagnóstico del sitio"
+        description: "check = probar credenciales, all = republicar todo, setup = aplicar docs/sitio.yml, verify = verificar sitio, info = diagnóstico"
         required: true
         default: check
         type: choice
-        options: [check, all, info]
+        options: [check, all, setup, verify, info]
 
 permissions:
   contents: write
@@ -49,26 +53,73 @@ jobs:
             if [ -n "${!v}" ]; then echo "$v: presente"; else echo "$v: FALTA"; fi
           done | tee -a publish.log
 
-      - name: Publicar
-        id: publicar
+      - name: Decidir qué hacer
+        id: plan
+        run: |
+          MODE="${{ inputs.mode }}"
+          BEFORE="${{ github.event.before }}"
+          PUBLISH=""; SETUP=""; VERIFY=""; INFO=""
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            case "$MODE" in
+              all) PUBLISH="--all"; SETUP=1; VERIFY=1 ;;
+              setup) SETUP=1 ;;
+              verify) VERIFY=1 ;;
+              info) INFO=1 ;;
+              *) PUBLISH="--check" ;;
+            esac
+          else
+            if [ -z "$BEFORE" ] || [ "$BEFORE" = "0000000000000000000000000000000000000000" ]; then
+              CHANGED=$(git ls-files)
+            else
+              CHANGED=$(git diff --name-only "$BEFORE" "${{ github.sha }}")
+            fi
+            # Si cambió la plantilla de artículo o el publicador, se republica todo
+            if echo "$CHANGED" | grep -qE '^scripts/(article\.css|publish\.py)$'; then
+              PUBLISH="--all"
+            else
+              PUBLISH=$(echo "$CHANGED" | grep -E '^content/.*\.md$' | while read f; do [ -f "$f" ] && echo "$f"; done | tr '\n' ' ')
+            fi
+            echo "$CHANGED" | grep -qE '^(docs/sitio\.yml|scripts/site_setup\.py)$' && SETUP=1
+            [ -n "$PUBLISH" ] && VERIFY=1
+            echo "$CHANGED" | grep -q '^scripts/wp_info.py$' && INFO=1
+          fi
+          echo "publish=$PUBLISH" >> "$GITHUB_OUTPUT"
+          echo "setup=$SETUP" >> "$GITHUB_OUTPUT"
+          echo "verify=$VERIFY" >> "$GITHUB_OUTPUT"
+          echo "info=$INFO" >> "$GITHUB_OUTPUT"
+          echo "Plan: publicar='$PUBLISH' setup='$SETUP' verificar='$VERIFY' info='$INFO'" | tee -a publish.log
+
+      - name: Revisión de calidad (lint)
+        if: steps.plan.outputs.publish != '' && steps.plan.outputs.publish != '--check'
         run: |
           set -o pipefail
-          MODE="${{ inputs.mode }}"
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            if [ "$MODE" = "all" ]; then ARGS="--all"; elif [ "$MODE" = "info" ]; then python scripts/wp_info.py 2>&1 | tee -a publish.log; exit ${PIPESTATUS[0]}; else ARGS="--check"; fi
-          else
-            BEFORE="${{ github.event.before }}"
-            if [ -z "$BEFORE" ] || [ "$BEFORE" = "0000000000000000000000000000000000000000" ]; then
-              FILES=$(git ls-files 'content/*.md' 'content/**/*.md')
-            else
-              FILES=$(git diff --name-only --diff-filter=AM "$BEFORE" "${{ github.sha }}" -- 'content/')
-            fi
-            if git diff --name-only "$BEFORE" "${{ github.sha }}" 2>/dev/null | grep -q "^scripts/wp_info.py$"; then python scripts/wp_info.py 2>&1 | tee -a publish.log; fi
-            FILES=$(echo "$FILES" | grep '\.md$' | tr '\n' ' ' || true)
-            if [ -z "$FILES" ]; then ARGS="--check"; else ARGS="$FILES"; fi
-          fi
-          echo "Argumentos: $ARGS" | tee -a publish.log
-          python scripts/publish.py $ARGS 2>&1 | tee -a publish.log
+          python scripts/lint.py 2>&1 | tee -a publish.log
+
+      - name: Publicar
+        id: publicar
+        if: steps.plan.outputs.publish != ''
+        run: |
+          set -o pipefail
+          python scripts/publish.py ${{ steps.plan.outputs.publish }} 2>&1 | tee -a publish.log
+
+      - name: Ajustes del sitio
+        id: setup
+        if: steps.plan.outputs.setup != '' && !cancelled()
+        run: |
+          set -o pipefail
+          python scripts/site_setup.py 2>&1 | tee -a publish.log
+
+      - name: Diagnóstico de WordPress
+        if: steps.plan.outputs.info != '' && !cancelled()
+        run: python scripts/wp_info.py 2>&1 | tee -a publish.log
+
+      - name: Verificar sitio publicado
+        id: verify
+        if: steps.plan.outputs.verify != '' && !cancelled()
+        continue-on-error: true
+        run: |
+          set -o pipefail
+          python scripts/check_links.py 2>&1 | tail -3 | tee -a publish.log
 
       - name: Guardar registro en el repo
         if: always()
@@ -78,13 +129,13 @@ jobs:
             echo "fecha: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
             echo "commit: ${{ github.sha }}"
             echo "evento: ${{ github.event_name }}"
-            echo "resultado: ${{ steps.publicar.outcome }}"
+            echo "publicar: ${{ steps.publicar.outcome }} | setup: ${{ steps.setup.outcome }} | verificar: ${{ steps.verify.outcome }}"
             echo "run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
             echo "---"
             cat publish.log 2>/dev/null || echo "(sin log)"
           } > registro/ultima-publicacion.log
           git config user.name "fm-bot"
           git config user.email "fm-bot@users.noreply.github.com"
-          git add registro/ultima-publicacion.log migracion/wp-info.json 2>/dev/null || git add registro/ultima-publicacion.log
+          git add registro migracion/wp-info.json 2>/dev/null || git add registro
           git commit -m "Registro de publicación [skip ci]" || exit 0
           git pull --rebase -q origin main && git push -q origin HEAD:main

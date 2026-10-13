@@ -56,9 +56,12 @@ class WP:
         if final.rstrip("/") != base.rstrip("/"):
             print(f"Aviso: {base} redirige a {final}; uso la URL final.")
         print(f"Endpoint: {final}/wp-json/ (HTTP {probe.status_code})")
+        self.home = final.rstrip("/")
         try:
             auth = list((probe.json().get("authentication") or {}).keys())
             print(f"Métodos de autenticación anunciados: {', '.join(auth) or 'ninguno'}")
+            # URL pública del sitio (con www si así está configurado): base de los enlaces internos.
+            self.home = (probe.json().get("home") or self.home).rstrip("/")
         except ValueError:
             print("Aviso: /wp-json/ no devolvió JSON")
         self.api = final.rstrip("/") + "/wp-json/wp/v2"
@@ -145,7 +148,8 @@ def media_id(self, file_path, alt):
         self.req("POST", f"media/{mid}", json={"alt_text": alt})
         print(f"  = imagen reutilizada: {slug} (id {mid})")
         return mid
-    mime = {".png": "image/png", ".jpg": "image/jpeg", ".jpeg": "image/jpeg", ".webp": "image/webp"}[file_path.suffix.lower()]
+    mime = {".png": "image/png", ".jpg": "image/jpeg", ".jpeg": "image/jpeg", ".webp": "image/webp",
+            ".gif": "image/gif", ".pdf": "application/pdf", ".zip": "application/zip"}[file_path.suffix.lower()]
     r = self.s.post(f"{self.api}/media", data=file_path.read_bytes(), timeout=60,
                     headers={"Content-Type": mime,
                              "Content-Disposition": f'attachment; filename="{file_path.name}"'})
@@ -160,12 +164,28 @@ def media_id(self, file_path, alt):
 WP.media_id = media_id
 
 
+def media_url(self, file_path, alt=""):
+    """Sube (o reutiliza) un archivo local y devuelve su URL pública."""
+    key = str(file_path)
+    cache = self.__dict__.setdefault("_media_url_cache", {})
+    if key not in cache:
+        mid = self.media_id(file_path, alt)
+        cache[key] = self.req("GET", f"media/{mid}", params={"context": "edit"})["source_url"]
+    return cache[key]
+
+
+WP.media_url = media_url
+
+
 INTERNAL_HOSTS = ("fernandomartinez.mx", "www.fernandomartinez.mx")
+# Enlaces de afiliado: se publican EXACTOS, con rel="sponsored" y en pestaña nueva.
+# Agrega aquí cualquier dominio de referidos nuevo; scripts/lint.py verifica que no se alteren.
+REFERRAL_HOSTS = ("shopify.pxf.io",)
 _A_TAG = re.compile(r"<a\s[^>]*>", re.I)
 
 
 def nofollow_external(html):
-    """Regla del sitio: todo enlace externo lleva rel="nofollow". Los internos (/ruta/ o fernandomartinez.mx) no."""
+    """Externos con rel="nofollow"; referidos con rel="sponsored nofollow noopener". Los internos sin cambios."""
     def fix(m):
         tag = m.group(0)
         href = re.search(r'href=["\']([^"\']+)["\']', tag, re.I)
@@ -174,6 +194,9 @@ def nofollow_external(html):
         host = re.sub(r"(?i)^https?://", "", href.group(1)).split("/")[0].split(":")[0].lower()
         if host in INTERNAL_HOSTS:
             return tag
+        if host in REFERRAL_HOSTS:
+            tag = re.sub(r'\s(rel|target)=["\'][^"\']*["\']', "", tag)
+            return tag[:-1].rstrip("/").rstrip() + ' rel="sponsored nofollow noopener" target="_blank">'
         rel = re.search(r'rel=["\']([^"\']*)["\']', tag, re.I)
         if rel:
             vals = rel.group(1).split()
@@ -199,13 +222,43 @@ def parse(path):
     html = markdown.markdown(
         body.strip(),
         extensions=["tables", "fenced_code", "sane_lists", "toc", "attr_list", "md_in_html"],
-        extension_configs={"toc": {"toc_depth": "2-3", "title": "Índice de contenidos"}},
+        extension_configs={"toc": {"toc_depth": "2-3", "title": "En esta entrada"}},
     )
+    if meta.get("layout", "article") == "article":
+        css = (ROOT / "scripts" / "article.css").read_text(encoding="utf-8")
+        footer = ""
+        if meta.get("type", "post") == "post":
+            nota = ""
+            if meta.get("original"):
+                nota = ('<p class="fm-nota">Esta entrada nació en la primera versión de este blog. '
+                        f'La reescribí y actualicé en {meta.get("actualizado", "octubre de 2026")}: '
+                        'lo que ya no aplicaba, lo digo; lo que cambió, lo corregí.</p>')
+            footer = nota + (
+                '<div class="fm-autor"><p><strong>Fernando Martínez</strong> es CTO, programador desde 2008 '
+                'y alguien que todavía cree que el marketing se mide en ventas, no en aplausos. '
+                '<a href="/fernando-arturo-martinez-aguilar/">Más sobre mí</a> · '
+                '<a href="/contacto/">Escríbeme</a></p></div>')
+        html = f'<style>\n{css}</style>\n<div class="fm-article">\n{html}\n{footer}\n</div>'
     return meta, nofollow_external(html)
+
+
+def localize(wp, html, title):
+    """Enlaces internos (/ruta/) a la URL del sitio y archivos del repo (assets/, images/) a la biblioteca de medios."""
+    def file_ref(m):
+        attr, path = m.group(1), m.group(2)
+        local = ROOT / path
+        if not local.exists():
+            raise FileNotFoundError(f"archivo no encontrado: {path}")
+        return f'{attr}="{wp.media_url(local, title)}"'
+    html = re.sub(r'(href|src)="((?:assets|images)/[^"]+)"', file_ref, html)
+    # href="/ruta" -> https://sitio[/dev]/ruta (no tocar //cdn ni anclas)
+    html = re.sub(r'href="/(?!/)([^"]*)"', lambda m: f'href="{wp.home}/{m.group(1)}"', html)
+    return html
 
 
 def publish(wp, path):
     meta, html = parse(path)
+    html = localize(wp, html, meta["title"])
     kind = meta.get("type", "post")
     endpoint = "pages" if kind == "page" else "posts"
     payload = {
@@ -219,6 +272,10 @@ def publish(wp, path):
     }
     if meta.get("excerpt"):
         payload["excerpt"] = meta["excerpt"]
+    if meta.get("template") is not None:
+        payload["template"] = meta["template"]
+    if meta.get("menu_order") is not None:
+        payload["menu_order"] = int(meta["menu_order"])
     if meta.get("date"):
         # Fecha local de Ciudad de México (UTC-6, sin horario de verano desde 2022).
         local = datetime.datetime.fromisoformat(str(meta["date"]))
@@ -233,8 +290,9 @@ def publish(wp, path):
             payload["tags"] = [wp.term_id("tags", t, by="name") for t in meta["tags"]]
     elif meta.get("parent"):
         parent = wp.find_by_slug("pages", meta["parent"])
-        if parent:
-            payload["parent"] = parent["id"]
+        if not parent:
+            raise RuntimeError(f"no existe la página padre '{meta['parent']}'")
+        payload["parent"] = parent["id"]
     if meta.get("featured_image"):
         payload["featured_media"] = wp.media_id(
             ROOT / meta["featured_image"], meta.get("featured_alt", meta["title"]))
@@ -242,6 +300,11 @@ def publish(wp, path):
     # Con "id" en el frontmatter se actualiza esa entrada aunque cambie el slug;
     # WordPress guarda el slug anterior y redirige la URL vieja a la nueva.
     existing = {"id": int(meta["id"])} if meta.get("id") else wp.find_by_slug(endpoint, meta["slug"])
+    if existing and kind == "page" and not meta.get("id"):
+        # Dos páginas pueden compartir slug con distinto padre: confirmar el padre.
+        same = [p for p in wp.req("GET", "pages", params={"slug": meta["slug"], "status": "any", "context": "edit"})
+                if p.get("parent", 0) == payload.get("parent", 0)]
+        existing = same[0] if same else None
     if existing:
         res = wp.req("POST", f"{endpoint}/{existing['id']}", json=payload)
         action = "actualizada"
@@ -249,6 +312,17 @@ def publish(wp, path):
         res = wp.req("POST", endpoint, json=payload)
         action = "creada"
     print(f"{path.relative_to(ROOT)}: {kind} {action} ({res['status']}) id={res['id']} {res['link']}")
+
+
+def order_key(path):
+    """Primero páginas sin padre, luego páginas hijas, al final entradas (en orden de fecha)."""
+    try:
+        meta, _ = yaml.safe_load(path.read_text(encoding="utf-8").split("---", 2)[1]) or {}, None
+    except Exception:  # noqa: BLE001
+        return (9, str(path))
+    if meta.get("type") == "page":
+        return (0 if not meta.get("parent") else 1, str(path))
+    return (2, str(meta.get("date", "")), str(path))
 
 
 def main():
@@ -266,6 +340,7 @@ def main():
 
     files = sorted(CONTENT_DIR.rglob("*.md")) if args.all else [ROOT / f for f in args.files]
     files = [f for f in files if f.exists() and f.suffix == ".md" and CONTENT_DIR in f.resolve().parents]
+    files.sort(key=order_key)
     if not files:
         print("Nada que publicar.")
         return

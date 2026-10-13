@@ -1,0 +1,67 @@
+# Configuración del sitio. Se aplica con scripts/site_setup.py
+# (Actions > Publicar en WordPress > Run workflow > setup, o en cada push que cambie este archivo).
+
+ajustes:
+  title: "Fernando Martínez"
+  description: "CTO, programador desde 2008 y marketero en recuperación"
+  timezone: "America/Mexico_City"
+  date_format: "j \\d\\e F \\d\\e Y"
+  posts_per_page: 12
+  default_comment_status: closed
+  default_ping_status: closed
+  portada: inicio        # slug de la página de inicio
+  pagina_blog: blog      # slug de la página que lista las entradas
+
+autor:
+  first_name: "Fernando"
+  last_name: "Martínez"
+  name: "Fernando Martínez"
+  nickname: "Fernando"
+  url: "https://www.linkedin.com/in/fernandomtza/"
+  description: "CTO en EngineCX, ingeniero en computación por la UNAM y programador desde 2008. Escribe sobre IA aplicada, CRM, Martech, la industria automotriz y opiniones que no caben en LinkedIn."
+
+categorias:
+  - slug: ia-y-tecnologia
+    name: IA y tecnología
+    description: "Inteligencia artificial, automatización y tecnologías que prometieron mucho (y lo que de verdad cumplieron)."
+  - slug: marketing
+    name: Marketing
+    description: "Inbound, contenido, redes y marca, medidos en ventas y no en aplausos."
+  - slug: crm-y-datos
+    name: CRM y datos
+    description: "Clientes, bases de datos, buyer personas y cómo convertir información en decisiones."
+  - slug: automotriz
+    name: Automotriz
+    description: "Venta de autos, financiamiento, posventa y experiencia del cliente en la industria automotriz."
+  - slug: desarrollo-web
+    name: Desarrollo web
+    description: "Joomla, WordPress, Shopify, velocidad y lo que aprendí programando más de 200 sitios."
+  - slug: ventas-y-liderazgo
+    name: Ventas y liderazgo
+    description: "Equipos comerciales, compensación y hábitos de la gente que hace que las cosas pasen."
+  - slug: opinion
+    name: Opinión
+    description: "Ideas personales sobre sociedad, causas y conversación pública. Firmadas, discutibles."
+
+menu:
+  - {label: "Quién soy", url: "/fernando-arturo-martinez-aguilar/"}
+  - {label: "Cómo te ayudo", url: "/como-te-ayudo/"}
+  - {label: "Blog", url: "/blog/"}
+  - {label: "Recursos", url: "/recursos/"}
+  - {label: "Contacto", url: "/contacto/"}
+
+# Colores de marca sobre la paleta de Twenty Twenty-Five (mismos slugs del tema).
+paleta:
+  base: "#FBF8F1"        # papel cálido
+  contrast: "#16171B"    # tinta
+  accent-1: "#FFE45C"    # resaltador
+  accent-2: "#F3E9D7"
+  accent-3: "#E20613"    # rojo de la corbata del logo
+  accent-4: "#5D6070"
+  accent-5: "#F3EEE3"
+
+# Ejemplos de WordPress y pruebas: a la papelera (recuperables en wp-admin).
+borrar:
+  - {id: 1, slug: hello-world, tipo: posts}
+  - {id: 6, slug: prueba-conexion-agente, tipo: posts}
+  - {id: 2, slug: sample-page}
