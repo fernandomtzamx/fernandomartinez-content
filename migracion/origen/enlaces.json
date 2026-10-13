@@ -1,0 +1,1914 @@
+{
+ "weblinks": {
+  "100": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=100",
+   "titulo": "Shopify",
+   "paginas": [
+    "blog-39-como-abrir-una-tienda-en-linea-en-mexico-con-shopify.html",
+    "blog.html",
+    "enlaces-recomendados-34-herramientas.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "herramientas",
+   "descripcion": "Shopify es una plataforma de comercio electrónico que ofrece una prueba gratuita para ayudar a los emprendedores a iniciar su propia tienda en línea sin la ayuda de una agencia. Esta prueba gratuita te permite experimentar con el diseño de tu tienda, agregar productos, configurar tu proceso de pago y mucho más. Con la prueba gratuita de Shopify, puedes obtener una idea de cómo funciona la plataforma y descubrir si es adecuada para tu negocio. Además, te permite experimentar con el diseño y la configuración de tu tienda sin tener que invertir una gran cantidad de dinero.",
+   "status": 303,
+   "destino": "https://shopify.pxf.io/prueba-gratis-shop",
+   "destino_final": "https://www.shopify.com/mx/prueba-gratis?irclickid=XnNVhLQFExyZT6yVnD3bRRDkUkr1jz3kwRCyQI0&irgwc=1&partner=2878770&affpt=excluded&utm_channel=affiliates&utm_source=2878770-impact&utm_medium=cpa&iradid=1061744",
+   "destino_status": 200
+  },
+  "1": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=1",
+   "titulo": "Optimizely",
+   "paginas": [
+    "enlaces-recomendados-14-pruebas-a-b.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "pruebas-a-b",
+   "status": 303,
+   "destino": "https://www.optimizely.com/",
+   "destino_final": "https://www.optimizely.com/",
+   "destino_status": 200
+  },
+  "2": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=2",
+   "titulo": "Visual Website Optimizer",
+   "paginas": [
+    "enlaces-recomendados-14-pruebas-a-b.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "pruebas-a-b",
+   "status": 303,
+   "destino": "https://vwo.com/",
+   "destino_final": "https://wingify.com/",
+   "destino_status": 200
+  },
+  "3": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=3",
+   "titulo": "Google AdSense",
+   "paginas": [
+    "enlaces-recomendados-15-publicidad-y-promocion.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "publicidad-y-promocion",
+   "status": 303,
+   "destino": "https://www.google.com/adsense",
+   "destino_final": "https://accounts.google.com/v3/signin/identifier?continue=https://adsense.google.com/adsense/login?continue%3Dhttps://adsense.google.com/adsense/&followup=https://adsense.google.com/adsense/login?continue%3Dhttps://adsense.google.com/adsense/&osid=1&passive=1209600&service=adsense&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S1896741845:1791931841917194",
+   "destino_status": 200
+  },
+  "4": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=4",
+   "titulo": "Google AdWords",
+   "paginas": [
+    "enlaces-recomendados-15-publicidad-y-promocion.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "publicidad-y-promocion",
+   "status": 303,
+   "destino": "http://www.google.com/adwords",
+   "destino_final": "https://business.google.com/us/google-ads/",
+   "destino_status": 200
+  },
+  "5": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=5",
+   "titulo": "BuySellAds",
+   "paginas": [
+    "enlaces-recomendados-15-publicidad-y-promocion.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "publicidad-y-promocion",
+   "status": 303,
+   "destino": "https://buysellads.com/",
+   "destino_final": "https://www.buysellads.com/",
+   "destino_status": 200
+  },
+  "6": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=6",
+   "titulo": "Facebook Ads",
+   "paginas": [
+    "enlaces-recomendados-15-publicidad-y-promocion.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "publicidad-y-promocion",
+   "status": 303,
+   "destino": "https://www.facebook.com/advertising",
+   "destino_final": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fbusiness%2F",
+   "destino_status": 200
+  },
+  "7": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=7",
+   "titulo": "Twitter Ads",
+   "paginas": [
+    "enlaces-recomendados-15-publicidad-y-promocion.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "publicidad-y-promocion",
+   "status": 303,
+   "destino": "https://ads.twitter.com/",
+   "destino_final": "https://business.x.com/en/advertising",
+   "destino_status": 200
+  },
+  "8": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=8",
+   "titulo": "StumbleUpon Paid Discovery",
+   "paginas": [
+    "enlaces-recomendados-15-publicidad-y-promocion.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "publicidad-y-promocion",
+   "status": 303,
+   "destino": "https://www.stumbleupon.com/pd/",
+   "destino_final": "https://www.stumbleupon.com/pd",
+   "destino_status": 404
+  },
+  "9": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=9",
+   "titulo": "Reddit Advertising",
+   "paginas": [
+    "enlaces-recomendados-15-publicidad-y-promocion.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "publicidad-y-promocion",
+   "status": 303,
+   "destino": "http://www.reddit.com/advertising",
+   "destino_final": "https://www.business.reddit.com/",
+   "destino_status": 200
+  },
+  "10": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=10",
+   "titulo": "Outbrain",
+   "paginas": [
+    "enlaces-recomendados-15-publicidad-y-promocion.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "publicidad-y-promocion",
+   "status": 303,
+   "destino": "http://www.outbrain.com/",
+   "destino_final": "https://www.outbrain.com/",
+   "destino_status": 200
+  },
+  "11": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=11",
+   "titulo": "SyndicateAds",
+   "paginas": [
+    "enlaces-recomendados-15-publicidad-y-promocion.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "publicidad-y-promocion",
+   "status": 303,
+   "destino": "https://syndicateads.net/",
+   "destino_error": "HTTPSConnectionPool(host='syndicateads.net', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='syndica"
+  },
+  "12": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=12",
+   "titulo": "Zemanta",
+   "paginas": [
+    "enlaces-recomendados-15-publicidad-y-promocion.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "publicidad-y-promocion",
+   "status": 303,
+   "destino": "http://www.zemanta.com/",
+   "destino_final": "https://www.zemanta.com/",
+   "destino_status": 406
+  },
+  "13": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=13",
+   "titulo": "Startup Lister",
+   "paginas": [
+    "enlaces-recomendados-15-publicidad-y-promocion.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "publicidad-y-promocion",
+   "status": 303,
+   "destino": "http://startuplister.com/",
+   "destino_final": "https://bubble.io/domain_not_supported?domain=startuplister.com",
+   "destino_status": 404
+  },
+  "14": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=14",
+   "titulo": "Promote Hour",
+   "paginas": [
+    "enlaces-recomendados-15-publicidad-y-promocion.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "publicidad-y-promocion",
+   "status": 303,
+   "destino": "http://www.promotehour.com/",
+   "destino_error": "HTTPSConnectionPool(host='www.promotehour.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_W"
+  },
+  "24": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=24",
+   "titulo": "Heap Analytics",
+   "paginas": [
+    "enlaces-recomendados-16-analisis-y-metricas.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "analisis-y-metricas",
+   "status": 303,
+   "destino": "https://heapanalytics.com",
+   "destino_final": "https://www.heap.io/",
+   "destino_status": 200
+  },
+  "33": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=33",
+   "titulo": "PicStats",
+   "paginas": [
+    "enlaces-recomendados-16-analisis-y-metricas.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "analisis-y-metricas",
+   "status": 303,
+   "destino": "http://picstats.com/",
+   "destino_final": "http://picstats.com/",
+   "destino_status": 200
+  },
+  "32": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=32",
+   "titulo": "ShareTally",
+   "paginas": [
+    "enlaces-recomendados-16-analisis-y-metricas.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "analisis-y-metricas",
+   "status": 303,
+   "destino": "http://sharetally.co/",
+   "destino_final": "https://webupon.com/blog/social-share-count/",
+   "destino_status": 200
+  },
+  "31": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=31",
+   "titulo": "Shared Count",
+   "paginas": [
+    "enlaces-recomendados-16-analisis-y-metricas.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "analisis-y-metricas",
+   "status": 303,
+   "destino": "http://www.sharedcount.com",
+   "destino_final": "http://www.sharedcount.com/",
+   "destino_status": 200
+  },
+  "30": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=30",
+   "titulo": "Tagboard",
+   "paginas": [
+    "enlaces-recomendados-16-analisis-y-metricas.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "analisis-y-metricas",
+   "status": 303,
+   "destino": "https://tagboard.com/",
+   "destino_final": "https://tagboard.com/",
+   "destino_status": 200
+  },
+  "29": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=29",
+   "titulo": "Social Crawlytics",
+   "paginas": [
+    "enlaces-recomendados-16-analisis-y-metricas.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "analisis-y-metricas",
+   "status": 303,
+   "destino": "https://socialcrawlytics.com/",
+   "destino_final": "https://socialcrawlytics.com/",
+   "destino_status": 200
+  },
+  "28": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=28",
+   "titulo": "Uprise.io",
+   "paginas": [
+    "enlaces-recomendados-16-analisis-y-metricas.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "analisis-y-metricas",
+   "status": 303,
+   "destino": "http://uprise.io/",
+   "destino_final": "https://uprise.io/",
+   "destino_status": 522
+  },
+  "27": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=27",
+   "titulo": "BuzzSumo",
+   "paginas": [
+    "enlaces-recomendados-16-analisis-y-metricas.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "analisis-y-metricas",
+   "status": 303,
+   "destino": "http://buzzsumo.com/",
+   "destino_final": "https://buzzsumo.com/",
+   "destino_status": 200
+  },
+  "26": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=26",
+   "titulo": "Intercom Observe",
+   "paginas": [
+    "enlaces-recomendados-16-analisis-y-metricas.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "analisis-y-metricas",
+   "status": 303,
+   "destino": "https://www.intercom.io/customer-intelligence",
+   "destino_final": "https://www.intercom.com/",
+   "destino_status": 200
+  },
+  "25": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=25",
+   "titulo": "Segment.io",
+   "paginas": [
+    "enlaces-recomendados-16-analisis-y-metricas.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "analisis-y-metricas",
+   "status": 303,
+   "destino": "https://segment.io/",
+   "destino_final": "https://www.twilio.com/en-us/segment",
+   "destino_status": 200
+  },
+  "15": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=15",
+   "titulo": "Google Analytics",
+   "paginas": [
+    "enlaces-recomendados-16-analisis-y-metricas.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "analisis-y-metricas",
+   "status": 303,
+   "destino": "http://www.google.com/analytics",
+   "destino_final": "https://marketingplatform.google.com/about/analytics/",
+   "destino_status": 200
+  },
+  "23": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=23",
+   "titulo": "Crazy Egg",
+   "paginas": [
+    "enlaces-recomendados-16-analisis-y-metricas.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "analisis-y-metricas",
+   "status": 303,
+   "destino": "http://www.crazyegg.com/",
+   "destino_final": "https://www.crazyegg.com:443/",
+   "destino_status": 200
+  },
+  "22": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=22",
+   "titulo": "Clicky",
+   "paginas": [
+    "enlaces-recomendados-16-analisis-y-metricas.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "analisis-y-metricas",
+   "status": 303,
+   "destino": "http://clicky.com/",
+   "destino_final": "https://clicky.com/",
+   "destino_status": 200
+  },
+  "21": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=21",
+   "titulo": "KISSmetrics",
+   "paginas": [
+    "enlaces-recomendados-16-analisis-y-metricas.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "analisis-y-metricas",
+   "status": 303,
+   "destino": "https://www.kissmetrics.com/",
+   "destino_final": "https://neilpatel.com",
+   "destino_status": 200
+  },
+  "20": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=20",
+   "titulo": "Webtrends",
+   "paginas": [
+    "enlaces-recomendados-16-analisis-y-metricas.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "analisis-y-metricas",
+   "status": 303,
+   "destino": "http://webtrends.com/",
+   "destino_final": "https://www.webtrends.com/",
+   "destino_status": 200
+  },
+  "19": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=19",
+   "titulo": "StatCounter",
+   "paginas": [
+    "enlaces-recomendados-16-analisis-y-metricas.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "analisis-y-metricas",
+   "status": 303,
+   "destino": "http://statcounter.com/",
+   "destino_final": "https://statcounter.com/",
+   "destino_status": 200
+  },
+  "18": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=18",
+   "titulo": "Piwik",
+   "paginas": [
+    "enlaces-recomendados-16-analisis-y-metricas.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "analisis-y-metricas",
+   "status": 303,
+   "destino": "http://piwik.org/",
+   "destino_final": "https://matomo.org/",
+   "destino_status": 200
+  },
+  "17": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=17",
+   "titulo": "Google Analytics Configuration Tool",
+   "paginas": [
+    "enlaces-recomendados-16-analisis-y-metricas.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "analisis-y-metricas",
+   "status": 303,
+   "destino": "http://gaconfig.com/",
+   "destino_final": "https://raventools.com/marketing-reports/google-analytics/",
+   "destino_status": 200
+  },
+  "16": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=16",
+   "titulo": "Hotjar",
+   "paginas": [
+    "enlaces-recomendados-16-analisis-y-metricas.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "analisis-y-metricas",
+   "status": 303,
+   "destino": "https://www.hotjar.com/",
+   "destino_final": "https://contentsquare.com/hotjar/?utm_campaign=exp__hj_hp_redirection",
+   "destino_status": 200
+  },
+  "45": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=45",
+   "titulo": "Google Quality Rating Guideline v5.0",
+   "paginas": [
+    "enlaces-recomendados-17-guias-para-principiantes.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "guias-para-principiantes",
+   "status": 303,
+   "destino": "http://www.scribd.com/doc/217994742/General-Guidelines-1",
+   "destino_final": "https://www.scribd.com/doc/217994742/General-Guidelines-1",
+   "destino_status": 200
+  },
+  "56": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=56",
+   "titulo": "Northcutt Google Ranking Factors",
+   "paginas": [
+    "enlaces-recomendados-17-guias-para-principiantes.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "guias-para-principiantes",
+   "status": 303,
+   "destino": "https://northcutt.com/wr/google-ranking-factors/",
+   "destino_final": "https://www.orbitmedia.com/google-ranking-factors/",
+   "destino_status": 200
+  },
+  "55": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=55",
+   "titulo": "Periodic Table Ranking Factors",
+   "paginas": [
+    "enlaces-recomendados-17-guias-para-principiantes.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "guias-para-principiantes",
+   "status": 303,
+   "destino": "http://searchengineland.com/seotable",
+   "destino_final": "http://searchengineland.com/seotable",
+   "destino_status": 403
+  },
+  "54": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=54",
+   "titulo": "Search Engine Ranking Factors",
+   "paginas": [
+    "enlaces-recomendados-17-guias-para-principiantes.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "guias-para-principiantes",
+   "status": 303,
+   "destino": "https://moz.com/search-ranking-factors",
+   "destino_final": "https://moz.com/search-ranking-factors",
+   "destino_status": 200
+  },
+  "53": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=53",
+   "titulo": "How to Start a Startup",
+   "paginas": [
+    "enlaces-recomendados-17-guias-para-principiantes.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "guias-para-principiantes",
+   "status": 303,
+   "destino": "http://startupclass.samaltman.com/",
+   "destino_error": "HTTPConnectionPool(host='startupclass.samaltman.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='"
+  },
+  "52": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=52",
+   "titulo": "IFTTT Recipes for Marketers",
+   "paginas": [
+    "enlaces-recomendados-17-guias-para-principiantes.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "guias-para-principiantes",
+   "status": 303,
+   "destino": "http://www.seerinteractive.com/blog/ifttt-recipes-for-marketers",
+   "destino_final": "https://www.seerinteractive.com/insights/ifttt-recipes-for-marketers",
+   "destino_status": 200
+  },
+  "51": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=51",
+   "titulo": "Beginner’s Guide to CRO",
+   "paginas": [
+    "enlaces-recomendados-17-guias-para-principiantes.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "guias-para-principiantes",
+   "status": 303,
+   "destino": "https://qualaroo.com/beginners-guide-to-cro/",
+   "destino_final": "https://qualaroo.com/beginners-guide-to-cro/",
+   "destino_status": 200
+  },
+  "50": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=50",
+   "titulo": "Creative Link Building Ideas",
+   "paginas": [
+    "enlaces-recomendados-17-guias-para-principiantes.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "guias-para-principiantes",
+   "status": 303,
+   "destino": "http://pointblankseo.com/creative-link-building",
+   "destino_final": "https://backlinko.com/link-building",
+   "destino_status": 200
+  },
+  "49": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=49",
+   "titulo": "Log File Analysis for SEO",
+   "paginas": [
+    "enlaces-recomendados-17-guias-para-principiantes.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "guias-para-principiantes",
+   "status": 303,
+   "destino": "http://builtvisible.com/log-file-analysis/",
+   "destino_final": "https://builtvisible.com/log-file-analysis/",
+   "destino_status": 200
+  },
+  "48": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=48",
+   "titulo": "Guide to Website Speed Optimization",
+   "paginas": [
+    "enlaces-recomendados-17-guias-para-principiantes.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "guias-para-principiantes",
+   "status": 303,
+   "destino": "https://kinsta.com/learn/page-speed/",
+   "destino_final": "https://kinsta.com/learn/page-speed/",
+   "destino_status": 200
+  },
+  "47": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=47",
+   "titulo": "Google Penalty Removal",
+   "paginas": [
+    "enlaces-recomendados-17-guias-para-principiantes.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "guias-para-principiantes",
+   "status": 303,
+   "destino": "http://www.webpagefx.com/marketing-guides/experts-guide-to-google-penalty-removal.html",
+   "destino_final": "https://www.webfx.com/",
+   "destino_status": 200
+  },
+  "46": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=46",
+   "titulo": "Microsoft Excel for SEOs",
+   "paginas": [
+    "enlaces-recomendados-17-guias-para-principiantes.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "guias-para-principiantes",
+   "status": 303,
+   "destino": "https://www.distilled.net/excel-for-seo/",
+   "destino_final": "https://www.distilled.net/excel-for-seo/",
+   "destino_status": 200
+  },
+  "34": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=34",
+   "titulo": "Beginner's Guide to SEO",
+   "paginas": [
+    "enlaces-recomendados-17-guias-para-principiantes.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "guias-para-principiantes",
+   "status": 303,
+   "destino": "http://moz.com/beginners-guide-to-seo",
+   "destino_final": "https://moz.com/beginners-guide-to-seo",
+   "destino_status": 200
+  },
+  "44": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=44",
+   "titulo": "Internet Marketing Glossary",
+   "paginas": [
+    "enlaces-recomendados-17-guias-para-principiantes.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "guias-para-principiantes",
+   "status": 303,
+   "destino": "http://www.matthewwoodward.co.uk/jargon-buster/",
+   "destino_final": "https://www.searchlogistics.com/glossary/",
+   "destino_status": 200
+  },
+  "43": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=43",
+   "titulo": "Advance Guide To SEO",
+   "paginas": [
+    "enlaces-recomendados-17-guias-para-principiantes.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "guias-para-principiantes",
+   "status": 303,
+   "destino": "http://www.quicksprout.com/the-advanced-guide-to-seo/",
+   "destino_final": "https://www.quicksprout.com/best-marketing-automation-software/",
+   "destino_status": 200
+  },
+  "42": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=42",
+   "titulo": "Beginner's Guide to Link Building",
+   "paginas": [
+    "enlaces-recomendados-17-guias-para-principiantes.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "guias-para-principiantes",
+   "status": 303,
+   "destino": "http://moz.com/beginners-guide-to-link-building",
+   "destino_final": "https://moz.com/beginners-guide-to-link-building",
+   "destino_status": 200
+  },
+  "41": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=41",
+   "titulo": "Webmaster Guidelines",
+   "paginas": [
+    "enlaces-recomendados-17-guias-para-principiantes.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "guias-para-principiantes",
+   "status": 303,
+   "destino": "https://support.google.com/webmasters/answer/35769",
+   "destino_final": "https://developers.google.com/search/docs/essentials?visit_id=639275287106095310-3904633814&rd=1",
+   "destino_status": 200
+  },
+  "40": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=40",
+   "titulo": "How Google Crawls a Web Page",
+   "paginas": [
+    "enlaces-recomendados-17-guias-para-principiantes.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "guias-para-principiantes",
+   "status": 303,
+   "destino": "https://support.google.com/webmasters/answer/70897",
+   "destino_final": "https://developers.google.com/search/docs/fundamentals/how-search-works?visit_id=639275287094189843-3726306948&rd=1",
+   "destino_status": 200
+  },
+  "39": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=39",
+   "titulo": "The Anatomy of a Perfect Web Page",
+   "paginas": [
+    "enlaces-recomendados-17-guias-para-principiantes.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "guias-para-principiantes",
+   "status": 303,
+   "destino": "http://www.hitreach.co.uk/perfect-web-page",
+   "destino_final": "https://www.hitreach.co.uk/perfect-web-page",
+   "destino_status": 403
+  },
+  "38": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=38",
+   "titulo": "How Search works",
+   "paginas": [
+    "enlaces-recomendados-17-guias-para-principiantes.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "guias-para-principiantes",
+   "status": 303,
+   "destino": "http://www.google.com/insidesearch/howsearchworks/thestory/",
+   "destino_final": "https://www.google.com/search/howsearchworks/",
+   "destino_status": 200
+  },
+  "57": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=57",
+   "titulo": "Moz",
+   "paginas": [
+    "enlaces-recomendados-18-blogs.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "blogs",
+   "status": 303,
+   "destino": "http://moz.com/blog",
+   "destino_final": "https://moz.com/blog",
+   "destino_status": 200
+  },
+  "58": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=58",
+   "titulo": "Search Engine Land",
+   "paginas": [
+    "enlaces-recomendados-18-blogs.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "blogs",
+   "status": 303,
+   "destino": "http://searchengineland.com/",
+   "destino_final": "http://searchengineland.com/",
+   "destino_status": 403
+  },
+  "59": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=59",
+   "titulo": "SEO by the Sea",
+   "paginas": [
+    "enlaces-recomendados-18-blogs.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "blogs",
+   "status": 303,
+   "destino": "http://www.seobythesea.com/",
+   "destino_final": "https://www.seobythesea.com/",
+   "destino_status": 200
+  },
+  "60": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=60",
+   "titulo": "Search Engine Watch",
+   "paginas": [
+    "enlaces-recomendados-18-blogs.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "blogs",
+   "status": 303,
+   "destino": "http://searchenginewatch.com/",
+   "destino_final": "http://searchenginewatch.com/",
+   "destino_status": 403
+  },
+  "61": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=61",
+   "titulo": "Search Engine Roundtable",
+   "paginas": [
+    "enlaces-recomendados-18-blogs.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "blogs",
+   "status": 303,
+   "destino": "http://www.seroundtable.com/",
+   "destino_final": "https://www.seroundtable.com/",
+   "destino_status": 200
+  },
+  "62": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=62",
+   "titulo": "Point Blank SEO",
+   "paginas": [
+    "enlaces-recomendados-18-blogs.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "blogs",
+   "status": 303,
+   "destino": "http://pointblankseo.com/blog",
+   "destino_final": "https://backlinko.com/blog",
+   "destino_status": 200
+  },
+  "63": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=63",
+   "titulo": "Backlinko",
+   "paginas": [
+    "enlaces-recomendados-18-blogs.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "blogs",
+   "status": 303,
+   "destino": "http://backlinko.com/",
+   "destino_final": "https://backlinko.com/",
+   "destino_status": 200
+  },
+  "64": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=64",
+   "titulo": "Copyblogger",
+   "paginas": [
+    "enlaces-recomendados-18-blogs.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "blogs",
+   "status": 303,
+   "destino": "http://www.copyblogger.com/blog/",
+   "destino_final": "https://copyblogger.com/blog/",
+   "destino_status": 200
+  },
+  "65": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=65",
+   "titulo": "BufferApp Blog",
+   "paginas": [
+    "enlaces-recomendados-18-blogs.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "blogs",
+   "status": 303,
+   "destino": "http://blog.bufferapp.com/",
+   "destino_final": "https://buffer.com/resources/",
+   "destino_status": 200
+  },
+  "66": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=66",
+   "titulo": "SMX Advanced",
+   "paginas": [
+    "enlaces-recomendados-19-conferencias.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "conferencias",
+   "status": 303,
+   "destino": "http://searchmarketingexpo.com/advanced/",
+   "destino_final": "https://searchengineland.com/smx/smx/",
+   "destino_status": 403
+  },
+  "67": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=67",
+   "titulo": "MozCon",
+   "paginas": [
+    "enlaces-recomendados-19-conferencias.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "conferencias",
+   "status": 303,
+   "destino": "http://moz.com/mozcon",
+   "destino_final": "https://moz.com/mozcon",
+   "destino_status": 200
+  },
+  "68": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=68",
+   "titulo": "BlackHatWorld Conference",
+   "paginas": [
+    "enlaces-recomendados-19-conferencias.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "conferencias",
+   "status": 303,
+   "destino": "http://www.bhwconference.com/",
+   "destino_final": "http://www.bhwconference.com/",
+   "destino_status": 404
+  },
+  "69": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=69",
+   "titulo": "Inbound",
+   "paginas": [
+    "enlaces-recomendados-19-conferencias.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "conferencias",
+   "status": 303,
+   "destino": "http://www.inbound.com/",
+   "destino_final": "https://unbound.hubspot.com/",
+   "destino_status": 200
+  },
+  "70": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=70",
+   "titulo": "Conductor C3 Conference",
+   "paginas": [
+    "enlaces-recomendados-19-conferencias.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "conferencias",
+   "status": 303,
+   "destino": "http://www.conductor.com/c3/",
+   "destino_final": "https://www.conductor.com/events/c3/",
+   "destino_status": 200
+  },
+  "71": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=71",
+   "titulo": "Pubcon",
+   "paginas": [
+    "enlaces-recomendados-19-conferencias.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "conferencias",
+   "status": 303,
+   "destino": "http://www.pubcon.com/",
+   "destino_final": "https://www.pubcon.com/",
+   "destino_status": 200
+  },
+  "72": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=72",
+   "titulo": "The Growth Hacking Conference",
+   "paginas": [
+    "enlaces-recomendados-19-conferencias.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "conferencias",
+   "status": 303,
+   "destino": "http://www.growthhackingconference.com/",
+   "destino_final": "http://www.growthhackingconference.com/",
+   "destino_status": 200
+  },
+  "73": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=73",
+   "titulo": "SES Conference",
+   "paginas": [
+    "enlaces-recomendados-19-conferencias.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "conferencias",
+   "status": 303,
+   "destino": "http://sesconference.com/",
+   "destino_final": "https://sesconference.com/",
+   "destino_status": 200
+  },
+  "74": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=74",
+   "titulo": "Reel Video Summit",
+   "paginas": [
+    "enlaces-recomendados-19-conferencias.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "conferencias",
+   "status": 303,
+   "destino": "http://reelsummit.com/",
+   "destino_final": "https://www.youtube.com/playlist?list=PL9R5RsXT0NMOYSkHxsxAxIBY1f-R9pl3A",
+   "destino_status": 200
+  },
+  "75": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=75",
+   "titulo": "Content Marketing World",
+   "paginas": [
+    "enlaces-recomendados-19-conferencias.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "conferencias",
+   "status": 303,
+   "destino": "http://contentmarketingworld.com/",
+   "destino_final": "https://www.contentmarketingworld.com/",
+   "destino_status": 200
+  },
+  "76": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=76",
+   "titulo": "Contently",
+   "paginas": [
+    "enlaces-recomendados-20-marketing-de-contenidos.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "marketing-de-contenidos",
+   "status": 303,
+   "destino": "https://contently.com",
+   "destino_final": "https://contently.com/",
+   "destino_status": 200
+  },
+  "77": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=77",
+   "titulo": "Scripted",
+   "paginas": [
+    "enlaces-recomendados-20-marketing-de-contenidos.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "marketing-de-contenidos",
+   "status": 303,
+   "destino": "https://scripted.com",
+   "destino_final": "https://www.scripted.com/",
+   "destino_status": 200
+  },
+  "78": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=78",
+   "titulo": "NewsCred",
+   "paginas": [
+    "enlaces-recomendados-20-marketing-de-contenidos.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "marketing-de-contenidos",
+   "status": 303,
+   "destino": "http://newscred.com/",
+   "destino_final": "https://www.optimizely.com/",
+   "destino_status": 200
+  },
+  "79": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=79",
+   "titulo": "Kapost",
+   "paginas": [
+    "enlaces-recomendados-20-marketing-de-contenidos.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "marketing-de-contenidos",
+   "status": 303,
+   "destino": "http://kapost.com/",
+   "destino_final": "https://uplandsoftware.com:443/",
+   "destino_status": 200
+  },
+  "90": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=90",
+   "titulo": "Inky's Inliner",
+   "paginas": [
+    "enlaces-recomendados-21-correo-electronico.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "correo-electronico",
+   "status": 303,
+   "destino": "http://zurb.com/ink/inliner.php",
+   "destino_final": "https://zurb.com/blog",
+   "destino_status": 200
+  },
+  "99": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=99",
+   "titulo": "Ontraport",
+   "paginas": [
+    "enlaces-recomendados-21-correo-electronico.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "correo-electronico",
+   "status": 303,
+   "destino": "http://ontraport.com/",
+   "destino_final": "https://ontraport.com/",
+   "destino_status": 200
+  },
+  "98": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=98",
+   "titulo": "Infusionsoft",
+   "paginas": [
+    "enlaces-recomendados-21-correo-electronico.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "correo-electronico",
+   "status": 303,
+   "destino": "http://www.infusionsoft.com",
+   "destino_final": "https://keap.com",
+   "destino_status": 200
+  },
+  "97": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=97",
+   "titulo": "ActiveCampaign",
+   "paginas": [
+    "enlaces-recomendados-21-correo-electronico.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "correo-electronico",
+   "status": 303,
+   "destino": "http://www.activecampaign.com/",
+   "destino_final": "https://www.activecampaign.com/",
+   "destino_status": 200
+  },
+  "96": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=96",
+   "titulo": "Postmaster Tools",
+   "paginas": [
+    "enlaces-recomendados-21-correo-electronico.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "correo-electronico",
+   "status": 303,
+   "destino": "https://gmail.com/postmaster/",
+   "destino_final": "https://gmail.com/postmaster/",
+   "destino_status": 200
+  },
+  "95": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=95",
+   "titulo": "Email Template Generator",
+   "paginas": [
+    "enlaces-recomendados-21-correo-electronico.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "correo-electronico",
+   "status": 303,
+   "destino": "http://templates.contactually.com/",
+   "destino_error": "HTTPConnectionPool(host='templates.contactually.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='"
+  },
+  "94": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=94",
+   "titulo": "VoilaNorbert",
+   "paginas": [
+    "enlaces-recomendados-21-correo-electronico.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "correo-electronico",
+   "status": 303,
+   "destino": "https://www.voilanorbert.com/",
+   "destino_final": "https://www.voilanorbert.com/",
+   "destino_status": 200
+  },
+  "93": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=93",
+   "titulo": "EmailHunter",
+   "paginas": [
+    "enlaces-recomendados-21-correo-electronico.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "correo-electronico",
+   "status": 303,
+   "destino": "https://emailhunter.co/",
+   "destino_final": "https://hunter.io/",
+   "destino_status": 200
+  },
+  "92": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=92",
+   "titulo": "MotionMail",
+   "paginas": [
+    "enlaces-recomendados-21-correo-electronico.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "correo-electronico",
+   "status": 303,
+   "destino": "https://motionmailapp.com",
+   "destino_final": "https://motionmailapp.com/",
+   "destino_status": 200
+  },
+  "91": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=91",
+   "titulo": "MailLift",
+   "paginas": [
+    "enlaces-recomendados-21-correo-electronico.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "correo-electronico",
+   "status": 303,
+   "destino": "https://maillift.com/",
+   "destino_error": "HTTPSConnectionPool(host='maillift.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='maillift.co"
+  },
+  "80": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=80",
+   "titulo": "MailChimp",
+   "paginas": [
+    "enlaces-recomendados-21-correo-electronico.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "correo-electronico",
+   "status": 303,
+   "destino": "http://mailchimp.com/",
+   "destino_final": "https://mailchimp.com/",
+   "destino_status": 200
+  },
+  "89": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=89",
+   "titulo": "SignupSumo",
+   "paginas": [
+    "enlaces-recomendados-21-correo-electronico.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "correo-electronico",
+   "status": 303,
+   "destino": "http://signupsumo.com/",
+   "destino_error": "HTTPConnectionPool(host='signupsumo.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='signupsumo.c"
+  },
+  "88": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=88",
+   "titulo": "Boomerang",
+   "paginas": [
+    "enlaces-recomendados-21-correo-electronico.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "correo-electronico",
+   "status": 303,
+   "destino": "http://www.boomeranggmail.com/hp3/index.html",
+   "destino_final": "https://www.boomeranggmail.com/hp3/index.html",
+   "destino_status": 404
+  },
+  "87": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=87",
+   "titulo": "Targeted.io",
+   "paginas": [
+    "enlaces-recomendados-21-correo-electronico.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "correo-electronico",
+   "status": 303,
+   "destino": "https://www.targeted.io",
+   "destino_final": "https://www.targeted.io/",
+   "destino_status": 200
+  },
+  "86": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=86",
+   "titulo": "MailDude",
+   "paginas": [
+    "enlaces-recomendados-21-correo-electronico.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "correo-electronico",
+   "status": 303,
+   "destino": "http://www.maildu.de",
+   "destino_final": "https://www.maildu.de/",
+   "destino_status": 200
+  },
+  "85": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=85",
+   "titulo": "MailDrop",
+   "paginas": [
+    "enlaces-recomendados-21-correo-electronico.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "correo-electronico",
+   "status": 303,
+   "destino": "http://maildrop.cc/",
+   "destino_final": "https://maildrop.cc/",
+   "destino_status": 200
+  },
+  "84": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=84",
+   "titulo": "Mailinator",
+   "paginas": [
+    "enlaces-recomendados-21-correo-electronico.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "correo-electronico",
+   "status": 303,
+   "destino": "http://mailinator.com/",
+   "destino_final": "https://www.mailinator.com",
+   "destino_status": 200
+  },
+  "83": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=83",
+   "titulo": "AWeber",
+   "paginas": [
+    "enlaces-recomendados-21-correo-electronico.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "correo-electronico",
+   "status": 303,
+   "destino": "http://www.aweber.com/",
+   "destino_final": "https://www.aweber.com:443/",
+   "destino_status": 200
+  },
+  "82": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=82",
+   "titulo": "Litmus",
+   "paginas": [
+    "enlaces-recomendados-21-correo-electronico.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "correo-electronico",
+   "status": 303,
+   "destino": "https://litmus.com/",
+   "destino_final": "https://www.litmus.com/",
+   "destino_status": 200
+  },
+  "81": {
+   "href_joomla": "/enlaces-recomendados?task=weblink.go&id=81",
+   "titulo": "Betaout",
+   "paginas": [
+    "enlaces-recomendados-21-correo-electronico.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "correo-electronico",
+   "status": 303,
+   "destino": "https://www.betaout.com",
+   "destino_error": "HTTPSConnectionPool(host='www.betaout.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.beta"
+  },
+  "37": {
+   "href_joomla": "/component/weblinks/?task=weblink.go&catid=17:guias-para-principiantes&id=37:plato-web-design-seo-guide",
+   "titulo": "Plato Web Design SEO Guide",
+   "paginas": [
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "guias-para-principiantes",
+   "status": 303,
+   "destino": "http://platowebdesign.com/seo-guide/",
+   "destino_final": "http://platowebdesign.com/seo-guide/",
+   "destino_status": 200
+  },
+  "35": {
+   "href_joomla": "/component/weblinks/?task=weblink.go&catid=17:guias-para-principiantes&id=35:googles-seo-guide",
+   "titulo": "Google's SEO Guide",
+   "paginas": [
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "guias-para-principiantes",
+   "status": 303,
+   "destino": "http://support.google.com/webmasters/bin/answer.py?hl=en&answer=35291",
+   "destino_final": "https://developers.google.com/search/docs/fundamentals/do-i-need-seo?hl=en&visit_id=639275287058995467-1233746785&rd=1",
+   "destino_status": 200
+  },
+  "36": {
+   "href_joomla": "/component/weblinks/?task=weblink.go&catid=17:guias-para-principiantes&id=36:bing-webmaster-guide",
+   "titulo": "Bing Webmaster Guide",
+   "paginas": [
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html"
+   ],
+   "categoria": "guias-para-principiantes",
+   "status": 303,
+   "destino": "http://www.bing.com/webmaster/help/help-center-661b2d18",
+   "destino_final": "https://www.bing.com/webmasters/help/help-center-661b2d18",
+   "destino_status": 200
+  }
+ },
+ "externos": {
+  "https://twitter.com/fernandomtza": {
+   "paginas": [
+    "base-de-conocimiento.html",
+    "blog-12-entre-aportar-al-teleton-y-el-odio-a-televisa.html",
+    "blog-13-como-funciona-los-5-pilares-del-inbound-marketing.html",
+    "blog-14-que-es-el-inbound-marketing.html",
+    "blog-15-reducir-tiempo-carga-sitio-web-joomla.html",
+    "blog-16-para-que-sirve-un-blog-en-mi-sitio-web.html",
+    "blog-17-10-palabras-que-debes-quitar-de-tu-sitio-web-ya.html",
+    "blog-2-5-cosas-que-hace-la-gente-super-exitosa.html",
+    "blog-20-la-grave-desconexion-entre-el-reconocimiento-de-marca-y-las-ventas.html",
+    "blog-22-plantillas-administrador-joomla.html",
+    "blog-24-inbound-marketing-audiencia-ideal.html",
+    "blog-26-que-es-el-internet-de-las-cosas-iot-internet-of-things.html",
+    "blog-27-como-identificar-y-crear-mis-buyer-personas.html",
+    "blog-28-como-enriquecer-mi-base-de-datos-de-clientes-para-mi-estrategia-de-marketing-digital.html",
+    "blog-29-los-consumidores-tienen-el-control.html",
+    "blog-3-como-crear-un-plan-de-compensacion-para-tu-equipo-de-ventas.html",
+    "blog-31-physical-web-el-nuevo-paso-para-los-negocios.html",
+    "blog-32-deberias-ofrecer-wi-fi-gratis-en-tu-negocio.html",
+    "blog-33-el-uso-de-la-redes-sociales-lo-definen-los-usuarios.html",
+    "blog-34-5-ideas-para-fortalecer-tu-marketing-digital-en-redes-sociales.html",
+    "blog-35-3-formas-de-hacer-marketing-digital-con-realidad-virtual.html",
+    "blog-36-porque-deberias-considerar-el-inbound-marketing.html",
+    "blog-37-marketing-automotriz-en-los-juegos-olimpicos.html",
+    "blog-38-como-aprovechar-instagram-stories-en-tu-marketing.html",
+    "blog-39-como-abrir-una-tienda-en-linea-en-mexico-con-shopify.html",
+    "blog-40-5-datos-duros-para-considerar-implementar-un-chat.html",
+    "blog-41-credito-automotriz-en-linea-disrupcion-venta-de-autos.html",
+    "blog-5-activismo-con-hashtags.html",
+    "blog-6-crear-lealtad-a-tu-marca-no-se-logra-solo-con-comunicacion.html",
+    "blog-7-manifiesto-de-marketing-digital-de-fernando-martinez.html",
+    "blog-9-en-contra-de-la-tolerancia.html",
+    "blog-start-10.html",
+    "blog-start-15.html",
+    "blog-start-20.html",
+    "blog-start-25.html",
+    "blog-start-5.html",
+    "blog.html",
+    "busqueda.html",
+    "contacto.html",
+    "enlaces-recomendados-14-pruebas-a-b.html",
+    "enlaces-recomendados-15-publicidad-y-promocion.html",
+    "enlaces-recomendados-16-analisis-y-metricas.html",
+    "enlaces-recomendados-17-guias-para-principiantes.html",
+    "enlaces-recomendados-18-blogs.html",
+    "enlaces-recomendados-19-conferencias.html",
+    "enlaces-recomendados-20-marketing-de-contenidos.html",
+    "enlaces-recomendados-21-correo-electronico.html",
+    "enlaces-recomendados-34-herramientas.html",
+    "enlaces-recomendados.html",
+    "fernando-arturo-martinez-aguilar.html",
+    "gnu-general-public-license.html",
+    "inicio.html",
+    "mapa-de-sitio.html",
+    "programador-web-especialista-en-joomla-en-mexico.html",
+    "recursos-11-imagenes-libres-de-derechos-gratis.html",
+    "recursos-imagenes-libres-de-derechos-gratis-start-0.html",
+    "recursos-imagenes-libres-de-derechos-gratis-start-160.html",
+    "recursos-imagenes-libres-de-derechos-gratis-start-240.html",
+    "recursos-imagenes-libres-de-derechos-gratis-start-320.html",
+    "recursos-imagenes-libres-de-derechos-gratis-start-400.html",
+    "recursos-imagenes-libres-de-derechos-gratis-start-480.html",
+    "recursos-imagenes-libres-de-derechos-gratis-start-80.html",
+    "recursos-imagenes-libres-de-derechos-gratis.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html",
+    "recursos.html",
+    "temas-10-equipos-de-trabajo.html",
+    "temas-11-marketing-digital.html",
+    "temas-12-inbound-marketing.html",
+    "temas-13-filosofia.html",
+    "temas-14-ideologia.html",
+    "temas-15-prosa.html",
+    "temas-16-joomla.html",
+    "temas-17-extensiones-de-joomla.html",
+    "temas-18-optimizacion-de-sitios-web.html",
+    "temas-19-experiencia-de-usuario.html",
+    "temas-2-hubspot.html",
+    "temas-20-programacion-de-sitios-web.html",
+    "temas-21-blogs.html",
+    "temas-22-programador-joomla.html",
+    "temas-23-internet-de-las-cosas.html",
+    "temas-24-internet.html",
+    "temas-25-tecnologias-de-la-informacion.html",
+    "temas-26-innovacion.html",
+    "temas-3-ventas.html",
+    "temas-4-redes-sociales.html",
+    "temas-5-hashtags.html",
+    "temas-6-activismo.html",
+    "temas-7-comunidad.html",
+    "temas-8-lealtad-de-marca.html",
+    "temas-9-seleccion-de-personal.html",
+    "temas.html",
+    "usuario-inicio-de-sesion.html",
+    "usuario-registro.html"
+   ],
+   "status": 403,
+   "final": "https://x.com/fernandomtza"
+  },
+  "https://linkedin.com/in/fernandomtza": {
+   "paginas": [
+    "base-de-conocimiento.html",
+    "blog-12-entre-aportar-al-teleton-y-el-odio-a-televisa.html",
+    "blog-13-como-funciona-los-5-pilares-del-inbound-marketing.html",
+    "blog-14-que-es-el-inbound-marketing.html",
+    "blog-15-reducir-tiempo-carga-sitio-web-joomla.html",
+    "blog-16-para-que-sirve-un-blog-en-mi-sitio-web.html",
+    "blog-17-10-palabras-que-debes-quitar-de-tu-sitio-web-ya.html",
+    "blog-2-5-cosas-que-hace-la-gente-super-exitosa.html",
+    "blog-20-la-grave-desconexion-entre-el-reconocimiento-de-marca-y-las-ventas.html",
+    "blog-22-plantillas-administrador-joomla.html",
+    "blog-24-inbound-marketing-audiencia-ideal.html",
+    "blog-26-que-es-el-internet-de-las-cosas-iot-internet-of-things.html",
+    "blog-27-como-identificar-y-crear-mis-buyer-personas.html",
+    "blog-28-como-enriquecer-mi-base-de-datos-de-clientes-para-mi-estrategia-de-marketing-digital.html",
+    "blog-29-los-consumidores-tienen-el-control.html",
+    "blog-3-como-crear-un-plan-de-compensacion-para-tu-equipo-de-ventas.html",
+    "blog-31-physical-web-el-nuevo-paso-para-los-negocios.html",
+    "blog-32-deberias-ofrecer-wi-fi-gratis-en-tu-negocio.html",
+    "blog-33-el-uso-de-la-redes-sociales-lo-definen-los-usuarios.html",
+    "blog-34-5-ideas-para-fortalecer-tu-marketing-digital-en-redes-sociales.html",
+    "blog-35-3-formas-de-hacer-marketing-digital-con-realidad-virtual.html",
+    "blog-36-porque-deberias-considerar-el-inbound-marketing.html",
+    "blog-37-marketing-automotriz-en-los-juegos-olimpicos.html",
+    "blog-38-como-aprovechar-instagram-stories-en-tu-marketing.html",
+    "blog-39-como-abrir-una-tienda-en-linea-en-mexico-con-shopify.html",
+    "blog-40-5-datos-duros-para-considerar-implementar-un-chat.html",
+    "blog-41-credito-automotriz-en-linea-disrupcion-venta-de-autos.html",
+    "blog-5-activismo-con-hashtags.html",
+    "blog-6-crear-lealtad-a-tu-marca-no-se-logra-solo-con-comunicacion.html",
+    "blog-7-manifiesto-de-marketing-digital-de-fernando-martinez.html",
+    "blog-9-en-contra-de-la-tolerancia.html",
+    "blog-start-10.html",
+    "blog-start-15.html",
+    "blog-start-20.html",
+    "blog-start-25.html",
+    "blog-start-5.html",
+    "blog.html",
+    "busqueda.html",
+    "contacto.html",
+    "enlaces-recomendados-14-pruebas-a-b.html",
+    "enlaces-recomendados-15-publicidad-y-promocion.html",
+    "enlaces-recomendados-16-analisis-y-metricas.html",
+    "enlaces-recomendados-17-guias-para-principiantes.html",
+    "enlaces-recomendados-18-blogs.html",
+    "enlaces-recomendados-19-conferencias.html",
+    "enlaces-recomendados-20-marketing-de-contenidos.html",
+    "enlaces-recomendados-21-correo-electronico.html",
+    "enlaces-recomendados-34-herramientas.html",
+    "enlaces-recomendados.html",
+    "fernando-arturo-martinez-aguilar.html",
+    "gnu-general-public-license.html",
+    "inicio.html",
+    "mapa-de-sitio.html",
+    "programador-web-especialista-en-joomla-en-mexico.html",
+    "recursos-11-imagenes-libres-de-derechos-gratis.html",
+    "recursos-imagenes-libres-de-derechos-gratis-start-0.html",
+    "recursos-imagenes-libres-de-derechos-gratis-start-160.html",
+    "recursos-imagenes-libres-de-derechos-gratis-start-240.html",
+    "recursos-imagenes-libres-de-derechos-gratis-start-320.html",
+    "recursos-imagenes-libres-de-derechos-gratis-start-400.html",
+    "recursos-imagenes-libres-de-derechos-gratis-start-480.html",
+    "recursos-imagenes-libres-de-derechos-gratis-start-80.html",
+    "recursos-imagenes-libres-de-derechos-gratis.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html",
+    "recursos.html",
+    "temas-10-equipos-de-trabajo.html",
+    "temas-11-marketing-digital.html",
+    "temas-12-inbound-marketing.html",
+    "temas-13-filosofia.html",
+    "temas-14-ideologia.html",
+    "temas-15-prosa.html",
+    "temas-16-joomla.html",
+    "temas-17-extensiones-de-joomla.html",
+    "temas-18-optimizacion-de-sitios-web.html",
+    "temas-19-experiencia-de-usuario.html",
+    "temas-2-hubspot.html",
+    "temas-20-programacion-de-sitios-web.html",
+    "temas-21-blogs.html",
+    "temas-22-programador-joomla.html",
+    "temas-23-internet-de-las-cosas.html",
+    "temas-24-internet.html",
+    "temas-25-tecnologias-de-la-informacion.html",
+    "temas-26-innovacion.html",
+    "temas-3-ventas.html",
+    "temas-4-redes-sociales.html",
+    "temas-5-hashtags.html",
+    "temas-6-activismo.html",
+    "temas-7-comunidad.html",
+    "temas-8-lealtad-de-marca.html",
+    "temas-9-seleccion-de-personal.html",
+    "temas.html",
+    "usuario-inicio-de-sesion.html",
+    "usuario-registro.html"
+   ],
+   "status": 200,
+   "final": "https://linkedin.com/in/fernandomtza"
+  },
+  "https://www.inbound.com.mx/": {
+   "paginas": [
+    "base-de-conocimiento.html",
+    "blog-12-entre-aportar-al-teleton-y-el-odio-a-televisa.html",
+    "blog-13-como-funciona-los-5-pilares-del-inbound-marketing.html",
+    "blog-14-que-es-el-inbound-marketing.html",
+    "blog-15-reducir-tiempo-carga-sitio-web-joomla.html",
+    "blog-16-para-que-sirve-un-blog-en-mi-sitio-web.html",
+    "blog-17-10-palabras-que-debes-quitar-de-tu-sitio-web-ya.html",
+    "blog-2-5-cosas-que-hace-la-gente-super-exitosa.html",
+    "blog-20-la-grave-desconexion-entre-el-reconocimiento-de-marca-y-las-ventas.html",
+    "blog-22-plantillas-administrador-joomla.html",
+    "blog-24-inbound-marketing-audiencia-ideal.html",
+    "blog-26-que-es-el-internet-de-las-cosas-iot-internet-of-things.html",
+    "blog-27-como-identificar-y-crear-mis-buyer-personas.html",
+    "blog-28-como-enriquecer-mi-base-de-datos-de-clientes-para-mi-estrategia-de-marketing-digital.html",
+    "blog-29-los-consumidores-tienen-el-control.html",
+    "blog-3-como-crear-un-plan-de-compensacion-para-tu-equipo-de-ventas.html",
+    "blog-31-physical-web-el-nuevo-paso-para-los-negocios.html",
+    "blog-32-deberias-ofrecer-wi-fi-gratis-en-tu-negocio.html",
+    "blog-33-el-uso-de-la-redes-sociales-lo-definen-los-usuarios.html",
+    "blog-34-5-ideas-para-fortalecer-tu-marketing-digital-en-redes-sociales.html",
+    "blog-35-3-formas-de-hacer-marketing-digital-con-realidad-virtual.html",
+    "blog-36-porque-deberias-considerar-el-inbound-marketing.html",
+    "blog-37-marketing-automotriz-en-los-juegos-olimpicos.html",
+    "blog-38-como-aprovechar-instagram-stories-en-tu-marketing.html",
+    "blog-39-como-abrir-una-tienda-en-linea-en-mexico-con-shopify.html",
+    "blog-40-5-datos-duros-para-considerar-implementar-un-chat.html",
+    "blog-41-credito-automotriz-en-linea-disrupcion-venta-de-autos.html",
+    "blog-5-activismo-con-hashtags.html",
+    "blog-6-crear-lealtad-a-tu-marca-no-se-logra-solo-con-comunicacion.html",
+    "blog-7-manifiesto-de-marketing-digital-de-fernando-martinez.html",
+    "blog-9-en-contra-de-la-tolerancia.html",
+    "blog-start-10.html",
+    "blog-start-15.html",
+    "blog-start-20.html",
+    "blog-start-25.html",
+    "blog-start-5.html",
+    "blog.html",
+    "busqueda.html",
+    "contacto.html",
+    "enlaces-recomendados-14-pruebas-a-b.html",
+    "enlaces-recomendados-15-publicidad-y-promocion.html",
+    "enlaces-recomendados-16-analisis-y-metricas.html",
+    "enlaces-recomendados-17-guias-para-principiantes.html",
+    "enlaces-recomendados-18-blogs.html",
+    "enlaces-recomendados-19-conferencias.html",
+    "enlaces-recomendados-20-marketing-de-contenidos.html",
+    "enlaces-recomendados-21-correo-electronico.html",
+    "enlaces-recomendados-34-herramientas.html",
+    "enlaces-recomendados.html",
+    "fernando-arturo-martinez-aguilar.html",
+    "gnu-general-public-license.html",
+    "inicio.html",
+    "mapa-de-sitio.html",
+    "programador-web-especialista-en-joomla-en-mexico.html",
+    "recursos-11-imagenes-libres-de-derechos-gratis.html",
+    "recursos-25-cosas-que-hacer-en-la-web-para-tener-mas-trafico-y-clientes.html",
+    "recursos-administration-brand-remover-joomla-plugin.html",
+    "recursos-imagenes-libres-de-derechos-gratis-start-0.html",
+    "recursos-imagenes-libres-de-derechos-gratis-start-160.html",
+    "recursos-imagenes-libres-de-derechos-gratis-start-240.html",
+    "recursos-imagenes-libres-de-derechos-gratis-start-320.html",
+    "recursos-imagenes-libres-de-derechos-gratis-start-400.html",
+    "recursos-imagenes-libres-de-derechos-gratis-start-480.html",
+    "recursos-imagenes-libres-de-derechos-gratis-start-80.html",
+    "recursos-imagenes-libres-de-derechos-gratis.html",
+    "recursos-las-mejores-herramientas-de-seo-e-inbound-marketing.html",
+    "recursos-sumome-joomla-plugin.html",
+    "recursos-twitter-summary-card-for-joomla-articles-plugin.html",
+    "recursos-website-preloader-joomla-plugin.html",
+    "recursos.html",
+    "temas-10-equipos-de-trabajo.html",
+    "temas-11-marketing-digital.html",
+    "temas-12-inbound-marketing.html",
+    "temas-13-filosofia.html",
+    "temas-14-ideologia.html",
+    "temas-15-prosa.html",
+    "temas-16-joomla.html",
+    "temas-17-extensiones-de-joomla.html",
+    "temas-18-optimizacion-de-sitios-web.html",
+    "temas-19-experiencia-de-usuario.html",
+    "temas-2-hubspot.html",
+    "temas-20-programacion-de-sitios-web.html",
+    "temas-21-blogs.html",
+    "temas-22-programador-joomla.html",
+    "temas-23-internet-de-las-cosas.html",
+    "temas-24-internet.html",
+    "temas-25-tecnologias-de-la-informacion.html",
+    "temas-26-innovacion.html",
+    "temas-3-ventas.html",
+    "temas-4-redes-sociales.html",
+    "temas-5-hashtags.html",
+    "temas-6-activismo.html",
+    "temas-7-comunidad.html",
+    "temas-8-lealtad-de-marca.html",
+    "temas-9-seleccion-de-personal.html",
+    "temas.html",
+    "usuario-inicio-de-sesion.html",
+    "usuario-registro.html"
+   ],
+   "status": 200,
+   "final": "https://www.inbound.com.mx/"
+  },
+  "http://linkedin.com/in/fernandomtza": {
+   "paginas": [
+    "blog-12-entre-aportar-al-teleton-y-el-odio-a-televisa.html",
+    "blog-13-como-funciona-los-5-pilares-del-inbound-marketing.html",
+    "blog-14-que-es-el-inbound-marketing.html",
+    "blog-15-reducir-tiempo-carga-sitio-web-joomla.html",
+    "blog-16-para-que-sirve-un-blog-en-mi-sitio-web.html",
+    "blog-17-10-palabras-que-debes-quitar-de-tu-sitio-web-ya.html",
+    "blog-2-5-cosas-que-hace-la-gente-super-exitosa.html",
+    "blog-20-la-grave-desconexion-entre-el-reconocimiento-de-marca-y-las-ventas.html",
+    "blog-22-plantillas-administrador-joomla.html",
+    "blog-24-inbound-marketing-audiencia-ideal.html",
+    "blog-26-que-es-el-internet-de-las-cosas-iot-internet-of-things.html",
+    "blog-27-como-identificar-y-crear-mis-buyer-personas.html",
+    "blog-28-como-enriquecer-mi-base-de-datos-de-clientes-para-mi-estrategia-de-marketing-digital.html",
+    "blog-29-los-consumidores-tienen-el-control.html",
+    "blog-3-como-crear-un-plan-de-compensacion-para-tu-equipo-de-ventas.html",
+    "blog-31-physical-web-el-nuevo-paso-para-los-negocios.html",
+    "blog-32-deberias-ofrecer-wi-fi-gratis-en-tu-negocio.html",
+    "blog-33-el-uso-de-la-redes-sociales-lo-definen-los-usuarios.html",
+    "blog-34-5-ideas-para-fortalecer-tu-marketing-digital-en-redes-sociales.html",
+    "blog-35-3-formas-de-hacer-marketing-digital-con-realidad-virtual.html",
+    "blog-36-porque-deberias-considerar-el-inbound-marketing.html",
+    "blog-37-marketing-automotriz-en-los-juegos-olimpicos.html",
+    "blog-38-como-aprovechar-instagram-stories-en-tu-marketing.html",
+    "blog-39-como-abrir-una-tienda-en-linea-en-mexico-con-shopify.html",
+    "blog-40-5-datos-duros-para-considerar-implementar-un-chat.html",
+    "blog-41-credito-automotriz-en-linea-disrupcion-venta-de-autos.html",
+    "blog-5-activismo-con-hashtags.html",
+    "blog-6-crear-lealtad-a-tu-marca-no-se-logra-solo-con-comunicacion.html",
+    "blog-7-manifiesto-de-marketing-digital-de-fernando-martinez.html",
+    "blog-9-en-contra-de-la-tolerancia.html",
+    "contacto.html"
+   ],
+   "status": 200,
+   "final": "http://linkedin.com/in/fernandomtza"
+  },
+  "https://www.publi20.com/revista-publicidad-negocios-mexico/4545-la-publicidad-que-no-sirve": {
+   "paginas": [
+    "blog-20-la-grave-desconexion-entre-el-reconocimiento-de-marca-y-las-ventas.html"
+   ],
+   "status": 404,
+   "final": "https://www.publi20.com/revista-publicidad-negocios-mexico/4545-la-publicidad-que-no-sirve"
+  },
+  "http://extensions.joomla.org/extension/administrator-brand-remover": {
+   "paginas": [
+    "blog-22-plantillas-administrador-joomla.html"
+   ],
+   "status": 200,
+   "final": "https://extensions.joomla.org/extension/administrator-brand-remover/"
+  },
+  "https://blog.hubspot.es/marketing/como-crear-un-plan-de-compensacion-para-tu-equipo-de-ventas": {
+   "paginas": [
+    "blog-3-como-crear-un-plan-de-compensacion-para-tu-equipo-de-ventas.html",
+    "fernando-arturo-martinez-aguilar.html"
+   ],
+   "status": 200,
+   "final": "https://blog.hubspot.es/marketing/como-crear-un-plan-de-compensacion-para-tu-equipo-de-ventas"
+  },
+  "http://www.marketingautomotriz.com.mx/": {
+   "paginas": [
+    "blog-37-marketing-automotriz-en-los-juegos-olimpicos.html"
+   ],
+   "error": "HTTPConnectionPool(host='www.marketingautomotriz.com.mx', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(ho"
+  },
+  "https://www.linkedin.com/in/fernandomtza/": {
+   "paginas": [
+    "blog-41-credito-automotriz-en-linea-disrupcion-venta-de-autos.html",
+    "fernando-arturo-martinez-aguilar.html"
+   ],
+   "status": 200,
+   "final": "https://www.linkedin.com/in/fernandomtza"
+  },
+  "http://extensions.joomla.org/profile/profile/details/213613": {
+   "paginas": [
+    "fernando-arturo-martinez-aguilar.html"
+   ],
+   "status": 200,
+   "final": "https://extensions.joomla.org/profile/profile/details/213613/"
+  },
+  "http://extensions.joomla.org/extensions/extension/core-enhancements/performance/website-preloader": {
+   "paginas": [
+    "fernando-arturo-martinez-aguilar.html"
+   ],
+   "status": 200,
+   "final": "https://extensions.joomla.org/extension/core-enhancements/performance/website-preloader/"
+  },
+  "http://extensions.joomla.org/extensions/extension/administration/admin-styling/administrator-brand-remover": {
+   "paginas": [
+    "fernando-arturo-martinez-aguilar.html"
+   ],
+   "status": 200,
+   "final": "https://extensions.joomla.org/extension/administration/admin-styling/administrator-brand-remover/"
+  },
+  "http://extensions.joomla.org/extensions/extension/social-web/social-share/whatsapp-share": {
+   "paginas": [
+    "fernando-arturo-martinez-aguilar.html"
+   ],
+   "status": 200,
+   "final": "https://extensions.joomla.org/extension/social-web/social-share/whatsapp-share/"
+  },
+  "http://extensions.joomla.org/extensions/extension/social-web/social-media/twitter-summary-card-for-articles": {
+   "paginas": [
+    "fernando-arturo-martinez-aguilar.html"
+   ],
+   "status": 200,
+   "final": "https://extensions.joomla.org/extension/social-web/social-media/twitter-summary-card-for-articles/"
+  },
+  "http://extensions.joomla.org/extensions/extension/marketing/mailing-a-newsletter-bridges/sumome": {
+   "paginas": [
+    "fernando-arturo-martinez-aguilar.html"
+   ],
+   "status": 200,
+   "final": "https://extensions.joomla.org/extension/marketing/mailing-a-newsletter-bridges/sumome/"
+  },
+  "http://www.webempresa.com/blog/item/1814-compartir-articulos-de-joomla-y-k2-en-whatsapp.html": {
+   "paginas": [
+    "fernando-arturo-martinez-aguilar.html"
+   ],
+   "status": 404,
+   "final": "https://www.webempresa.com/blog/compartir-articulos-de-joomla-y-k2-en-whatsapp.html"
+  },
+  "http://www.webempresa.com/blog/item/1105-eliminar-las-referencias-de-joomla-en-el-backend-de-joomla-25.html": {
+   "paginas": [
+    "fernando-arturo-martinez-aguilar.html"
+   ],
+   "status": 200,
+   "final": "https://www.webempresa.com/blog/protege-el-acceso-al-backend-de-joomla-con-secure-administrator.html"
+  },
+  "https://blog.hubspot.es/marketing/author/fernando-martinez": {
+   "paginas": [
+    "fernando-arturo-martinez-aguilar.html"
+   ],
+   "status": 200,
+   "final": "https://blog.hubspot.es/marketing/author/fernando-martinez"
+  },
+  "https://blog.hubspot.es/marketing/que-son-y-como-se-construyen-los-buyer-personas": {
+   "paginas": [
+    "fernando-arturo-martinez-aguilar.html"
+   ],
+   "status": 200,
+   "final": "https://blog.hubspot.es/marketing/que-son-y-como-se-construyen-los-buyer-personas"
+  },
+  "https://blog.hubspot.es/marketing/anatomia-de-un-portal-de-ventas-ecommerce-estilo-inbound": {
+   "paginas": [
+    "fernando-arturo-martinez-aguilar.html"
+   ],
+   "status": 200,
+   "final": "https://blog.hubspot.es/marketing/anatomia-de-un-portal-de-ventas-ecommerce-estilo-inbound"
+  },
+  "https://blog.hubspot.es/marketing/inbound-marketing-en-140-caracteres": {
+   "paginas": [
+    "fernando-arturo-martinez-aguilar.html"
+   ],
+   "status": 404,
+   "final": "https://blog.hubspot.es/marketing/inbound-marketing-en-140-caracteres"
+  },
+  "https://www.publi20.com/proveedores/inbound-marketing-mexico/734-fernando-arturo-martinez-aguilar": {
+   "paginas": [
+    "fernando-arturo-martinez-aguilar.html"
+   ],
+   "status": 200,
+   "final": "https://www.publi20.com/rankings/agencias-inbound-marketing-mexico/"
+  },
+  "https://www.publi20.com/revista-publicidad-negocios-mexico/1550-los-pasos-para-convertirte-en-un-lider-de-opinion-a-traves-de-tu-marca-personal": {
+   "paginas": [
+    "fernando-arturo-martinez-aguilar.html"
+   ],
+   "status": 404,
+   "final": "https://www.publi20.com/revista-publicidad-negocios-mexico/1550-los-pasos-para-convertirte-en-un-lider-de-opinion-a-traves-de-tu-marca-personal"
+  },
+  "https://www.publi20.com/revista-publicidad-negocios-mexico/1576-la-reconciliacion-de-los-consumidores-y-el-marketing-de-la-mano-del-inbound-marketing": {
+   "paginas": [
+    "fernando-arturo-martinez-aguilar.html"
+   ],
+   "status": 404,
+   "final": "https://www.publi20.com/revista-publicidad-negocios-mexico/1576-la-reconciliacion-de-los-consumidores-y-el-marketing-de-la-mano-del-inbound-marketing"
+  },
+  "https://www.publi20.com/revista-publicidad-negocios-mexico/1655-10-consejos-de-vida-que-debes-leer-antes-de-comenzar-cualquier-negocio": {
+   "paginas": [
+    "fernando-arturo-martinez-aguilar.html"
+   ],
+   "status": 404,
+   "final": "https://www.publi20.com/revista-publicidad-negocios-mexico/1655-10-consejos-de-vida-que-debes-leer-antes-de-comenzar-cualquier-negocio"
+  },
+  "https://www.publi20.com/revista-publicidad-negocios-mexico/1668-una-simple-frase-que-esta-destruyendo-tu-carrera": {
+   "paginas": [
+    "fernando-arturo-martinez-aguilar.html"
+   ],
+   "status": 404,
+   "final": "https://www.publi20.com/revista-publicidad-negocios-mexico/1668-una-simple-frase-que-esta-destruyendo-tu-carrera"
+  },
+  "https://www.publi20.com/revista-publicidad-negocios-mexico/1703-el-sueldo-por-si-solo-ya-no-es-suficiente": {
+   "paginas": [
+    "fernando-arturo-martinez-aguilar.html"
+   ],
+   "status": 200,
+   "final": "https://www.publi20.com/rankings/agencias-de-publicidad-mexico/"
+  },
+  "https://www.publi20.com/revista-publicidad-negocios-mexico/1711-una-gran-vision-sin-gente-sobresaliente-es-irrelevante": {
+   "paginas": [
+    "fernando-arturo-martinez-aguilar.html"
+   ],
+   "status": 404,
+   "final": "https://www.publi20.com/revista-publicidad-negocios-mexico/1711-una-gran-vision-sin-gente-sobresaliente-es-irrelevante"
+  },
+  "https://www.publi20.com/revista-publicidad-negocios-mexico/1898-retener-talento-empresa": {
+   "paginas": [
+    "fernando-arturo-martinez-aguilar.html"
+   ],
+   "status": 404,
+   "final": "https://www.publi20.com/revista-publicidad-negocios-mexico/1898-retener-talento-empresa"
+  },
+  "https://www.publi20.com/revista-publicidad-negocios-mexico/2217-por-que-soy-un-pirata": {
+   "paginas": [
+    "fernando-arturo-martinez-aguilar.html"
+   ],
+   "status": 404,
+   "final": "https://www.publi20.com/revista-publicidad-negocios-mexico/2217-por-que-soy-un-pirata"
+  },
+  "https://www.publi20.com/revista-publicidad-negocios-mexico/2219-renuncio-por-favor-quedate-ahora-que": {
+   "paginas": [
+    "fernando-arturo-martinez-aguilar.html"
+   ],
+   "status": 404,
+   "final": "https://www.publi20.com/revista-publicidad-negocios-mexico/2219-renuncio-por-favor-quedate-ahora-que"
+  },
+  "https://www.publi20.com/revista-publicidad-negocios-mexico/2441-estas-aprovechando-al-maximo-las-ideas-tus-empleados-introvertidos": {
+   "paginas": [
+    "fernando-arturo-martinez-aguilar.html"
+   ],
+   "status": 404,
+   "final": "https://www.publi20.com/revista-publicidad-negocios-mexico/2441-estas-aprovechando-al-maximo-las-ideas-tus-empleados-introvertidos"
+  },
+  "https://www.publi20.com/revista-publicidad-negocios-mexico/2626-que-hacer-cuando-un-empleado-se-va": {
+   "paginas": [
+    "fernando-arturo-martinez-aguilar.html"
+   ],
+   "status": 404,
+   "final": "https://www.publi20.com/revista-publicidad-negocios-mexico/2626-que-hacer-cuando-un-empleado-se-va"
+  },
+  "https://www.publi20.com/revista-publicidad-negocios-mexico/4339-juntas-de-trabajo-una-ilusion-perfecta": {
+   "paginas": [
+    "fernando-arturo-martinez-aguilar.html"
+   ],
+   "status": 404,
+   "final": "https://www.publi20.com/revista-publicidad-negocios-mexico/4339-juntas-de-trabajo-una-ilusion-perfecta"
+  },
+  "https://www.publi20.com/revista-publicidad-negocios-mexico/4473-olvidate-de-los-millennials-la-edad-no-importa": {
+   "paginas": [
+    "fernando-arturo-martinez-aguilar.html"
+   ],
+   "status": 404,
+   "final": "https://www.publi20.com/revista-publicidad-negocios-mexico/4473-olvidate-de-los-millennials-la-edad-no-importa"
+  },
+  "https://www.inbound.com.mx/inbound-blog": {
+   "paginas": [
+    "fernando-arturo-martinez-aguilar.html"
+   ],
+   "error": "HTTPConnectionPool(host='3.145.105.128', port=80): Max retries exceeded with url: /seccion/centro/blog-inbound-marketing/ (Caused by ConnectTimeoutErr"
+  },
+  "https://www.inbound.com.mx/inbound-blog/11-enfocate-en-tu-sitio-corporativo-no-en-redes-sociales": {
+   "paginas": [
+    "fernando-arturo-martinez-aguilar.html"
+   ],
+   "status": 200,
+   "final": "https://www.inbound.com.mx/enfocate-en-tu-sitio-corporativo-no-en-redes-sociales/"
+  },
+  "https://www.inbound.com.mx/inbound-blog/2-todos-tus-empleados-son-parte-de-tu-area-de-marketing": {
+   "paginas": [
+    "fernando-arturo-martinez-aguilar.html"
+   ],
+   "status": 200,
+   "final": "https://www.inbound.com.mx/todos-tus-empleados-son-parte-de-tu-area-de-marketing/"
+  },
+  "http://www.ithinksoluciones.com.mx/blog/author/fernando-arturo-mart%C3%ADnez-aguilar": {
+   "paginas": [
+    "fernando-arturo-martinez-aguilar.html"
+   ],
+   "status": 403,
+   "final": "https://www.verfilmes.biz/blog/author/fernando-arturo-mart%C3%ADnez-aguilar"
+  },
+  "http://www.ithinksoluciones.com.mx/blog/marketing-digital-para-pymes-la-clave-del-%C3%A9xito-est%C3%A1-en-atraer": {
+   "paginas": [
+    "fernando-arturo-martinez-aguilar.html"
+   ],
+   "status": 403,
+   "final": "https://www.verfilmes.biz/blog/marketing-digital-para-pymes-la-clave-del-%C3%A9xito-est%C3%A1-en-atraer"
+  },
+  "http://www.inbound.com.mx": {
+   "paginas": [
+    "fernando-arturo-martinez-aguilar.html"
+   ],
+   "status": 200,
+   "final": "https://www.inbound.com.mx/"
+  },
+  "https://www.publi20.com/": {
+   "paginas": [
+    "fernando-arturo-martinez-aguilar.html"
+   ],
+   "status": 200,
+   "final": "https://www.publi20.com/"
+  },
+  "https://www.paypal.com/sg/webapps/mpp/paypal-popup": {
+   "paginas": [
+    "inicio.html",
+    "recursos-administration-brand-remover-joomla-plugin.html",
+    "recursos-sumome-joomla-plugin.html",
+    "recursos-website-preloader-joomla-plugin.html"
+   ],
+   "status": 200,
+   "final": "https://www.paypal.com/sg/digital-wallet/ways-to-pay/checkout-with-paypal"
+  }
+ }
+}
