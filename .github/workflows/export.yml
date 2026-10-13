@@ -6,6 +6,7 @@ on:
     paths:
       - "scripts/export_joomla.py"
       - "scripts/resolve_links.py"
+      - "scripts/fetch_assets.py"
       - ".github/workflows/export.yml"
   workflow_dispatch:
 
@@ -24,13 +25,14 @@ jobs:
       - run: |
           mkdir -p migracion
           if [ ! -f migracion/origen/inventario.json ]; then python scripts/export_joomla.py 2>&1 | tee migracion/export.log || true; fi
-          python scripts/resolve_links.py 2>&1 | tee migracion/enlaces.log || true
+          if [ ! -f migracion/origen/enlaces.json ]; then python scripts/resolve_links.py 2>&1 | tee migracion/enlaces.log || true; fi
+          python scripts/fetch_assets.py 2>&1 | tee migracion/assets.log || true
         shell: bash
       - name: Guardar exportación
         run: |
           mkdir -p migracion
           git config user.name "fm-bot"
           git config user.email "fm-bot@users.noreply.github.com"
-          git add migracion
+          git add migracion assets
           git commit -m "Exportación del sitio actual [skip ci]" || exit 0
           git pull --rebase -q origin main && git push -q origin HEAD:main
