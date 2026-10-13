@@ -50,6 +50,17 @@ menu:
   - {label: "Recursos", url: "/recursos/"}
   - {label: "Contacto", url: "/contacto/"}
 
+blog:
+  titulo: "Notas de un CTO que todavía escribe código"
+  intro: "IA aplicada, CRM, Martech, la industria automotriz y opiniones que no caben en LinkedIn. Las entradas del blog original, reescritas y puestas al día en 2026."
+
+# CSS adicional del sitio (estilos globales). Las portadas son 1200x630: sin recorte.
+css: |
+  .wp-block-post-featured-image img{aspect-ratio:1200/630!important;object-fit:cover!important;height:auto!important;width:100%!important}
+  .wp-block-post-template .wp-block-post-title{margin-top:.4em}
+  .wp-block-post-template .wp-block-post-terms a{color:var(--wp--preset--color--accent-4);text-decoration:none;text-transform:uppercase;letter-spacing:.08em;font-weight:700;font-size:.78em}
+  .wp-block-site-title a{font-weight:800}
+
 # Colores de marca sobre la paleta de Twenty Twenty-Five (mismos slugs del tema).
 paleta:
   base: "#FBF8F1"        # papel cálido

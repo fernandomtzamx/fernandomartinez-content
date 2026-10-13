@@ -4,6 +4,8 @@ pie de página y limpieza de ejemplos. Idempotente: se puede correr las veces qu
 Requiere rol Administrador (ajustes, menús y estilos globales)."""
 import html
 import importlib.util
+import json
+import re
 import pathlib
 import sys
 
@@ -68,11 +70,73 @@ def main():
                  if (n.get("title") or {}).get("raw") == "Menú principal"]
         payload = {"title": "Menú principal", "status": "publish", "content": links}
         if found:
-            wp.req("POST", f"navigation/{found[0]['id']}", json=payload)
-            print(f"Menú actualizado (id {found[0]['id']})")
+            nav_id = found[0]["id"]
+            wp.req("POST", f"navigation/{nav_id}", json=payload)
+            print(f"Menú actualizado (id {nav_id})")
         else:
-            res = wp.req("POST", "navigation", json=payload)
-            print(f"Menú creado (id {res['id']})")
+            nav_id = wp.req("POST", "navigation", json=payload)["id"]
+            print(f"Menú creado (id {nav_id})")
+        # El bloque de navegación del encabezado apunta explícitamente a este menú
+        # (sin "ref" el tema muestra la lista automática de todas las páginas).
+        theme = active_theme()
+        head = wp.req("GET", f"template-parts/{theme}//header", params={"context": "edit"})
+        raw = head["content"]["raw"] if isinstance(head.get("content"), dict) else head.get("content", "")
+        new = re.sub(r'<!-- wp:navigation (\{.*?\}) (/?)-->',
+                     lambda m: "<!-- wp:navigation " + json.dumps({**json.loads(m.group(1)), "ref": nav_id},
+                                                                   ensure_ascii=False, separators=(",", ":")) + f" {m.group(2)}-->",
+                     raw, count=1)
+        if new == raw and '"ref":' not in raw:
+            new = raw.replace("<!-- wp:navigation /-->", '<!-- wp:navigation {"ref":%d} /-->' % nav_id, 1)
+        if new != raw:
+            wp.req("POST", f"template-parts/{theme}//header", json={"content": new})
+            print(f"Encabezado ligado al menú {nav_id}")
+        else:
+            print("Aviso: no encontré el bloque de navegación en el encabezado")
+
+    def active_theme():
+        return wp.s.get(f"{wp.api}/themes", params={"status": "active"}, timeout=30).json()[0]["stylesheet"]
+
+    def plantillas():
+        theme = active_theme()
+        b = cfg["blog"]
+        loop = """<!-- wp:query {"queryId":1,"query":{"inherit":true,"perPage":12},"align":"wide"} -->
+<div class="wp-block-query alignwide"><!-- wp:post-template {"layout":{"type":"grid","columnCount":3,"minimumColumnWidth":"18rem"}} -->
+<!-- wp:post-featured-image {"isLink":true,"aspectRatio":"auto","style":{"border":{"radius":"12px"}}} /-->
+
+<!-- wp:post-terms {"term":"category","fontSize":"small"} /-->
+
+<!-- wp:post-title {"isLink":true,"fontSize":"large"} /-->
+
+<!-- wp:post-excerpt {"excerptLength":28} /-->
+<!-- /wp:post-template -->
+
+<!-- wp:query-pagination {"layout":{"type":"flex","justifyContent":"space-between"}} -->
+<!-- wp:query-pagination-previous {"label":"Más recientes"} /-->
+
+<!-- wp:query-pagination-numbers /-->
+
+<!-- wp:query-pagination-next {"label":"Anteriores"} /-->
+<!-- /wp:query-pagination --></div>
+<!-- /wp:query -->"""
+        def wrap(inner):
+            return ('<!-- wp:template-part {"slug":"header"} /-->\n\n'
+                    '<!-- wp:group {"tagName":"main","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|60","left":"var:preset|spacing|50","right":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->\n'
+                    '<main class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--50)">'
+                    f"{inner}\n\n{loop}</main>\n<!-- /wp:group -->\n\n"
+                    '<!-- wp:template-part {"slug":"footer"} /-->')
+        home = wrap(f"""<!-- wp:heading {{"level":1}} -->
+<h1 class="wp-block-heading">{html.escape(b["titulo"])}</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {{"fontSize":"medium"}} -->
+<p class="has-medium-font-size">{html.escape(b["intro"])}</p>
+<!-- /wp:paragraph -->""")
+        archive = wrap("""<!-- wp:query-title {"type":"archive","level":1} /-->
+
+<!-- wp:term-description /-->""")
+        for slug, content in [("home", home), ("archive", archive)]:
+            wp.req("POST", f"templates/{theme}//{slug}", json={"content": content})
+            print(f"Plantilla {slug} actualizada")
 
     def estilos():
         themes = wp.s.get(f"{wp.api}/themes", params={"status": "active"}, timeout=30).json()
@@ -89,6 +153,7 @@ def main():
         el["button"] = {"color": {"background": "var:preset|color|accent-3", "text": "var:preset|color|base"},
                         "border": {"radius": "999px"}, "typography": {"fontWeight": "700"}}
         el["heading"] = {"typography": {"fontWeight": "800", "letterSpacing": "-0.02em"}}
+        styles["css"] = cfg.get("css", "")
         wp.req("POST", f"global-styles/{gid}", json={"settings": settings, "styles": styles})
         print(f"Estilos globales aplicados (id {gid})")
 
@@ -111,7 +176,7 @@ def main():
 <p class="has-small-font-size">© 2026 Fernando Martínez · <a href="{wp.home}/gnu-general-public-license/">Licencia de mis extensiones</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->"""
-        theme = wp.s.get(f"{wp.api}/themes", params={"status": "active"}, timeout=30).json()[0]["stylesheet"]
+        theme = active_theme()
         wp.req("POST", f"template-parts/{theme}//footer", json={"content": content})
         print("Pie de página actualizado")
 
@@ -133,7 +198,7 @@ def main():
             print(f"A la papelera: {tipo}/{b['id']} ({b['slug']})")
 
     for name, fn in [("ajustes", ajustes), ("autor", autor), ("categorías", categorias), ("menú", menu),
-                     ("estilos", estilos), ("pie", pie), ("borrar", borrar)]:
+                     ("estilos", estilos), ("plantillas", plantillas), ("pie", pie), ("borrar", borrar)]:
         step(name, fn, errors)
     if errors:
         sys.exit(f"{len(errors)} paso(s) con error: {', '.join(errors)}")
