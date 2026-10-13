@@ -1,13 +1,13 @@
-fecha: 2026-10-13T23:25:01Z
-commit: 5392ce802b156b349d08c3d2656df520fc696984
+fecha: 2026-10-13T23:26:43Z
+commit: bc99699355e292b0c88f6f8ab7fc3bb0545204df
 evento: push
-publicar: success | setup: success | verificar: success
-run: https://github.com/fernandomtzamx/fernandomartinez-content/actions/runs/38483921349
+publicar: success | setup: skipped | verificar: success
+run: https://github.com/fernandomtzamx/fernandomartinez-content/actions/runs/38484166874
 ---
 WP_URL: presente
 WP_USER: presente
 WP_APP_PASSWORD: presente
-Plan: publicar='--all' setup='1' verificar='1' info=''
+Plan: publicar='--all' setup='' verificar='1' info=''
 ok    content/blog/12-teleton.md: 499 palabras, 1 fuentes
 ok    content/blog/13-5-pilares.md: 532 palabras, 0 fuentes
 ok    content/blog/14-que-es-inbound.md: 454 palabras, 0 fuentes
@@ -61,231 +61,94 @@ ok    content/recursos/twitter-summary-card.md: 197 palabras, 1 fuentes
 ok    content/recursos/website-preloader.md: 222 palabras, 1 fuentes
 
 45 archivos, 0 con errores
-/home/runner/work/fernandomartinez-content/fernandomartinez-content/scripts/publish.py:284: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
-  if payload["status"] == "publish" and gmt > datetime.datetime.utcnow():
 Endpoint: https://fernandomartinez.mx/dev/wp-json/ (HTTP 200)
 Métodos de autenticación anunciados: application-passwords
 Conectado como soporte (roles: administrator)
-content/paginas/blog.md: page creada (publish) id=8 https://www.fernandomartinez.mx/dev/blog/
-content/paginas/como-te-ayudo.md: page creada (publish) id=9 https://www.fernandomartinez.mx/dev/como-te-ayudo/
-content/paginas/contacto.md: page creada (publish) id=10 https://www.fernandomartinez.mx/dev/contacto/
-content/paginas/gnu.md: page creada (publish) id=11 https://www.fernandomartinez.mx/dev/gnu-general-public-license/
-content/paginas/inicio.md: page creada (publish) id=12 https://www.fernandomartinez.mx/dev/inicio/
-content/paginas/programador-joomla.md: page creada (publish) id=13 https://www.fernandomartinez.mx/dev/programador-web-especialista-en-joomla-en-mexico/
-  + imagen subida: fernando-martinez-enginecx.png (id 14)
-content/paginas/sobre-mi.md: page creada (publish) id=15 https://www.fernandomartinez.mx/dev/fernando-arturo-martinez-aguilar/
-content/recursos/recursos.md: page creada (publish) id=16 https://www.fernandomartinez.mx/dev/recursos/
-content/recursos/25-cosas.md: page creada (publish) id=17 https://www.fernandomartinez.mx/dev/recursos/25-cosas-que-hacer-en-la-web-para-tener-mas-trafico-y-clientes/
-  + imagen subida: joomla-brand-remover-administrator-plugin.png (id 18)
-  + imagen subida: joomla-administration-brand-remover-1.png (id 19)
-  + imagen subida: joomla-administration-brand-remover-2.png (id 20)
-content/recursos/brand-remover.md: page creada (publish) id=21 https://www.fernandomartinez.mx/dev/recursos/administration-brand-remover-joomla-plugin/
-content/recursos/herramientas.md: page creada (publish) id=22 https://www.fernandomartinez.mx/dev/recursos/las-mejores-herramientas-de-seo-e-inbound-marketing/
-content/recursos/imagenes-libres.md: page creada (publish) id=23 https://www.fernandomartinez.mx/dev/recursos/imagenes-libres-de-derechos-gratis/
-  + imagen subida: sumome-joomla-plugin.png (id 24)
-content/recursos/sumome.md: page creada (publish) id=25 https://www.fernandomartinez.mx/dev/recursos/sumome-joomla-plugin/
-  + imagen subida: TwitterSummaryCardforArticles.png (id 26)
-  + imagen subida: twitter-summary-card-joomla.jpg (id 27)
-  + imagen subida: plg_TwitterSummaryCardforArticles.zip (id 28)
-content/recursos/twitter-summary-card.md: page creada (publish) id=29 https://www.fernandomartinez.mx/dev/recursos/twitter-summary-card-for-joomla-articles-plugin/
-  + imagen subida: joomla-website-preloader.jpg (id 30)
-  + imagen subida: plg_websitepreloader.zip (id 31)
-content/recursos/website-preloader.md: page creada (publish) id=32 https://www.fernandomartinez.mx/dev/recursos/website-preloader-joomla-plugin/
-  + categoría creada: ventas-y-liderazgo
-  + etiqueta creada: productividad
-  + etiqueta creada: hábitos
-  + etiqueta creada: liderazgo
-  + etiqueta creada: toma de decisiones
-  + imagen subida: 5-cosas-que-hace-la-gente-super-exitosa.png (id 33)
-content/blog/2-gente-exitosa.md: post creada (publish) id=34 https://www.fernandomartinez.mx/dev/2026/10/13/5-cosas-que-hace-la-gente-super-exitosa/
-  + etiqueta creada: ventas
-  + etiqueta creada: compensación
-  + etiqueta creada: comisiones
-  + etiqueta creada: equipos de trabajo
-  + etiqueta creada: CRM
-  + imagen subida: como-crear-un-plan-de-compensacion-para-tu-equipo-de-ventas.png (id 35)
-content/blog/3-compensacion.md: post creada (publish) id=36 https://www.fernandomartinez.mx/dev/2026/10/13/como-crear-un-plan-de-compensacion-para-tu-equipo-de-ventas/
-  + categoría creada: opinion
-  + etiqueta creada: activismo
-  + etiqueta creada: hashtags
-  + etiqueta creada: crisis de marca
-  + etiqueta creada: redes sociales
-  + etiqueta creada: reputación
-  + imagen subida: activismo-con-hashtags.png (id 37)
-content/blog/5-activismo.md: post creada (publish) id=38 https://www.fernandomartinez.mx/dev/2026/10/13/activismo-con-hashtags/
-  + categoría creada: marketing
-  + etiqueta creada: lealtad de marca
-  + etiqueta creada: atención al cliente
-  + etiqueta creada: equipos
-  + etiqueta creada: IA
-  + imagen subida: crear-lealtad-a-tu-marca-no-se-logra-solo-con-comunicacion.png (id 39)
-content/blog/6-lealtad.md: post creada (publish) id=40 https://www.fernandomartinez.mx/dev/2026/10/13/crear-lealtad-a-tu-marca-no-se-logra-solo-con-comunicacion/
-  + etiqueta creada: manifiesto
-  + etiqueta creada: marketing digital
-  + etiqueta creada: métricas
-  + etiqueta creada: estrategia
-  + etiqueta creada: opinión
-  + imagen subida: manifiesto-de-marketing-digital-de-fernando-martinez.png (id 41)
-content/blog/7-manifiesto.md: post creada (publish) id=42 https://www.fernandomartinez.mx/dev/2026/10/13/manifiesto-de-marketing-digital-de-fernando-martinez/
-  + etiqueta creada: filosofía
-  + etiqueta creada: respeto
-  + etiqueta creada: tolerancia
-  + etiqueta creada: polarización
-  + imagen subida: en-contra-de-la-tolerancia.png (id 43)
-content/blog/9-tolerancia.md: post creada (publish) id=44 https://www.fernandomartinez.mx/dev/2026/10/13/en-contra-de-la-tolerancia/
-  + etiqueta creada: Teletón
-  + etiqueta creada: Televisa
-  + etiqueta creada: causas sociales
-  + imagen subida: entre-aportar-al-teleton-y-el-odio-a-televisa.png (id 45)
-content/blog/12-teleton.md: post creada (publish) id=46 https://www.fernandomartinez.mx/dev/2026/10/13/entre-aportar-al-teleton-y-el-odio-a-televisa/
-  + etiqueta creada: inbound marketing
-  + etiqueta creada: lead scoring
-  + etiqueta creada: lead nurturing
-  + etiqueta creada: automatización
-  + imagen subida: como-funciona-los-5-pilares-del-inbound-marketing.png (id 47)
-content/blog/13-5-pilares.md: post creada (publish) id=48 https://www.fernandomartinez.mx/dev/2026/10/13/como-funciona-los-5-pilares-del-inbound-marketing/
-  + etiqueta creada: outbound
-  + etiqueta creada: contenido
-  + etiqueta creada: HubSpot
-  + etiqueta creada: generación de leads
-  + imagen subida: que-es-el-inbound-marketing.png (id 49)
-content/blog/14-que-es-inbound.md: post creada (publish) id=50 https://www.fernandomartinez.mx/dev/2026/10/13/que-es-el-inbound-marketing/
-  + categoría creada: desarrollo-web
-  + etiqueta creada: Joomla
-  + etiqueta creada: velocidad web
-  + etiqueta creada: Core Web Vitals
-  + etiqueta creada: optimización
-  + etiqueta creada: SEO técnico
-  + imagen subida: reducir-tiempo-carga-sitio-web-joomla.png (id 51)
-content/blog/15-joomla-velocidad.md: post creada (publish) id=52 https://www.fernandomartinez.mx/dev/2026/10/13/reducir-tiempo-carga-sitio-web-joomla/
-  + etiqueta creada: blog
-  + etiqueta creada: SEO
-  + etiqueta creada: autoridad
-  + imagen subida: para-que-sirve-un-blog-en-mi-sitio-web.png (id 53)
-content/blog/16-blog.md: post creada (publish) id=54 https://www.fernandomartinez.mx/dev/2026/10/13/para-que-sirve-un-blog-en-mi-sitio-web/
-  + etiqueta creada: copywriting
-  + etiqueta creada: sitio web
-  + etiqueta creada: jerga corporativa
-  + etiqueta creada: conversión
-  + imagen subida: 10-palabras-que-debes-quitar-de-tu-sitio-web-ya.png (id 55)
-content/blog/17-10-palabras.md: post creada (publish) id=56 https://www.fernandomartinez.mx/dev/2026/10/13/10-palabras-que-debes-quitar-de-tu-sitio-web-ya/
-  + etiqueta creada: branding
-  + etiqueta creada: publicidad
-  + etiqueta creada: Super Bowl
-  + etiqueta creada: medición
-  + imagen subida: la-grave-desconexion-entre-el-reconocimiento-de-marca-y-las-ventas.png (id 57)
-content/blog/20-reconocimiento-marca.md: post creada (publish) id=58 https://www.fernandomartinez.mx/dev/2026/10/13/la-grave-desconexion-entre-el-reconocimiento-de-marca-y-las-ventas/
-  + etiqueta creada: administrador
-  + etiqueta creada: plantillas
-  + etiqueta creada: extensiones
-  + etiqueta creada: mantenimiento
-  + imagen subida: plantillas-administrador-joomla.png (id 59)
-content/blog/22-joomla-admin.md: post creada (publish) id=60 https://www.fernandomartinez.mx/dev/2026/10/13/plantillas-administrador-joomla/
-  + categoría creada: crm-y-datos
-  + etiqueta creada: H2H
-  + etiqueta creada: B2B
-  + etiqueta creada: experiencia del cliente
-  + etiqueta creada: ventas consultivas
-  + imagen subida: inbound-marketing-audiencia-ideal.png (id 61)
-content/blog/24-h2h.md: post creada (publish) id=62 https://www.fernandomartinez.mx/dev/2026/10/13/inbound-marketing-audiencia-ideal/
-  + categoría creada: ia-y-tecnologia
-  + etiqueta creada: internet de las cosas
-  + etiqueta creada: IoT
-  + etiqueta creada: autos conectados
-  + etiqueta creada: datos
-  + imagen subida: que-es-el-internet-de-las-cosas-iot-internet-of-things.png (id 63)
-content/blog/26-iot.md: post creada (publish) id=64 https://www.fernandomartinez.mx/dev/2026/10/13/que-es-el-internet-de-las-cosas-iot-internet-of-things/
-  + etiqueta creada: buyer persona
-  + etiqueta creada: investigación de clientes
-  + imagen subida: como-identificar-y-crear-mis-buyer-personas.png (id 65)
-content/blog/27-buyer-personas.md: post creada (publish) id=66 https://www.fernandomartinez.mx/dev/2026/10/13/como-identificar-y-crear-mis-buyer-personas/
-  + etiqueta creada: datos de clientes
-  + etiqueta creada: perfilamiento progresivo
-  + etiqueta creada: privacidad
-  + imagen subida: como-enriquecer-mi-base-de-datos-de-clientes-para-mi-estrategia-de-marketing-digital.png (id 67)
-content/blog/28-base-de-datos.md: post creada (publish) id=68 https://www.fernandomartinez.mx/dev/2026/10/13/como-enriquecer-mi-base-de-datos-de-clientes-para-mi-estrategia-de-marketing-digital/
-  + etiqueta creada: consumidor
-  + imagen subida: los-consumidores-tienen-el-control.png (id 69)
-content/blog/29-consumidores.md: post creada (publish) id=70 https://www.fernandomartinez.mx/dev/2026/10/13/los-consumidores-tienen-el-control/
-  + etiqueta creada: Physical Web
-  + etiqueta creada: beacons
-  + etiqueta creada: códigos QR
-  + etiqueta creada: Google
-  + etiqueta creada: innovación
-  + imagen subida: physical-web-el-nuevo-paso-para-los-negocios.png (id 71)
-content/blog/31-physical-web.md: post creada (publish) id=72 https://www.fernandomartinez.mx/dev/2026/10/13/physical-web-el-nuevo-paso-para-los-negocios/
-  + etiqueta creada: Wi-Fi
-  + etiqueta creada: datos personales
-  + etiqueta creada: punto de venta
-  + imagen subida: deberias-ofrecer-wi-fi-gratis-en-tu-negocio.png (id 73)
-content/blog/32-wifi.md: post creada (publish) id=74 https://www.fernandomartinez.mx/dev/2026/10/13/deberias-ofrecer-wi-fi-gratis-en-tu-negocio/
-  + etiqueta creada: LinkedIn
-  + etiqueta creada: Facebook
-  + etiqueta creada: comunidad
-  + etiqueta creada: plataformas
-  + imagen subida: el-uso-de-la-redes-sociales-lo-definen-los-usuarios.png (id 75)
-content/blog/33-redes-usuarios.md: post creada (publish) id=76 https://www.fernandomartinez.mx/dev/2026/10/13/el-uso-de-la-redes-sociales-lo-definen-los-usuarios/
-  + etiqueta creada: video
-  + etiqueta creada: influencers
-  + etiqueta creada: analítica
-  + imagen subida: 5-ideas-para-fortalecer-tu-marketing-digital-en-redes-sociales.png (id 77)
-content/blog/34-redes-sociales.md: post creada (publish) id=78 https://www.fernandomartinez.mx/dev/2026/10/13/5-ideas-para-fortalecer-tu-marketing-digital-en-redes-sociales/
-  + etiqueta creada: realidad virtual
-  + etiqueta creada: realidad aumentada
-  + etiqueta creada: experiencia de usuario
-  + imagen subida: 3-formas-de-hacer-marketing-digital-con-realidad-virtual.png (id 79)
-content/blog/35-realidad-virtual.md: post creada (publish) id=80 https://www.fernandomartinez.mx/dev/2026/10/13/3-formas-de-hacer-marketing-digital-con-realidad-virtual/
-  + imagen subida: porque-deberias-considerar-el-inbound-marketing.png (id 81)
-content/blog/36-considerar-inbound.md: post creada (publish) id=82 https://www.fernandomartinez.mx/dev/2026/10/13/porque-deberias-considerar-el-inbound-marketing/
-  + categoría creada: automotriz
-  + etiqueta creada: patrocinio
-  + etiqueta creada: Juegos Olímpicos
-  + etiqueta creada: marketing deportivo
-  + etiqueta creada: Nissan
-  + etiqueta creada: Toyota
-  + etiqueta creada: Hyundai
-  + imagen subida: marketing-automotriz-en-los-juegos-olimpicos.png (id 83)
-content/blog/37-marketing-automotriz-olimpicos.md: post creada (publish) id=84 https://www.fernandomartinez.mx/dev/2026/10/13/marketing-automotriz-en-los-juegos-olimpicos/
-  + etiqueta creada: Instagram
-  + etiqueta creada: Stories
-  + etiqueta creada: Meta
-  + imagen subida: como-aprovechar-instagram-stories-en-tu-marketing.png (id 85)
-content/blog/38-instagram-stories.md: post creada (publish) id=86 https://www.fernandomartinez.mx/dev/2026/10/13/como-aprovechar-instagram-stories-en-tu-marketing/
-  + etiqueta creada: Shopify
-  + etiqueta creada: ecommerce
-  + etiqueta creada: tienda en línea
-  + etiqueta creada: emprendimiento
-  + etiqueta creada: México
-  + imagen subida: como-abrir-una-tienda-en-linea-en-mexico-con-shopify.png (id 87)
-content/blog/39-shopify.md: post creada (publish) id=88 https://www.fernandomartinez.mx/dev/2026/10/13/como-abrir-una-tienda-en-linea-en-mexico-con-shopify/
-  + etiqueta creada: WhatsApp
-  + etiqueta creada: chat
-  + etiqueta creada: marketing conversacional
-  + imagen subida: 5-datos-duros-para-considerar-implementar-un-chat.png (id 89)
-content/blog/40-chat.md: post creada (publish) id=90 https://www.fernandomartinez.mx/dev/2026/10/13/5-datos-duros-para-considerar-implementar-un-chat/
-  + etiqueta creada: crédito automotriz
-  + etiqueta creada: concesionarias
-  + etiqueta creada: Kavak
-  + etiqueta creada: financiamiento
-  + imagen subida: credito-automotriz-en-linea-disrupcion-venta-de-autos.png (id 91)
-content/blog/41-credito-automotriz.md: post creada (publish) id=92 https://www.fernandomartinez.mx/dev/2026/10/13/credito-automotriz-en-linea-disrupcion-venta-de-autos/
-Endpoint: https://fernandomartinez.mx/dev/wp-json/ (HTTP 200)
-Métodos de autenticación anunciados: application-passwords
-Ajustes: Fernando Martínez | portada=12 blog=8 | zona=America/Mexico_City
-Autor: Fernando Martínez
-Categoría: ia-y-tecnologia -> IA y tecnología
-Categoría: marketing -> Marketing
-Categoría: crm-y-datos -> CRM y datos
-Categoría: automotriz -> Automotriz
-Categoría: desarrollo-web -> Desarrollo web
-Categoría: ventas-y-liderazgo -> Ventas y liderazgo
-Categoría: opinion -> Opinión
-Menú creado (id 93)
-Estilos globales aplicados (id 7)
-Pie de página actualizado
-A la papelera: posts/1 (hello-world)
-A la papelera: posts/6 (prueba-conexion-agente)
-A la papelera: pages/2 (sample-page)
+content/paginas/blog.md: page actualizada (publish) id=8 https://www.fernandomartinez.mx/dev/blog/
+content/paginas/como-te-ayudo.md: page actualizada (publish) id=9 https://www.fernandomartinez.mx/dev/como-te-ayudo/
+content/paginas/contacto.md: page actualizada (publish) id=10 https://www.fernandomartinez.mx/dev/contacto/
+content/paginas/gnu.md: page actualizada (publish) id=11 https://www.fernandomartinez.mx/dev/gnu-general-public-license/
+content/paginas/inicio.md: page actualizada (publish) id=12 https://www.fernandomartinez.mx/dev/
+content/paginas/programador-joomla.md: page actualizada (publish) id=13 https://www.fernandomartinez.mx/dev/programador-web-especialista-en-joomla-en-mexico/
+  = imagen reutilizada: fernando-martinez-enginecx (id 14)
+content/paginas/sobre-mi.md: page actualizada (publish) id=15 https://www.fernandomartinez.mx/dev/fernando-arturo-martinez-aguilar/
+content/recursos/recursos.md: page actualizada (publish) id=16 https://www.fernandomartinez.mx/dev/recursos/
+content/recursos/25-cosas.md: page actualizada (publish) id=17 https://www.fernandomartinez.mx/dev/recursos/25-cosas-que-hacer-en-la-web-para-tener-mas-trafico-y-clientes/
+  = imagen reutilizada: joomla-brand-remover-administrator-plugin (id 18)
+  = imagen reutilizada: joomla-administration-brand-remover-1 (id 19)
+  = imagen reutilizada: joomla-administration-brand-remover-2 (id 20)
+content/recursos/brand-remover.md: page actualizada (publish) id=21 https://www.fernandomartinez.mx/dev/recursos/administration-brand-remover-joomla-plugin/
+content/recursos/herramientas.md: page actualizada (publish) id=22 https://www.fernandomartinez.mx/dev/recursos/las-mejores-herramientas-de-seo-e-inbound-marketing/
+content/recursos/imagenes-libres.md: page actualizada (publish) id=23 https://www.fernandomartinez.mx/dev/recursos/imagenes-libres-de-derechos-gratis/
+  = imagen reutilizada: sumome-joomla-plugin (id 24)
+content/recursos/sumome.md: page actualizada (publish) id=25 https://www.fernandomartinez.mx/dev/recursos/sumome-joomla-plugin/
+  = imagen reutilizada: twittersummarycardforarticles (id 26)
+  = imagen reutilizada: twitter-summary-card-joomla (id 27)
+  = imagen reutilizada: plg_twittersummarycardforarticles (id 28)
+content/recursos/twitter-summary-card.md: page actualizada (publish) id=29 https://www.fernandomartinez.mx/dev/recursos/twitter-summary-card-for-joomla-articles-plugin/
+  = imagen reutilizada: joomla-website-preloader (id 30)
+  = imagen reutilizada: plg_websitepreloader (id 31)
+content/recursos/website-preloader.md: page actualizada (publish) id=32 https://www.fernandomartinez.mx/dev/recursos/website-preloader-joomla-plugin/
+  = imagen reutilizada: 5-cosas-que-hace-la-gente-super-exitosa (id 33)
+content/blog/2-gente-exitosa.md: post actualizada (publish) id=34 https://www.fernandomartinez.mx/dev/2026/10/13/5-cosas-que-hace-la-gente-super-exitosa/
+  = imagen reutilizada: como-crear-un-plan-de-compensacion-para-tu-equipo-de-ventas (id 35)
+content/blog/3-compensacion.md: post actualizada (publish) id=36 https://www.fernandomartinez.mx/dev/2026/10/13/como-crear-un-plan-de-compensacion-para-tu-equipo-de-ventas/
+  = imagen reutilizada: activismo-con-hashtags (id 37)
+content/blog/5-activismo.md: post actualizada (publish) id=38 https://www.fernandomartinez.mx/dev/2026/10/13/activismo-con-hashtags/
+  = imagen reutilizada: crear-lealtad-a-tu-marca-no-se-logra-solo-con-comunicacion (id 39)
+content/blog/6-lealtad.md: post actualizada (publish) id=40 https://www.fernandomartinez.mx/dev/2026/10/13/crear-lealtad-a-tu-marca-no-se-logra-solo-con-comunicacion/
+  = imagen reutilizada: manifiesto-de-marketing-digital-de-fernando-martinez (id 41)
+content/blog/7-manifiesto.md: post actualizada (publish) id=42 https://www.fernandomartinez.mx/dev/2026/10/13/manifiesto-de-marketing-digital-de-fernando-martinez/
+  = imagen reutilizada: en-contra-de-la-tolerancia (id 43)
+content/blog/9-tolerancia.md: post actualizada (publish) id=44 https://www.fernandomartinez.mx/dev/2026/10/13/en-contra-de-la-tolerancia/
+  = imagen reutilizada: entre-aportar-al-teleton-y-el-odio-a-televisa (id 45)
+content/blog/12-teleton.md: post actualizada (publish) id=46 https://www.fernandomartinez.mx/dev/2026/10/13/entre-aportar-al-teleton-y-el-odio-a-televisa/
+  = imagen reutilizada: como-funciona-los-5-pilares-del-inbound-marketing (id 47)
+content/blog/13-5-pilares.md: post actualizada (publish) id=48 https://www.fernandomartinez.mx/dev/2026/10/13/como-funciona-los-5-pilares-del-inbound-marketing/
+  = imagen reutilizada: que-es-el-inbound-marketing (id 49)
+content/blog/14-que-es-inbound.md: post actualizada (publish) id=50 https://www.fernandomartinez.mx/dev/2026/10/13/que-es-el-inbound-marketing/
+  = imagen reutilizada: reducir-tiempo-carga-sitio-web-joomla (id 51)
+content/blog/15-joomla-velocidad.md: post actualizada (publish) id=52 https://www.fernandomartinez.mx/dev/blog/reducir-tiempo-carga-sitio-web-joomla
+  = imagen reutilizada: para-que-sirve-un-blog-en-mi-sitio-web (id 53)
+content/blog/16-blog.md: post actualizada (publish) id=54 https://www.fernandomartinez.mx/dev/blog/para-que-sirve-un-blog-en-mi-sitio-web
+  = imagen reutilizada: 10-palabras-que-debes-quitar-de-tu-sitio-web-ya (id 55)
+content/blog/17-10-palabras.md: post actualizada (publish) id=56 https://www.fernandomartinez.mx/dev/blog/10-palabras-que-debes-quitar-de-tu-sitio-web-ya
+  = imagen reutilizada: la-grave-desconexion-entre-el-reconocimiento-de-marca-y-las-ventas (id 57)
+content/blog/20-reconocimiento-marca.md: post actualizada (publish) id=58 https://www.fernandomartinez.mx/dev/blog/la-grave-desconexion-entre-el-reconocimiento-de-marca-y-las-ventas
+  = imagen reutilizada: plantillas-administrador-joomla (id 59)
+content/blog/22-joomla-admin.md: post actualizada (publish) id=60 https://www.fernandomartinez.mx/dev/blog/plantillas-administrador-joomla
+  = imagen reutilizada: inbound-marketing-audiencia-ideal (id 61)
+content/blog/24-h2h.md: post actualizada (publish) id=62 https://www.fernandomartinez.mx/dev/blog/inbound-marketing-audiencia-ideal
+  = imagen reutilizada: que-es-el-internet-de-las-cosas-iot-internet-of-things (id 63)
+content/blog/26-iot.md: post actualizada (publish) id=64 https://www.fernandomartinez.mx/dev/blog/que-es-el-internet-de-las-cosas-iot-internet-of-things
+  = imagen reutilizada: como-identificar-y-crear-mis-buyer-personas (id 65)
+content/blog/27-buyer-personas.md: post actualizada (publish) id=66 https://www.fernandomartinez.mx/dev/blog/como-identificar-y-crear-mis-buyer-personas
+  = imagen reutilizada: como-enriquecer-mi-base-de-datos-de-clientes-para-mi-estrategia-de-marketing-digital (id 67)
+content/blog/28-base-de-datos.md: post actualizada (publish) id=68 https://www.fernandomartinez.mx/dev/blog/como-enriquecer-mi-base-de-datos-de-clientes-para-mi-estrategia-de-marketing-digital
+  = imagen reutilizada: los-consumidores-tienen-el-control (id 69)
+content/blog/29-consumidores.md: post actualizada (publish) id=70 https://www.fernandomartinez.mx/dev/blog/los-consumidores-tienen-el-control
+  = imagen reutilizada: physical-web-el-nuevo-paso-para-los-negocios (id 71)
+content/blog/31-physical-web.md: post actualizada (publish) id=72 https://www.fernandomartinez.mx/dev/blog/physical-web-el-nuevo-paso-para-los-negocios
+  = imagen reutilizada: deberias-ofrecer-wi-fi-gratis-en-tu-negocio (id 73)
+content/blog/32-wifi.md: post actualizada (publish) id=74 https://www.fernandomartinez.mx/dev/blog/deberias-ofrecer-wi-fi-gratis-en-tu-negocio
+  = imagen reutilizada: el-uso-de-la-redes-sociales-lo-definen-los-usuarios (id 75)
+content/blog/33-redes-usuarios.md: post actualizada (publish) id=76 https://www.fernandomartinez.mx/dev/blog/el-uso-de-la-redes-sociales-lo-definen-los-usuarios
+  = imagen reutilizada: 5-ideas-para-fortalecer-tu-marketing-digital-en-redes-sociales (id 77)
+content/blog/34-redes-sociales.md: post actualizada (publish) id=78 https://www.fernandomartinez.mx/dev/blog/5-ideas-para-fortalecer-tu-marketing-digital-en-redes-sociales
+  = imagen reutilizada: 3-formas-de-hacer-marketing-digital-con-realidad-virtual (id 79)
+content/blog/35-realidad-virtual.md: post actualizada (publish) id=80 https://www.fernandomartinez.mx/dev/blog/3-formas-de-hacer-marketing-digital-con-realidad-virtual
+  = imagen reutilizada: porque-deberias-considerar-el-inbound-marketing (id 81)
+content/blog/36-considerar-inbound.md: post actualizada (publish) id=82 https://www.fernandomartinez.mx/dev/blog/porque-deberias-considerar-el-inbound-marketing
+  = imagen reutilizada: marketing-automotriz-en-los-juegos-olimpicos (id 83)
+content/blog/37-marketing-automotriz-olimpicos.md: post actualizada (publish) id=84 https://www.fernandomartinez.mx/dev/blog/marketing-automotriz-en-los-juegos-olimpicos
+  = imagen reutilizada: como-aprovechar-instagram-stories-en-tu-marketing (id 85)
+content/blog/38-instagram-stories.md: post actualizada (publish) id=86 https://www.fernandomartinez.mx/dev/blog/como-aprovechar-instagram-stories-en-tu-marketing
+  = imagen reutilizada: como-abrir-una-tienda-en-linea-en-mexico-con-shopify (id 87)
+content/blog/39-shopify.md: post actualizada (publish) id=88 https://www.fernandomartinez.mx/dev/blog/como-abrir-una-tienda-en-linea-en-mexico-con-shopify
+  = imagen reutilizada: 5-datos-duros-para-considerar-implementar-un-chat (id 89)
+content/blog/40-chat.md: post actualizada (publish) id=90 https://www.fernandomartinez.mx/dev/blog/5-datos-duros-para-considerar-implementar-un-chat
+  = imagen reutilizada: credito-automotriz-en-linea-disrupcion-venta-de-autos (id 91)
+content/blog/41-credito-automotriz.md: post actualizada (publish) id=92 https://www.fernandomartinez.mx/dev/blog/credito-automotriz-en-linea-disrupcion-venta-de-autos
 ## Páginas publicadas
 
-Problemas en páginas o referidos: 0. Externos con error: 10
+Problemas en páginas o referidos: 0. Externos con error: 7

@@ -56,7 +56,6 @@
 |---|---|---|---|
 | 200 | https://9to5google.com/2018/10/25/google-killing-location-notifications/ |  | content/blog/31-physical-web.md |
 | 200 | https://9to5google.com/2021/03/03/google-store-stops-selling-cardboard-vr-headsets/ |  | content/blog/35-realidad-virtual.md |
-| 404 ⚠ | https://abcnews.go.com/Sports/wireStory/japanese-sponsors-toyota-bridgestone-panasonic-end-olympic-contracts-114409824 | https://abcnews.com/Sports/wireStory/japanese-sponsors-toyota-bridgestone-panasonic-end-olympic-contracts-114409824 | content/blog/37-marketing-automotriz-olimpicos.md |
 | 200 | https://ads.google.com/ | https://business.google.com/us/google-ads/ | content/recursos/herramientas.md |
 | 200 | https://ads.reddit.com/ | https://www.business.reddit.com/ | content/recursos/herramientas.md |
 | 200 | https://ads.tiktok.com/ | https://ads.tiktok.com/business/en-US?tt4b_lang_redirect=1 | content/recursos/herramientas.md |
@@ -106,12 +105,12 @@
 | 403 ⚠ | https://openverse.org/es |  | content/recursos/imagenes-libres.md |
 | 200 | https://pagespeed.web.dev/ |  | content/blog/15-joomla-velocidad.md, content/recursos/25-cosas.md |
 | 403 ⚠ | https://pixabay.com/es/ |  | content/recursos/imagenes-libres.md |
-| 200 | https://postmaster.google.com/ | https://accounts.google.com/v3/signin/identifier?continue=https://postmaster.google.com/&followup=https://postmaster.google.com/&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S1177311801:1791933875615294 | content/recursos/herramientas.md |
+| 200 | https://postmaster.google.com/ | https://accounts.google.com/v3/signin/identifier?continue=https://postmaster.google.com/&followup=https://postmaster.google.com/&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S-519650282:1791933997451231 | content/recursos/herramientas.md |
 | 200 | https://pulse2.com/kavak-300-million-series-f/ |  | content/blog/41-credito-automotriz.md |
 | 200 | https://search.google.com/search-console/about |  | content/recursos/25-cosas.md |
 | 403 ⚠ | https://searchengineland.com/ |  | content/recursos/herramientas.md |
 | 200 | https://segment.com/ | https://www.twilio.com/en-us/segment | content/recursos/herramientas.md |
-| 200 | https://shopify.pxf.io/prueba-gratis-shop | https://www.shopify.com/mx/prueba-gratis?irclickid=w2fRA1QFFxyZRRNTS4Sld06tUkr1jWTQgy6KS00&irgwc=1&partner=2878770&affpt=excluded&utm_channel=affiliates&utm_source=2878770-impact&utm_medium=cpa&iradid=1061744 | content/blog/39-shopify.md, content/recursos/herramientas.md |
+| 200 | https://shopify.pxf.io/prueba-gratis-shop | https://www.shopify.com/mx/prueba-gratis?irclickid=Utl2V0QFFxyZRE9w4934AThiUkr1jT2Ygxf4Rg0&irgwc=1&partner=2878770&affpt=excluded&utm_channel=affiliates&utm_source=2878770-impact&utm_medium=cpa&iradid=1061744 | content/blog/39-shopify.md, content/recursos/herramientas.md |
 | 200 | https://statcounter.com/ |  | content/recursos/herramientas.md |
 | 200 | https://thewrap.com/instagram-stories-just-passed-500-million-daily-users | https://www.thewrap.com/instagram-stories-just-passed-500-million-daily-users/ | content/blog/38-instagram-stories.md |
 | 403 ⚠ | https://unsplash.com/ |  | content/recursos/imagenes-libres.md |
@@ -121,12 +120,13 @@
 | 200 | https://www.bing.com/webmasters/help/webmasters-guidelines-30fba23a | https://www.bing.com/webmasters/help/webmaster-guidelines-30fba23a | content/recursos/herramientas.md |
 | 200 | https://www.boomeranggmail.com/ |  | content/recursos/herramientas.md |
 | 200 | https://www.brevo.com/ |  | content/recursos/herramientas.md |
+| 200 | https://www.clickorlando.com/sports/2024/10/02/japanese-sponsors-toyota-bridgestone-and-panasonic-end-olympic-contracts/ |  | content/blog/37-marketing-automotriz-olimpicos.md |
 | 200 | https://www.crazyegg.com/ |  | content/recursos/herramientas.md |
 | 200 | https://www.eluniversal.com.mx/cartera/preven-credito-automotriz-record-en-2026/ |  | content/blog/41-credito-automotriz.md |
 | 200 | https://www.ey.com/es_mx/technical/tax/boletines-fiscales/nueva-ley-federal-proteccion-datos-personal-posesion-particulares |  | content/blog/28-base-de-datos.md, content/blog/32-wifi.md |
 | 200 | https://www.facebook.com/business/ads | https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fbusiness%2Fads | content/recursos/herramientas.md |
-| None ⚠ | https://www.gnu.org/licenses/gpl-3.0.html | HTTPSConnectionPool(host='www.gnu.org', port=443): Max retries exceeded with url | content/paginas/gnu.md |
-| None ⚠ | https://www.gnu.org/licenses/gpl-faq.es.html | HTTPSConnectionPool(host='www.gnu.org', port=443): Max retries exceeded with url | content/paginas/gnu.md |
+| 200 | https://www.gnu.org/licenses/gpl-3.0.html |  | content/paginas/gnu.md |
+| 200 | https://www.gnu.org/licenses/gpl-faq.es.html |  | content/paginas/gnu.md |
 | 200 | https://www.google.com/search/howsearchworks/ |  | content/recursos/herramientas.md |
 | 200 | https://www.heap.io/ |  | content/recursos/herramientas.md |
 | 200 | https://www.hotjar.com/ | https://contentsquare.com/hotjar/?utm_campaign=exp__hj_hp_redirection | content/recursos/herramientas.md |
