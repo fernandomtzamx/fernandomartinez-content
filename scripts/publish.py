@@ -281,7 +281,7 @@ def publish(wp, path):
         local = datetime.datetime.fromisoformat(str(meta["date"]))
         gmt = local + datetime.timedelta(hours=6)
         payload["date_gmt"] = gmt.strftime("%Y-%m-%dT%H:%M:%S")
-        if payload["status"] == "publish" and gmt > datetime.datetime.utcnow():
+        if payload["status"] == "publish" and gmt > datetime.datetime.now(datetime.timezone.utc).replace(tzinfo=None):
             payload["status"] = "future"
     if kind == "post":
         if meta.get("categories"):

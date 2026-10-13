@@ -30,7 +30,7 @@ Hyundai era (y sigue siendo) el otro ejemplo que me gustaba: décadas acompañan
 
 ## Lo que pasó después
 
-El giro más interesante vino de Toyota. Firmó en 2015 el contrato de patrocinio olímpico más grande de su momento, reportado en 835 millones de dólares, que cubrió cuatro Juegos, de PyeongChang 2018 a París 2024. Y al terminar, [decidió no renovar](https://abcnews.go.com/Sports/wireStory/japanese-sponsors-toyota-bridgestone-panasonic-end-olympic-contracts-114409824). Su presidente, Akio Toyoda, dijo públicamente que no estaba seguro de que el COI pusiera realmente a las personas primero.
+El giro más interesante vino de Toyota. Firmó en 2015 el contrato de patrocinio olímpico más grande de su momento, reportado en 835 millones de dólares, que cubrió cuatro Juegos, de PyeongChang 2018 a París 2024. Y al terminar, [decidió no renovar](https://www.clickorlando.com/sports/2024/10/02/japanese-sponsors-toyota-bridgestone-and-panasonic-end-olympic-contracts/). Su presidente, Akio Toyoda, dijo públicamente que no estaba seguro de que el COI pusiera realmente a las personas primero.
 
 Aquí va lo incómodo: si la marca automotriz que más invirtió en el olimpismo concluyó que no le cuadraba, el patrocinio deportivo no es una apuesta segura por definición. Es una herramienta, y como toda herramienta, depende de para qué la uses.
 
