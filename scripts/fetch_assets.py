@@ -22,15 +22,19 @@ for f in glob.glob(str(ORIG / "*.html")):
     if "imagenes-libres" in f:
         continue
     t = html.unescape(open(f, encoding="utf-8").read())
-    for m in re.findall(r'(?:src|href|data-src|content)=["\']?((?:https?://(?:www\.)?fernandomartinez\.mx)?/(?:images|media/weTnwLzC8MAT47xS)/[^"\'\s>)]+)', t):
-        path = re.sub(r"^https?://(?:www\.)?fernandomartinez\.mx", "", m).split("?")[0]
+    for m in re.findall(r'(?:src|href|data-src|content)=["\']?((?:(?:https?:)?//(?:www\.)?fernandomartinez\.mx)?/?(?:images|media/weTnwLzC8MAT47xS)/[^"\'\s>)]+)', t):
+        path = "/" + re.sub(r"^(?:https?:)?//(?:www\.)?fernandomartinez\.mx", "", m).split("?")[0].lstrip("/")
         if re.search(r"\.(png|jpe?g|gif|webp|svg|pdf|zip)$", path, re.I) and "/phocadownload" not in path:
             refs.setdefault(path, set()).add(pathlib.Path(f).name)
 
 s = requests.Session()
 s.headers["User-Agent"] = "fm-migracion/1.0"
 manifest = {}
+done = json.loads((OUT / "manifest.json").read_text()) if (OUT / "manifest.json").exists() else {}
 for path in sorted(refs):
+    if done.get(path, {}).get("status") == 200 and (OUT / path.lstrip("/")).exists():
+        manifest[path] = done[path]
+        continue
     dest = OUT / path.lstrip("/")
     dest.parent.mkdir(parents=True, exist_ok=True)
     try:
