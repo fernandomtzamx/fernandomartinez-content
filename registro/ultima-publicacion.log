@@ -1,0 +1,14 @@
+fecha: 2026-10-13T22:34:19Z
+commit: cec14b99b0ba9007a21b6cb18989267b83528693
+evento: push
+resultado: success
+run: https://github.com/fernandomtzamx/fernandomartinez-content/actions/runs/38478660235
+---
+WP_URL: presente
+WP_USER: presente
+WP_APP_PASSWORD: presente
+Argumentos: content/pruebas/prueba-conexion.md 
+Endpoint: https://fernandomartinez.mx/dev/wp-json/ (HTTP 200)
+Métodos de autenticación anunciados: application-passwords
+Conectado como soporte (roles: administrator)
+content/pruebas/prueba-conexion.md: post creada (draft) id=6 https://www.fernandomartinez.mx/dev/?p=6
