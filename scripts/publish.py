@@ -224,6 +224,8 @@ def parse(path):
         extensions=["tables", "fenced_code", "sane_lists", "toc", "attr_list", "md_in_html"],
         extension_configs={"toc": {"toc_depth": "2-3", "title": "En esta entrada"}},
     )
+    # Las tablas van en un contenedor con scroll propio para que en celular no desborden la página.
+    html = re.sub(r"<table>(.*?)</table>", r'<div class="fm-tabla"><table>\1</table></div>', html, flags=re.S)
     if meta.get("layout", "article") == "article":
         css = (ROOT / "scripts" / "article.css").read_text(encoding="utf-8")
         footer = ""

@@ -4,7 +4,9 @@
 .fm-article a{color:var(--fm-cobalt);text-underline-offset:3px}
 .fm-article mark{background:linear-gradient(transparent 55%,#fbd3d5 55%);color:inherit;padding:0 .1em}
 .fm-article blockquote{border-left:4px solid var(--fm-cobalt);margin:1.8em 0;padding:.3em 0 .3em 1.3em;font-size:1.18em;font-weight:600;line-height:1.55}
-.fm-article table{width:100%;border-collapse:collapse;margin:1.2em 0 1.6em;font-size:.95em}
+.fm-tabla{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:1.2em 0 1.6em;max-width:100%}
+.fm-article table{width:100%;border-collapse:collapse;margin:0;font-size:.95em}
+@media (max-width:640px){.fm-article table{font-size:.85em}.fm-article th,.fm-article td{padding:.5em .6em}.fm-article th{white-space:normal;hyphens:auto}}
 .fm-article th{background:var(--fm-ink);color:#fff;text-align:left;padding:.65em .85em}
 .fm-article td{padding:.6em .85em;border-bottom:1px solid var(--fm-line);vertical-align:top}
 .fm-article .toc{background:var(--fm-paper);border:1px solid var(--fm-line);border-radius:12px;padding:1em 1.4em;margin:1.6em 0}
