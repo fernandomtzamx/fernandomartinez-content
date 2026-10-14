@@ -1,58 +1,58 @@
-# Verificación de https://www.fernandomartinez.mx/dev
+# Verificación de https://www.fernandomartinez.mx
 
 ## Páginas publicadas
 
 | Estado | URL | Archivo | Referidos |
 |---|---|---|---|
-| 200 | https://www.fernandomartinez.mx/dev/blog/entre-aportar-al-teleton-y-el-odio-a-televisa/ | content/blog/12-teleton.md |  |
-| 200 | https://www.fernandomartinez.mx/dev/blog/como-funciona-los-5-pilares-del-inbound-marketing/ | content/blog/13-5-pilares.md |  |
-| 200 | https://www.fernandomartinez.mx/dev/blog/que-es-el-inbound-marketing/ | content/blog/14-que-es-inbound.md |  |
-| 200 | https://www.fernandomartinez.mx/dev/blog/reducir-tiempo-carga-sitio-web-joomla/ | content/blog/15-joomla-velocidad.md |  |
-| 200 | https://www.fernandomartinez.mx/dev/blog/para-que-sirve-un-blog-en-mi-sitio-web/ | content/blog/16-blog.md |  |
-| 200 | https://www.fernandomartinez.mx/dev/blog/10-palabras-que-debes-quitar-de-tu-sitio-web-ya/ | content/blog/17-10-palabras.md |  |
-| 200 | https://www.fernandomartinez.mx/dev/blog/5-cosas-que-hace-la-gente-super-exitosa/ | content/blog/2-gente-exitosa.md |  |
-| 200 | https://www.fernandomartinez.mx/dev/blog/la-grave-desconexion-entre-el-reconocimiento-de-marca-y-las-ventas/ | content/blog/20-reconocimiento-marca.md |  |
-| 200 | https://www.fernandomartinez.mx/dev/blog/plantillas-administrador-joomla/ | content/blog/22-joomla-admin.md |  |
-| 200 | https://www.fernandomartinez.mx/dev/blog/inbound-marketing-audiencia-ideal/ | content/blog/24-h2h.md |  |
-| 200 | https://www.fernandomartinez.mx/dev/blog/que-es-el-internet-de-las-cosas-iot-internet-of-things/ | content/blog/26-iot.md |  |
-| 200 | https://www.fernandomartinez.mx/dev/blog/como-identificar-y-crear-mis-buyer-personas/ | content/blog/27-buyer-personas.md |  |
-| 200 | https://www.fernandomartinez.mx/dev/blog/como-enriquecer-tu-base-de-datos-de-clientes/ | content/blog/28-base-de-datos.md |  |
-| 200 | https://www.fernandomartinez.mx/dev/blog/los-consumidores-tienen-el-control/ | content/blog/29-consumidores.md |  |
-| 200 | https://www.fernandomartinez.mx/dev/blog/como-crear-un-plan-de-compensacion-para-tu-equipo-de-ventas/ | content/blog/3-compensacion.md |  |
-| 200 | https://www.fernandomartinez.mx/dev/blog/physical-web-el-nuevo-paso-para-los-negocios/ | content/blog/31-physical-web.md |  |
-| 200 | https://www.fernandomartinez.mx/dev/blog/deberias-ofrecer-wi-fi-gratis-en-tu-negocio/ | content/blog/32-wifi.md |  |
-| 200 | https://www.fernandomartinez.mx/dev/blog/el-uso-de-las-redes-sociales-lo-definen-los-usuarios/ | content/blog/33-redes-usuarios.md |  |
-| 200 | https://www.fernandomartinez.mx/dev/blog/5-ideas-para-fortalecer-tu-marketing-digital-en-redes-sociales/ | content/blog/34-redes-sociales.md |  |
-| 200 | https://www.fernandomartinez.mx/dev/blog/3-formas-de-hacer-marketing-digital-con-realidad-virtual/ | content/blog/35-realidad-virtual.md |  |
-| 200 | https://www.fernandomartinez.mx/dev/blog/por-que-deberias-considerar-el-inbound-marketing/ | content/blog/36-considerar-inbound.md |  |
-| 200 | https://www.fernandomartinez.mx/dev/blog/marketing-automotriz-en-los-juegos-olimpicos/ | content/blog/37-marketing-automotriz-olimpicos.md |  |
-| 200 | https://www.fernandomartinez.mx/dev/blog/como-aprovechar-instagram-stories-en-tu-marketing/ | content/blog/38-instagram-stories.md |  |
-| 200 | https://www.fernandomartinez.mx/dev/blog/como-abrir-una-tienda-en-linea-en-mexico-con-shopify/ | content/blog/39-shopify.md | 2/2 ok |
-| 200 | https://www.fernandomartinez.mx/dev/blog/5-datos-duros-para-considerar-implementar-un-chat/ | content/blog/40-chat.md |  |
-| 200 | https://www.fernandomartinez.mx/dev/blog/credito-automotriz-en-linea-disrupcion-venta-de-autos/ | content/blog/41-credito-automotriz.md |  |
-| 200 | https://www.fernandomartinez.mx/dev/blog/especialista-en-inbound-marketing-en-mexico/ | content/blog/42-especialista-inbound-mexico.md |  |
-| 200 | https://www.fernandomartinez.mx/dev/blog/experto-en-joomla-en-mexico/ | content/blog/43-experto-joomla-mexico.md |  |
-| 200 | https://www.fernandomartinez.mx/dev/blog/posicionamiento-web-seo-geo/ | content/blog/44-seo-geo.md |  |
-| 200 | https://www.fernandomartinez.mx/dev/blog/que-es-martech/ | content/blog/45-martech.md |  |
-| 200 | https://www.fernandomartinez.mx/dev/blog/activismo-con-hashtags/ | content/blog/5-activismo.md |  |
-| 200 | https://www.fernandomartinez.mx/dev/blog/crear-lealtad-a-tu-marca-no-se-logra-solo-con-comunicacion/ | content/blog/6-lealtad.md |  |
-| 200 | https://www.fernandomartinez.mx/dev/blog/manifiesto-de-marketing-digital-de-fernando-martinez/ | content/blog/7-manifiesto.md |  |
-| 200 | https://www.fernandomartinez.mx/dev/blog/en-contra-de-la-tolerancia/ | content/blog/9-tolerancia.md |  |
-| 200 | https://www.fernandomartinez.mx/dev/blog/ | content/paginas/blog.md |  |
-| 200 | https://www.fernandomartinez.mx/dev/como-te-ayudo/ | content/paginas/como-te-ayudo.md |  |
-| 200 | https://www.fernandomartinez.mx/dev/contacto/ | content/paginas/contacto.md |  |
-| 200 | https://www.fernandomartinez.mx/dev/gnu-general-public-license/ | content/paginas/gnu.md |  |
-| 200 | https://www.fernandomartinez.mx/dev/ | content/paginas/inicio.md |  |
-| 200 | https://www.fernandomartinez.mx/dev/programador-web-especialista-en-joomla-en-mexico/ | content/paginas/programador-joomla.md |  |
-| 200 | https://www.fernandomartinez.mx/dev/fernando-arturo-martinez-aguilar/ | content/paginas/sobre-mi.md |  |
-| 200 | https://www.fernandomartinez.mx/dev/recursos/25-cosas-que-hacer-en-la-web-para-tener-mas-trafico-y-clientes/ | content/recursos/25-cosas.md |  |
-| 200 | https://www.fernandomartinez.mx/dev/recursos/administration-brand-remover-joomla-plugin/ | content/recursos/brand-remover.md |  |
-| 200 | https://www.fernandomartinez.mx/dev/recursos/las-mejores-herramientas-de-seo-e-inbound-marketing/ | content/recursos/herramientas.md | 1/1 ok |
-| 200 | https://www.fernandomartinez.mx/dev/recursos/imagenes-libres-de-derechos-gratis/ | content/recursos/imagenes-libres.md |  |
-| 200 | https://www.fernandomartinez.mx/dev/recursos/ | content/recursos/recursos.md |  |
-| 200 | https://www.fernandomartinez.mx/dev/recursos/sumome-joomla-plugin/ | content/recursos/sumome.md |  |
-| 200 | https://www.fernandomartinez.mx/dev/recursos/twitter-summary-card-for-joomla-articles-plugin/ | content/recursos/twitter-summary-card.md |  |
-| 200 | https://www.fernandomartinez.mx/dev/recursos/website-preloader-joomla-plugin/ | content/recursos/website-preloader.md |  |
+| 200 | https://www.fernandomartinez.mx/blog/entre-aportar-al-teleton-y-el-odio-a-televisa/ | content/blog/12-teleton.md |  |
+| 200 | https://www.fernandomartinez.mx/blog/como-funciona-los-5-pilares-del-inbound-marketing/ | content/blog/13-5-pilares.md |  |
+| 200 | https://www.fernandomartinez.mx/blog/que-es-el-inbound-marketing/ | content/blog/14-que-es-inbound.md |  |
+| 200 | https://www.fernandomartinez.mx/blog/reducir-tiempo-carga-sitio-web-joomla/ | content/blog/15-joomla-velocidad.md |  |
+| 200 | https://www.fernandomartinez.mx/blog/para-que-sirve-un-blog-en-mi-sitio-web/ | content/blog/16-blog.md |  |
+| 200 | https://www.fernandomartinez.mx/blog/10-palabras-que-debes-quitar-de-tu-sitio-web-ya/ | content/blog/17-10-palabras.md |  |
+| 200 | https://www.fernandomartinez.mx/blog/5-cosas-que-hace-la-gente-super-exitosa/ | content/blog/2-gente-exitosa.md |  |
+| 200 | https://www.fernandomartinez.mx/blog/la-grave-desconexion-entre-el-reconocimiento-de-marca-y-las-ventas/ | content/blog/20-reconocimiento-marca.md |  |
+| 200 | https://www.fernandomartinez.mx/blog/plantillas-administrador-joomla/ | content/blog/22-joomla-admin.md |  |
+| 200 | https://www.fernandomartinez.mx/blog/inbound-marketing-audiencia-ideal/ | content/blog/24-h2h.md |  |
+| 200 | https://www.fernandomartinez.mx/blog/que-es-el-internet-de-las-cosas-iot-internet-of-things/ | content/blog/26-iot.md |  |
+| 200 | https://www.fernandomartinez.mx/blog/como-identificar-y-crear-mis-buyer-personas/ | content/blog/27-buyer-personas.md |  |
+| 200 | https://www.fernandomartinez.mx/blog/como-enriquecer-tu-base-de-datos-de-clientes/ | content/blog/28-base-de-datos.md |  |
+| 200 | https://www.fernandomartinez.mx/blog/los-consumidores-tienen-el-control/ | content/blog/29-consumidores.md |  |
+| 200 | https://www.fernandomartinez.mx/blog/como-crear-un-plan-de-compensacion-para-tu-equipo-de-ventas/ | content/blog/3-compensacion.md |  |
+| 200 | https://www.fernandomartinez.mx/blog/physical-web-el-nuevo-paso-para-los-negocios/ | content/blog/31-physical-web.md |  |
+| 200 | https://www.fernandomartinez.mx/blog/deberias-ofrecer-wi-fi-gratis-en-tu-negocio/ | content/blog/32-wifi.md |  |
+| 200 | https://www.fernandomartinez.mx/blog/el-uso-de-las-redes-sociales-lo-definen-los-usuarios/ | content/blog/33-redes-usuarios.md |  |
+| 200 | https://www.fernandomartinez.mx/blog/5-ideas-para-fortalecer-tu-marketing-digital-en-redes-sociales/ | content/blog/34-redes-sociales.md |  |
+| 200 | https://www.fernandomartinez.mx/blog/3-formas-de-hacer-marketing-digital-con-realidad-virtual/ | content/blog/35-realidad-virtual.md |  |
+| 200 | https://www.fernandomartinez.mx/blog/por-que-deberias-considerar-el-inbound-marketing/ | content/blog/36-considerar-inbound.md |  |
+| 200 | https://www.fernandomartinez.mx/blog/marketing-automotriz-en-los-juegos-olimpicos/ | content/blog/37-marketing-automotriz-olimpicos.md |  |
+| 200 | https://www.fernandomartinez.mx/blog/como-aprovechar-instagram-stories-en-tu-marketing/ | content/blog/38-instagram-stories.md |  |
+| 200 | https://www.fernandomartinez.mx/blog/como-abrir-una-tienda-en-linea-en-mexico-con-shopify/ | content/blog/39-shopify.md | 2/2 ok |
+| 200 | https://www.fernandomartinez.mx/blog/5-datos-duros-para-considerar-implementar-un-chat/ | content/blog/40-chat.md |  |
+| 200 | https://www.fernandomartinez.mx/blog/credito-automotriz-en-linea-disrupcion-venta-de-autos/ | content/blog/41-credito-automotriz.md |  |
+| 200 | https://www.fernandomartinez.mx/blog/especialista-en-inbound-marketing-en-mexico/ | content/blog/42-especialista-inbound-mexico.md |  |
+| 200 | https://www.fernandomartinez.mx/blog/experto-en-joomla-en-mexico/ | content/blog/43-experto-joomla-mexico.md |  |
+| 200 | https://www.fernandomartinez.mx/blog/posicionamiento-web-seo-geo/ | content/blog/44-seo-geo.md |  |
+| 200 | https://www.fernandomartinez.mx/blog/que-es-martech/ | content/blog/45-martech.md |  |
+| 200 | https://www.fernandomartinez.mx/blog/activismo-con-hashtags/ | content/blog/5-activismo.md |  |
+| 200 | https://www.fernandomartinez.mx/blog/crear-lealtad-a-tu-marca-no-se-logra-solo-con-comunicacion/ | content/blog/6-lealtad.md |  |
+| 200 | https://www.fernandomartinez.mx/blog/manifiesto-de-marketing-digital-de-fernando-martinez/ | content/blog/7-manifiesto.md |  |
+| 200 | https://www.fernandomartinez.mx/blog/en-contra-de-la-tolerancia/ | content/blog/9-tolerancia.md |  |
+| 200 | https://www.fernandomartinez.mx/blog/ | content/paginas/blog.md |  |
+| 200 | https://www.fernandomartinez.mx/como-te-ayudo/ | content/paginas/como-te-ayudo.md |  |
+| 200 | https://www.fernandomartinez.mx/contacto/ | content/paginas/contacto.md |  |
+| 200 | https://www.fernandomartinez.mx/gnu-general-public-license/ | content/paginas/gnu.md |  |
+| 200 | https://www.fernandomartinez.mx/ | content/paginas/inicio.md |  |
+| 200 | https://www.fernandomartinez.mx/programador-web-especialista-en-joomla-en-mexico/ | content/paginas/programador-joomla.md |  |
+| 200 | https://www.fernandomartinez.mx/fernando-arturo-martinez-aguilar/ | content/paginas/sobre-mi.md |  |
+| 200 | https://www.fernandomartinez.mx/recursos/25-cosas-que-hacer-en-la-web-para-tener-mas-trafico-y-clientes/ | content/recursos/25-cosas.md |  |
+| 200 | https://www.fernandomartinez.mx/recursos/administration-brand-remover-joomla-plugin/ | content/recursos/brand-remover.md |  |
+| 200 | https://www.fernandomartinez.mx/recursos/las-mejores-herramientas-de-seo-e-inbound-marketing/ | content/recursos/herramientas.md | 1/1 ok |
+| 200 | https://www.fernandomartinez.mx/recursos/imagenes-libres-de-derechos-gratis/ | content/recursos/imagenes-libres.md |  |
+| 200 | https://www.fernandomartinez.mx/recursos/ | content/recursos/recursos.md |  |
+| 200 | https://www.fernandomartinez.mx/recursos/sumome-joomla-plugin/ | content/recursos/sumome.md |  |
+| 200 | https://www.fernandomartinez.mx/recursos/twitter-summary-card-for-joomla-articles-plugin/ | content/recursos/twitter-summary-card.md |  |
+| 200 | https://www.fernandomartinez.mx/recursos/website-preloader-joomla-plugin/ | content/recursos/website-preloader.md |  |
 
 ## Enlaces externos
 
@@ -111,12 +111,12 @@
 | 403 ⚠ | https://openverse.org/es |  | content/recursos/imagenes-libres.md |
 | 200 | https://pagespeed.web.dev/ |  | content/blog/15-joomla-velocidad.md, content/recursos/25-cosas.md |
 | 403 ⚠ | https://pixabay.com/es/ |  | content/recursos/imagenes-libres.md |
-| 200 | https://postmaster.google.com/ | https://accounts.google.com/v3/signin/identifier?continue=https://postmaster.google.com/&followup=https://postmaster.google.com/&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S-217394159:1791944477955712 | content/recursos/herramientas.md |
+| 200 | https://postmaster.google.com/ | https://accounts.google.com/v3/signin/identifier?continue=https://postmaster.google.com/&followup=https://postmaster.google.com/&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S1006820993:1791993518727519 | content/recursos/herramientas.md |
 | 200 | https://pulse2.com/kavak-300-million-series-f/ |  | content/blog/41-credito-automotriz.md |
 | 200 | https://search.google.com/search-console/about |  | content/blog/44-seo-geo.md, content/recursos/25-cosas.md |
 | 403 ⚠ | https://searchengineland.com/ |  | content/recursos/herramientas.md |
 | 200 | https://segment.com/ | https://www.twilio.com/en-us/segment | content/recursos/herramientas.md |
-| 200 | https://shopify.pxf.io/prueba-gratis-shop | https://www.shopify.com/mx/prueba-gratis?irclickid=Sxu2UxQFdxyZTljS39VTSxclUkr1jYx%3AIVjXUU0&irgwc=1&partner=2878770&affpt=excluded&utm_channel=affiliates&utm_source=2878770-impact&utm_medium=cpa&iradid=1061744 | content/blog/39-shopify.md, content/recursos/herramientas.md |
+| 200 | https://shopify.pxf.io/prueba-gratis-shop | https://www.shopify.com/mx/prueba-gratis?irclickid=x7kTSJQCMxyZWtp0XUQP9wErUkr1nbW8RXOiyI0&irgwc=1&partner=2878770&affpt=excluded&utm_channel=affiliates&utm_source=2878770-impact&utm_medium=cpa&iradid=1061744 | content/blog/39-shopify.md, content/recursos/herramientas.md |
 | 200 | https://statcounter.com/ |  | content/recursos/herramientas.md |
 | 200 | https://thewrap.com/instagram-stories-just-passed-500-million-daily-users | https://www.thewrap.com/instagram-stories-just-passed-500-million-daily-users/ | content/blog/38-instagram-stories.md |
 | 403 ⚠ | https://unsplash.com/ |  | content/recursos/imagenes-libres.md |
