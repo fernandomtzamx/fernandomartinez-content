@@ -66,7 +66,7 @@ GEO viene de *Generative Engine Optimization*. Traducido a lo práctico: cada ve
 La buena noticia es que no hay que tirar el SEO a la basura. Lo que ayuda en GEO se parece mucho a lo que siempre funcionó: responder preguntas reales con claridad, que se note quién escribe, cifras con fuente y un sitio que los robots puedan leer sin sufrir.
 </div>
 
-Después de más de 400 clientes, mi opinión es sencilla: el que hizo bien su SEO ya lleva medio camino. Si te interesa el lado del consumidor, escribí sobre [cómo los consumidores ahora deciden con un asistente de IA al lado](/blog/los-consumidores-tienen-el-control/).
+Mi opinión, después de muchos años en esto: el que hizo bien su SEO ya lleva medio camino. Si te interesa el lado del consumidor, escribí sobre [cómo los consumidores ahora deciden con un asistente de IA al lado](/blog/los-consumidores-tienen-el-control/).
 
 ## Lo que pienso (y firmo)
 
@@ -106,7 +106,7 @@ Decide qué tecnología usa la empresa, cómo se conecta y quién la construye, 
 <details markdown="1">
 <summary>¿Solo trabajas en la industria automotriz?</summary>
 
-Hoy, como CTO, sí. Pero antes trabajé con empresas de muchas industrias (Pfizer, Bayer, Abbott y PwC entre ellas) y más de 400 clientes de SEO en Latinoamérica. Los problemas se parecen más de lo que uno creería.
+Hoy, como CTO, sí. Pero antes trabajé con empresas de muchas industrias (Pfizer, Bayer, Abbott y PwC entre ellas). Los problemas se parecen más de lo que uno creería.
 </details>
 
 <details markdown="1">
