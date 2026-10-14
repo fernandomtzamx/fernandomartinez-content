@@ -158,6 +158,7 @@ def main():
         el["heading"] = {"color": {"text": "var:preset|color|contrast"},
                          "typography": {"fontWeight": "800", "letterSpacing": "-0.02em", "lineHeight": "1.15"}}
         el["button"][":hover"] = {"color": {"background": "var:preset|color|contrast", "text": "var:preset|color|base"}}
+        styles.setdefault("typography", {})["fontWeight"] = "400"
         if cfg.get("layout"):
             settings.setdefault("layout", {}).update(cfg["layout"])
         styles["css"] = cfg.get("css", "")

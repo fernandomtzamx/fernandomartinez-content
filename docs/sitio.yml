@@ -98,6 +98,7 @@ css: |
   .wp-block-post-navigation-link .post-navigation-link__label{display:block;font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:var(--wp--preset--color--accent-4);font-weight:700;margin-bottom:.3em}
   .fm-kicker-llaves{font-weight:800;letter-spacing:.12em;text-transform:uppercase;font-size:.8rem;color:var(--wp--preset--color--accent-3)}
   .fm-footer a{text-decoration:none}
+  .fm-footer .fm-kicker-llaves{color:#ff9aa0}
   .fm-footer a:hover{color:var(--wp--preset--color--accent-3)!important}
   .wp-block-query-pagination a{text-decoration:none;font-weight:700}
 
