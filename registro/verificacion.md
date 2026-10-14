@@ -16,15 +16,15 @@
 | 200 | https://www.fernandomartinez.mx/dev/blog/inbound-marketing-audiencia-ideal/ | content/blog/24-h2h.md |  |
 | 200 | https://www.fernandomartinez.mx/dev/blog/que-es-el-internet-de-las-cosas-iot-internet-of-things/ | content/blog/26-iot.md |  |
 | 200 | https://www.fernandomartinez.mx/dev/blog/como-identificar-y-crear-mis-buyer-personas/ | content/blog/27-buyer-personas.md |  |
-| 200 | https://www.fernandomartinez.mx/dev/blog/como-enriquecer-mi-base-de-datos-de-clientes-para-mi-estrategia-de-marketing-digital/ | content/blog/28-base-de-datos.md |  |
+| 200 | https://www.fernandomartinez.mx/dev/blog/como-enriquecer-tu-base-de-datos-de-clientes/ | content/blog/28-base-de-datos.md |  |
 | 200 | https://www.fernandomartinez.mx/dev/blog/los-consumidores-tienen-el-control/ | content/blog/29-consumidores.md |  |
 | 200 | https://www.fernandomartinez.mx/dev/blog/como-crear-un-plan-de-compensacion-para-tu-equipo-de-ventas/ | content/blog/3-compensacion.md |  |
 | 200 | https://www.fernandomartinez.mx/dev/blog/physical-web-el-nuevo-paso-para-los-negocios/ | content/blog/31-physical-web.md |  |
 | 200 | https://www.fernandomartinez.mx/dev/blog/deberias-ofrecer-wi-fi-gratis-en-tu-negocio/ | content/blog/32-wifi.md |  |
-| 200 | https://www.fernandomartinez.mx/dev/blog/el-uso-de-la-redes-sociales-lo-definen-los-usuarios/ | content/blog/33-redes-usuarios.md |  |
+| 200 | https://www.fernandomartinez.mx/dev/blog/el-uso-de-las-redes-sociales-lo-definen-los-usuarios/ | content/blog/33-redes-usuarios.md |  |
 | 200 | https://www.fernandomartinez.mx/dev/blog/5-ideas-para-fortalecer-tu-marketing-digital-en-redes-sociales/ | content/blog/34-redes-sociales.md |  |
 | 200 | https://www.fernandomartinez.mx/dev/blog/3-formas-de-hacer-marketing-digital-con-realidad-virtual/ | content/blog/35-realidad-virtual.md |  |
-| 200 | https://www.fernandomartinez.mx/dev/blog/porque-deberias-considerar-el-inbound-marketing/ | content/blog/36-considerar-inbound.md |  |
+| 200 | https://www.fernandomartinez.mx/dev/blog/por-que-deberias-considerar-el-inbound-marketing/ | content/blog/36-considerar-inbound.md |  |
 | 200 | https://www.fernandomartinez.mx/dev/blog/marketing-automotriz-en-los-juegos-olimpicos/ | content/blog/37-marketing-automotriz-olimpicos.md |  |
 | 200 | https://www.fernandomartinez.mx/dev/blog/como-aprovechar-instagram-stories-en-tu-marketing/ | content/blog/38-instagram-stories.md |  |
 | 200 | https://www.fernandomartinez.mx/dev/blog/como-abrir-una-tienda-en-linea-en-mexico-con-shopify/ | content/blog/39-shopify.md | 2/2 ok |
@@ -111,12 +111,12 @@
 | 403 ⚠ | https://openverse.org/es |  | content/recursos/imagenes-libres.md |
 | 200 | https://pagespeed.web.dev/ |  | content/blog/15-joomla-velocidad.md, content/recursos/25-cosas.md |
 | 403 ⚠ | https://pixabay.com/es/ |  | content/recursos/imagenes-libres.md |
-| 200 | https://postmaster.google.com/ | https://accounts.google.com/v3/signin/identifier?continue=https://postmaster.google.com/&followup=https://postmaster.google.com/&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S-351856751:1791941825301599 | content/recursos/herramientas.md |
+| 200 | https://postmaster.google.com/ | https://accounts.google.com/v3/signin/identifier?continue=https://postmaster.google.com/&followup=https://postmaster.google.com/&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S-351856751:1791943079685814 | content/recursos/herramientas.md |
 | 200 | https://pulse2.com/kavak-300-million-series-f/ |  | content/blog/41-credito-automotriz.md |
 | 200 | https://search.google.com/search-console/about |  | content/blog/44-seo-geo.md, content/recursos/25-cosas.md |
 | 403 ⚠ | https://searchengineland.com/ |  | content/recursos/herramientas.md |
 | 200 | https://segment.com/ | https://www.twilio.com/en-us/segment | content/recursos/herramientas.md |
-| 200 | https://shopify.pxf.io/prueba-gratis-shop | https://www.shopify.com/mx/prueba-gratis?irclickid=QV0S9cQFKxyZU3ESCJ28Pwl%3AUkr1jJQ3yyFXTA0&irgwc=1&partner=2878770&affpt=excluded&utm_channel=affiliates&utm_source=2878770-impact&utm_medium=cpa&iradid=1061744 | content/blog/39-shopify.md, content/recursos/herramientas.md |
+| 200 | https://shopify.pxf.io/prueba-gratis-shop | https://www.shopify.com/mx/prueba-gratis?irclickid=W4V0zWQFexyZT6yVnD3bRRDkUkr1jPWsYT2WTE0&irgwc=1&partner=2878770&affpt=excluded&utm_channel=affiliates&utm_source=2878770-impact&utm_medium=cpa&iradid=1061744 | content/blog/39-shopify.md, content/recursos/herramientas.md |
 | 200 | https://statcounter.com/ |  | content/recursos/herramientas.md |
 | 200 | https://thewrap.com/instagram-stories-just-passed-500-million-daily-users | https://www.thewrap.com/instagram-stories-just-passed-500-million-daily-users/ | content/blog/38-instagram-stories.md |
 | 403 ⚠ | https://unsplash.com/ |  | content/recursos/imagenes-libres.md |
