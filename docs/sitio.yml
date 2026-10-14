@@ -135,6 +135,12 @@ paleta:
   accent-4: "#6E6E6C"    # gris medio: fechas, categorías, notas
   accent-5: "#F6F6F5"    # gris de sección
 
+# Medición. GTM se inserta en <head> y justo después de <body> con un fragmento
+# de Code Snippets ("fm: Google Tag Manager"). GA4 se configura dentro de GTM, no aquí.
+# Para quitarlo, deja gtm vacío.
+analitica:
+  gtm: "GTM-5PTRT2J"
+
 # Ejemplos de WordPress y pruebas: a la papelera (recuperables en wp-admin).
 borrar:
   - {id: 1, slug: hello-world, tipo: posts}

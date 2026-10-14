@@ -357,9 +357,75 @@ def main():
             wp.req("DELETE", f"{tipo}/{b['id']}")
             print(f"A la papelera: {tipo}/{b['id']} ({b['slug']})")
 
+    def analitica():
+        """Google Tag Manager en todas las páginas públicas, con un fragmento persistente de Code Snippets.
+        Script en <head> (prioridad 1) y noscript justo después de <body> (wp_body_open)."""
+        gtm = str((cfg.get("analitica") or {}).get("gtm") or "").strip()
+        nombre = "fm: Google Tag Manager"
+
+        def cs(method, route, **kw):
+            r = wp.s.request(method, f"{root}/code-snippets/v1/{route}", timeout=30, **kw)
+            if r.status_code >= 400:
+                raise RuntimeError(f"{method} code-snippets/{route} -> {r.status_code}: {r.text[:300]}")
+            return r.json()
+
+        try:
+            plugin = wp.req("GET", "plugins/code-snippets/code-snippets")
+        except RuntimeError:
+            plugin = None
+        if not plugin:
+            if not gtm:
+                print("Analítica: sin GTM configurado y sin Code Snippets; nada que hacer")
+                return
+            wp.req("POST", "plugins", json={"slug": "code-snippets", "status": "active"})
+            print("Analítica: Code Snippets instalado y activo")
+        elif plugin.get("status") != "active":
+            wp.req("POST", "plugins/code-snippets/code-snippets", json={"status": "active"})
+            print("Analítica: Code Snippets activado")
+
+        actuales = [x for x in cs("GET", "snippets") if x.get("name") == nombre]
+        if not gtm:
+            for x in actuales:
+                cs("DELETE", f"snippets/{x['id']}")
+            print(f"Analítica: GTM desactivado ({len(actuales)} fragmento(s) borrado(s))")
+            return
+        if not re.fullmatch(r"GTM-[A-Z0-9]+", gtm):
+            raise ValueError(f"ID de GTM inválido: {gtm!r}")
+
+        code = f"""add_action( 'wp_head', function () {{
+	echo "<!-- Google Tag Manager -->\\n<script>(function(w,d,s,l,i){{w[l]=w[l]||[];w[l].push({{'gtm.start':new Date().getTime(),event:'gtm.js'}});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);}})(window,document,'script','dataLayer','{gtm}');</script>\\n<!-- End Google Tag Manager -->\\n";
+}}, 1 );
+add_action( 'wp_body_open', function () {{
+	echo '<!-- Google Tag Manager (noscript) --><noscript><iframe src="https://www.googletagmanager.com/ns.html?id={gtm}" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><!-- End Google Tag Manager (noscript) -->';
+}}, 1 );"""
+        datos = {"name": nombre, "code": code, "scope": "front-end", "active": True,
+                 "desc": "Lo administra scripts/site_setup.py (docs/sitio.yml > analitica). No editar a mano."}
+        if actuales:
+            x = actuales[0]
+            for extra in actuales[1:]:
+                cs("DELETE", f"snippets/{extra['id']}")
+            if x.get("code", "").strip() != code.strip() or x.get("scope") != "front-end":
+                x = cs("POST", f"snippets/{x['id']}", json=datos)
+                print(f"Analítica: fragmento {x.get('id')} actualizado")
+        else:
+            x = cs("POST", "snippets", json=datos)
+            print(f"Analítica: fragmento {x.get('id')} creado")
+        if not x.get("active"):
+            cs("POST", f"snippets/{x['id']}/activate")
+        print(f"Analítica: {gtm} activo en el sitio")
+
+        import requests
+        html_home = requests.get(wp.home + "/", params={"fm_nc": "gtm"}, timeout=30,
+                                 headers={"User-Agent": "Mozilla/5.0 (compatible; fm-agente/1.0)",
+                                          "Cache-Control": "no-cache"}).text
+        cabeza, _, cuerpo = html_home.partition("</head>")
+        en_head = f"gtm.js?id='+i+dl" in cabeza and gtm in cabeza
+        en_body = f"ns.html?id={gtm}" in cuerpo
+        print(f"Analítica: verificación portada -> script en head: {'sí' if en_head else 'NO'} | noscript en body: {'sí' if en_body else 'NO'}")
+
     for name, fn in [("ajustes", ajustes), ("autor", autor), ("categorías", categorias), ("marca", marca),
                      ("menú", menu), ("encabezado", encabezado), ("estilos", estilos), ("plantillas", plantillas),
-                     ("entrada", entrada), ("pie", pie), ("borrar", borrar)]:
+                     ("entrada", entrada), ("pie", pie), ("analítica", analitica), ("borrar", borrar)]:
         step(name, fn, errors)
     if errors:
         sys.exit(f"{len(errors)} paso(s) con error: {', '.join(errors)}")
