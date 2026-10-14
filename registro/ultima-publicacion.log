@@ -1,8 +1,8 @@
-fecha: 2026-10-14T21:25:50Z
-commit: a26f982b42f89f731c30a6fb742bf0ff4428b4ca
+fecha: 2026-10-14T21:28:19Z
+commit: 9513d4bf1494f0247a0236676e970087927f1c47
 evento: push
 publicar: success | setup: skipped | verificar: failure
-run: https://github.com/fernandomtzamx/fernandomartinez-content/actions/runs/38640071026
+run: https://github.com/fernandomtzamx/fernandomartinez-content/actions/runs/38640317015
 ---
 WP_URL: presente
 WP_USER: presente
@@ -69,29 +69,29 @@ ok    content/recursos/website-preloader.md: 222 palabras, 1 fuentes
 Endpoint: https://fernandomartinez.mx/wp-json/ (HTTP 200)
 Métodos de autenticación anunciados: application-passwords
 Conectado como soporte (roles: administrator)
-  + imagen subida: shopify-precios-mexico.jpg (id 517)
-  + imagen subida: shopify-registro-prueba-gratis.jpg (id 518)
-  + imagen subida: shopify-cuestionario-inicial.jpg (id 519)
-  + imagen subida: shopify-panel-recien-creado.jpg (id 520)
-  + imagen subida: shopify-configuracion-dominios.jpg (id 521)
-  + imagen subida: shopify-agregar-producto.jpg (id 522)
-  + imagen subida: shopify-coleccion-automatica.jpg (id 523)
-  + imagen subida: shopify-tienda-de-temas-gratis.jpg (id 524)
-  + imagen subida: shopify-configuracion-pagos.jpg (id 525)
-  + imagen subida: shopify-zonas-de-envio-mexico.jpg (id 526)
-  + imagen subida: shopify-pedido-de-prueba-pagado.jpg (id 527)
-  + imagen subida: shopify-canales-de-venta.jpg (id 528)
-  + imagen subida: shopify-eventos-del-cliente-pixeles.jpg (id 529)
+  = imagen reutilizada: shopify-precios-mexico (id 517)
+  = imagen reutilizada: shopify-registro-prueba-gratis (id 518)
+  = imagen reutilizada: shopify-cuestionario-inicial (id 519)
+  = imagen reutilizada: shopify-panel-recien-creado (id 520)
+  = imagen reutilizada: shopify-configuracion-dominios (id 521)
+  = imagen reutilizada: shopify-agregar-producto (id 522)
+  = imagen reutilizada: shopify-coleccion-automatica (id 523)
+  = imagen reutilizada: shopify-tienda-de-temas-gratis (id 524)
+  = imagen reutilizada: shopify-configuracion-pagos (id 525)
+  = imagen reutilizada: shopify-zonas-de-envio-mexico (id 526)
+  = imagen reutilizada: shopify-pedido-de-prueba-pagado (id 527)
+  = imagen reutilizada: shopify-canales-de-venta (id 528)
+  = imagen reutilizada: shopify-eventos-del-cliente-pixeles (id 529)
   = imagen reutilizada: guia-definitiva-shopify-principiantes-mexico-2026 (id 515)
-content/blog/46-guia-shopify.md: post actualizada (draft) id=516 https://www.fernandomartinez.mx/?p=516
+content/blog/46-guia-shopify.md: post actualizada (publish) id=516 https://www.fernandomartinez.mx/blog/guia-definitiva-shopify-principiantes-mexico-2026/
 
 - Imágenes que no tenían alt y se corrigieron: **0**
 
 ## HTML publicado
 
 - Páginas revisadas: **61**
-- Imágenes revisadas: **373**
+- Imágenes revisadas: **395**
 - Sin alt: **0**
 ## Páginas publicadas
 
-Problemas en páginas o referidos: 4. Externos con error: 23
+Problemas en páginas o referidos: 3. Externos con error: 23
