@@ -22,7 +22,7 @@ Es larga a propósito. Está pensada para leerse por partes, con el índice de a
 
 - Antes de abrir una tienda, vende a diez personas por WhatsApp. Si no puedes, la plataforma no es tu problema.
 - Shopify es la mejor opción para empezar en México en 2026 porque resuelve tienda, pagos locales (tarjeta, meses sin intereses, OXXO), envíos y canales de venta sin que programes nada. No es la más barata ni la más flexible: es la que menos se rompe.
-- Cuesta 19 dólares al mes en el plan Basic (14 con pago anual), más 3.5% y 3 pesos por cada venta con tarjeta. La prueba gratis dura 3 días y después hay promoción de 1 dólar al mes por 3 meses.
+- Cuesta 19 dólares al mes en el plan Basic (17 con pago anual), más 3.5% y 3 pesos por cada venta con tarjeta. La prueba gratis dura 3 días y después hay promoción de 1 dólar al mes por 3 meses.
 - Para cobrar con Shopify Payments necesitas RFC y una cuenta bancaria mexicana con SPEI. Sin eso, usas PayPal o Mercado Pago y pagas 2% extra por transacción en el plan Basic.
 - Las primeras ventas casi nunca llegan de Google. Llegan de tu red, de WhatsApp, de Instagram y de anuncios pequeños bien medidos. El SEO y el GEO son la apuesta a seis meses.
 - Hay un plan de 30 días al final de la guía. Síguelo.
@@ -145,12 +145,12 @@ Esto es lo que publica la [página de precios de Shopify México](https://shopif
 
 | Plan | Pago mensual (USD/mes) | Pago anual (USD/mes) | Tarjeta en línea con Shopify Payments | Comisión extra si usas otra pasarela |
 |---|---|---|---|---|
-| Basic | 19 | 14 | 3.5% + 3 MXN | 2% |
-| Grow | 52 | 39 | 3.4% + 3 MXN | 1% |
-| Advanced | 399 | 299 | 3.3% + 3 MXN | 0.6% |
+| Basic | 19 | 17 | 3.5% + 3 MXN | 2% |
+| Grow | 52 | 47 | 3.4% + 3 MXN | 1% |
+| Advanced | 399 | 359 | 3.3% + 3 MXN | 0.6% |
 | Plus | desde 2,300 | contratos de 1 a 3 años | 3.1% + 3 MXN | 0.2% |
 
-<figure class="fm-captura fm-pendiente"><div class="fm-captura-marcador">Captura pendiente: Página de precios de Shopify México con los cuatro planes y el selector de pago mensual o anual</div><figcaption>La página de precios de Shopify para México, con los planes en dólares y las comisiones de tarjeta en pesos.</figcaption></figure>
+<figure class="fm-captura"><img src="images/shopify-precios-mexico.jpg" alt="Página de precios de Shopify México con los planes Basic, Grow, Advanced y Plus y el selector de pago anual" width="800" height="581" loading="lazy"><figcaption>La página de precios de Shopify para México, con los planes en dólares y las comisiones de tarjeta en pesos.</figcaption></figure>
 
 ### Qué plan elegir si estás empezando
 
@@ -197,7 +197,7 @@ Lo que quiero que veas: la suscripción es el renglón que menos pesa. Los anunc
 Este es el momento en que mucha gente abre quince pestañas, mira cuarenta videos y no se registra nunca. Vamos a hacerlo al revés: primero la cuenta, luego las dudas.
 
 <div class="fm-pasos" markdown="1">
-1. **Abre la página de registro.** Entra a [Shopify desde este enlace](https://shopify.pxf.io/prueba-gratis-shop?subId1=blog&subId2=guia-definitiva-shopify-principiantes-mexico-2026&subId3=registro) y pulsa el botón para iniciar la prueba gratis. No pide tarjeta.
+1. **Abre la página de registro.** Entra a [Shopify desde este enlace](https://shopify.pxf.io/prueba-gratis-shop?subId1=blog&subId2=guia-definitiva-shopify-principiantes-mexico-2026&subId3=registro) y pulsa el botón para iniciar la prueba gratis. Si te pide tarjeta, puedes saltar ese paso con el botón "Skip"; la prueba de 3 días no la necesita.
 2. **Escribe tu correo.** Usa uno que revises a diario y que no sea el del trabajo actual. Con ese correo vas a recibir pedidos, avisos de pagos y alertas. Shopify te deja crear la cuenta con Google o Apple también; cualquiera sirve, pero anota con cuál entraste, porque el soporte te lo va a preguntar algún día.
 3. **Contesta el cuestionario inicial.** Shopify pregunta qué vas a vender, dónde, si ya vendes en otro lado y en qué etapa estás. No es un examen. Sirve para configurarte el panel; puedes cambiar todo después. Mi recomendación: contesta con la verdad, porque con esas respuestas te sugiere apps y configuraciones que sí te van a servir.
 4. **Elige el nombre de la tienda.** Esto crea tu dirección temporal, algo como `tu-tienda.myshopify.com`. Esa dirección no la verán tus clientes si conectas un dominio propio (lo hacemos más adelante), así que no te trabes aquí. Ojo: el nombre de la tienda sí se puede cambiar; el subdominio myshopify se puede cambiar una sola vez. Escríbelo sin acentos ni espacios.
@@ -205,9 +205,9 @@ Este es el momento en que mucha gente abre quince pestañas, mira cuarenta video
 6. **Espera a que se cree la tienda.** Tarda unos segundos. Cuando termine, estás en el panel de administración. Felicidades: ya tienes una tienda. Vacía, fea y con contraseña, pero tienda.
 </div>
 
-<figure class="fm-captura fm-pendiente"><div class="fm-captura-marcador">Captura pendiente: Pantalla de registro de Shopify con el campo de correo y el botón de iniciar la prueba gratis</div><figcaption>El registro no pide tarjeta. Solo correo y unas preguntas sobre lo que vas a vender.</figcaption></figure>
+<figure class="fm-captura"><img src="images/shopify-registro-prueba-gratis.jpg" alt="Pantalla de registro de Shopify México con el campo de correo electrónico y el botón de comenzar gratis" width="800" height="588" loading="lazy"><figcaption>El registro empieza con tu correo. Hay un paso de tarjeta, pero se puede omitir con el botón "Skip".</figcaption></figure>
 
-<figure class="fm-captura fm-pendiente"><div class="fm-captura-marcador">Captura pendiente: Cuestionario inicial de Shopify preguntando qué vas a vender y en dónde</div><figcaption>El cuestionario inicial ajusta el panel a tu caso. Contesta con la verdad.</figcaption></figure>
+<figure class="fm-captura"><img src="images/shopify-cuestionario-inicial.jpg" alt="Cuestionario inicial de Shopify preguntando si vas a vender en línea, en tienda física, por dropshipping o productos digitales" width="800" height="581" loading="lazy"><figcaption>El cuestionario inicial ajusta el panel a tu caso (aparece en inglés si tu navegador está en inglés). Contesta con la verdad.</figcaption></figure>
 
 ### Un recorrido por el panel (para que no te pierdas)
 
@@ -223,7 +223,7 @@ El panel de Shopify tiene un menú a la izquierda que vas a aprender de memoria 
 - **Tienda online** (dentro de Canales de venta). Tema, navegación, páginas, dominio y preferencias de SEO.
 - **Configuración** (abajo a la izquierda). Todo lo que da miedo: pagos, envíos, impuestos, checkout, notificaciones. Lo recorremos sección por sección en esta guía.
 
-<figure class="fm-captura fm-pendiente"><div class="fm-captura-marcador">Captura pendiente: Panel de administración de Shopify recién creado con la lista de tareas de configuración en la página de inicio</div><figcaption>El panel recién creado. La lista de tareas de la página de inicio es tu mejor amiga la primera semana.</figcaption></figure>
+<figure class="fm-captura"><img src="images/shopify-panel-recien-creado.jpg" alt="Panel de administración de Shopify recién creado con las tarjetas de agregar producto, elegir tema, aceptar pagos y dominio en la página de inicio" width="800" height="581" loading="lazy"><figcaption>El panel recién creado. La lista de tareas de la página de inicio es tu mejor amiga la primera semana.</figcaption></figure>
 
 Y arriba, una lupa con el buscador, que acepta preguntas en lenguaje natural. Ese buscador es la puerta de Sidekick.
 
@@ -269,7 +269,7 @@ Tu tienda vive en `algo.myshopify.com`. Funciona, pero nadie compra en una direc
 
 <figure class="fm-video"><iframe src="https://www.youtube-nocookie.com/embed/te3RccRu_j8" title="Cómo comprar un dominio personalizado en Shopify, del canal oficial Shopify en Español" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><figcaption>Cómo comprar un dominio personalizado en Shopify, del canal oficial Shopify en Español.</figcaption></figure>
 
-<figure class="fm-captura fm-pendiente"><div class="fm-captura-marcador">Captura pendiente: Pantalla de Configuración > Dominios en Shopify mostrando el dominio myshopify y el botón para comprar o conectar un dominio</div><figcaption>Aquí conectas o compras tu dominio. Hazlo la primera semana.</figcaption></figure>
+<figure class="fm-captura"><img src="images/shopify-configuracion-dominios.jpg" alt="Configuración > Dominios en Shopify mostrando el dominio myshopify.com conectado y los botones para conectar, transferir o comprar un dominio" width="800" height="581" loading="lazy"><figcaption>Aquí conectas o compras tu dominio. Hazlo la primera semana.</figcaption></figure>
 
 **¿.com, .mx o .com.mx?** Para una tienda que vende en México, cualquiera de los tres funciona para SEO; Google entiende el país por el idioma, la moneda y la configuración de Search Console. Mi orden de preferencia: .com si está libre (es el que la gente escribe por reflejo), después .mx (corto, claro, mexicano) y al final .com.mx (largo, pero nadie lo confunde). Lo que sí evitaría: extensiones raras tipo .shop o .store para la tienda principal. Funcionan, pero la gente las olvida.
 
@@ -316,7 +316,7 @@ Lo que evito: adjetivos sin información ("increíble", "de alta calidad", "úni
 
 Sidekick y Magic pueden redactar un borrador de descripción a partir del título y unas palabras clave. Úsalo como punto de partida y reescríbelo con tu voz y con los datos reales. Una descripción generada sin editar suena a descripción generada sin editar.
 
-<figure class="fm-captura fm-pendiente"><div class="fm-captura-marcador">Captura pendiente: Formulario de agregar producto en Shopify con los campos de título, descripción, medios, precio y variantes</div><figcaption>La ficha de producto. Título claro, fotos limpias y una descripción que responda dudas.</figcaption></figure>
+<figure class="fm-captura"><img src="images/shopify-agregar-producto.jpg" alt="Formulario de agregar producto en Shopify con los campos de título, descripción, multimedia, categoría, precio y organización del producto" width="800" height="581" loading="lazy"><figcaption>La ficha de producto. Título claro, fotos limpias y una descripción que responda dudas.</figcaption></figure>
 
 ### Precio, precio de comparación y costo
 
@@ -357,7 +357,7 @@ Las colecciones son los pasillos de tu tienda: "Blusas", "Novedades", "Menos de 
 
 Cada colección tiene su propia página con título, descripción, imagen y ficha de SEO. Esas páginas de colección son, de hecho, las que mejor posicionan en Google para búsquedas genéricas ("blusas de lino"), así que escríbeles una descripción de verdad, no de dos líneas.
 
-<figure class="fm-captura fm-pendiente"><div class="fm-captura-marcador">Captura pendiente: Pantalla de creación de una colección automática en Shopify con las condiciones de etiqueta y precio</div><figcaption>Una colección automática. Defines las reglas una vez y se llena sola.</figcaption></figure>
+<figure class="fm-captura"><img src="images/shopify-coleccion-automatica.jpg" alt="Creación de una colección en Shopify con dos condiciones automáticas: etiqueta y precio" width="800" height="581" loading="lazy"><figcaption>Una colección automática. Defines las reglas una vez y se llena sola.</figcaption></figure>
 
 ### Importar productos en lote
 
@@ -383,7 +383,7 @@ Dawn sigue ahí, sigue siendo sólido y hay más tutoriales sobre él que sobre 
 
 El criterio sencillo: entra a la tienda de temas, filtra por gratuitos, abre la demo en tu celular (no en la computadora) y elige el que se parezca a lo que quieres. Luego cámbiale colores, tipografía y fotos. En tres horas tienes algo digno.
 
-<figure class="fm-captura fm-pendiente"><div class="fm-captura-marcador">Captura pendiente: Tienda de temas de Shopify filtrada por temas gratuitos mostrando Horizon, Dawn y Sense</div><figcaption>Los temas gratuitos de Shopify. Elige con el celular en la mano, no en la computadora.</figcaption></figure>
+<figure class="fm-captura"><img src="images/shopify-tienda-de-temas-gratis.jpg" alt="Tienda de temas de Shopify filtrada por temas gratuitos, con 24 resultados y los filtros de precio y sector" width="800" height="581" loading="lazy"><figcaption>Los 24 temas gratuitos de Shopify. Elige con el celular en la mano, no en la computadora.</figcaption></figure>
 
 ### Personalizar sin tocar código
 
@@ -459,7 +459,7 @@ Lo que acepta, según la [página oficial de métodos de pago para México](http
 
 Lo que no acepta directamente: SPEI como método de cobro (aparece solo como requisito de tu cuenta bancaria para recibir depósitos), PayPal y Mercado Pago (esos van como proveedores externos, abajo).
 
-<figure class="fm-captura fm-pendiente"><div class="fm-captura-marcador">Captura pendiente: Pantalla de Configuración > Pagos en Shopify con el botón para activar Shopify Payments y la lista de métodos de pago disponibles para México</div><figcaption>Configuración > Pagos. Shopify Payments es lo primero que activas; PayPal y Mercado Pago van como adicionales.</figcaption></figure>
+<figure class="fm-captura"><img src="images/shopify-configuracion-pagos.jpg" alt="Configuración > Pagos en Shopify con la tarjeta de Shopify Payments, el botón de completar configuración y PayPal como forma de pago adicional" width="800" height="581" loading="lazy"><figcaption>Configuración > Pagos. Shopify Payments es lo primero que activas; PayPal y Mercado Pago van como adicionales.</figcaption></figure>
 
 ### Requisitos para activar Shopify Payments en México
 
@@ -535,7 +535,7 @@ Configuración > Envíos y entregas. Tres conceptos:
 
 Los **perfiles de envío** permiten tarifas distintas por producto (un producto voluminoso cobra más). Al inicio, un solo perfil general.
 
-<figure class="fm-captura fm-pendiente"><div class="fm-captura-marcador">Captura pendiente: Configuración de envíos en Shopify mostrando la zona México con tarifas por peso y la opción de envío gratis a partir de cierto monto</div><figcaption>La zona "México" con tarifas por peso y envío gratis a partir de un monto. Simple y suficiente para empezar.</figcaption></figure>
+<figure class="fm-captura"><img src="images/shopify-zonas-de-envio-mexico.jpg" alt="Perfil general de envío en Shopify con la zona México y dos tarifas por peso" width="800" height="581" loading="lazy"><figcaption>La zona "México" con tarifas por rango de peso. Agrega una tarifa gratis a partir de un monto y es suficiente para empezar.</figcaption></figure>
 
 ### Shopify Shipping en México: lo que no está confirmado
 
@@ -684,7 +684,7 @@ Antes de lanzar, haz una compra completa como si fueras cliente, en tu celular, 
 
 Si algo falla, lo arreglas ahora, no cuando un cliente real te escriba enojado. Borra los pedidos de prueba después para no ensuciar las analíticas.
 
-<figure class="fm-captura fm-pendiente"><div class="fm-captura-marcador">Captura pendiente: Pedido de prueba en el panel de Shopify mostrando el estado pagado y el botón de preparar pedido</div><figcaption>Un pedido de prueba completo. Si esto funciona, la tienda funciona.</figcaption></figure>
+<figure class="fm-captura"><img src="images/shopify-pedido-de-prueba-pagado.jpg" alt="Pedido de prueba número 1001 en Shopify con estado pagado, no preparado, y el botón de marcar como preparado" width="800" height="581" loading="lazy"><figcaption>Un pedido de prueba completo. Si esto funciona, la tienda funciona.</figcaption></figure>
 
 ### Lista final antes de quitar la contraseña
 
@@ -950,7 +950,7 @@ En Canales de venta, Shopify conecta las redes para que tu catálogo aparezca en
 - **[Google y YouTube](https://shopify.pxf.io/prueba-gratis-shop?u=https%3A%2F%2Fapps.shopify.com%2Fgoogle&subId1=blog&subId2=guia-definitiva-shopify-principiantes-mexico-2026&subId3=google-app).** Sube el catálogo a Google Merchant Center para fichas gratuitas en Shopping y para anuncios. Lo cubro en la sección de publicidad.
 - **Pinterest.** Aparece en la [colección de apps para México](https://shopify.pxf.io/prueba-gratis-shop?u=https%3A%2F%2Fapps.shopify.com%2Fcollections%2Fapps-for-mexico&subId1=blog&subId2=guia-definitiva-shopify-principiantes-mexico-2026&subId3=apps-mexico). Sincroniza el catálogo como pines de producto.
 
-<figure class="fm-captura fm-pendiente"><div class="fm-captura-marcador">Captura pendiente: Sección de canales de venta en Shopify mostrando Facebook e Instagram, Google y YouTube y TikTok conectados</div><figcaption>Los canales de venta se conectan desde el panel y sincronizan el catálogo.</figcaption></figure>
+<figure class="fm-captura"><img src="images/shopify-canales-de-venta.jpg" alt="Selector de canales de venta de Shopify con Tienda online instalada y Google y YouTube, Facebook e Instagram y Point of Sale como recomendados" width="800" height="581" loading="lazy"><figcaption>Los canales de venta se agregan desde el panel y sincronizan el catálogo: Google y YouTube, Facebook e Instagram, TikTok y más.</figcaption></figure>
 
 ### Qué publicar cuando no tienes nada que publicar
 
@@ -999,7 +999,7 @@ Antes de gastar un peso:
 
 Y una verificación obligatoria: haz un pedido de prueba y comprueba en cada herramienta que la compra se registró con el monto correcto. Un píxel mal instalado reporta el doble de ventas o ninguna, y tomas decisiones con datos falsos.
 
-<figure class="fm-captura fm-pendiente"><div class="fm-captura-marcador">Captura pendiente: Pantalla de Configuración > Compartir datos de clientes en Shopify con los píxeles de Meta y Google configurados</div><figcaption>Compartir datos de clientes: aquí viven los píxeles. Verifica cada uno con un pedido de prueba.</figcaption></figure>
+<figure class="fm-captura"><img src="images/shopify-eventos-del-cliente-pixeles.jpg" alt="Configuración > Eventos del cliente en Shopify, la pantalla donde se agregan los píxeles personalizados y las apps de píxeles" width="800" height="581" loading="lazy"><figcaption>Configuración > Eventos del cliente: aquí viven los píxeles de Meta, Google y TikTok. Verifica cada uno con un pedido de prueba.</figcaption></figure>
 
 ### Meta Ads: por dónde empezar
 
@@ -1263,7 +1263,7 @@ Las que más me hacen por correo, en conferencias y en los comentarios. Respuest
 <details markdown="1">
 <summary>¿Cuánto cuesta Shopify en México en 2026?</summary>
 
-El plan Basic cuesta 19 dólares al mes con pago mensual o 14 con pago anual, más 3.5% y 3 pesos por cada venta con tarjeta a través de Shopify Payments. Hay 3 días de prueba gratis y después 1 dólar al mes durante 3 meses. Los planes Grow (52 USD) y Advanced (399 USD) son para tiendas con volumen. Todo se cobra en dólares.
+El plan Basic cuesta 19 dólares al mes con pago mensual o 17 con pago anual, más 3.5% y 3 pesos por cada venta con tarjeta a través de Shopify Payments. Hay 3 días de prueba gratis y después 1 dólar al mes durante 3 meses. Los planes Grow (52 USD) y Advanced (399 USD) son para tiendas con volumen. Todo se cobra en dólares.
 </details>
 <details markdown="1">
 <summary>¿Shopify cobra en pesos mexicanos?</summary>
