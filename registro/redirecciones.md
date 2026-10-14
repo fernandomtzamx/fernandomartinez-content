@@ -1,9 +1,9 @@
 # Prueba de redirecciones: Apache local con migracion/redirecciones.htaccess, destinos en https://www.fernandomartinez.mx
 
 - URLs viejas probadas: **951**
-- Correctas (301 a una página que responde 200, o URL que se conserva igual): **950**
+- Correctas (301 a una página que responde 200, o URL que se conserva igual): **948**
 - Para revisar: **1**
-- Sin equivalente o con error: **0**
+- Sin equivalente o con error: **2**
 
 ## Sitemaps del sitio actual
 
@@ -28,6 +28,8 @@
 
 | Estado | URL vieja | Origen | Destino | Detalle |
 |---|---|---|---|---|
+| ERROR | /tema/extensiones/ | sitemap | /tema/extensiones/ | Response ended prematurely |
+| ERROR | /tema/shopify// | variante con diagonal | /tema/shopify// | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without |
 | REVISAR | /index.php | variante index.php | /index.php | WordPress además redirige a / |
 
 ## Todas
@@ -769,7 +771,7 @@
 | ok | /tema/experiencia-del-cliente// | variante con diagonal | 0 | /tema/experiencia-del-cliente// |
 | ok | /tema/experto-en-joomla/ | sitemap | 0 | /tema/experto-en-joomla/ |
 | ok | /tema/experto-en-joomla// | variante con diagonal | 0 | /tema/experto-en-joomla// |
-| ok | /tema/extensiones/ | sitemap | 0 | /tema/extensiones/ |
+| ERROR | /tema/extensiones/ | sitemap | 0 | /tema/extensiones/ |
 | ok | /tema/extensiones// | variante con diagonal | 0 | /tema/extensiones// |
 | ok | /tema/facebook/ | sitemap | 0 | /tema/facebook/ |
 | ok | /tema/facebook// | variante con diagonal | 0 | /tema/facebook// |
@@ -896,7 +898,7 @@
 | ok | /tema/seo/ | sitemap | 0 | /tema/seo/ |
 | ok | /tema/seo// | variante con diagonal | 0 | /tema/seo// |
 | ok | /tema/shopify/ | sitemap | 0 | /tema/shopify/ |
-| ok | /tema/shopify// | variante con diagonal | 0 | /tema/shopify// |
+| ERROR | /tema/shopify// | variante con diagonal | 0 | /tema/shopify// |
 | ok | /tema/sitio-web/ | sitemap | 0 | /tema/sitio-web/ |
 | ok | /tema/sitio-web// | variante con diagonal | 0 | /tema/sitio-web// |
 | ok | /tema/stack-tecnologico/ | sitemap | 0 | /tema/stack-tecnologico/ |
