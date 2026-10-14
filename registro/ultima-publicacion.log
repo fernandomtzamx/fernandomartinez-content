@@ -1,8 +1,8 @@
-fecha: 2026-10-14T00:53:10Z
-commit: e12a3a1676618e5d5bac56251619dc74f129a03b
+fecha: 2026-10-14T00:54:59Z
+commit: cfd88fc86544ff2ebb596aeec3f64161a032b15c
 evento: push
 publicar: success | setup: skipped | verificar: success
-run: https://github.com/fernandomtzamx/fernandomartinez-content/actions/runs/38492625565
+run: https://github.com/fernandomtzamx/fernandomartinez-content/actions/runs/38492795289
 ---
 WP_URL: presente
 WP_USER: presente
@@ -50,7 +50,7 @@ ok    content/paginas/blog.md: 0 palabras, 0 fuentes
 ok    content/paginas/como-te-ayudo.md: 453 palabras, 0 fuentes
 ok    content/paginas/contacto.md: 147 palabras, 1 fuentes
 ok    content/paginas/gnu.md: 147 palabras, 2 fuentes
-ok    content/paginas/inicio.md: 969 palabras, 0 fuentes
+ok    content/paginas/inicio.md: 959 palabras, 0 fuentes
       ! extracto de 176 caracteres (ideal 140 a 160)
 ok    content/paginas/programador-joomla.md: 400 palabras, 1 fuentes
 ok    content/paginas/sobre-mi.md: 695 palabras, 12 fuentes
