@@ -1,6 +1,6 @@
 # fernandomartinez-content
 
-Contenido de www.fernandomartinez.mx (por ahora en `/dev`) publicado en WordPress desde Markdown.
+Contenido de www.fernandomartinez.mx publicado en WordPress desde Markdown. Los archivos de WordPress viven en `/dev` y el sitio se sirve desde la raíz (ver `migracion/raiz`).
 
 - `content/`: entradas y páginas en Markdown con frontmatter. Cada push a `main` publica lo que cambió.
 - `scripts/publish.py`: convierte el Markdown y lo manda por la API REST.

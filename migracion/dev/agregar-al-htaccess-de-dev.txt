@@ -1,0 +1,12 @@
+# Pegar al PRINCIPIO de /dev/.htaccess, ANTES de "# BEGIN WordPress".
+# Manda con 301 las páginas públicas viejas de /dev/... a la raíz (Google y enlaces compartidos).
+# No toca el administrador, la API, los archivos subidos ni el inicio de sesión.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteCond %{REQUEST_METHOD} ^(GET|HEAD)$
+RewriteCond %{THE_REQUEST} !\s/dev/(wp-admin|wp-includes|wp-content|wp-json|xmlrpc\.php|wp-[a-z-]+\.php)
+RewriteCond %{QUERY_STRING} !(^|&)(rest_route|preview|_wpnonce)=
+RewriteRule ^(.*)$ https://www.fernandomartinez.mx/$1 [R=301,L]
+</IfModule>
+
