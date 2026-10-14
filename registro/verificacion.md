@@ -32,6 +32,8 @@
 | 200 | https://www.fernandomartinez.mx/dev/blog/credito-automotriz-en-linea-disrupcion-venta-de-autos/ | content/blog/41-credito-automotriz.md |  |
 | 200 | https://www.fernandomartinez.mx/dev/blog/especialista-en-inbound-marketing-en-mexico/ | content/blog/42-especialista-inbound-mexico.md |  |
 | 200 | https://www.fernandomartinez.mx/dev/blog/experto-en-joomla-en-mexico/ | content/blog/43-experto-joomla-mexico.md |  |
+| 200 | https://www.fernandomartinez.mx/dev/blog/posicionamiento-web-seo-geo/ | content/blog/44-seo-geo.md |  |
+| 200 | https://www.fernandomartinez.mx/dev/blog/que-es-martech/ | content/blog/45-martech.md |  |
 | 200 | https://www.fernandomartinez.mx/dev/blog/activismo-con-hashtags/ | content/blog/5-activismo.md |  |
 | 200 | https://www.fernandomartinez.mx/dev/blog/crear-lealtad-a-tu-marca-no-se-logra-solo-con-comunicacion/ | content/blog/6-lealtad.md |  |
 | 200 | https://www.fernandomartinez.mx/dev/blog/manifiesto-de-marketing-digital-de-fernando-martinez/ | content/blog/7-manifiesto.md |  |
@@ -73,6 +75,7 @@
 | 200 | https://business.linkedin.com/marketing-solutions/ads | https://business.linkedin.com/advertise/ads | content/recursos/herramientas.md |
 | 200 | https://buzzsumo.com/ |  | content/recursos/herramientas.md |
 | 200 | https://chatgpt.com/ |  | content/recursos/herramientas.md |
+| 200 | https://chiefmartec.com/2025/05/2025-marketing-technology-landscape/ | https://chiefmartec.com/2025/05/2025-marketing-technology-landscape-supergraphic-100x-growth-since-2011-but-now-with-ai/ | content/blog/45-martech.md |
 | 200 | https://clarity.microsoft.com/ |  | content/recursos/herramientas.md |
 | 403 ⚠ | https://claude.ai/ | https://claude.ai/login | content/recursos/herramientas.md |
 | 200 | https://clicky.com/ |  | content/recursos/herramientas.md |
@@ -108,17 +111,17 @@
 | 403 ⚠ | https://openverse.org/es |  | content/recursos/imagenes-libres.md |
 | 200 | https://pagespeed.web.dev/ |  | content/blog/15-joomla-velocidad.md, content/recursos/25-cosas.md |
 | 403 ⚠ | https://pixabay.com/es/ |  | content/recursos/imagenes-libres.md |
-| 200 | https://postmaster.google.com/ | https://accounts.google.com/v3/signin/identifier?continue=https://postmaster.google.com/&followup=https://postmaster.google.com/&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S53255266:1791939294174489 | content/recursos/herramientas.md |
+| 200 | https://postmaster.google.com/ | https://accounts.google.com/v3/signin/identifier?continue=https://postmaster.google.com/&followup=https://postmaster.google.com/&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S-351856751:1791941825301599 | content/recursos/herramientas.md |
 | 200 | https://pulse2.com/kavak-300-million-series-f/ |  | content/blog/41-credito-automotriz.md |
-| 200 | https://search.google.com/search-console/about |  | content/recursos/25-cosas.md |
+| 200 | https://search.google.com/search-console/about |  | content/blog/44-seo-geo.md, content/recursos/25-cosas.md |
 | 403 ⚠ | https://searchengineland.com/ |  | content/recursos/herramientas.md |
 | 200 | https://segment.com/ | https://www.twilio.com/en-us/segment | content/recursos/herramientas.md |
-| 200 | https://shopify.pxf.io/prueba-gratis-shop | https://www.shopify.com/mx/prueba-gratis?irclickid=V5Iyp7QFJxyZTpHx1OU4%3AQucUkr1jCV5wRMvxQ0&irgwc=1&partner=2878770&affpt=excluded&utm_channel=affiliates&utm_source=2878770-impact&utm_medium=cpa&iradid=1061744 | content/blog/39-shopify.md, content/recursos/herramientas.md |
+| 200 | https://shopify.pxf.io/prueba-gratis-shop | https://www.shopify.com/mx/prueba-gratis?irclickid=QV0S9cQFKxyZU3ESCJ28Pwl%3AUkr1jJQ3yyFXTA0&irgwc=1&partner=2878770&affpt=excluded&utm_channel=affiliates&utm_source=2878770-impact&utm_medium=cpa&iradid=1061744 | content/blog/39-shopify.md, content/recursos/herramientas.md |
 | 200 | https://statcounter.com/ |  | content/recursos/herramientas.md |
 | 200 | https://thewrap.com/instagram-stories-just-passed-500-million-daily-users | https://www.thewrap.com/instagram-stories-just-passed-500-million-daily-users/ | content/blog/38-instagram-stories.md |
 | 403 ⚠ | https://unsplash.com/ |  | content/recursos/imagenes-libres.md |
 | 200 | https://vwo.com/ | https://wingify.com/ | content/recursos/herramientas.md |
-| 200 | https://web.dev/articles/vitals |  | content/blog/15-joomla-velocidad.md, content/recursos/herramientas.md |
+| 200 | https://web.dev/articles/vitals |  | content/blog/15-joomla-velocidad.md, content/blog/44-seo-geo.md, content/recurso |
 | 200 | https://www.activecampaign.com/ |  | content/recursos/herramientas.md |
 | 200 | https://www.bing.com/webmasters/help/webmasters-guidelines-30fba23a | https://www.bing.com/webmasters/help/webmaster-guidelines-30fba23a | content/recursos/herramientas.md |
 | 200 | https://www.boomeranggmail.com/ |  | content/recursos/herramientas.md |
@@ -148,7 +151,7 @@
 | 200 | https://www.optimizely.com/ |  | content/recursos/herramientas.md |
 | 200 | https://www.outbrain.com/ |  | content/recursos/herramientas.md |
 | 200 | https://www.perplexity.ai/ |  | content/recursos/herramientas.md |
-| 200 | https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/ |  | content/blog/16-blog.md, content/blog/36-considerar-inbound.md |
+| 200 | https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/ |  | content/blog/16-blog.md, content/blog/36-considerar-inbound.md, content/blog/44- |
 | 403 ⚠ | https://www.pexels.com/es-es/ |  | content/recursos/imagenes-libres.md |
 | 200 | https://www.pubcon.com/ |  | content/recursos/herramientas.md |
 | 200 | https://www.publi20.com/ |  | content/paginas/sobre-mi.md, content/recursos/herramientas.md |
@@ -158,4 +161,5 @@
 | 200 | https://www.shopify.com/mx/precios |  | content/blog/39-shopify.md |
 | 200 | https://www.voilanorbert.com/ |  | content/recursos/herramientas.md |
 | 200 | https://www.webempresa.com/blog/item/1105-eliminar-las-referencias-de-joomla-en-el-backend-de-joomla-25.html | https://www.webempresa.com/blog/protege-el-acceso-al-backend-de-joomla-con-secure-administrator.html | content/paginas/sobre-mi.md, content/recursos/brand-remover.md |
+| 200 | https://www.xataka.com.mx/robotica-e-ia/google-revoluciona-sus-busquedas-mexico-su-nuevo-modo-ia-entiende-fotos-voz-texto-para-resultados-complejos |  | content/blog/44-seo-geo.md |
 | 200 | https://zapier.com/ |  | content/recursos/herramientas.md |
