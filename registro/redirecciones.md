@@ -1,7 +1,7 @@
 # Prueba de redirecciones: Apache local con migracion/redirecciones.htaccess, destinos en https://www.fernandomartinez.mx
 
-- URLs viejas probadas: **948**
-- Correctas (301 a una página que responde 200, o URL que se conserva igual): **947**
+- URLs viejas probadas: **951**
+- Correctas (301 a una página que responde 200, o URL que se conserva igual): **950**
 - Para revisar: **1**
 - Sin equivalente o con error: **0**
 
@@ -17,7 +17,7 @@
 | https://www.fernandomartinez.mx/index.php?option=com_xmap&view=xml&id=1 | 200 | 0 |
 | https://www.fernandomartinez.mx/component/xmap/?view=xml&id=1 | 404 | 0 |
 | https://www.fernandomartinez.mx/index.php?option=com_jmap&view=sitemap&format=xml | 200 | 0 |
-| https://www.fernandomartinez.mx/wp-sitemap-posts-post-1.xml | 200 | 34 |
+| https://www.fernandomartinez.mx/wp-sitemap-posts-post-1.xml | 200 | 35 |
 | https://www.fernandomartinez.mx/wp-sitemap-posts-page-1.xml | 200 | 15 |
 | https://www.fernandomartinez.mx/wp-sitemap-posts-uicore-cd-1.xml | 200 | 2 |
 | https://www.fernandomartinez.mx/wp-sitemap-taxonomies-category-1.xml | 200 | 9 |
@@ -142,6 +142,8 @@
 | ok | /blog/especialista-en-inbound-marketing-en-mexico// | variante con diagonal | 0 | /blog/especialista-en-inbound-marketing-en-mexico// |
 | ok | /blog/experto-en-joomla-en-mexico/ | sitemap | 0 | /blog/experto-en-joomla-en-mexico/ |
 | ok | /blog/experto-en-joomla-en-mexico// | variante con diagonal | 0 | /blog/experto-en-joomla-en-mexico// |
+| ok | /blog/guia-definitiva-shopify-principiantes-mexico-2026/ | sitemap | 0 | /blog/guia-definitiva-shopify-principiantes-mexico-2026/ |
+| ok | /blog/guia-definitiva-shopify-principiantes-mexico-2026// | variante con diagonal | 0 | /blog/guia-definitiva-shopify-principiantes-mexico-2026// |
 | ok | /blog/inbound-marketing-audiencia-ideal/ | sitemap | 0 | /blog/inbound-marketing-audiencia-ideal/ |
 | ok | /blog/inbound-marketing-audiencia-ideal// | variante con diagonal | 0 | /blog/inbound-marketing-audiencia-ideal// |
 | ok | /blog/la-grave-desconexion-entre-el-reconocimiento-de-marca-y-las-ventas/ | sitemap | 0 | /blog/la-grave-desconexion-entre-el-reconocimiento-de-marca-y-las-ventas/ |
@@ -425,6 +427,7 @@
 | ok | /index.php/blog/entre-aportar-al-teleton-y-el-odio-a-televisa/ | variante index.php | 1 | /blog/entre-aportar-al-teleton-y-el-odio-a-televisa/ |
 | ok | /index.php/blog/especialista-en-inbound-marketing-en-mexico/ | variante index.php | 1 | /blog/especialista-en-inbound-marketing-en-mexico/ |
 | ok | /index.php/blog/experto-en-joomla-en-mexico/ | variante index.php | 1 | /blog/experto-en-joomla-en-mexico/ |
+| ok | /index.php/blog/guia-definitiva-shopify-principiantes-mexico-2026/ | variante index.php | 1 | /blog/guia-definitiva-shopify-principiantes-mexico-2026/ |
 | ok | /index.php/blog/inbound-marketing-audiencia-ideal/ | variante index.php | 1 | /blog/inbound-marketing-audiencia-ideal/ |
 | ok | /index.php/blog/la-grave-desconexion-entre-el-reconocimiento-de-marca-y-las-ventas/ | variante index.php | 1 | /blog/la-grave-desconexion-entre-el-reconocimiento-de-marca-y-las-ventas/ |
 | ok | /index.php/blog/los-consumidores-tienen-el-control/ | variante index.php | 1 | /blog/los-consumidores-tienen-el-control/ |
