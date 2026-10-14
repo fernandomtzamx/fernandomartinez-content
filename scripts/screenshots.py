@@ -25,5 +25,13 @@ with sync_playwright() as p:
             slug = path.strip("/").replace("/", "_") or "inicio"
             page.screenshot(path=str(out / f"{slug}-{name}.png"), full_page=(name == "escritorio"))
             print(name, path, page.title())
+            if name == "celular" and path == "/":
+                boton = page.locator(".wp-block-navigation__responsive-container-open").first
+                if boton.count():
+                    boton.click()
+                    page.wait_for_timeout(600)
+                    page.screenshot(path=str(out / "inicio-menu-abierto-celular.png"))
+                    page.keyboard.press("Escape")
+                    print(name, "menú abierto")
         ctx.close()
     b.close()
