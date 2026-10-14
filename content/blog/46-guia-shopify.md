@@ -2,7 +2,7 @@
 title: "Guía definitiva de Shopify para principiantes en México 2026"
 slug: guia-definitiva-shopify-principiantes-mexico-2026
 type: post
-status: draft
+status: publish
 date: 2026-10-14 13:30
 excerpt: "Cómo escoger plataforma, abrir tu tienda en Shopify, cobrar con tarjeta, OXXO y meses sin intereses, enviar, facturar y llegar a las primeras ventas en México."
 categories: [desarrollo-web, marketing]
