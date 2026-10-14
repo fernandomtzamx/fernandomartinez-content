@@ -54,22 +54,63 @@ blog:
   titulo: "Notas de un CTO que todavía escribe código"
   intro: "IA aplicada, CRM, Martech, la industria automotriz y opiniones que no caben en LinkedIn. Las entradas del blog original, reescritas y puestas al día en 2026."
 
+# Archivos de marca (assets/marca). Se suben a la biblioteca de medios y se fijan como logo e ícono.
+marca:
+  logo: assets/marca/fernando-martinez-logo.png
+  logo_blanco: assets/marca/fernando-martinez-logo-blanco.png
+  icono: assets/marca/fernando-martinez-icono.png
+  boton: {label: "Platiquemos", url: "/contacto/"}
+
+# Anchos de lectura: columna de texto y bloques anchos.
+layout:
+  contentSize: "720px"
+  wideSize: "1200px"
+
 # CSS adicional del sitio (estilos globales). Las portadas son 1200x630: sin recorte.
 css: |
+  body{-webkit-font-smoothing:antialiased}
+  ::selection{background:var(--wp--preset--color--accent-3);color:#fff}
+  .wp-site-blocks>header.wp-block-template-part{position:sticky;top:0;z-index:50}
+  .admin-bar .wp-site-blocks>header.wp-block-template-part{top:32px}
+  @media (max-width:782px){.admin-bar .wp-site-blocks>header.wp-block-template-part{top:46px}}
+  .fm-header{background:rgba(255,255,255,.94);backdrop-filter:saturate(180%) blur(10px);border-bottom:1px solid var(--wp--preset--color--accent-2)}
+  .fm-header .wp-block-site-logo img{height:auto}
+  .fm-header .wp-block-navigation a{font-weight:600;text-decoration:none}
+  .fm-header .wp-block-navigation a:hover{color:var(--wp--preset--color--accent-3)}
+  .fm-header .wp-block-button__link{padding:.6em 1.3em;font-size:.92rem}
+  @media (max-width:600px){.fm-header .fm-header-cta{display:none}}
   .wp-block-post-featured-image img{aspect-ratio:1200/630!important;object-fit:cover!important;height:auto!important;width:100%!important}
-  .wp-block-post-template .wp-block-post-title{margin-top:.4em}
-  .wp-block-post-template .wp-block-post-terms a{color:var(--wp--preset--color--accent-4);text-decoration:none;text-transform:uppercase;letter-spacing:.08em;font-weight:700;font-size:.78em}
-  .wp-block-site-title a{font-weight:800}
+  .wp-block-post-template>li{transition:transform .2s ease}
+  .wp-block-post-template>li:hover{transform:translateY(-3px)}
+  .wp-block-post-template .wp-block-post-featured-image img{border-radius:14px;box-shadow:0 1px 2px rgba(60,60,59,.08),0 8px 24px rgba(60,60,59,.08)}
+  .wp-block-post-template .wp-block-post-title{margin-top:.5em;line-height:1.25}
+  .wp-block-post-template .wp-block-post-title a{text-decoration:none;color:var(--wp--preset--color--contrast)}
+  .wp-block-post-template .wp-block-post-title a:hover{color:var(--wp--preset--color--accent-3)}
+  .wp-block-post-terms a{color:var(--wp--preset--color--accent-3);text-decoration:none;text-transform:uppercase;letter-spacing:.08em;font-weight:700;font-size:.78em}
+  .fm-meta{color:var(--wp--preset--color--accent-4);font-size:.9rem}
+  .fm-meta a{color:inherit;font-weight:700;text-decoration:none}
+  .fm-meta .wp-block-post-terms a{font-size:1em;letter-spacing:.06em}
+  .fm-sep{opacity:.4}
+  .single .wp-block-post-featured-image img{border-radius:18px}
+  .wp-block-post-navigation-link{font-weight:700}
+  .wp-block-post-navigation-link a{text-decoration:none;color:var(--wp--preset--color--contrast)}
+  .wp-block-post-navigation-link a:hover{color:var(--wp--preset--color--accent-3)}
+  .wp-block-post-navigation-link .post-navigation-link__label{display:block;font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:var(--wp--preset--color--accent-4);font-weight:700;margin-bottom:.3em}
+  .fm-kicker-llaves{font-weight:800;letter-spacing:.12em;text-transform:uppercase;font-size:.8rem;color:var(--wp--preset--color--accent-3)}
+  .fm-footer a{text-decoration:none}
+  .fm-footer a:hover{color:var(--wp--preset--color--accent-3)!important}
+  .wp-block-query-pagination a{text-decoration:none;font-weight:700}
 
 # Colores de marca sobre la paleta de Twenty Twenty-Five (mismos slugs del tema).
+# Tomados del logo: gris #3C3C3B y rojo #E20613.
 paleta:
-  base: "#FBF8F1"        # papel cálido
-  contrast: "#16171B"    # tinta
-  accent-1: "#FFE45C"    # resaltador
-  accent-2: "#F3E9D7"
-  accent-3: "#E20613"    # rojo de la corbata del logo
-  accent-4: "#5D6070"
-  accent-5: "#F3EEE3"
+  base: "#FFFFFF"        # fondo
+  contrast: "#3C3C3B"    # gris del logo: texto y títulos
+  accent-1: "#FDECEC"    # rojo muy claro: llamados a la acción y resaltados
+  accent-2: "#ECECEB"    # líneas y bordes
+  accent-3: "#E20613"    # rojo de la corbata
+  accent-4: "#6E6E6C"    # gris medio: fechas, categorías, notas
+  accent-5: "#F6F6F5"    # gris de sección
 
 # Ejemplos de WordPress y pruebas: a la papelera (recuperables en wp-admin).
 borrar:
