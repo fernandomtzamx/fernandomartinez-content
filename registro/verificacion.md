@@ -27,7 +27,7 @@
 | 200 | https://www.fernandomartinez.mx/blog/por-que-deberias-considerar-el-inbound-marketing/ | content/blog/36-considerar-inbound.md |  |
 | 200 | https://www.fernandomartinez.mx/blog/marketing-automotriz-en-los-juegos-olimpicos/ | content/blog/37-marketing-automotriz-olimpicos.md |  |
 | 200 | https://www.fernandomartinez.mx/blog/como-aprovechar-instagram-stories-en-tu-marketing/ | content/blog/38-instagram-stories.md |  |
-| 200 | https://www.fernandomartinez.mx/blog/como-abrir-una-tienda-en-linea-en-mexico-con-shopify/ | content/blog/39-shopify.md | 2/2 ok |
+| 200 | https://www.fernandomartinez.mx/blog/como-abrir-una-tienda-en-linea-en-mexico-con-shopify/ | content/blog/39-shopify.md | 0/3 ok |
 | 200 | https://www.fernandomartinez.mx/blog/5-datos-duros-para-considerar-implementar-un-chat/ | content/blog/40-chat.md |  |
 | 200 | https://www.fernandomartinez.mx/blog/credito-automotriz-en-linea-disrupcion-venta-de-autos/ | content/blog/41-credito-automotriz.md |  |
 | 200 | https://www.fernandomartinez.mx/blog/especialista-en-inbound-marketing-en-mexico/ | content/blog/42-especialista-inbound-mexico.md |  |
@@ -47,7 +47,7 @@
 | 200 | https://www.fernandomartinez.mx/fernando-arturo-martinez-aguilar/ | content/paginas/sobre-mi.md |  |
 | 200 | https://www.fernandomartinez.mx/recursos/25-cosas-que-hacer-en-la-web-para-tener-mas-trafico-y-clientes/ | content/recursos/25-cosas.md |  |
 | 200 | https://www.fernandomartinez.mx/recursos/administration-brand-remover-joomla-plugin/ | content/recursos/brand-remover.md |  |
-| 200 | https://www.fernandomartinez.mx/recursos/las-mejores-herramientas-de-seo-e-inbound-marketing/ | content/recursos/herramientas.md | 1/1 ok |
+| 200 | https://www.fernandomartinez.mx/recursos/las-mejores-herramientas-de-seo-e-inbound-marketing/ | content/recursos/herramientas.md | 0/1 ok |
 | 200 | https://www.fernandomartinez.mx/recursos/imagenes-libres-de-derechos-gratis/ | content/recursos/imagenes-libres.md |  |
 | 200 | https://www.fernandomartinez.mx/recursos/ | content/recursos/recursos.md |  |
 | 200 | https://www.fernandomartinez.mx/recursos/sumome-joomla-plugin/ | content/recursos/sumome.md |  |
@@ -111,12 +111,15 @@
 | 403 ⚠ | https://openverse.org/es |  | content/recursos/imagenes-libres.md |
 | 200 | https://pagespeed.web.dev/ |  | content/blog/15-joomla-velocidad.md, content/recursos/25-cosas.md |
 | 403 ⚠ | https://pixabay.com/es/ |  | content/recursos/imagenes-libres.md |
-| 200 | https://postmaster.google.com/ | https://accounts.google.com/v3/signin/identifier?continue=https://postmaster.google.com/&followup=https://postmaster.google.com/&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S1006820993:1791993518727519 | content/recursos/herramientas.md |
+| 200 | https://postmaster.google.com/ | https://accounts.google.com/v3/signin/identifier?continue=https://postmaster.google.com/&followup=https://postmaster.google.com/&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S1008463575:1792004527291798 | content/recursos/herramientas.md |
 | 200 | https://pulse2.com/kavak-300-million-series-f/ |  | content/blog/41-credito-automotriz.md |
 | 200 | https://search.google.com/search-console/about |  | content/blog/44-seo-geo.md, content/recursos/25-cosas.md |
 | 403 ⚠ | https://searchengineland.com/ |  | content/recursos/herramientas.md |
 | 200 | https://segment.com/ | https://www.twilio.com/en-us/segment | content/recursos/herramientas.md |
-| 200 | https://shopify.pxf.io/prueba-gratis-shop | https://www.shopify.com/mx/prueba-gratis?irclickid=x7kTSJQCMxyZWtp0XUQP9wErUkr1nbW8RXOiyI0&irgwc=1&partner=2878770&affpt=excluded&utm_channel=affiliates&utm_source=2878770-impact&utm_medium=cpa&iradid=1061744 | content/blog/39-shopify.md, content/recursos/herramientas.md |
+| 200 | https://shopify.pxf.io/prueba-gratis-shop?subId1=blog&subId2=como-abrir-una-tienda-en-linea-en-mexico-con-shopify&subId3=cierre | https://www.shopify.com/mx/prueba-gratis?irclickid=QxFyMkQsxxyZTtK1tzy4iRinUkr1iHW-ITDWQk0&irgwc=1&partner=2878770&affpt=excluded&utm_channel=affiliates&utm_source=2878770-impact&utm_medium=cpa&iradid=1061744 | content/blog/39-shopify.md |
+| 200 | https://shopify.pxf.io/prueba-gratis-shop?subId1=blog&subId2=como-abrir-una-tienda-en-linea-en-mexico-con-shopify&subId3=intro | https://www.shopify.com/mx/prueba-gratis?irclickid=QxqTV3QsxxyZTtK1tzy4iRinUkr1iHW-ITDWQk0&irgwc=1&partner=2878770&affpt=excluded&utm_channel=affiliates&utm_source=2878770-impact&utm_medium=cpa&iradid=1061744 | content/blog/39-shopify.md |
+| 200 | https://shopify.pxf.io/prueba-gratis-shop?subId1=recursos&subId2=herramientas&subId3=directorio | https://www.shopify.com/mx/prueba-gratis?irclickid=Q2TwzvQsxxyZTtK1tzy4iRinUkr1iHW-ITDWQk0&irgwc=1&partner=2878770&affpt=excluded&utm_channel=affiliates&utm_source=2878770-impact&utm_medium=cpa&iradid=1061744 | content/recursos/herramientas.md |
+| 200 | https://shopify.pxf.io/prueba-gratis-shop?u=https%3A%2F%2Fwww.shopify.com%2Fmx%2Fprecios&subId1=blog&subId2=como-abrir-una-tienda-en-linea-en-mexico-con-shopify&subId3=precios | https://www.shopify.com/mx/precios?irclickid=Q2T3CaQsxxyZTtK1tzy4iRinUkr1iHW-ITDWQk0&irgwc=1&partner=2878770&affpt=excluded&utm_channel=affiliates&utm_source=2878770-impact&utm_medium=cpa&iradid=1061744 | content/blog/39-shopify.md |
 | 200 | https://statcounter.com/ |  | content/recursos/herramientas.md |
 | 200 | https://thewrap.com/instagram-stories-just-passed-500-million-daily-users | https://www.thewrap.com/instagram-stories-just-passed-500-million-daily-users/ | content/blog/38-instagram-stories.md |
 | 403 ⚠ | https://unsplash.com/ |  | content/recursos/imagenes-libres.md |
@@ -158,7 +161,6 @@
 | 200 | https://www.publi20.com/revista-publicidad-negocios-mexico/1703-el-sueldo-por-si-solo-ya-no-es-suficiente | https://www.publi20.com/rankings/agencias-de-publicidad-mexico/ | content/paginas/sobre-mi.md |
 | 200 | https://www.searchenginejournal.com/ |  | content/recursos/herramientas.md |
 | 200 | https://www.seroundtable.com/ |  | content/recursos/herramientas.md |
-| 200 | https://www.shopify.com/mx/precios |  | content/blog/39-shopify.md |
 | 200 | https://www.voilanorbert.com/ |  | content/recursos/herramientas.md |
 | 200 | https://www.webempresa.com/blog/item/1105-eliminar-las-referencias-de-joomla-en-el-backend-de-joomla-25.html | https://www.webempresa.com/blog/protege-el-acceso-al-backend-de-joomla-con-secure-administrator.html | content/paginas/sobre-mi.md, content/recursos/brand-remover.md |
 | 200 | https://www.xataka.com.mx/robotica-e-ia/google-revoluciona-sus-busquedas-mexico-su-nuevo-modo-ia-entiende-fotos-voz-texto-para-resultados-complejos |  | content/blog/44-seo-geo.md |
