@@ -1,85 +1,21 @@
-fecha: 2026-10-14T01:58:06Z
-commit: 0f5f96fad23e03a92ecbf18e7a9a2f362b5abaad
+fecha: 2026-10-14T02:21:27Z
+commit: e0b98ba8e251ea6aff9e5c5c61baf3812a57b513
 evento: push
-publicar: success | setup: skipped | verificar: success
-run: https://github.com/fernandomtzamx/fernandomartinez-content/actions/runs/38498467648
+publicar: skipped | setup: skipped | verificar: success
+run: https://github.com/fernandomtzamx/fernandomartinez-content/actions/runs/38500529738
 ---
 WP_URL: presente
 WP_USER: presente
 WP_APP_PASSWORD: presente
-Plan: publicar='content/blog/14-que-es-inbound.md content/blog/27-buyer-personas.md content/blog/28-base-de-datos.md content/blog/33-redes-usuarios.md content/blog/36-considerar-inbound.md content/blog/42-especialista-inbound-mexico.md ' setup='' verificar='1' info=''
-ok    content/blog/12-teleton.md: 499 palabras, 1 fuentes
-ok    content/blog/13-5-pilares.md: 563 palabras, 0 fuentes
-ok    content/blog/14-que-es-inbound.md: 471 palabras, 0 fuentes
-ok    content/blog/15-joomla-velocidad.md: 582 palabras, 3 fuentes
-ok    content/blog/16-blog.md: 459 palabras, 1 fuentes
-ok    content/blog/17-10-palabras.md: 517 palabras, 0 fuentes
-ok    content/blog/2-gente-exitosa.md: 451 palabras, 1 fuentes
-ok    content/blog/20-reconocimiento-marca.md: 496 palabras, 0 fuentes
-ok    content/blog/22-joomla-admin.md: 430 palabras, 0 fuentes
-      ! corta (430 palabras)
-ok    content/blog/24-h2h.md: 512 palabras, 0 fuentes
-ok    content/blog/26-iot.md: 495 palabras, 1 fuentes
-ok    content/blog/27-buyer-personas.md: 499 palabras, 0 fuentes
-ok    content/blog/28-base-de-datos.md: 552 palabras, 1 fuentes
-ok    content/blog/29-consumidores.md: 408 palabras, 0 fuentes
-      ! corta (408 palabras)
-ok    content/blog/3-compensacion.md: 549 palabras, 1 fuentes
-ok    content/blog/31-physical-web.md: 496 palabras, 1 fuentes
-ok    content/blog/32-wifi.md: 473 palabras, 1 fuentes
-ok    content/blog/33-redes-usuarios.md: 449 palabras, 1 fuentes
-      ! corta (449 palabras)
-ok    content/blog/34-redes-sociales.md: 451 palabras, 0 fuentes
-ok    content/blog/35-realidad-virtual.md: 486 palabras, 1 fuentes
-ok    content/blog/36-considerar-inbound.md: 529 palabras, 1 fuentes
-ok    content/blog/37-marketing-automotriz-olimpicos.md: 595 palabras, 1 fuentes
-ok    content/blog/38-instagram-stories.md: 453 palabras, 1 fuentes
-ok    content/blog/39-shopify.md: 746 palabras, 3 fuentes
-ok    content/blog/40-chat.md: 614 palabras, 1 fuentes
-ok    content/blog/41-credito-automotriz.md: 661 palabras, 2 fuentes
-ok    content/blog/42-especialista-inbound-mexico.md: 898 palabras, 2 fuentes
-ok    content/blog/43-experto-joomla-mexico.md: 792 palabras, 4 fuentes
-ok    content/blog/44-seo-geo.md: 781 palabras, 4 fuentes
-ok    content/blog/45-martech.md: 709 palabras, 1 fuentes
-ok    content/blog/5-activismo.md: 434 palabras, 0 fuentes
-      ! corta (434 palabras)
-ok    content/blog/6-lealtad.md: 455 palabras, 0 fuentes
-ok    content/blog/7-manifiesto.md: 892 palabras, 0 fuentes
-ok    content/blog/9-tolerancia.md: 433 palabras, 0 fuentes
-      ! corta (433 palabras)
-ok    content/paginas/blog.md: 0 palabras, 0 fuentes
-ok    content/paginas/como-te-ayudo.md: 453 palabras, 0 fuentes
-ok    content/paginas/contacto.md: 147 palabras, 1 fuentes
-ok    content/paginas/gnu.md: 147 palabras, 2 fuentes
-ok    content/paginas/inicio.md: 959 palabras, 0 fuentes
-      ! extracto de 176 caracteres (ideal 140 a 160)
-ok    content/paginas/programador-joomla.md: 400 palabras, 1 fuentes
-ok    content/paginas/sobre-mi.md: 695 palabras, 12 fuentes
-ok    content/recursos/25-cosas.md: 966 palabras, 2 fuentes
-ok    content/recursos/brand-remover.md: 181 palabras, 2 fuentes
-ok    content/recursos/herramientas.md: 883 palabras, 62 fuentes
-ok    content/recursos/imagenes-libres.md: 334 palabras, 5 fuentes
-ok    content/recursos/recursos.md: 278 palabras, 0 fuentes
-ok    content/recursos/sumome.md: 161 palabras, 0 fuentes
-ok    content/recursos/twitter-summary-card.md: 197 palabras, 1 fuentes
-ok    content/recursos/website-preloader.md: 222 palabras, 1 fuentes
+Plan: publicar='' setup='' verificar='1' info=''
 
-49 archivos, 0 con errores
-Endpoint: https://fernandomartinez.mx/dev/wp-json/ (HTTP 200)
-Métodos de autenticación anunciados: application-passwords
-Conectado como soporte (roles: administrator)
-  = imagen reutilizada: que-es-el-inbound-marketing (id 49)
-content/blog/14-que-es-inbound.md: post actualizada (publish) id=50 https://www.fernandomartinez.mx/dev/blog/que-es-el-inbound-marketing/
-  = imagen reutilizada: como-identificar-y-crear-mis-buyer-personas (id 65)
-content/blog/27-buyer-personas.md: post actualizada (publish) id=66 https://www.fernandomartinez.mx/dev/blog/como-identificar-y-crear-mis-buyer-personas/
-  + imagen subida: como-enriquecer-tu-base-de-datos-de-clientes.png (id 409)
-content/blog/28-base-de-datos.md: post actualizada (publish) id=68 https://www.fernandomartinez.mx/dev/blog/como-enriquecer-tu-base-de-datos-de-clientes/
-  + imagen subida: el-uso-de-las-redes-sociales-lo-definen-los-usuarios.png (id 410)
-content/blog/33-redes-usuarios.md: post actualizada (publish) id=76 https://www.fernandomartinez.mx/dev/blog/el-uso-de-las-redes-sociales-lo-definen-los-usuarios/
-  + imagen subida: por-que-deberias-considerar-el-inbound-marketing.png (id 411)
-content/blog/36-considerar-inbound.md: post actualizada (publish) id=82 https://www.fernandomartinez.mx/dev/blog/por-que-deberias-considerar-el-inbound-marketing/
-  = imagen reutilizada: especialista-en-inbound-marketing-en-mexico (id 163)
-content/blog/42-especialista-inbound-mexico.md: post actualizada (publish) id=164 https://www.fernandomartinez.mx/dev/blog/especialista-en-inbound-marketing-en-mexico/
+- Imágenes que no tenían alt y se corrigieron: **0**
+
+## HTML publicado
+
+- Páginas revisadas: **60**
+- Imágenes revisadas: **373**
+- Sin alt: **0**
 ## Páginas publicadas
 
 Problemas en páginas o referidos: 0. Externos con error: 7
