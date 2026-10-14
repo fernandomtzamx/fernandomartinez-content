@@ -1,13 +1,13 @@
-fecha: 2026-10-14T00:22:53Z
-commit: 109f30c62c2c7935a4d0fc42364654345fd6cebc
+fecha: 2026-10-14T00:26:11Z
+commit: c057cda645df7f1fc98d736c57d0d7880959f14c
 evento: push
-publicar: success | setup: success | verificar: success
-run: https://github.com/fernandomtzamx/fernandomartinez-content/actions/runs/38489711956
+publicar: success | setup: skipped | verificar: success
+run: https://github.com/fernandomtzamx/fernandomartinez-content/actions/runs/38490035412
 ---
 WP_URL: presente
 WP_USER: presente
 WP_APP_PASSWORD: presente
-Plan: publicar='--all' setup='1' verificar='1' info=''
+Plan: publicar='--all' setup='' verificar='1' info=''
 ok    content/blog/12-teleton.md: 499 palabras, 1 fuentes
 ok    content/blog/13-5-pilares.md: 550 palabras, 0 fuentes
 ok    content/blog/14-que-es-inbound.md: 471 palabras, 0 fuentes
@@ -72,7 +72,6 @@ content/paginas/contacto.md: page actualizada (publish) id=10 https://www.fernan
 content/paginas/gnu.md: page actualizada (publish) id=11 https://www.fernandomartinez.mx/dev/gnu-general-public-license/
 content/paginas/inicio.md: page actualizada (publish) id=12 https://www.fernandomartinez.mx/dev/
 content/paginas/programador-joomla.md: page actualizada (publish) id=13 https://www.fernandomartinez.mx/dev/programador-web-especialista-en-joomla-en-mexico/
-  = imagen reutilizada: fernando-martinez-enginecx (id 14)
 content/paginas/sobre-mi.md: page actualizada (publish) id=15 https://www.fernandomartinez.mx/dev/fernando-arturo-martinez-aguilar/
 content/recursos/recursos.md: page actualizada (publish) id=16 https://www.fernandomartinez.mx/dev/recursos/
 content/recursos/25-cosas.md: page actualizada (publish) id=17 https://www.fernandomartinez.mx/dev/recursos/25-cosas-que-hacer-en-la-web-para-tener-mas-trafico-y-clientes/
@@ -155,32 +154,6 @@ content/blog/41-credito-automotriz.md: post actualizada (publish) id=92 https://
 content/blog/42-especialista-inbound-mexico.md: post actualizada (publish) id=164 https://www.fernandomartinez.mx/dev/blog/especialista-en-inbound-marketing-en-mexico/
   = imagen reutilizada: experto-en-joomla-en-mexico (id 165)
 content/blog/43-experto-joomla-mexico.md: post actualizada (publish) id=166 https://www.fernandomartinez.mx/dev/blog/experto-en-joomla-en-mexico/
-Endpoint: https://fernandomartinez.mx/dev/wp-json/ (HTTP 200)
-Métodos de autenticación anunciados: application-passwords
-Ajustes: Fernando Martínez | portada=12 blog=8 | zona=America/Mexico_City
-Autor: Fernando Martínez
-Categoría: ia-y-tecnologia -> IA y tecnología
-Categoría: marketing -> Marketing
-Categoría: crm-y-datos -> CRM y datos
-Categoría: automotriz -> Automotriz
-Categoría: desarrollo-web -> Desarrollo web
-Categoría: ventas-y-liderazgo -> Ventas y liderazgo
-Categoría: opinion -> Opinión
-  + imagen subida: fernando-martinez-logo.png (id 213)
-  + imagen subida: fernando-martinez-icono.png (id 214)
-  + imagen subida: fernando-martinez-logo-blanco.png (id 215)
-Marca: logo=213 ícono=214
-Menú actualizado (id 93)
-Aviso: no encontré el bloque de navegación en el encabezado
-Encabezado con logo, menú 93 y botón 'Platiquemos'
-Estilos globales aplicados (id 7)
-Plantilla home actualizada
-Plantilla archive actualizada
-Plantilla single actualizada
-Pie de página actualizado
-Ya en papelera: posts/1
-Ya en papelera: posts/6
-Ya en papelera: pages/2
 ## Páginas publicadas
 
 Problemas en páginas o referidos: 0. Externos con error: 7
