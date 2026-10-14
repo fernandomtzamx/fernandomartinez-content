@@ -1,8 +1,8 @@
-fecha: 2026-10-14T21:53:47Z
-commit: 1d25555041aba2f47cf8a4bb77756b02972d8466
+fecha: 2026-10-14T23:31:40Z
+commit: 3dadb294a06b018e6217310cf1997fb579a6f82a
 evento: push
 publicar: success | setup: skipped | verificar: failure
-run: https://github.com/fernandomtzamx/fernandomartinez-content/actions/runs/38643494226
+run: https://github.com/fernandomtzamx/fernandomartinez-content/actions/runs/38654388303
 ---
 WP_URL: presente
 WP_USER: presente
@@ -186,4 +186,4 @@ content/blog/46-guia-shopify.md: post actualizada (publish) id=516 https://www.f
 - Sin alt: **0**
 ## Páginas publicadas
 
-Problemas en páginas o referidos: 3. Externos con error: 9
+Problemas en páginas o referidos: 3. Externos con error: 22
