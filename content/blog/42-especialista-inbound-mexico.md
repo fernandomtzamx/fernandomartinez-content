@@ -5,7 +5,7 @@ type: post
 status: publish
 date: 2026-10-13 17:00
 excerpt: "Qué hace un especialista en inbound marketing en México, qué preguntarle antes de contratarlo y las señales de alerta. Escrito por el fundador de Inbound México."
-categories: [marketing]
+categories: [marketing, martech]
 tags: [inbound marketing, especialista en inbound marketing, México, HubSpot, agencias]
 featured_image: images/especialista-en-inbound-marketing-en-mexico.png
 featured_alt: "Portada: especialista en inbound marketing en México, cómo elegir uno"
@@ -76,5 +76,5 @@ Mi recomendación casi siempre es la misma: empieza con alguien externo que te a
 Ya no vendo campañas de inbound. Lo que hago hoy está un paso después: que los leads que genera tu marketing lleguen al CRM, se atiendan rápido por WhatsApp, se den seguimiento automático y se conviertan en ventas que se pueden medir. Es la parte del inbound que casi siempre se queda a medias. Lo cuento en [cómo te puedo ayudar](/como-te-ayudo/).
 
 <div class="fm-cta" markdown="1">
-¿Ya tienes a alguien haciendo inbound pero los leads se pierden en el camino? Ese tramo es justo el mío. [Platiquemos](/contacto/).
+¿Ya tienes a alguien haciendo inbound pero los leads se pierden en el camino? Ese tramo es justo el mío. [Platiquemos](/contacto/). Y si quieres seguir leyendo, este es el [blog de un director de tecnología](/blog/) que antes vendía inbound: empieza por [qué es Martech](/blog/que-es-martech/) o por [posicionamiento web con SEO y GEO](/blog/posicionamiento-web-seo-geo/).
 </div>

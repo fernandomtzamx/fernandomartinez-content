@@ -127,13 +127,29 @@ def main():
                     '<main class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--50)">'
                     f"{inner}\n\n{loop}</main>\n<!-- /wp:group -->\n\n"
                     '<!-- wp:template-part {"slug":"footer"} /-->')
+        def extra_blog():
+            """Fila de temas (enlaces a categorías, con su URL real) y entradas destacadas."""
+            out = ""
+            temas = []
+            for tm in b.get("temas") or []:
+                found = wp.req("GET", "categories", params={"slug": tm["categoria"]})
+                if found:
+                    temas.append(f'<a href="{found[0]["link"]}">{html.escape(tm["label"])}</a>')
+            if temas:
+                out += ('\n\n<!-- wp:paragraph {"className":"fm-temas"} -->\n<p class="fm-temas"><strong>Temas:</strong> '
+                        + " ".join(temas) + "</p>\n<!-- /wp:paragraph -->")
+            dest = [f'<a href="{wp.home}{d["url"]}">{html.escape(d["label"])}</a>' for d in b.get("destacadas") or []]
+            if dest:
+                out += ('\n\n<!-- wp:paragraph {"className":"fm-destacadas"} -->\n<p class="fm-destacadas"><strong>Empieza por aquí:</strong> '
+                        + " · ".join(dest) + "</p>\n<!-- /wp:paragraph -->")
+            return out
         home = wrap(f"""<!-- wp:heading {{"level":1}} -->
 <h1 class="wp-block-heading">{html.escape(b["titulo"])}</h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {{"fontSize":"medium"}} -->
 <p class="has-medium-font-size">{html.escape(b["intro"])}</p>
-<!-- /wp:paragraph -->""")
+<!-- /wp:paragraph -->{extra_blog()}""")
         archive = wrap("""<!-- wp:query-title {"type":"archive","level":1} /-->
 
 <!-- wp:term-description /-->""")

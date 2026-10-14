@@ -1,9 +1,9 @@
 ---
-title: "Blog"
+title: "Blog de un director de tecnología"
 slug: blog
 type: page
 status: publish
 layout: raw
 menu_order: 3
-excerpt: "Notas de un CTO que todavía escribe código: IA aplicada, CRM, Martech, la industria automotriz y opiniones que no caben en LinkedIn."
+excerpt: "El blog de un director de tecnología que fue especialista en inbound marketing: posicionamiento web SEO y GEO, Martech, CRM e IA aplicada."
 ---

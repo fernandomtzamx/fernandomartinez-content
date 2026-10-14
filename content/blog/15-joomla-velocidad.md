@@ -6,7 +6,7 @@ status: publish
 date: 2026-10-13 09:30
 original: /blog/15-reducir-tiempo-carga-sitio-web-joomla
 excerpt: "Pasos para que tu sitio Joomla cargue rápido y apruebe las Core Web Vitals: caché, compresión, imágenes, plantilla y servidor. Actualizado para las versiones actuales."
-categories: [desarrollo-web]
+categories: [seo-y-geo, desarrollo-web]
 tags: [Joomla, velocidad web, Core Web Vitals, optimización, SEO técnico]
 featured_image: images/reducir-tiempo-carga-sitio-web-joomla.png
 featured_alt: "Portada: cómo reducir el tiempo de carga de un sitio Joomla"

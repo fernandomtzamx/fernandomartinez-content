@@ -6,7 +6,7 @@ status: publish
 date: 2026-10-13 12:00
 original: /blog/36-porque-deberias-considerar-el-inbound-marketing
 excerpt: "El inbound sigue funcionando, pero la IA en los buscadores cambió las reglas: menos clics, más competencia por ser la respuesta. Qué se mantiene y qué ajustar."
-categories: [marketing]
+categories: [marketing, seo-y-geo]
 tags: [inbound marketing, contenido, SEO, IA, generación de leads]
 featured_image: images/porque-deberias-considerar-el-inbound-marketing.png
 featured_alt: "Portada: por qué deberías considerar el inbound marketing"

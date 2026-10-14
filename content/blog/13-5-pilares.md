@@ -6,7 +6,7 @@ status: publish
 date: 2026-10-13 09:10
 original: /blog/13-como-funciona-los-5-pilares-del-inbound-marketing
 excerpt: "Atracción, conversión, automatización, fidelización y sincronización. Los cinco pilares del inbound, actualizados con lo que hoy hacen el CRM, WhatsApp y la IA."
-categories: [marketing]
+categories: [marketing, martech]
 tags: [inbound marketing, lead scoring, lead nurturing, automatización, CRM]
 featured_image: images/como-funciona-los-5-pilares-del-inbound-marketing.png
 featured_alt: "Portada: los 5 pilares del inbound marketing"
@@ -66,5 +66,5 @@ En la práctica, sincronizar significa:
 Es el pilar más aburrido y el más importante. La mayoría de las estrategias de inbound que fallan no fallan por falta de contenido; fallan porque nadie conectó las piezas.
 
 <div class="fm-cta" markdown="1">
-Sincronizar marketing, ventas y CRM es, literalmente, lo que más disfruto resolver. Si tus piezas no se hablan, [platiquemos](/contacto/). Y si vas a contratar ayuda, lee [cómo elegir a un especialista en inbound marketing en México](/blog/especialista-en-inbound-marketing-en-mexico/).
+Sincronizar marketing, ventas y CRM es, literalmente, lo que más disfruto resolver. Si tus piezas no se hablan, [platiquemos](/contacto/). Las herramientas detrás de cada pilar las explico en [qué es Martech](/blog/que-es-martech/). Y si vas a contratar ayuda, lee [cómo elegir a un especialista en inbound marketing en México](/blog/especialista-en-inbound-marketing-en-mexico/).
 </div>

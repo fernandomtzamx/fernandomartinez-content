@@ -26,7 +26,13 @@ categorias:
     description: "Inteligencia artificial, automatización y tecnologías que prometieron mucho (y lo que de verdad cumplieron)."
   - slug: marketing
     name: Marketing
-    description: "Inbound, contenido, redes y marca, medidos en ventas y no en aplausos."
+    description: "Inbound marketing, contenido, redes y marca, escrito por alguien que fue especialista en inbound marketing y hoy es CTO. Medido en ventas, no en aplausos."
+  - slug: seo-y-geo
+    name: SEO y GEO
+    description: "Posicionamiento web para buscadores y para asistentes de IA, visto por un director de tecnología: técnico, medible y sin trucos con fecha de caducidad."
+  - slug: martech
+    name: Martech
+    description: "Tecnología de marketing: CRM, automatización, datos e IA conectados en un solo sistema, no en un Frankenstein de herramientas."
   - slug: crm-y-datos
     name: CRM y datos
     description: "Clientes, bases de datos, buyer personas y cómo convertir información en decisiones."
@@ -51,8 +57,18 @@ menu:
   - {label: "Contacto", url: "/contacto/"}
 
 blog:
-  titulo: "Notas de un CTO que todavía escribe código"
-  intro: "IA aplicada, CRM, Martech, la industria automotriz y opiniones que no caben en LinkedIn. Las entradas del blog original, reescritas y puestas al día en 2026."
+  titulo: "Blog de un director de tecnología"
+  intro: "Soy CTO y antes fui especialista en inbound marketing. Aquí escribo de lo que conecta ambos mundos: posicionamiento web (SEO y GEO), Martech, CRM, IA aplicada y la industria automotriz. Sin humo y con fuentes."
+  temas:
+    - {label: "SEO y GEO", categoria: seo-y-geo}
+    - {label: "Martech", categoria: martech}
+    - {label: "Inbound marketing", categoria: marketing}
+    - {label: "IA y tecnología", categoria: ia-y-tecnologia}
+    - {label: "Automotriz", categoria: automotriz}
+  destacadas:
+    - {label: "Posicionamiento web: SEO y GEO", url: "/blog/posicionamiento-web-seo-geo/"}
+    - {label: "Qué es Martech", url: "/blog/que-es-martech/"}
+    - {label: "Cómo elegir un especialista en inbound marketing", url: "/blog/especialista-en-inbound-marketing-en-mexico/"}
 
 # Archivos de marca (assets/marca). Se suben a la biblioteca de medios y se fijan como logo e ícono.
 marca:
@@ -103,6 +119,10 @@ css: |
   .fm-footer .fm-kicker-llaves{color:#ff9aa0}
   .fm-footer a:hover{color:var(--wp--preset--color--accent-3)!important}
   .wp-block-query-pagination a{text-decoration:none;font-weight:700}
+  .fm-temas{display:flex;flex-wrap:wrap;gap:.5em;align-items:center}
+  .fm-temas a{display:inline-block;border:1px solid var(--wp--preset--color--accent-2);border-radius:999px;padding:.35em .95em;text-decoration:none;font-weight:600;font-size:.92rem;color:var(--wp--preset--color--contrast)}
+  .fm-temas a:hover{border-color:var(--wp--preset--color--accent-3);color:var(--wp--preset--color--accent-3)}
+  .fm-destacadas{font-size:.95rem;color:var(--wp--preset--color--accent-4);margin-bottom:var(--wp--preset--spacing--50)}
 
 # Colores de marca sobre la paleta de Twenty Twenty-Five (mismos slugs del tema).
 # Tomados del logo: gris #3C3C3B y rojo #E20613.

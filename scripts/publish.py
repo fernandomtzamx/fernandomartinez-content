@@ -234,7 +234,7 @@ def parse(path):
                         f'La reescribí y actualicé en {meta.get("actualizado", "octubre de 2026")}: '
                         'lo que ya no aplicaba, lo digo; lo que cambió, lo corregí.</p>')
             footer = nota + (
-                '<div class="fm-autor"><img class="fm-avatar" src="https://gravatar.com/avatar/33ed3bd9a7174393781b5087d78c0827d64c9ad0b984e4f591ee5033d257759b?s=144" width="72" height="72" alt="Fernando Martínez"><p><strong>Fernando Martínez</strong> es CTO, programador desde 2008 '
+                '<div class="fm-autor"><img class="fm-avatar" src="https://gravatar.com/avatar/33ed3bd9a7174393781b5087d78c0827d64c9ad0b984e4f591ee5033d257759b?s=144" width="72" height="72" alt="Fernando Martínez"><p><strong>Fernando Martínez</strong> es director de tecnología (CTO), programador desde 2008 '
                 'y alguien que todavía cree que el marketing se mide en ventas, no en aplausos. '
                 '<a href="/fernando-arturo-martinez-aguilar/">Más sobre mí</a> · '
                 '<a href="/contacto/">Escríbeme</a></p></div>')
