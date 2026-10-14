@@ -16,6 +16,35 @@ CONTENT = ROOT / "content"
 REQ = ["title", "slug", "type", "status", "excerpt"]
 # Referidos conocidos: URL exacta (ver migracion/origen/enlaces.json, weblink id=100)
 REFERRALS = {"shopify.pxf.io": ["https://shopify.pxf.io/prueba-gratis-shop"]}
+# Parámetros permitidos sobre el enlace base: deep link (u) y medición de impact.com.
+REFERRAL_PARAMS = {"u", "subId1", "subId2", "subId3", "sharedid"}
+# Dominios a los que se permite hacer deep link con u=.
+DEEPLINK_HOSTS = ("shopify.com",)
+
+
+def referral_ok(u, allowed):
+    """El enlace base exacto, opcionalmente con u= hacia un dominio permitido y Sub IDs."""
+    from urllib.parse import urlsplit, parse_qsl
+    base, _, query = u.partition("?")
+    if base not in allowed:
+        return False
+    if not query:
+        return True
+    params = parse_qsl(query, keep_blank_values=True)
+    names = [k for k, _ in params]
+    if len(names) != len(set(names)) or not set(names) <= REFERRAL_PARAMS:
+        return False
+    for k, v in params:
+        if not v:
+            return False
+        if k == "u":
+            dest = urlsplit(v)
+            host = (dest.hostname or "").lower()
+            if dest.scheme != "https" or not any(host == h or host.endswith("." + h) for h in DEEPLINK_HOSTS):
+                return False
+        elif k == "sharedid" and not v.isalnum():
+            return False
+    return True
 
 
 def load(p):
@@ -58,10 +87,12 @@ def check(p, urls):
     for host, allowed in REFERRALS.items():
         found = re.findall(rf"https?://{re.escape(host)}[^)\"\s]*", body)
         for u in found:
-            if u not in allowed:
+            if not referral_ok(u, allowed):
                 errs.append(f"enlace de referido alterado: {u}")
         if found and 'class="fm-ref"' not in body:
             errs.append("tiene enlace de referido pero no el aviso de afiliado (fm-ref)")
+    for u in re.findall(r"https?://(?:[a-z0-9-]+\.)*shopify\.com[^)\"\s]*", body, re.I):
+        errs.append(f"enlace directo a Shopify sin afiliado (usa el deep link con ?u=): {u}")
     plain = re.sub(r"\([^)]*\)|<[^>]+>|```.*?```|\[TOC\]|[#*|`>\[\]]", " ", body, flags=re.S)
     words = len(plain.split())
     sources = len(re.findall(r"\]\(https?://", body))

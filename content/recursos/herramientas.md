@@ -93,7 +93,7 @@ Así que hice limpieza. Esta es la lista corta, la que de verdad usaría hoy.
 
 ## Ecommerce
 
-- [Shopify](https://shopify.pxf.io/prueba-gratis-shop): la forma más rápida de abrir una tienda en línea en México sin pelearte con servidores. Lo explico paso a paso en [esta guía](/blog/como-abrir-una-tienda-en-linea-en-mexico-con-shopify/).
+- [Shopify](https://shopify.pxf.io/prueba-gratis-shop?subId1=recursos&subId2=herramientas&subId3=directorio): la forma más rápida de abrir una tienda en línea en México sin pelearte con servidores. Lo explico paso a paso en [esta guía](/blog/como-abrir-una-tienda-en-linea-en-mexico-con-shopify/).
 
 ## Pruebas A/B y optimización
 

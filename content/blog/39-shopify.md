@@ -14,7 +14,7 @@ featured_alt: "Portada: cómo abrir una tienda en línea en México con Shopify"
 
 La primera versión de esta guía prometía que podías vivir de tu tienda en línea "trabajando desde tu casa y en las horas que desees". La promesa sigue siendo posible. Lo que no le dije en su momento es que la parte de "las horas que desees" suele ser todas.
 
-Así que aquí va la versión honesta y actualizada: qué cuesta, qué incluye y cómo empezar con [Shopify](https://shopify.pxf.io/prueba-gratis-shop) en México sin perder dinero en el intento.
+Así que aquí va la versión honesta y actualizada: qué cuesta, qué incluye y cómo empezar con [Shopify](https://shopify.pxf.io/prueba-gratis-shop?subId1=blog&subId2=como-abrir-una-tienda-en-linea-en-mexico-con-shopify&subId3=intro) en México sin perder dinero en el intento.
 
 <div class="fm-tldr" markdown="1">
 **La versión corta:**
@@ -27,7 +27,7 @@ Así que aquí va la versión honesta y actualizada: qué cuesta, qué incluye y
 
 ## Cuánto cuesta en 2026
 
-Estos son los precios publicados en la [página de precios de Shopify México](https://www.shopify.com/mx/precios) al momento de esta actualización. Cambian con frecuencia, así que revísalos antes de decidir:
+Estos son los precios publicados en la [página de precios de Shopify México](https://shopify.pxf.io/prueba-gratis-shop?u=https%3A%2F%2Fwww.shopify.com%2Fmx%2Fprecios&subId1=blog&subId2=como-abrir-una-tienda-en-linea-en-mexico-con-shopify&subId3=precios) al momento de esta actualización. Cambian con frecuencia, así que revísalos antes de decidir:
 
 | Plan | Pago anual (USD/mes) | Pago mensual (USD/mes) | Comisión con tarjeta en línea |
 |---|---|---|---|
@@ -70,7 +70,7 @@ Sobre la prueba: la versión original de esta guía hablaba de 14 días gratis. 
 
 Si vendes productos físicos y quieres empezar rápido, Shopify es la opción que más recomiendo. Si ya tienes un sitio en WordPress y pocos productos, WooCommerce puede tener sentido. Si vendes en volumen en Mercado Libre o Amazon, quizá tu tienda propia es complemento, no prioridad.
 
-Si decidiste que sí, [empieza tu prueba en Shopify aquí](https://shopify.pxf.io/prueba-gratis-shop).
+Si decidiste que sí, [empieza tu prueba en Shopify aquí](https://shopify.pxf.io/prueba-gratis-shop?subId1=blog&subId2=como-abrir-una-tienda-en-linea-en-mexico-con-shopify&subId3=cierre).
 
 <p class="fm-ref">Transparencia: los enlaces a Shopify de esta entrada son de afiliado. Si abres tu tienda desde ahí, Shopify me paga una comisión y a ti no te cuesta más. Lo recomiendo porque es la forma más sencilla de empezar, no por la comisión.</p>
 
