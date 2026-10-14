@@ -1,11 +1,11 @@
-# .htaccess de la RAÍZ de www.fernandomartinez.mx
-# 1) Redirecciones 301 del sitio Joomla anterior (98 URLs viejas).
-# 2) Bloque estándar de WordPress (WordPress puede reescribir solo ese bloque al guardar enlaces permanentes).
-
+# BEGIN Redirecciones fernandomartinez.mx
 # Redirecciones 301 del sitio Joomla a WordPress (generado por scripts/redirects.py)
 # Pegar ANTES de '# BEGIN WordPress' en el .htaccess de la raíz.
 <IfModule mod_rewrite.c>
 RewriteEngine On
+
+# El sitio vivió en /dev durante la construcción
+RewriteRule ^dev/?(.*)$ /$1 [R=301,L]
 
 # Variantes de Joomla: /index.php/ruta y feeds RSS (?format=feed)
 RewriteRule ^index\.php/(.+)$ /$1 [R=301,L]
@@ -113,6 +113,7 @@ RewriteRule ^images/blog/.*$ /blog/ [R=301,L]
 RewriteRule ^images/recursos/.*$ /recursos/ [R=301,L]
 RewriteRule ^images/.+$ / [R=301,L]
 </IfModule>
+# END Redirecciones fernandomartinez.mx
 
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
