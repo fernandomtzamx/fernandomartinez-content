@@ -39,3 +39,13 @@
 @media (max-width:640px){.fm-hero-foto{float:none;display:block;width:120px;height:120px;margin:0 0 1em}}
 .fm-autor{display:flex;gap:1em;align-items:center}.fm-autor p{margin:0}
 .fm-avatar{width:72px;height:72px;flex:0 0 72px;border-radius:50%!important;object-fit:cover}
+.fm-pasos ol{list-style:none;counter-reset:paso;padding:0;margin:1.4em 0}
+.fm-pasos li{counter-increment:paso;position:relative;padding:0 0 1.1em 3.4em;min-height:2.4em}
+.fm-pasos li::before{content:counter(paso);position:absolute;left:0;top:-.1em;width:2.3em;height:2.3em;border-radius:50%;background:var(--fm-cobalt);color:#fff;font-weight:800;display:flex;align-items:center;justify-content:center}
+.fm-faq{margin:1.2em 0 2em;border-top:1px solid var(--fm-line)}
+.fm-faq details{border-bottom:1px solid var(--fm-line);padding:1em 0}
+.fm-faq summary{cursor:pointer;font-weight:700;list-style:none;position:relative;padding-right:2.2em}
+.fm-faq summary::-webkit-details-marker{display:none}
+.fm-faq summary::after{content:"+";position:absolute;right:.3em;top:50%;transform:translateY(-50%);color:var(--fm-cobalt);font-size:1.5em;font-weight:400;transition:transform .2s ease}
+.fm-faq details[open] summary::after{transform:translateY(-50%) rotate(45deg)}
+.fm-faq details p{margin:.7em 0 0}

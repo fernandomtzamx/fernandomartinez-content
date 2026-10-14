@@ -3,7 +3,7 @@
 
 ajustes:
   title: "Fernando Martínez"
-  description: "CTO, programador desde 2008 y marketero en recuperación"
+  description: "Director de tecnología, programador desde 2008 y marketero en recuperación"
   timezone: "America/Mexico_City"
   date_format: "j \\d\\e F \\d\\e Y"
   posts_per_page: 12
