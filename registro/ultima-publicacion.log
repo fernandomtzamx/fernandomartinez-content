@@ -1,13 +1,37 @@
-fecha: 2026-10-14T15:52:12Z
-commit: 10f3bd6f80dea10fa476e00f0008da166edd1fb7
+fecha: 2026-10-14T15:53:12Z
+commit: 03d7eb40519ae327442b43ffeda8eb315953f2f6
 evento: push
 publicar: skipped | setup: skipped | verificar: skipped
-run: https://github.com/fernandomtzamx/fernandomartinez-content/actions/runs/38593092378
+run: https://github.com/fernandomtzamx/fernandomartinez-content/actions/runs/38593211205
 ---
 WP_URL: presente
 WP_USER: presente
 WP_APP_PASSWORD: presente
 Plan: publicar='' setup='' verificar='' info='1'
+sondeo https://www.fernandomartinez.mx/ -> 301 loc=https://www.fernandomartinez.mx/dev/ srv=cloudflare cf=DYNAMIC  | ''
+sondeo https://www.fernandomartinez.mx/?rest_route=/ -> 200 loc=None srv=cloudflare cf=DYNAMIC home=https://www.fernandomartinez.mx/dev url=https://www.fernandomartinez.mx/dev | '{"name":"Fernando Mart\\u00ednez","description":"Director de tecnolog\\u00eda, programador d'
+sondeo https://www.fernandomartinez.mx/index.php?rest_route=/ -> 200 loc=None srv=cloudflare cf=DYNAMIC home=https://www.fernandomartinez.mx/dev url=https://www.fernandomartinez.mx/dev | '{"name":"Fernando Mart\\u00ednez","description":"Director de tecnolog\\u00eda, programador d'
+sondeo https://www.fernandomartinez.mx/wp-json/ -> 404 loc=None srv=cloudflare cf=DYNAMIC  | '<!DOCTYPE html>\n<html style="height:100%">\n<head>\n<meta name="viewport" content="width=dev'
+sondeo https://www.fernandomartinez.mx/index.php/wp-json/ -> 200 loc=None srv=cloudflare cf=DYNAMIC  | '{"name":"Fernando Mart\\u00ednez","description":"Director de tecnolog\\u00eda, programador d'
+sondeo https://www.fernandomartinez.mx/blog/ -> 404 loc=None srv=cloudflare cf=DYNAMIC  | '<!DOCTYPE html>\n<html style="height:100%">\n<head>\n<meta name="viewport" content="width=dev'
+sondeo https://www.fernandomartinez.mx/blog/que-es-el-inbound-marketing/ -> 404 loc=None srv=cloudflare cf=DYNAMIC  | '<!DOCTYPE html>\n<html style="height:100%">\n<head>\n<meta name="viewport" content="width=dev'
+sondeo https://www.fernandomartinez.mx/?p=72 -> 301 loc=https://www.fernandomartinez.mx/dev/blog/physical-web-el-nuevo-paso-para-los-negocios/ srv=cloudflare cf=DYNAMIC  | ''
+sondeo https://www.fernandomartinez.mx/dev/ -> 403 loc=None srv=cloudflare cf=DYNAMIC  | '<!DOCTYPE html>\n<html style="height:100%">\n<head>\n<meta name="viewport" content="width=dev'
+sondeo https://www.fernandomartinez.mx/dev/wp-json/ -> 404 loc=None srv=cloudflare cf=DYNAMIC  | '<!DOCTYPE html>\n<html style="height:100%">\n<head>\n<meta name="viewport" content="width=dev'
+sondeo https://www.fernandomartinez.mx/wp-login.php -> 200 loc=None srv=cloudflare cf=DYNAMIC  | '<!DOCTYPE html>\n\t<html lang="es">\n\t<head>\n\t<meta http-equiv="Content-Type" content="text/h'
+sondeo https://www.fernandomartinez.mx/wp-admin/ -> 302 loc=https://www.fernandomartinez.mx/dev/wp-login.php?redirect_to=https%3A%2F%2Fwww.fernandomartinez.mx%2Fwp-admin%2F&reauth=1 srv=cloudflare cf=DYNAMIC  | ''
+sondeo https://fernandomartinez.mx/ -> 301 loc=https://www.fernandomartinez.mx/dev/ srv=cloudflare cf=DYNAMIC  | ''
+sondeo https://fernandomartinez.mx/?rest_route=/ -> 200 loc=None srv=cloudflare cf=DYNAMIC home=https://www.fernandomartinez.mx/dev url=https://www.fernandomartinez.mx/dev | '{"name":"Fernando Mart\\u00ednez","description":"Director de tecnolog\\u00eda, programador d'
+sondeo https://fernandomartinez.mx/index.php?rest_route=/ -> 200 loc=None srv=cloudflare cf=DYNAMIC home=https://www.fernandomartinez.mx/dev url=https://www.fernandomartinez.mx/dev | '{"name":"Fernando Mart\\u00ednez","description":"Director de tecnolog\\u00eda, programador d'
+sondeo https://fernandomartinez.mx/wp-json/ -> 404 loc=None srv=cloudflare cf=DYNAMIC  | '<!DOCTYPE html>\n<html style="height:100%">\n<head>\n<meta name="viewport" content="width=dev'
+sondeo https://fernandomartinez.mx/index.php/wp-json/ -> 200 loc=None srv=cloudflare cf=DYNAMIC  | '{"name":"Fernando Mart\\u00ednez","description":"Director de tecnolog\\u00eda, programador d'
+sondeo https://fernandomartinez.mx/blog/ -> 404 loc=None srv=cloudflare cf=DYNAMIC  | '<!DOCTYPE html>\n<html style="height:100%">\n<head>\n<meta name="viewport" content="width=dev'
+sondeo https://fernandomartinez.mx/blog/que-es-el-inbound-marketing/ -> 404 loc=None srv=cloudflare cf=DYNAMIC  | '<!DOCTYPE html>\n<html style="height:100%">\n<head>\n<meta name="viewport" content="width=dev'
+sondeo https://fernandomartinez.mx/?p=72 -> 301 loc=https://www.fernandomartinez.mx/dev/blog/physical-web-el-nuevo-paso-para-los-negocios/ srv=cloudflare cf=DYNAMIC  | ''
+sondeo https://fernandomartinez.mx/dev/ -> 403 loc=None srv=cloudflare cf=DYNAMIC  | '<!DOCTYPE html>\n<html style="height:100%">\n<head>\n<meta name="viewport" content="width=dev'
+sondeo https://fernandomartinez.mx/dev/wp-json/ -> 404 loc=None srv=cloudflare cf=DYNAMIC  | '<!DOCTYPE html>\n<html style="height:100%">\n<head>\n<meta name="viewport" content="width=dev'
+sondeo https://fernandomartinez.mx/wp-login.php -> 200 loc=None srv=cloudflare cf=DYNAMIC  | '<!DOCTYPE html>\n\t<html lang="es">\n\t<head>\n\t<meta http-equiv="Content-Type" content="text/h'
+sondeo https://fernandomartinez.mx/wp-admin/ -> 302 loc=https://www.fernandomartinez.mx/dev/wp-login.php?redirect_to=https%3A%2F%2Ffernandomartinez.mx%2Fwp-admin%2F&reauth=1 srv=cloudflare cf=DYNAMIC  | ''
 Endpoint: https://fernandomartinez.mx/wp-json/ (HTTP 404)
 Aviso: /wp-json/ no devolvió JSON
 Servidor: cloudflare | via: - | cf-ray: sí
