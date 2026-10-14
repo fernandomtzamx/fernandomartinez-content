@@ -1,0 +1,58 @@
+name: Probar redirecciones
+
+# Corre después de cada publicación (así los destinos ya existen en WordPress) y a mano.
+on:
+  workflow_run:
+    workflows: ["Publicar en WordPress"]
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  probar:
+    runs-on: ubuntu-latest
+    env:
+      WP_URL: ${{ secrets.WP_URL }}
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Apache con mod_rewrite y el .htaccess de la migración
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq apache2 > /dev/null
+          sudo a2enmod rewrite > /dev/null
+          sudo sed -i 's#</VirtualHost>#<Directory /var/www/html>\n AllowOverride All\n</Directory>\n</VirtualHost>#' /etc/apache2/sites-available/000-default.conf
+          sudo rm -f /var/www/html/index.html
+          {
+            cat migracion/redirecciones.htaccess
+            echo ""
+            echo "# BEGIN WordPress"
+            echo "<IfModule mod_rewrite.c>"
+            echo "RewriteEngine On"
+            echo "RewriteBase /"
+            echo "RewriteRule ^index\.php$ - [L]"
+            echo "RewriteCond %{REQUEST_FILENAME} !-f"
+            echo "RewriteCond %{REQUEST_FILENAME} !-d"
+            echo "RewriteRule . /index.php [L]"
+            echo "</IfModule>"
+            echo "# END WordPress"
+          } | sudo tee /var/www/html/.htaccess > /dev/null
+          echo "wp" | sudo tee /var/www/html/index.php > /dev/null
+          sudo systemctl restart apache2
+          curl -sI "http://127.0.0.1/blog/41-credito-automotriz-en-linea-disrupcion-venta-de-autos" | head -3
+      - run: pip install -q requests
+      - name: Probar todas las URLs viejas
+        run: python scripts/test_redirects.py
+      - name: Guardar reporte
+        if: always()
+        run: |
+          git config user.name "fm-bot"
+          git config user.email "fm-bot@users.noreply.github.com"
+          git add registro/redirecciones.md
+          git commit -m "Reporte de redirecciones [skip ci]" || exit 0
+          git pull --rebase -q origin main && git push -q origin HEAD:main

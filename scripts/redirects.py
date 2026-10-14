@@ -34,6 +34,11 @@ rules.update(fijas)
 out = ["# Redirecciones 301 del sitio Joomla a WordPress (generado por scripts/redirects.py)",
        "# Pegar ANTES de '# BEGIN WordPress' en el .htaccess de la raíz.",
        "<IfModule mod_rewrite.c>", "RewriteEngine On", ""]
+out.append("# Variantes de Joomla: /index.php/ruta y feeds RSS (?format=feed)")
+out.append("RewriteRule ^index\\.php/(.+)$ /$1 [R=301,L]")
+out.append("RewriteCond %{QUERY_STRING} (^|&)format=feed")
+out.append("RewriteRule ^ /feed/? [R=301,L]")
+out.append("")
 out.append("# Directorio de enlaces: el referido de Shopify conserva su destino exacto")
 for wid, w in sorted(enl["weblinks"].items(), key=lambda x: int(x[0])):
     if "pxf.io" in (w.get("destino") or ""):

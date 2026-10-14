@@ -56,5 +56,5 @@ Es útil para transcribir, resumir entrevistas y encontrar patrones en muchas co
 Una buyer persona que vive en una presentación no sirve. Debería cambiar qué contenido haces, cómo calificas leads en tu CRM, qué objeciones atiende tu equipo de ventas y qué mensaje lleva cada campaña.
 
 <div class="fm-cta" markdown="1">
-Una vez que sabes a quién le vendes, el siguiente paso es saber más de cada cliente. Lee [cómo enriquecer tu base de datos de clientes](/blog/como-enriquecer-mi-base-de-datos-de-clientes-para-mi-estrategia-de-marketing-digital/).
+Una vez que sabes a quién le vendes, el siguiente paso es saber más de cada cliente. Lee [cómo enriquecer tu base de datos de clientes](/blog/como-enriquecer-tu-base-de-datos-de-clientes/).
 </div>

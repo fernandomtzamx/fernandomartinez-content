@@ -3,6 +3,11 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On
 
+# Variantes de Joomla: /index.php/ruta y feeds RSS (?format=feed)
+RewriteRule ^index\.php/(.+)$ /$1 [R=301,L]
+RewriteCond %{QUERY_STRING} (^|&)format=feed
+RewriteRule ^ /feed/? [R=301,L]
+
 # Directorio de enlaces: el referido de Shopify conserva su destino exacto
 RewriteCond %{QUERY_STRING} (^|&)task=weblink\.go.*(^|&)id=100([:&]|$)
 RewriteRule ^(enlaces-recomendados|component/weblinks)/?$ https://shopify.pxf.io/prueba-gratis-shop? [R=301,L]
@@ -31,15 +36,15 @@ RewriteRule ^blog/22-plantillas-administrador-joomla/?$ /blog/plantillas-adminis
 RewriteRule ^blog/24-inbound-marketing-audiencia-ideal/?$ /blog/inbound-marketing-audiencia-ideal/ [R=301,L]
 RewriteRule ^blog/26-que-es-el-internet-de-las-cosas-iot-internet-of-things/?$ /blog/que-es-el-internet-de-las-cosas-iot-internet-of-things/ [R=301,L]
 RewriteRule ^blog/27-como-identificar-y-crear-mis-buyer-personas/?$ /blog/como-identificar-y-crear-mis-buyer-personas/ [R=301,L]
-RewriteRule ^blog/28-como-enriquecer-mi-base-de-datos-de-clientes-para-mi-estrategia-de-marketing-digital/?$ /blog/como-enriquecer-mi-base-de-datos-de-clientes-para-mi-estrategia-de-marketing-digital/ [R=301,L]
+RewriteRule ^blog/28-como-enriquecer-mi-base-de-datos-de-clientes-para-mi-estrategia-de-marketing-digital/?$ /blog/como-enriquecer-tu-base-de-datos-de-clientes/ [R=301,L]
 RewriteRule ^blog/29-los-consumidores-tienen-el-control/?$ /blog/los-consumidores-tienen-el-control/ [R=301,L]
 RewriteRule ^blog/3-como-crear-un-plan-de-compensacion-para-tu-equipo-de-ventas/?$ /blog/como-crear-un-plan-de-compensacion-para-tu-equipo-de-ventas/ [R=301,L]
 RewriteRule ^blog/31-physical-web-el-nuevo-paso-para-los-negocios/?$ /blog/physical-web-el-nuevo-paso-para-los-negocios/ [R=301,L]
 RewriteRule ^blog/32-deberias-ofrecer-wi-fi-gratis-en-tu-negocio/?$ /blog/deberias-ofrecer-wi-fi-gratis-en-tu-negocio/ [R=301,L]
-RewriteRule ^blog/33-el-uso-de-la-redes-sociales-lo-definen-los-usuarios/?$ /blog/el-uso-de-la-redes-sociales-lo-definen-los-usuarios/ [R=301,L]
+RewriteRule ^blog/33-el-uso-de-la-redes-sociales-lo-definen-los-usuarios/?$ /blog/el-uso-de-las-redes-sociales-lo-definen-los-usuarios/ [R=301,L]
 RewriteRule ^blog/34-5-ideas-para-fortalecer-tu-marketing-digital-en-redes-sociales/?$ /blog/5-ideas-para-fortalecer-tu-marketing-digital-en-redes-sociales/ [R=301,L]
 RewriteRule ^blog/35-3-formas-de-hacer-marketing-digital-con-realidad-virtual/?$ /blog/3-formas-de-hacer-marketing-digital-con-realidad-virtual/ [R=301,L]
-RewriteRule ^blog/36-porque-deberias-considerar-el-inbound-marketing/?$ /blog/porque-deberias-considerar-el-inbound-marketing/ [R=301,L]
+RewriteRule ^blog/36-porque-deberias-considerar-el-inbound-marketing/?$ /blog/por-que-deberias-considerar-el-inbound-marketing/ [R=301,L]
 RewriteRule ^blog/37-marketing-automotriz-en-los-juegos-olimpicos/?$ /blog/marketing-automotriz-en-los-juegos-olimpicos/ [R=301,L]
 RewriteRule ^blog/38-como-aprovechar-instagram-stories-en-tu-marketing/?$ /blog/como-aprovechar-instagram-stories-en-tu-marketing/ [R=301,L]
 RewriteRule ^blog/39-como-abrir-una-tienda-en-linea-en-mexico-con-shopify/?$ /blog/como-abrir-una-tienda-en-linea-en-mexico-con-shopify/ [R=301,L]

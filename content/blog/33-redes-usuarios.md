@@ -1,6 +1,7 @@
 ---
 title: "El uso de las redes sociales lo definen los usuarios, no las marcas"
-slug: el-uso-de-la-redes-sociales-lo-definen-los-usuarios
+slug: el-uso-de-las-redes-sociales-lo-definen-los-usuarios
+id: 76
 type: post
 status: publish
 date: 2026-10-13 11:30
@@ -8,7 +9,7 @@ original: /blog/33-el-uso-de-la-redes-sociales-lo-definen-los-usuarios
 excerpt: "Hace años se debatía si LinkedIn iba a morir por volverse 'como Facebook'. No murió: creció. Por qué los usuarios, y no las plataformas, deciden en qué se convierte una red."
 categories: [marketing]
 tags: [redes sociales, LinkedIn, Facebook, comunidad, plataformas]
-featured_image: images/el-uso-de-la-redes-sociales-lo-definen-los-usuarios.png
+featured_image: images/el-uso-de-las-redes-sociales-lo-definen-los-usuarios.png
 featured_alt: "Portada: el uso de las redes sociales lo definen los usuarios"
 ---
 

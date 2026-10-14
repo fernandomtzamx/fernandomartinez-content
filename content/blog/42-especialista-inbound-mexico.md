@@ -37,11 +37,11 @@ Si solo hace una de esas cinco cosas, no es especialista en inbound. Es especial
 
 **WhatsApp se volvió el embudo.** En México, buena parte de las conversaciones con las marcas pasan por WhatsApp. Un especialista que todavía mide todo por formularios llenados se está perdiendo la mitad de la película. Lo explico con datos en [5 datos duros para implementar un chat](/blog/5-datos-duros-para-considerar-implementar-un-chat/).
 
-**La IA cambió los buscadores.** Con resúmenes generados por IA, la gente hace menos clic. El inbound que funciona hoy busca ser la fuente que se cita, no solo el resultado que aparece. Lo detallo en [por qué deberías considerar el inbound marketing](/blog/porque-deberias-considerar-el-inbound-marketing/).
+**La IA cambió los buscadores.** Con resúmenes generados por IA, la gente hace menos clic. El inbound que funciona hoy busca ser la fuente que se cita, no solo el resultado que aparece. Lo detallo en [por qué deberías considerar el inbound marketing](/blog/por-que-deberias-considerar-el-inbound-marketing/).
 
 **El contenido genérico ya no vale nada.** Producir artículos cuesta casi cero. Si tu especialista te propone "cuatro blogs al mes" sin decirte qué van a responder ni a quién, está vendiendo volumen, no resultados.
 
-**La nueva ley de datos personales pide más cuidado.** Desde marzo de 2025 hay una nueva Ley Federal de Protección de Datos Personales en Posesión de los Particulares. Un especialista serio te habla de aviso de privacidad y consentimiento antes de llenar tu base de datos. Lo cuento en [cómo enriquecer tu base de datos de clientes](/blog/como-enriquecer-mi-base-de-datos-de-clientes-para-mi-estrategia-de-marketing-digital/).
+**La nueva ley de datos personales pide más cuidado.** Desde marzo de 2025 hay una nueva Ley Federal de Protección de Datos Personales en Posesión de los Particulares. Un especialista serio te habla de aviso de privacidad y consentimiento antes de llenar tu base de datos. Lo cuento en [cómo enriquecer tu base de datos de clientes](/blog/como-enriquecer-tu-base-de-datos-de-clientes/).
 
 ## Las 7 preguntas que yo haría antes de contratar
 
