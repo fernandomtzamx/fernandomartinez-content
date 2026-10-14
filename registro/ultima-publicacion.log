@@ -1,8 +1,8 @@
-fecha: 2026-10-14T15:53:12Z
-commit: 03d7eb40519ae327442b43ffeda8eb315953f2f6
+fecha: 2026-10-14T15:56:04Z
+commit: 899c494d88273f7e42bc963a05f00bc1aef14a05
 evento: push
 publicar: skipped | setup: skipped | verificar: skipped
-run: https://github.com/fernandomtzamx/fernandomartinez-content/actions/runs/38593211205
+run: https://github.com/fernandomtzamx/fernandomartinez-content/actions/runs/38593573379
 ---
 WP_URL: presente
 WP_USER: presente
@@ -32,20 +32,49 @@ sondeo https://fernandomartinez.mx/dev/ -> 403 loc=None srv=cloudflare cf=DYNAMI
 sondeo https://fernandomartinez.mx/dev/wp-json/ -> 404 loc=None srv=cloudflare cf=DYNAMIC  | '<!DOCTYPE html>\n<html style="height:100%">\n<head>\n<meta name="viewport" content="width=dev'
 sondeo https://fernandomartinez.mx/wp-login.php -> 200 loc=None srv=cloudflare cf=DYNAMIC  | '<!DOCTYPE html>\n\t<html lang="es">\n\t<head>\n\t<meta http-equiv="Content-Type" content="text/h'
 sondeo https://fernandomartinez.mx/wp-admin/ -> 302 loc=https://www.fernandomartinez.mx/dev/wp-login.php?redirect_to=https%3A%2F%2Ffernandomartinez.mx%2Fwp-admin%2F&reauth=1 srv=cloudflare cf=DYNAMIC  | ''
-Endpoint: https://fernandomartinez.mx/wp-json/ (HTTP 404)
-Aviso: /wp-json/ no devolvió JSON
-Servidor: cloudflare | via: - | cf-ray: sí
-  encabezado Cache-Control: private, no-cache, no-store, must-revalidate, max-age=0
-  encabezado x-frame-options: SAMEORIGIN
-  encabezado x-content-type-options: nosniff
-  encabezado x-turbo-charged-by: LiteSpeed
-  encabezado cf-cache-status: DYNAMIC
-Respuesta con credencial real: 404 <!DOCTYPE html>
-<html style="height:100%">
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1, sh
-Respuesta con contraseña falsa: 404 <!DOCTYPE html>
-<html style="height:100%">
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1, sh
-DIAGNÓSTICO: el encabezado SÍ llega; la credencial real es la que falla (usuario o contraseña).
+fix_raiz: usuario 200 ['administrator']
+fix_raiz: instalar Code Snippets 201 {"plugin":"code-snippets\/code-snippets","status":"active","name":"Code Snippets","plugin_uri":"https:\/\/codesnippets.pro","author":"Code Snippets Pro","author_uri":"https:\/\/codesnippets.pro","desc
+fix_raiz: fragmento 200 {"id":5,"name":"fm: mover a la ra\u00edz (temporal)","desc":"","code":"$fm_url = 'https:\/\/www.fernandomartinez.mx';\nif ( get_option( 'siteurl' ) !== $fm_url ) { update_option( 'siteurl', $fm_url ); }\nif ( get_option( 'home' ) !== $fm_url ) { update_option( 'home', $fm_url ); }\nif ( ! get_option
+fix_raiz: home ahora = https://www.fernandomartinez.mx | url = https://www.fernandomartinez.mx
+fix_raiz: siteurl ahora = https://www.fernandomartinez.mx
+fix_raiz: .htaccess 200 {"ok":true,"antes":"\n# BEGIN WordPress\n# Las directivas (l\u00edneas) entre \u00abBEGIN WordPress\u00bb y \u00abEND WordPress\u00bb son\n# generadas din\u00e1micamente y solo deber\u00edan ser modificadas mediante filtros de WordPress.\n# Cualquier cambio en las directivas que hay entre esos marcadores ser\u00e1n sobrescritas.\n<IfModule mod_rewrite.c>\nRewriteEngine On\nRewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]\nRewriteBase \/\nRewriteRule ^index\\.php$ - [L]\nRewriteCond %{REQUEST_FILENAME} !-f\nRewriteCond %{REQUEST_FILENAME} !-d\nRewriteRule . \/index.php [L]\n<\/IfModule>\n\n# END WordPress","bloques_conservados":"","abspath":"\/home\/fernandomartinez\/public_html\/","fecha":"2026-10-14T15:55:40+00:00"}
+fix_raiz: borrar fragmento 5 200
+fix_raiz: borrar fragmento 6 200
+fix_raiz: borrar Code Snippets 200
+fix_raiz: después / -> 200 
+fix_raiz: después /blog/ -> 200 
+fix_raiz: después /blog/que-es-el-inbound-marketing/ -> 200 
+fix_raiz: después /wp-json/ -> 200 
+fix_raiz: después /dev/ -> 301 https://www.fernandomartinez.mx/
+fix_raiz: después /dev/contacto/ -> 301 https://www.fernandomartinez.mx/contacto/
+fix_raiz: después /blog/14-que-es-el-inbound-marketing -> 301 https://www.fernandomartinez.mx/blog/que-es-el-inbound-marketing/
+fix_raiz: después /wp-admin/ -> 302 https://www.fernandomartinez.mx/wp-login.php?redirect_to=https%3A%2F%2Fwww.fernandomartinez.mx%2Fwp-admin%2F&reauth=1
+Endpoint: https://fernandomartinez.mx/wp-json/ (HTTP 200)
+Métodos de autenticación anunciados: application-passwords
+settings 200 23
+themes 200 4
+plugins 200 6
+pages 200 16
+posts 200 34
+categories 200 10
+menus 200 0
+menu_locations 200 2
+templates 200 8
+navigation 200 2
+vivo / {'status': 200, 'location': None, 'server': 'cloudflare', 'cache': 'DYNAMIC'}
+vivo /blog/ {'status': 200, 'location': None, 'server': 'cloudflare', 'cache': 'DYNAMIC'}
+vivo /blog/que-es-el-inbound-marketing/ {'status': 200, 'location': None, 'server': 'cloudflare', 'cache': 'DYNAMIC'}
+vivo /fernando-arturo-martinez-aguilar/ {'status': 200, 'location': None, 'server': 'cloudflare', 'cache': 'DYNAMIC'}
+vivo /dev/ {'status': 301, 'location': 'https://www.fernandomartinez.mx/', 'server': 'cloudflare', 'cache': 'DYNAMIC'}
+vivo /dev/blog/que-es-el-inbound-marketing/ {'status': 301, 'location': 'https://www.fernandomartinez.mx/blog/que-es-el-inbound-marketing/', 'server': 'cloudflare', 'cache': 'DYNAMIC'}
+vivo /dev/wp-json/ {'status': 301, 'location': 'https://www.fernandomartinez.mx/wp-json/', 'server': 'cloudflare', 'cache': 'DYNAMIC'}
+vivo /blog/14-que-es-el-inbound-marketing {'status': 301, 'location': 'https://www.fernandomartinez.mx/blog/que-es-el-inbound-marketing/', 'server': 'cloudflare', 'cache': 'DYNAMIC'}
+vivo /index.php/blog {'status': 301, 'location': 'https://www.fernandomartinez.mx/blog', 'server': 'cloudflare', 'cache': 'DYNAMIC'}
+vivo /temas/inbound {'status': 301, 'location': 'https://www.fernandomartinez.mx/blog/', 'server': 'cloudflare', 'cache': 'DYNAMIC'}
+vivo /robots.txt {'status': 200, 'location': None, 'server': 'cloudflare', 'cache': 'EXPIRED'}
+vivo /wp-sitemap.xml {'status': 200, 'location': None, 'server': 'cloudflare', 'cache': 'DYNAMIC'}
+vivo /wp-admin/ {'status': 302, 'location': 'https://www.fernandomartinez.mx/wp-login.php?redirect_to=https%3A%2F%2Fwww.fernandomartinez.mx%2Fwp-admin%2F&reauth=1', 'server': 'cloudflare', 'cache': 'DYNAMIC'}
+vivo /wp-content/uploads/ {'status': 403, 'location': None, 'server': 'cloudflare', 'cache': 'DYNAMIC'}
+dev en portada: 13 ['https://www.fernandomartinez.mx/dev/', 'https://www.fernandomartinez.mx/dev/blog/', 'https://www.fernandomartinez.mx/dev/blog/credito-automotriz-en-linea-disrupcion-venta-de-autos/', 'https://www.fernandomartinez.mx/dev/blog/especialista-en-inbound-marketing-en-mexico/', 'https://www.fernandomartinez.mx/dev/blog/experto-en-joomla-en-mexico/', 'https://www.fernandomartinez.mx/dev/blog/los-consumidores-tienen-el-control/', 'https://www.fernandomartinez.mx/dev/blog/para-que-sirve-un-blog-en-mi-sitio-web/', 'https://www.fernandomartinez.mx/dev/como-te-ayudo/']
+titulo: Fernando Martínez &#8211; Director de tecnología, programador desde 2008 y marketero en recuperación | noindex: False
+contenido con /dev: 52 [('pages:website-preloader-joomla-plugin', 4), ('pages:twitter-summary-card-for-joomla-articles-plugin', 4), ('pages:sumome-joomla-plugin', 3), ('pages:las-mejores-herramientas-de-seo-e-inbound-marketing', 2), ('pages:imagenes-libres-de-derechos-gratis', 1), ('pages:administration-brand-remover-joomla-plugin', 5), ('pages:25-cosas-que-hacer-en-la-web-para-tener-mas-trafico-y-clientes', 3), ('pages:fernando-arturo-martinez-aguilar', 4), ('pages:recursos', 9), ('pages:contacto', 1)]
