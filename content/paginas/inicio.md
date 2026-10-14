@@ -5,7 +5,7 @@ type: page
 status: publish
 template: page-no-title
 menu_order: 0
-excerpt: "Fernando Martínez, director de tecnología (CTO) que todavía programa y que vino del marketing. Inbound marketing, posicionamiento web (SEO y GEO), desarrollo y martech."
+excerpt: "Fernando Martínez, director de tecnología (CTO) que todavía programa y que vino del marketing. Experiencia y opiniones sobre inbound marketing, SEO y GEO, desarrollo y martech."
 ---
 
 <div class="fm-hero" markdown="1">
@@ -22,11 +22,11 @@ Antes de eso pasé años del otro lado de la mesa: haciendo inbound marketing, p
 [Platiquemos](/contacto/){: .fm-btn } [Conoce mi historia](/fernando-arturo-martinez-aguilar/){: .fm-btn .alt }
 </div>
 
-## Lo que hago, explicado sin PowerPoint
+## Cuatro frentes, una sola carrera
 
 Un director de tecnología (o CTO, si prefieres la versión de tarjeta de presentación) no está para comprar software. Está para que la tecnología ayude a vender, atender y decidir mejor.
 
-En mi caso, eso se reparte en cuatro frentes:
+Llegué a ese puesto por un camino poco ordenado, y de cada tramo me traje algo:
 
 <div class="fm-grid" markdown="1">
 <div class="fm-card" markdown="1">
@@ -35,11 +35,11 @@ Estrategia, arquitectura y equipo. Decido qué se construye, qué se compra y qu
 </div>
 <div class="fm-card" markdown="1">
 ### Inbound marketing
-Fundé Inbound México y escribí para el blog en español de HubSpot. Sé atraer clientes con contenido y, sobre todo, conectar ese contenido con ventas. ([Cómo elegir un especialista en inbound marketing](/blog/especialista-en-inbound-marketing-en-mexico/))
+Fundé Inbound México y escribí para el blog en español de HubSpot. Ahí aprendí a atraer clientes con contenido y, sobre todo, a conectar ese contenido con ventas. ([Cómo elegir un especialista en inbound marketing](/blog/especialista-en-inbound-marketing-en-mexico/))
 </div>
 <div class="fm-card" markdown="1">
 ### Posicionamiento web: SEO y GEO
-SEO para que Google te encuentre. GEO para que también te mencionen ChatGPT, Gemini o Perplexity cuando alguien les pregunta por lo que vendes. Más abajo te lo explico en corto.
+Más de 400 clientes en Latinoamérica. Primero SEO, para que Google los encontrara. Ahora también GEO, para que ChatGPT, Gemini o Perplexity los mencionen cuando alguien pregunta por lo que venden.
 </div>
 <div class="fm-card" markdown="1">
 ### Desarrollo y martech
@@ -47,16 +47,16 @@ Programo desde 2008: más de 200 sitios, extensiones open source y hoy integraci
 </div>
 </div>
 
-## Cómo suele empezar
-
-Nada de propuestas de 40 páginas en la primera cita. Normalmente va así:
+## Mi trayectoria, en corto
 
 <div class="fm-pasos" markdown="1">
-1. **Una plática de 30 minutos.** Me cuentas qué está pasando (y qué ya intentaron, que siempre es la parte interesante).
-2. **Buscamos la fuga más cara.** No la más vistosa: la que hoy cuesta más dinero o más tiempo.
-3. **Probamos algo pequeño.** Un flujo, una automatización o una mejora al sitio que se pueda medir en semanas, no en trimestres.
-4. **Medimos y decidimos juntos.** Si funciona, crece. Si no, se ajusta. Sin drama y sin culpables.
+1. **2008, el código.** Empecé como programador open source. Escribí extensiones de Joomla que hoy usan más de 100 mil personas y programé más de 200 sitios para empresas mexicanas.
+2. **Después, el marketing.** Fundé Inbound México y Publi2.0, y expliqué inbound marketing cuando todavía había que justificar por qué un blog servía para algo.
+3. **En medio, el posicionamiento.** SEO para más de 400 clientes en Latinoamérica. Ahí aprendí que Google premia la paciencia más que los trucos.
+4. **Hoy, la dirección de tecnología.** CTO en EngineCX, con CRM, IA y datos para la industria automotriz en varios países.
 </div>
+
+La versión larga (con certificaciones y todo) está en [quién soy](/fernando-arturo-martinez-aguilar/).
 
 ## Una nota rápida sobre GEO (porque me lo preguntan mucho)
 
@@ -66,22 +66,24 @@ GEO viene de *Generative Engine Optimization*. Traducido a lo práctico: cada ve
 La buena noticia es que no hay que tirar el SEO a la basura. Lo que ayuda en GEO se parece mucho a lo que siempre funcionó: responder preguntas reales con claridad, que se note quién escribe, cifras con fuente y un sitio que los robots puedan leer sin sufrir.
 </div>
 
-Si te interesa el lado del cliente en todo esto, escribí sobre [cómo los consumidores ahora deciden con un asistente de IA al lado](/blog/los-consumidores-tienen-el-control/).
+Después de más de 400 clientes, mi opinión es sencilla: el que hizo bien su SEO ya lleva medio camino. Si te interesa el lado del consumidor, escribí sobre [cómo los consumidores ahora deciden con un asistente de IA al lado](/blog/los-consumidores-tienen-el-control/).
 
-## Lo que no vas a escuchar de mí
+## Lo que pienso (y firmo)
 
-No te voy a vender "transformación digital". Tampoco te voy a recomendar otra herramienta si la que tienes funciona y lo que falta es un proceso claro.
+- **La tecnología llega casi siempre antes que la pregunta de negocio.** Y luego nos sorprende que nadie la use.
+- **"Transformación digital" no significa nada** hasta que alguien dice qué cambia el lunes en la mañana.
+- **Un dashboard que nadie abre es decoración.** Bonita, eso sí.
+- **La IA no arregla un proceso roto.** Lo hace más rápido y más difícil de explicar en la junta.
 
-Y si tu problema no es lo mío, te lo digo y te recomiendo a alguien que lo haga mejor. Es más barato para los dos.
+Si alguna te hizo ruido, el blog es justo para eso.
 
-Aquí va lo incómodo (pero útil): casi siempre la tecnología llegó antes que la pregunta de negocio. Mi trabajo es poner esas dos cosas en el orden correcto.
-
-## Por qué hacerme caso (o al menos escucharme)
+## Por qué escribo de esto con cierta confianza
 
 - **Construyo lo que recomiendo.** Programo desde 2008 y sigo escribiendo código y diseñando arquitecturas.
 - **Conozco el lado del marketing.** Fundé Inbound México y Publi2.0, y escribí para el blog en español de HubSpot.
+- **He visto muchos sitios por dentro.** SEO y GEO para más de 400 clientes en Latinoamérica.
 - **He trabajado con empresas grandes** como Pfizer, Bayer, Abbott y PwC, donde los procesos son complicados y los errores salen caros.
-- **Tengo la formación para respaldarlo:** Ingeniería en Computación por la UNAM, MBA y Máster en Big Data & Business Intelligence.
+- **Tengo la formación:** Ingeniería en Computación por la UNAM, MBA y Máster en Big Data & Business Intelligence.
 
 ## Para leer con un café
 
@@ -102,9 +104,9 @@ Decide qué tecnología usa la empresa, cómo se conecta y quién la construye, 
 </details>
 
 <details markdown="1">
-<summary>¿Trabajas solo con la industria automotriz?</summary>
+<summary>¿Solo trabajas en la industria automotriz?</summary>
 
-Es donde tengo más horas de vuelo. Pero los leads perdidos, los CRM abandonados y los sitios que no aparecen en Google se parecen mucho en cualquier industria con ventas consultivas.
+Hoy, como CTO, sí. Pero antes trabajé con empresas de muchas industrias (Pfizer, Bayer, Abbott y PwC entre ellas) y más de 400 clientes de SEO en Latinoamérica. Los problemas se parecen más de lo que uno creería.
 </details>
 
 <details markdown="1">
@@ -114,12 +116,12 @@ Sí. Los asistentes de IA también se alimentan de lo que encuentran en la web, 
 </details>
 
 <details markdown="1">
-<summary>No sé bien qué necesito. ¿Por dónde empiezo?</summary>
+<summary>¿Das consultoría?</summary>
 
-Por platicar. Me cuentas qué te preocupa y salimos con una idea clara de qué atacar primero, aunque al final no trabajemos juntos.
+No. Este sitio es mi espacio para compartir experiencia y opiniones, no un catálogo de servicios. Lo que sí hago con gusto es platicar: si algo de lo que escribo te sirve o no estás de acuerdo, escríbeme.
 </details>
 </div>
 
 <div class="fm-cta" markdown="1">
-**¿Tienes un sitio que no aparece, un CRM que nadie usa o una idea de IA que no sale del piloto?** Cuéntame qué está pasando. La primera plática no cuesta y, si no soy la persona indicada, te digo quién sí. [Escríbeme](/contacto/)
+**¿Te quedaste con ganas de discutir algo?** Una opinión, una invitación a una charla o simplemente intercambiar ideas sobre tecnología y marketing. Me gusta platicar y contesto yo. [Platiquemos](/contacto/)
 </div>
