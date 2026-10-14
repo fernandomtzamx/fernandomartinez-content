@@ -108,12 +108,12 @@
 | 403 ⚠ | https://openverse.org/es |  | content/recursos/imagenes-libres.md |
 | 200 | https://pagespeed.web.dev/ |  | content/blog/15-joomla-velocidad.md, content/recursos/25-cosas.md |
 | 403 ⚠ | https://pixabay.com/es/ |  | content/recursos/imagenes-libres.md |
-| 200 | https://postmaster.google.com/ | https://accounts.google.com/v3/signin/identifier?continue=https://postmaster.google.com/&followup=https://postmaster.google.com/&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S456937111:1791937725473353 | content/recursos/herramientas.md |
+| 200 | https://postmaster.google.com/ | https://accounts.google.com/v3/signin/identifier?continue=https://postmaster.google.com/&followup=https://postmaster.google.com/&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S890142701:1791938506591004 | content/recursos/herramientas.md |
 | 200 | https://pulse2.com/kavak-300-million-series-f/ |  | content/blog/41-credito-automotriz.md |
 | 200 | https://search.google.com/search-console/about |  | content/recursos/25-cosas.md |
 | 403 ⚠ | https://searchengineland.com/ |  | content/recursos/herramientas.md |
 | 200 | https://segment.com/ | https://www.twilio.com/en-us/segment | content/recursos/herramientas.md |
-| 200 | https://shopify.pxf.io/prueba-gratis-shop | https://www.shopify.com/mx/prueba-gratis?irclickid=zFpRBfQFvxyZW7c1H-UDJ3IhUkr1jBTYwROfTw0&irgwc=1&partner=2878770&affpt=excluded&utm_channel=affiliates&utm_source=2878770-impact&utm_medium=cpa&iradid=1061744 | content/blog/39-shopify.md, content/recursos/herramientas.md |
+| 200 | https://shopify.pxf.io/prueba-gratis-shop | https://www.shopify.com/mx/prueba-gratis?irclickid=0ov1CpQFMxyZWnWWSkRejT4CUkr1jAQJWSv6Xo0&irgwc=1&partner=2878770&affpt=excluded&utm_channel=affiliates&utm_source=2878770-impact&utm_medium=cpa&iradid=1061744 | content/blog/39-shopify.md, content/recursos/herramientas.md |
 | 200 | https://statcounter.com/ |  | content/recursos/herramientas.md |
 | 200 | https://thewrap.com/instagram-stories-just-passed-500-million-daily-users | https://www.thewrap.com/instagram-stories-just-passed-500-million-daily-users/ | content/blog/38-instagram-stories.md |
 | 403 ⚠ | https://unsplash.com/ |  | content/recursos/imagenes-libres.md |
