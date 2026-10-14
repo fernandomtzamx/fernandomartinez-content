@@ -1,21 +1,27 @@
-fecha: 2026-10-14T02:21:27Z
-commit: e0b98ba8e251ea6aff9e5c5c61baf3812a57b513
+fecha: 2026-10-14T15:52:12Z
+commit: 10f3bd6f80dea10fa476e00f0008da166edd1fb7
 evento: push
-publicar: skipped | setup: skipped | verificar: success
-run: https://github.com/fernandomtzamx/fernandomartinez-content/actions/runs/38500529738
+publicar: skipped | setup: skipped | verificar: skipped
+run: https://github.com/fernandomtzamx/fernandomartinez-content/actions/runs/38593092378
 ---
 WP_URL: presente
 WP_USER: presente
 WP_APP_PASSWORD: presente
-Plan: publicar='' setup='' verificar='1' info=''
-
-- Imágenes que no tenían alt y se corrigieron: **0**
-
-## HTML publicado
-
-- Páginas revisadas: **60**
-- Imágenes revisadas: **373**
-- Sin alt: **0**
-## Páginas publicadas
-
-Problemas en páginas o referidos: 0. Externos con error: 7
+Plan: publicar='' setup='' verificar='' info='1'
+Endpoint: https://fernandomartinez.mx/wp-json/ (HTTP 404)
+Aviso: /wp-json/ no devolvió JSON
+Servidor: cloudflare | via: - | cf-ray: sí
+  encabezado Cache-Control: private, no-cache, no-store, must-revalidate, max-age=0
+  encabezado x-frame-options: SAMEORIGIN
+  encabezado x-content-type-options: nosniff
+  encabezado x-turbo-charged-by: LiteSpeed
+  encabezado cf-cache-status: DYNAMIC
+Respuesta con credencial real: 404 <!DOCTYPE html>
+<html style="height:100%">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, sh
+Respuesta con contraseña falsa: 404 <!DOCTYPE html>
+<html style="height:100%">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, sh
+DIAGNÓSTICO: el encabezado SÍ llega; la credencial real es la que falla (usuario o contraseña).
