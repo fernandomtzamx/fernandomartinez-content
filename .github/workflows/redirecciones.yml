@@ -48,11 +48,15 @@ jobs:
       - run: pip install -q requests
       - name: Probar todas las URLs viejas
         run: python scripts/test_redirects.py
+      - name: Enlace de afiliado de Shopify
+        if: always()
+        continue-on-error: true
+        run: python scripts/check_referral.py
       - name: Guardar reporte
         if: always()
         run: |
           git config user.name "fm-bot"
           git config user.email "fm-bot@users.noreply.github.com"
-          git add registro/redirecciones.md
+          git add registro/redirecciones.md registro/shopify.md
           git commit -m "Reporte de redirecciones [skip ci]" || exit 0
           git pull --rebase -q origin main && git push -q origin HEAD:main

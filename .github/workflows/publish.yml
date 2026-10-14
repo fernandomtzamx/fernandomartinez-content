@@ -12,6 +12,7 @@ on:
       - "scripts/site_setup.py"
       - "scripts/article.css"
       - "scripts/wp_info.py"
+      - "scripts/check_alt.py"
       - ".github/workflows/publish.yml"
   workflow_dispatch:
     inputs:
@@ -82,6 +83,7 @@ jobs:
             echo "$CHANGED" | grep -qE '^(docs/sitio\.yml|scripts/site_setup\.py)$' && SETUP=1
             [ -n "$PUBLISH" ] && VERIFY=1
             echo "$CHANGED" | grep -q '^scripts/wp_info.py$' && INFO=1
+            echo "$CHANGED" | grep -q '^scripts/check_alt.py$' && VERIFY=1
           fi
           echo "publish=$PUBLISH" >> "$GITHUB_OUTPUT"
           echo "setup=$SETUP" >> "$GITHUB_OUTPUT"
@@ -112,6 +114,13 @@ jobs:
       - name: Diagnóstico de WordPress
         if: steps.plan.outputs.info != '' && !cancelled()
         run: python scripts/wp_info.py 2>&1 | tee -a publish.log
+
+      - name: Texto alternativo de imágenes (corrige los que falten)
+        if: (steps.plan.outputs.verify != '' || steps.plan.outputs.setup != '') && !cancelled()
+        continue-on-error: true
+        run: |
+          set -o pipefail
+          python scripts/check_alt.py --fix 2>&1 | tail -8 | tee -a publish.log
 
       - name: Verificar sitio publicado
         id: verify

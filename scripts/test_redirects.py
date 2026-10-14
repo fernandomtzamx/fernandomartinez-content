@@ -87,13 +87,19 @@ for wid, w in enl["weblinks"].items():
     if h.startswith("/component/"):
         add(h, "weblink")
 
+# Imágenes del sitio viejo (todas las del manifiesto y una muestra de la galería)
+for ruta in json.loads((ROOT / "assets/origen/manifest.json").read_text(encoding="utf-8")):
+    if ruta.startswith("/images/"):
+        add(ruta, "imagen")
+add("/images/phocagallery/muestra/thumbs/phoca_thumb_m_ejemplo.jpg", "imagen galería")
+
 # Descargables y variantes de Joomla
 for f in ["/media/weTnwLzC8MAT47xS/plg_websitepreloader.zip", "/media/weTnwLzC8MAT47xS/plg_TwitterSummaryCardforArticles.zip",
           "/media/weTnwLzC8MAT47xS/25_cosas_que_hacer_en_la_web_para_tener_mas_trafico_y_clientes.pdf"]:
     add(f, "descarga")
 base_paths = [p for p in list(urls) if "?" not in p]
 for p in base_paths:
-    if p != "/":
+    if p != "/" and not p.startswith("/images/"):
         add("/index.php" + p, "variante index.php")
         add(p + "/", "variante con diagonal")
 add("/blog?format=feed&type=rss", "variante feed")

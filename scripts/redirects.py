@@ -5,6 +5,7 @@ Se usa al migrar a la raíz www.fernandomartinez.mx: pegar ANTES del bloque de W
 Requiere la estructura de enlaces permanentes /blog/%postname%/.
 """
 import json
+import re
 import pathlib
 
 import yaml
@@ -64,6 +65,54 @@ out.append("# /media/weTnwLzC8MAT47xS/plg_websitepreloader.zip -> /recursos/webs
 out.append("RewriteRule ^media/weTnwLzC8MAT47xS/plg_websitepreloader\\.zip/?$ /recursos/website-preloader-joomla-plugin/ [R=301,L]")
 out.append("RewriteRule ^media/weTnwLzC8MAT47xS/plg_TwitterSummaryCardforArticles\\.zip/?$ /recursos/twitter-summary-card-for-joomla-articles-plugin/ [R=301,L]")
 out.append("RewriteRule ^media/weTnwLzC8MAT47xS/25_cosas.*\\.pdf/?$ /recursos/25-cosas-que-hacer-en-la-web-para-tener-mas-trafico-y-clientes/ [R=301,L]")
+out.append("")
+out.append("# Imágenes del sitio Joomla: cada una a la página nueva donde se usaba (calculado con assets/origen/manifest.json)")
+manifest = json.loads((ROOT / "assets" / "origen" / "manifest.json").read_text(encoding="utf-8"))
+paginas_nuevas = {"/": "/", "/fernando-arturo-martinez-aguilar": "/fernando-arturo-martinez-aguilar/"}
+for f in (ROOT / "content").rglob("*.md"):
+    m = yaml.safe_load(f.read_text(encoding="utf-8").split("---", 2)[1]) or {}
+    if m.get("type") == "page" and m.get("slug") != "inicio":
+        ruta = f"/{m['parent']}/{m['slug']}" if m.get("parent") else f"/{m['slug']}"
+        paginas_nuevas[ruta] = ruta + "/"
+
+
+def pagina_vieja(nombre):
+    """blog-39-como-abrir.html -> /blog/39-como-abrir ; recursos-x.html -> /recursos/x ; inicio.html -> /"""
+    n = nombre[:-5]
+    if n == "inicio":
+        return "/"
+    for pref in ("blog-", "recursos-", "enlaces-recomendados-", "temas-"):
+        if n.startswith(pref) and not n.startswith("blog-start"):
+            return "/" + pref[:-1] + "/" + n[len(pref):]
+    return "/" + n
+
+
+imagenes = {}
+for ruta, info in sorted(manifest.items()):
+    if not ruta.startswith("/images/"):
+        continue
+    candidatas = [pagina_vieja(x) for x in info.get("paginas", [])]
+    # Preferir la entrada o recurso específico sobre listados y la portada
+    candidatas.sort(key=lambda v: (v in ("/", "/blog", "/recursos"), v.startswith("/blog/") is False))
+    destino = None
+    for c in candidatas:
+        destino = rules.get(c) or paginas_nuevas.get(c)
+        if destino:
+            break
+    imagenes[ruta] = destino or ("/blog/" if ruta.startswith("/images/blog/") else "/recursos/")
+# Imágenes que aparecían en muchas páginas: destino fijo
+imagenes.update({
+    "/images/fernando-martinez.png": "/",  # logo del encabezado en todo el sitio
+    "/images/cta/cta-25-cosas-hacer-web-tener-mas-clientes.png": "/recursos/25-cosas-que-hacer-en-la-web-para-tener-mas-trafico-y-clientes/",
+    "/images/recursos/imagenes-libres-de-derechos-gratis.png": "/recursos/imagenes-libres-de-derechos-gratis/",
+})
+for ruta, destino in imagenes.items():
+    out.append(f"RewriteRule ^{re.escape(ruta.lstrip('/'))}$ {destino} [R=301,L]")
+out.append("RewriteRule ^images/phocagallery/.*$ /recursos/imagenes-libres-de-derechos-gratis/ [R=301,L]")
+out.append("RewriteRule ^images/blog/.*$ /blog/ [R=301,L]")
+out.append("RewriteRule ^images/recursos/.*$ /recursos/ [R=301,L]")
+out.append("RewriteRule ^images/.+$ / [R=301,L]")
+(ROOT / "migracion" / "imagenes-mapa.json").write_text(json.dumps(imagenes, ensure_ascii=False, indent=1), encoding="utf-8")
 out.append("</IfModule>")
 
 dest = ROOT / "migracion" / "redirecciones.htaccess"
