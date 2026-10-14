@@ -243,8 +243,9 @@ def parse(path):
         html = f'<style>\n{css}</style>\n<div class="fm-article">\n{html}\n{footer}\n</div>'
         # Entradas largas: barra fija para ir a la sección anterior o siguiente (se activa con 6+ H2).
         if html.count('<h2 id=') >= 6:
-            js = (ROOT / 'scripts' / 'article-nav.js').read_text(encoding='utf-8')
-            html += f'\n<script>\n{js}</script>'
+            # En una sola línea: wpautop mete <p> en los scripts con líneas en blanco y los rompe.
+            js = ' '.join(l.strip() for l in (ROOT / 'scripts' / 'article-nav.js').read_text(encoding='utf-8').splitlines() if l.strip())
+            html += f'\n<script>{js}</script>'
     return meta, nofollow_external(html)
 
 
