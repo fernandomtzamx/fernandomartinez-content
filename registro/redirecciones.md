@@ -1,9 +1,9 @@
 # Prueba de redirecciones: Apache local con migracion/redirecciones.htaccess, destinos en https://www.fernandomartinez.mx
 
 - URLs viejas probadas: **948**
-- Correctas (301 a una página que responde 200, o URL que se conserva igual): **947**
+- Correctas (301 a una página que responde 200, o URL que se conserva igual): **946**
 - Para revisar: **1**
-- Sin equivalente o con error: **0**
+- Sin equivalente o con error: **1**
 
 ## Sitemaps del sitio actual
 
@@ -28,6 +28,7 @@
 
 | Estado | URL vieja | Origen | Destino | Detalle |
 |---|---|---|---|---|
+| ERROR | /blog/15-reducir-tiempo-carga-sitio-web-joomla/ | variante con diagonal | /blog/reducir-tiempo-carga-sitio-web-joomla/ | destino 525 |
 | REVISAR | /index.php | variante index.php | /index.php | WordPress además redirige a / |
 
 ## Todas
@@ -49,7 +50,7 @@
 | ok | /blog/14-que-es-el-inbound-marketing | rastreo | 1 | /blog/que-es-el-inbound-marketing/ |
 | ok | /blog/14-que-es-el-inbound-marketing/ | variante con diagonal | 1 | /blog/que-es-el-inbound-marketing/ |
 | ok | /blog/15-reducir-tiempo-carga-sitio-web-joomla | rastreo | 1 | /blog/reducir-tiempo-carga-sitio-web-joomla/ |
-| ok | /blog/15-reducir-tiempo-carga-sitio-web-joomla/ | variante con diagonal | 1 | /blog/reducir-tiempo-carga-sitio-web-joomla/ |
+| ERROR | /blog/15-reducir-tiempo-carga-sitio-web-joomla/ | variante con diagonal | 1 | /blog/reducir-tiempo-carga-sitio-web-joomla/ |
 | ok | /blog/16-para-que-sirve-un-blog-en-mi-sitio-web | rastreo | 1 | /blog/para-que-sirve-un-blog-en-mi-sitio-web/ |
 | ok | /blog/16-para-que-sirve-un-blog-en-mi-sitio-web/ | variante con diagonal | 1 | /blog/para-que-sirve-un-blog-en-mi-sitio-web/ |
 | ok | /blog/17-10-palabras-que-debes-quitar-de-tu-sitio-web-ya | rastreo | 1 | /blog/10-palabras-que-debes-quitar-de-tu-sitio-web-ya/ |
