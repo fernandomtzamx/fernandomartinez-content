@@ -1,9 +1,9 @@
 # Prueba de redirecciones: Apache local con migracion/redirecciones.htaccess, destinos en https://www.fernandomartinez.mx/dev
 
 - URLs viejas probadas: **382**
-- Correctas (301 a una página que responde 200, o URL que se conserva igual): **378**
+- Correctas (301 a una página que responde 200, o URL que se conserva igual): **381**
 - Para revisar: **1**
-- Sin equivalente o con error: **3**
+- Sin equivalente o con error: **0**
 
 ## Sitemaps del sitio actual
 
@@ -21,9 +21,6 @@
 
 | Estado | URL vieja | Origen | Destino | Detalle |
 |---|---|---|---|---|
-| ERROR | /media/weTnwLzC8MAT47xS/25_cosas_que_hacer_en_la_web_para_tener_mas_trafico_y_clientes.pdf/ | variante con diagonal | /media/weTnwLzC8MAT47xS/25_cosas_que_hacer_en_la_web_para_tener_mas_trafico_y_clientes.pdf/ | destino 404 |
-| ERROR | /media/weTnwLzC8MAT47xS/plg_TwitterSummaryCardforArticles.zip/ | variante con diagonal | /media/weTnwLzC8MAT47xS/plg_TwitterSummaryCardforArticles.zip/ | destino 404 |
-| ERROR | /media/weTnwLzC8MAT47xS/plg_websitepreloader.zip/ | variante con diagonal | /media/weTnwLzC8MAT47xS/plg_websitepreloader.zip/ | destino 404 |
 | REVISAR | /index.php | variante index.php | /index.php | WordPress además redirige a /dev/ |
 
 ## Todas
@@ -324,11 +321,11 @@
 | ok | /mapa-de-sitio | rastreo | 1 | / |
 | ok | /mapa-de-sitio/ | variante con diagonal | 1 | / |
 | ok | /media/weTnwLzC8MAT47xS/25_cosas_que_hacer_en_la_web_para_tener_mas_trafico_y_clientes.pdf | descarga | 1 | /recursos/25-cosas-que-hacer-en-la-web-para-tener-mas-trafico-y-clientes/ |
-| ERROR | /media/weTnwLzC8MAT47xS/25_cosas_que_hacer_en_la_web_para_tener_mas_trafico_y_clientes.pdf/ | variante con diagonal | 0 | /media/weTnwLzC8MAT47xS/25_cosas_que_hacer_en_la_web_para_tener_mas_trafico_y_clientes.pdf/ |
+| ok | /media/weTnwLzC8MAT47xS/25_cosas_que_hacer_en_la_web_para_tener_mas_trafico_y_clientes.pdf/ | variante con diagonal | 1 | /recursos/25-cosas-que-hacer-en-la-web-para-tener-mas-trafico-y-clientes/ |
 | ok | /media/weTnwLzC8MAT47xS/plg_TwitterSummaryCardforArticles.zip | descarga | 1 | /recursos/twitter-summary-card-for-joomla-articles-plugin/ |
-| ERROR | /media/weTnwLzC8MAT47xS/plg_TwitterSummaryCardforArticles.zip/ | variante con diagonal | 0 | /media/weTnwLzC8MAT47xS/plg_TwitterSummaryCardforArticles.zip/ |
+| ok | /media/weTnwLzC8MAT47xS/plg_TwitterSummaryCardforArticles.zip/ | variante con diagonal | 1 | /recursos/twitter-summary-card-for-joomla-articles-plugin/ |
 | ok | /media/weTnwLzC8MAT47xS/plg_websitepreloader.zip | descarga | 1 | /recursos/website-preloader-joomla-plugin/ |
-| ERROR | /media/weTnwLzC8MAT47xS/plg_websitepreloader.zip/ | variante con diagonal | 0 | /media/weTnwLzC8MAT47xS/plg_websitepreloader.zip/ |
+| ok | /media/weTnwLzC8MAT47xS/plg_websitepreloader.zip/ | variante con diagonal | 1 | /recursos/website-preloader-joomla-plugin/ |
 | ok | /programador-web-especialista-en-joomla-en-mexico | rastreo | 0 | /programador-web-especialista-en-joomla-en-mexico |
 | ok | /programador-web-especialista-en-joomla-en-mexico/ | variante con diagonal | 0 | /programador-web-especialista-en-joomla-en-mexico/ |
 | ok | /recursos | rastreo | 0 | /recursos |
