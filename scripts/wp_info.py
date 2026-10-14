@@ -7,9 +7,10 @@ import sys
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 from publish import WP, env  # noqa: E402
+from sitio_url import base_url  # noqa: E402
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-wp = WP(env("WP_URL"), env("WP_USER"), env("WP_APP_PASSWORD"))
+wp = WP(base_url(), env("WP_USER"), env("WP_APP_PASSWORD"))
 info = {"me": {k: wp.whoami().get(k) for k in ("username", "roles")}}
 
 
@@ -52,4 +53,58 @@ for key, path, params in [
 root = wp.s.get(wp.api.rsplit("/wp/v2", 1)[0] + "/", timeout=30).json()
 info["site"] = {k: root.get(k) for k in ("name", "description", "url", "home", "gmt_offset", "timezone_string", "namespaces")}
 (ROOT / "migracion").mkdir(exist_ok=True)
+(ROOT / "migracion" / "wp-info.json").write_text(json.dumps(info, ensure_ascii=False, indent=1), encoding="utf-8")
+
+
+# ---------- Revisión del sitio en vivo después de la migración a la raíz ----------
+import re  # noqa: E402
+
+import requests  # noqa: E402
+
+UA = {"User-Agent": "Mozilla/5.0 (compatible; fm-diagnostico/1.0)"}
+home = (root.get("home") or base_url()).rstrip("/")
+vivo = {"home": root.get("home"), "url": root.get("url")}
+
+
+def probe(path):
+    try:
+        r = requests.get(home + path, headers=UA, timeout=30, allow_redirects=False)
+        return {"status": r.status_code, "location": r.headers.get("location"), "server": r.headers.get("server"),
+                "cache": r.headers.get("cf-cache-status")}
+    except Exception as e:  # noqa: BLE001
+        return {"error": str(e)[:200]}
+
+
+for path in ["/", "/blog/", "/blog/que-es-el-inbound-marketing/", "/fernando-arturo-martinez-aguilar/",
+             "/dev/", "/dev/blog/que-es-el-inbound-marketing/", "/dev/wp-json/",
+             "/blog/14-que-es-el-inbound-marketing", "/index.php/blog", "/temas/inbound",
+             "/robots.txt", "/wp-sitemap.xml", "/wp-admin/", "/wp-content/uploads/"]:
+    vivo[path] = probe(path)
+    print("vivo", path, vivo[path])
+
+html = requests.get(home + "/", headers=UA, timeout=30).text
+vivo["home_html_dev_refs"] = sorted(set(re.findall(r'https?://[^"\'\s)]*?/dev/[^"\'\s)]*', html)))[:40]
+vivo["home_html_title"] = (re.search(r"<title>(.*?)</title>", html, re.S) or [None, None])[1]
+vivo["home_html_noindex"] = "noindex" in html
+print("dev en portada:", len(vivo["home_html_dev_refs"]), vivo["home_html_dev_refs"][:8])
+print("titulo:", vivo["home_html_title"], "| noindex:", vivo["home_html_noindex"])
+
+# /dev en contenido guardado (páginas, entradas, plantillas, navegación)
+dev_hits = {}
+for kind in ("pages", "posts", "templates", "template-parts", "navigation", "global-styles"):
+    try:
+        items = wp.req("GET", kind, params={"per_page": 100, "context": "edit", **({"status": "any"} if kind in ("pages", "posts") else {})}) \
+            if kind != "global-styles" else []
+    except Exception as e:  # noqa: BLE001
+        dev_hits[kind] = f"error {str(e)[:120]}"
+        continue
+    for it in items:
+        c = it.get("content")
+        raw = c.get("raw", "") if isinstance(c, dict) else (c or "")
+        n = len(re.findall(r"fernandomartinez\.mx/dev/", raw))
+        if n:
+            dev_hits[f"{kind}:{it.get('slug') or it.get('id')}"] = n
+vivo["contenido_con_dev"] = dev_hits
+print("contenido con /dev:", len(dev_hits), list(dev_hits.items())[:10])
+info["vivo"] = vivo
 (ROOT / "migracion" / "wp-info.json").write_text(json.dumps(info, ensure_ascii=False, indent=1), encoding="utf-8")
