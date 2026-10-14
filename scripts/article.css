@@ -33,5 +33,9 @@
 .fm-hero .fm-kicker{display:block;font-size:.65em;letter-spacing:.14em;text-transform:uppercase;color:var(--fm-cobalt);font-weight:800;margin-bottom:.4em}
 .fm-hero .fm-kicker::before{content:"{ "}
 .fm-hero .fm-kicker::after{content:" }"}
-.fm-retrato{float:right;width:min(240px,38%);margin:0 0 1em 1.4em;border-radius:0!important}
+.fm-retrato{float:right;width:min(240px,38%);height:auto;margin:0 0 1em 1.4em;border-radius:50%!important;aspect-ratio:1/1;object-fit:cover;box-shadow:0 0 0 6px var(--fm-paper),0 0 0 9px var(--fm-cobalt)}
 @media (max-width:640px){.fm-retrato{float:none;display:block;margin:0 auto 1em;width:180px}}
+.fm-hero-foto{float:right;width:160px;height:160px;margin:0 0 1em 1.5em;border-radius:50%!important;object-fit:cover;box-shadow:0 0 0 6px var(--fm-paper),0 0 0 9px var(--fm-cobalt)}
+@media (max-width:640px){.fm-hero-foto{float:none;display:block;width:120px;height:120px;margin:0 0 1em}}
+.fm-autor{display:flex;gap:1em;align-items:center}.fm-autor p{margin:0}
+.fm-avatar{width:72px;height:72px;flex:0 0 72px;border-radius:50%!important;object-fit:cover}

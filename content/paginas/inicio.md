@@ -9,6 +9,8 @@ excerpt: "CTO, programador desde 2008 y marketero en recuperación. Hago que la 
 ---
 
 <div class="fm-hero" markdown="1">
+<img class="fm-hero-foto" src="https://gravatar.com/avatar/33ed3bd9a7174393781b5087d78c0827d64c9ad0b984e4f591ee5033d257759b?s=320" width="160" height="160" alt="Fernando Martínez">
+
 <span class="fm-kicker">CTO · Programador desde 2008 · Marketero en recuperación</span>
 
 # Hago que la tecnología venda. Y si no vende, la apago.

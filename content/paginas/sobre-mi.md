@@ -7,7 +7,7 @@ menu_order: 1
 excerpt: "Fernando Arturo Martínez Aguilar: CTO en EngineCX, ingeniero en computación por la UNAM, programador open source desde 2008 y fundador de Inbound México y Publi2.0."
 ---
 
-<img class="fm-retrato" src="assets/origen/images/fernando-martinez-enginecx.png" alt="Fernando Arturo Martínez Aguilar">
+<img class="fm-retrato" src="https://gravatar.com/avatar/33ed3bd9a7174393781b5087d78c0827d64c9ad0b984e4f591ee5033d257759b?s=480" width="240" height="240" alt="Fernando Arturo Martínez Aguilar">
 
 Me llamo Fernando Arturo Martínez Aguilar. En LinkedIn suena más serio de lo que es.
 
