@@ -1,7 +1,7 @@
 # Prueba de redirecciones: Apache local con migracion/redirecciones.htaccess, destinos en https://www.fernandomartinez.mx/dev
 
-- URLs viejas probadas: **382**
-- Correctas (301 a una página que responde 200, o URL que se conserva igual): **381**
+- URLs viejas probadas: **418**
+- Correctas (301 a una página que responde 200, o URL que se conserva igual): **417**
 - Para revisar: **1**
 - Sin equivalente o con error: **0**
 
@@ -229,6 +229,42 @@
 | ok | /fernando-arturo-martinez-aguilar/ | variante con diagonal | 0 | /fernando-arturo-martinez-aguilar/ |
 | ok | /gnu-general-public-license | rastreo | 0 | /gnu-general-public-license |
 | ok | /gnu-general-public-license/ | variante con diagonal | 0 | /gnu-general-public-license/ |
+| ok | /images/blog/10-palabras-que-debes-quitar-de-tu-sitio-web-ya.png | imagen | 1 | /blog/10-palabras-que-debes-quitar-de-tu-sitio-web-ya/ |
+| ok | /images/blog/5-ideas-para-fortalecer-tu-marketing-digital-en-redes-sociales.png | imagen | 1 | /blog/5-ideas-para-fortalecer-tu-marketing-digital-en-redes-sociales/ |
+| ok | /images/blog/activismo-con-hashtags.png | imagen | 1 | /blog/activismo-con-hashtags/ |
+| ok | /images/blog/como-aprovechar-instagram-stories-en-tu-marketing.png | imagen | 1 | /blog/como-aprovechar-instagram-stories-en-tu-marketing/ |
+| ok | /images/blog/como-funciona-los-5-pilares-del-inbound-marketing.png | imagen | 1 | /blog/como-funciona-los-5-pilares-del-inbound-marketing/ |
+| ok | /images/blog/como-identificar-y-crear-mis-buyer-personas.png | imagen | 1 | /blog/como-identificar-y-crear-mis-buyer-personas/ |
+| ok | /images/blog/compensacion-ventas.png | imagen | 1 | /blog/como-crear-un-plan-de-compensacion-para-tu-equipo-de-ventas/ |
+| ok | /images/blog/crear-lealtad-a-tu-marca-no-se-logra-solo-con-comunicacion.png | imagen | 1 | /blog/crear-lealtad-a-tu-marca-no-se-logra-solo-con-comunicacion/ |
+| ok | /images/blog/deberias-ofrecer-wi-fi-gratis-en-tu-negocio.png | imagen | 1 | /blog/deberias-ofrecer-wi-fi-gratis-en-tu-negocio/ |
+| ok | /images/blog/ecommerce-mistakes.jpg | imagen | 1 | /blog/como-abrir-una-tienda-en-linea-en-mexico-con-shopify/ |
+| ok | /images/blog/el-uso-de-la-redes-sociales-lo-definen-los-usuarios.png | imagen | 1 | /blog/el-uso-de-las-redes-sociales-lo-definen-los-usuarios/ |
+| ok | /images/blog/file.JPG | imagen | 1 | /blog/physical-web-el-nuevo-paso-para-los-negocios/ |
+| ok | /images/blog/implementar-chat-online-mexico.jpg | imagen | 1 | /blog/5-datos-duros-para-considerar-implementar-un-chat/ |
+| ok | /images/blog/inbound-marketing-audiencia-ideal.png | imagen | 1 | /blog/inbound-marketing-audiencia-ideal/ |
+| ok | /images/blog/la-grave-desconexion-entre-el-reconocimiento-de-marca-y-las-ventas.png | imagen | 1 | /blog/la-grave-desconexion-entre-el-reconocimiento-de-marca-y-las-ventas/ |
+| ok | /images/blog/manifiesto-de-marketing-digital-de-fernando-martinez.png | imagen | 1 | /blog/manifiesto-de-marketing-digital-de-fernando-martinez/ |
+| ok | /images/blog/marketing-automotriz-en-los-juegos-olimpicos.png | imagen | 1 | /blog/marketing-automotriz-en-los-juegos-olimpicos/ |
+| ok | /images/blog/marketing-realidad-virtual.png | imagen | 1 | /blog/3-formas-de-hacer-marketing-digital-con-realidad-virtual/ |
+| ok | /images/blog/plantillas-administrador-joomla.png | imagen | 1 | /blog/plantillas-administrador-joomla/ |
+| ok | /images/blog/porque-deberias-considerar-el-inbound-marketing.png | imagen | 1 | /blog/por-que-deberias-considerar-el-inbound-marketing/ |
+| ok | /images/blog/que-es-el-inbound-marketing.png | imagen | 1 | /blog/que-es-el-inbound-marketing/ |
+| ok | /images/credito-automotriz-en-linea-disrupcion-venta-de-autos.png | imagen | 1 | /blog/credito-automotriz-en-linea-disrupcion-venta-de-autos/ |
+| ok | /images/cta/cta-25-cosas-hacer-web-tener-mas-clientes.png | imagen | 1 | /recursos/25-cosas-que-hacer-en-la-web-para-tener-mas-trafico-y-clientes/ |
+| ok | /images/fernando-martinez-enginecx.png | imagen | 1 | /fernando-arturo-martinez-aguilar/ |
+| ok | /images/fernando-martinez.png | imagen | 1 | / |
+| ok | /images/phocagallery/muestra/thumbs/phoca_thumb_m_ejemplo.jpg | imagen galería | 1 | /recursos/imagenes-libres-de-derechos-gratis/ |
+| ok | /images/recursos/25-cosas-que-hacer-en-la-web-para-tener-mas-trafico-y-clientes.png | imagen | 1 | /recursos/25-cosas-que-hacer-en-la-web-para-tener-mas-trafico-y-clientes/ |
+| ok | /images/recursos/TwitterSummaryCardforArticles.png | imagen | 1 | /recursos/twitter-summary-card-for-joomla-articles-plugin/ |
+| ok | /images/recursos/imagenes-libres-de-derechos-gratis.png | imagen | 1 | /recursos/imagenes-libres-de-derechos-gratis/ |
+| ok | /images/recursos/joomla-brand-remover-administrator-plugin.png | imagen | 1 | /recursos/administration-brand-remover-joomla-plugin/ |
+| ok | /images/recursos/joomla-website-preloader.jpg | imagen | 1 | /recursos/website-preloader-joomla-plugin/ |
+| ok | /images/recursos/las-mejores-herramientas-para-hacer-seo-e-inbound-marketing.png | imagen | 1 | /recursos/las-mejores-herramientas-de-seo-e-inbound-marketing/ |
+| ok | /images/recursos/screenshots/joomla-administration-brand-remover-1.png | imagen | 1 | /recursos/administration-brand-remover-joomla-plugin/ |
+| ok | /images/recursos/screenshots/joomla-administration-brand-remover-2.png | imagen | 1 | /recursos/administration-brand-remover-joomla-plugin/ |
+| ok | /images/recursos/screenshots/twitter-summary-card-joomla.jpg | imagen | 1 | /recursos/twitter-summary-card-for-joomla-articles-plugin/ |
+| ok | /images/recursos/sumome-joomla-plugin.png | imagen | 1 | /recursos/sumome-joomla-plugin/ |
 | REVISAR | /index.php | variante index.php | 0 | /index.php |
 | ok | /index.php/base-de-conocimiento | variante index.php | 2 | /recursos/ |
 | ok | /index.php/blog | variante index.php | 1 | /blog |
