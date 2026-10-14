@@ -20,7 +20,9 @@ sys.path.insert(0, str(ROOT / "scripts"))
 from publish import WP, env  # noqa: E402
 
 FIX = "--fix" in sys.argv
-wp = WP(env("WP_URL"), env("WP_USER"), env("WP_APP_PASSWORD"))
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from sitio_url import base_url  # noqa: E402
+wp = WP(base_url(), env("WP_USER"), env("WP_APP_PASSWORD"))
 UA = {"User-Agent": "Mozilla/5.0 (compatible; fm-alt/1.0)"}
 
 # alt deseado por nombre de archivo de portada

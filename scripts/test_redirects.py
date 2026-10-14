@@ -22,7 +22,9 @@ OLD = "https://www.fernandomartinez.mx"
 UA = {"User-Agent": "Mozilla/5.0 (compatible; fm-redirecciones/1.0)"}
 inv = json.loads((ROOT / "migracion/origen/inventario.json").read_text(encoding="utf-8"))
 enl = json.loads((ROOT / "migracion/origen/enlaces.json").read_text(encoding="utf-8"))
-new_base = os.environ["WP_URL"].rstrip("/")
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from sitio_url import base_url  # noqa: E402
+new_base = base_url()
 new_base = requests.get(new_base + "/wp-json/", timeout=30, headers=UA).json().get("home", new_base).rstrip("/")
 
 # ---------- 1. URLs viejas ----------

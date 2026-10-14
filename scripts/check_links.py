@@ -19,7 +19,9 @@ sys.path.insert(0, str(ROOT / "scripts"))
 from lint import REFERRALS  # noqa: E402
 
 UA = {"User-Agent": "Mozilla/5.0 (compatible; fm-verificador/1.0)"}
-base = os.environ.get("SITE_URL") or os.environ.get("WP_URL", "")
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from sitio_url import base_url  # noqa: E402
+base = base_url()
 base = requests.get(base.rstrip("/") + "/wp-json/", timeout=30, headers=UA).json().get("home", base).rstrip("/")
 
 items, externos = [], {}

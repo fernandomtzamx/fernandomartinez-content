@@ -6,7 +6,7 @@ Uso:
     python scripts/publish.py --all
 
 Variables de entorno requeridas:
-    WP_URL           https://www.fernandomartinez.mx/dev
+    WP_URL           https://www.fernandomartinez.mx (si termina en /dev se quita: ver sitio_url.py)
     WP_USER          usuario de WordPress (aiagent)
     WP_APP_PASSWORD  contraseña de aplicación
 
@@ -332,7 +332,8 @@ def main():
     ap.add_argument("--check", action="store_true", help="solo validar credenciales")
     args = ap.parse_args()
 
-    wp = WP(env("WP_URL"), env("WP_USER"), env("WP_APP_PASSWORD"))
+    from sitio_url import base_url
+    wp = WP(base_url(), env("WP_USER"), env("WP_APP_PASSWORD"))
     me = wp.whoami()
     print(f"Conectado como {me.get('username', me.get('name'))} (roles: {', '.join(me.get('roles', []))})")
     if args.check:

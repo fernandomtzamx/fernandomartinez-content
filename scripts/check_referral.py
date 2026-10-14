@@ -35,7 +35,9 @@ checks = {
     "Lleva el identificador de clic de impact (irclickid)": "irclickid" in q,
 }
 
-base = os.environ.get("WP_URL", "").rstrip("/")
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from sitio_url import base_url  # noqa: E402
+base = base_url()
 paginas = ["/blog/como-abrir-una-tienda-en-linea-en-mexico-con-shopify/", "/recursos/las-mejores-herramientas-de-seo-e-inbound-marketing/"]
 if base:
     home = requests.get(base + "/wp-json/", timeout=30, headers=UA).json().get("home", base).rstrip("/")

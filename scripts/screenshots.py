@@ -8,7 +8,9 @@ import requests
 from playwright.sync_api import sync_playwright
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-base = os.environ["WP_URL"].rstrip("/")
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from sitio_url import base_url  # noqa: E402
+base = base_url()
 base = requests.get(base + "/wp-json/", timeout=30).json().get("home", base).rstrip("/")
 pages = sys.argv[1:] or ["/", "/fernando-arturo-martinez-aguilar/", "/como-te-ayudo/", "/blog/",
                          "/blog/credito-automotriz-en-linea-disrupcion-venta-de-autos/",

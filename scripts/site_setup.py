@@ -30,7 +30,9 @@ def step(name, fn, errors):
 
 def main():
     cfg = yaml.safe_load((ROOT / "docs" / "sitio.yml").read_text(encoding="utf-8"))
-    wp = pub.WP(pub.env("WP_URL"), pub.env("WP_USER"), pub.env("WP_APP_PASSWORD"))
+    sys.path.insert(0, str(ROOT / "scripts"))
+    from sitio_url import base_url
+    wp = pub.WP(base_url(), pub.env("WP_USER"), pub.env("WP_APP_PASSWORD"))
     wp.whoami()
     root = wp.api.rsplit("/wp/v2", 1)[0]
     errors = []

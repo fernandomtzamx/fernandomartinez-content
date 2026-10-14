@@ -29,8 +29,6 @@ for _base in ("https://www.fernandomartinez.mx", "https://fernandomartinez.mx"):
                   f"cf={_r.headers.get('cf-cache-status')} {_extra} | {_r.text[:90]!r}")
         except Exception as _e:  # noqa: BLE001
             print(f"sondeo {_base}{_p} -> ERROR {str(_e)[:120]}")
-import fix_raiz  # noqa: E402  (arreglo único de la migración)
-fix_raiz.main()
 wp = WP(base_url(), env("WP_USER"), env("WP_APP_PASSWORD"))
 info = {"me": {k: wp.whoami().get(k) for k in ("username", "roles")}}
 
