@@ -35,9 +35,9 @@ Soy estratégico, pero *hands-on*. Me gusta pensar en el futuro y también escri
 
 ## Cómo llegué aquí
 
-**2008, el código.** Empecé como programador open source. Escribí extensiones para Joomla que terminaron instaladas en sitios de todo el mundo y que hoy suman más de 100 mil usuarios. Llegué a programar más de 200 sitios en Joomla para empresas mexicanas. Ahí aprendí la lección que más uso: entender la tecnología por dentro antes de prometer algo por fuera.
+**2008, el código.** Empecé como programador open source. Escribí extensiones para Joomla que terminaron instaladas en sitios de todo el mundo y que hoy suman más de 100 mil usuarios. Llegué a programar más de 200 sitios en Joomla para empresas mexicanas (lo que aprendí está en [cómo elegir a un experto en Joomla en México](/blog/experto-en-joomla-en-mexico/)). Ahí aprendí la lección que más uso: entender la tecnología por dentro antes de prometer algo por fuera.
 
-**Después, el marketing.** Fundé [Inbound México](https://www.inbound.com.mx/), emkt.mx y [Publi2.0](https://www.publi20.com/). Escribí sobre ventas e inbound para el [blog en español de HubSpot](https://blog.hubspot.es/marketing/author/fernando-martinez) y columnas de negocios y talento para Publi2.0. Vendí estrategias de atracción cuando todavía había que explicar por qué un blog servía para algo.
+**Después, el marketing.** Fundé [Inbound México](https://www.inbound.com.mx/), emkt.mx y [Publi2.0](https://www.publi20.com/). Escribí sobre ventas e inbound para el [blog en español de HubSpot](https://blog.hubspot.es/marketing/author/fernando-martinez) y columnas de negocios y talento para Publi2.0. Vendí estrategias de atracción cuando todavía había que explicar por qué un blog servía para algo. (Si buscas a alguien para eso hoy, escribí [cómo elegir a un especialista en inbound marketing en México](/blog/especialista-en-inbound-marketing-en-mexico/).)
 
 **Ahora, la operación.** Todo lo anterior desembocó en lo que hago hoy: arquitecturas operativas impulsadas por IA para la industria automotriz. En el camino colaboré con empresas como Pfizer, Bayer, Abbott y PwC en proyectos que conectan ventas, marketing, operaciones y tecnología en un mismo ecosistema.
 

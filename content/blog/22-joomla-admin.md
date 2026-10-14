@@ -49,5 +49,5 @@ Es la forma más segura: se actualiza con Joomla, no depende de nadie más y cua
 Joomla 3 dejó de recibir soporte oficial en agosto de 2023. Si tu sitio sigue ahí, el logo del administrador es el menor de tus problemas: prioriza la migración a una versión con soporte. Mi plugin sigue disponible como archivo para sitios viejos, pero no es una razón para quedarte.
 
 <div class="fm-cta" markdown="1">
-¿Tienes un sitio Joomla y no sabes por dónde empezar? Lee [lo que te recomiendo hoy si tienes un sitio Joomla](/programador-web-especialista-en-joomla-en-mexico/).
+¿Tienes un sitio Joomla y no sabes por dónde empezar? Lee [cómo elegir a un experto en Joomla en México](/blog/experto-en-joomla-en-mexico/).
 </div>

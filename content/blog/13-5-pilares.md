@@ -66,5 +66,5 @@ En la práctica, sincronizar significa:
 Es el pilar más aburrido y el más importante. La mayoría de las estrategias de inbound que fallan no fallan por falta de contenido; fallan porque nadie conectó las piezas.
 
 <div class="fm-cta" markdown="1">
-Sincronizar marketing, ventas y CRM es, literalmente, lo que más disfruto resolver. Si tus piezas no se hablan, [platiquemos](/contacto/).
+Sincronizar marketing, ventas y CRM es, literalmente, lo que más disfruto resolver. Si tus piezas no se hablan, [platiquemos](/contacto/). Y si vas a contratar ayuda, lee [cómo elegir a un especialista en inbound marketing en México](/blog/especialista-en-inbound-marketing-en-mexico/).
 </div>

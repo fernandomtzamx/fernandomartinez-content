@@ -53,5 +53,5 @@ Por eso el corazón del inbound no envejeció:
 Sí, si lo haces con la vara de 2026: menos piezas, mejores; autoridad real; y una operación que convierta lo que llega. Si tu plan de inbound es publicar cuatro artículos genéricos al mes esperando que lleguen leads solos, ese plan ya no funciona, con o sin IA.
 
 <div class="fm-cta" markdown="1">
-¿Quieres los fundamentos? Lee [qué es el inbound marketing](/blog/que-es-el-inbound-marketing/) y [sus cinco pilares](/blog/como-funciona-los-5-pilares-del-inbound-marketing/). ¿Ya lo tienes y no convierte? [Hablemos](/contacto/).
+¿Quieres los fundamentos? Lee [qué es el inbound marketing](/blog/que-es-el-inbound-marketing/) y [sus cinco pilares](/blog/como-funciona-los-5-pilares-del-inbound-marketing/). ¿Buscas quién lo haga? Lee [cómo elegir a un especialista en inbound marketing en México](/blog/especialista-en-inbound-marketing-en-mexico/). ¿Ya lo tienes y no convierte? [Hablemos](/contacto/).
 </div>

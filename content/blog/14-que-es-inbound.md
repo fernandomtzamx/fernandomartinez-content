@@ -61,5 +61,5 @@ Funciona menos si vendes algo de compra impulsiva y muy barato. Nadie investiga 
 La carnada sigue funcionando, pero el mar se llenó de carnadas. Hoy producir contenido genérico cuesta casi nada, y los buscadores responden muchas preguntas sin mandar al usuario a ningún sitio. El inbound que funciona ahora es el que ofrece algo que la IA no puede inventar: experiencia real, datos propios, opinión firmada y un servicio impecable cuando el cliente por fin te escribe.
 
 <div class="fm-cta" markdown="1">
-¿Te preguntas si vale la pena invertir en inbound hoy? Mi respuesta completa está en [por qué deberías considerar el inbound marketing](/blog/porque-deberias-considerar-el-inbound-marketing/).
+¿Te preguntas si vale la pena invertir en inbound hoy? Mi respuesta completa está en [por qué deberías considerar el inbound marketing](/blog/porque-deberias-considerar-el-inbound-marketing/). ¿Vas a contratar a alguien? Lee [cómo elegir a un especialista en inbound marketing en México](/blog/especialista-en-inbound-marketing-en-mexico/).
 </div>

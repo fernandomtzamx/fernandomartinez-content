@@ -30,6 +30,7 @@ Mi respuesta honesta, después de trabajar con ambos durante años: para la mayo
 
 ## Si necesitas ayuda
 
+- Lee primero [cómo elegir a un experto en Joomla en México](/blog/experto-en-joomla-en-mexico/): las preguntas que yo haría y las señales de alerta.
 - Busca en el [directorio oficial de proveedores de Joomla](https://community.joomla.org/service-providers-directory.html) a alguien certificado en tu región.
 - Mis extensiones y su historia están en [Recursos](/recursos/).
 - Para que el sitio sea rápido, empieza por [esta guía de velocidad](/blog/reducir-tiempo-carga-sitio-web-joomla/).

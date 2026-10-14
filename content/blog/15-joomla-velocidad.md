@@ -89,5 +89,5 @@ Las plantillas comerciales con constructores visuales suelen cargar mucho códig
 Un buen servidor con PHP actualizado, caché del lado del servidor y una red de distribución de contenido (CDN) puede hacer más por tu sitio que cualquier extensión.
 
 <div class="fm-cta" markdown="1">
-¿Pensando si seguir en Joomla o cambiar de plataforma? Te cuento mi opinión en [esta página](/programador-web-especialista-en-joomla-en-mexico/).
+¿Pensando si seguir en Joomla o cambiar de plataforma? Te cuento mi opinión en [esta página](/programador-web-especialista-en-joomla-en-mexico/), y si buscas quién te ayude, lee [cómo elegir a un experto en Joomla en México](/blog/experto-en-joomla-en-mexico/).
 </div>
