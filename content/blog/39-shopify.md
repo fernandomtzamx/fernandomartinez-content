@@ -16,6 +16,8 @@ La primera versión de esta guía prometía que podías vivir de tu tienda en l�
 
 Así que aquí va la versión honesta y actualizada: qué cuesta, qué incluye y cómo empezar con [Shopify](https://shopify.pxf.io/prueba-gratis-shop?subId1=blog&subId2=como-abrir-una-tienda-en-linea-en-mexico-con-shopify&subId3=intro) en México sin perder dinero en el intento.
 
+Esta es la versión corta. Si quieres el paso a paso completo (registro, pagos para México, envíos, SAT, SEO, anuncios y el plan para las primeras ventas), está en la [guía definitiva de Shopify para principiantes en México 2026](/blog/guia-definitiva-shopify-principiantes-mexico-2026/).
+
 <div class="fm-tldr" markdown="1">
 **La versión corta:**
 

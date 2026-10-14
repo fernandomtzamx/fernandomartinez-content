@@ -49,3 +49,9 @@
 .fm-faq summary::after{content:"+";position:absolute;right:.3em;top:50%;transform:translateY(-50%);color:var(--fm-cobalt);font-size:1.5em;font-weight:400;transition:transform .2s ease}
 .fm-faq details[open] summary::after{transform:translateY(-50%) rotate(45deg)}
 .fm-faq details p{margin:.7em 0 0}
+.fm-video{margin:1.8em 0}
+.fm-video iframe{width:100%;aspect-ratio:16/9;height:auto;border:0;border-radius:12px;background:#000}
+.fm-video figcaption,.fm-captura figcaption{font-size:.9em;color:var(--fm-muted);margin-top:.5em}
+.fm-captura{margin:1.8em 0}
+.fm-captura img{width:100%;border:1px solid var(--fm-line);box-shadow:0 8px 24px rgba(60,60,59,.08)}
+.fm-captura-marcador{background:repeating-linear-gradient(45deg,var(--fm-paper),var(--fm-paper) 12px,#fff 12px,#fff 24px);border:2px dashed var(--fm-hl-strong);border-radius:12px;padding:2.2em 1.4em;text-align:center;color:var(--fm-muted);font-size:.95em;aspect-ratio:16/9;display:flex;align-items:center;justify-content:center}
