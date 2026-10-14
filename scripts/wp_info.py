@@ -10,6 +10,25 @@ from publish import WP, env  # noqa: E402
 from sitio_url import base_url  # noqa: E402
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
+
+# ---------- Sondeo sin autenticación (antes de conectar) ----------
+import requests as _rq  # noqa: E402
+_UA = {"User-Agent": "Mozilla/5.0 (compatible; fm-diagnostico/1.0)"}
+for _base in ("https://www.fernandomartinez.mx", "https://fernandomartinez.mx"):
+    for _p in ("/", "/?rest_route=/", "/index.php?rest_route=/", "/wp-json/", "/index.php/wp-json/", "/blog/",
+               "/blog/que-es-el-inbound-marketing/", "/?p=72", "/dev/", "/dev/wp-json/", "/wp-login.php", "/wp-admin/"):
+        try:
+            _r = _rq.get(_base + _p, headers=_UA, timeout=30, allow_redirects=False)
+            _extra = ""
+            if "rest_route" in _p and _r.status_code == 200:
+                try:
+                    _j = _r.json(); _extra = f"home={_j.get('home')} url={_j.get('url')}"
+                except ValueError:
+                    _extra = "no-json"
+            print(f"sondeo {_base}{_p} -> {_r.status_code} loc={_r.headers.get('location')} srv={_r.headers.get('server')} "
+                  f"cf={_r.headers.get('cf-cache-status')} {_extra} | {_r.text[:90]!r}")
+        except Exception as _e:  # noqa: BLE001
+            print(f"sondeo {_base}{_p} -> ERROR {str(_e)[:120]}")
 wp = WP(base_url(), env("WP_USER"), env("WP_APP_PASSWORD"))
 info = {"me": {k: wp.whoami().get(k) for k in ("username", "roles")}}
 
