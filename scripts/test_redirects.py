@@ -71,6 +71,10 @@ while sitemaps:
         else:
             add(loc, "sitemap")
 
+# Sitemap XML de OSMap (respaldado en el repo: el sitio viejo lo sirve en ?option=com_osmap&view=xml&id=1)
+for line in (ROOT / "migracion/origen/sitemap-osmap.txt").read_text().split():
+    add(line, "sitemap OSMap")
+
 # Mapa del sitio HTML
 for h in re.findall(r'href="?(/[^" >]*)', (ROOT / "migracion/origen/paginas/mapa-de-sitio.html").read_text(encoding="utf-8")):
     if not h.startswith(("/images", "/media", "/templates", "/cdn-cgi")):

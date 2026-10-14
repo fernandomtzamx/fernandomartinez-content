@@ -61,9 +61,9 @@ for old, new in sorted(rules.items()):
 out.append("")
 out.append("# Archivos descargables que cambian de ruta (actualizar con la URL final de la biblioteca de medios)")
 out.append("# /media/weTnwLzC8MAT47xS/plg_websitepreloader.zip -> /recursos/website-preloader-joomla-plugin/")
-out.append("RewriteRule ^media/weTnwLzC8MAT47xS/plg_websitepreloader\\.zip$ /recursos/website-preloader-joomla-plugin/ [R=301,L]")
-out.append("RewriteRule ^media/weTnwLzC8MAT47xS/plg_TwitterSummaryCardforArticles\\.zip$ /recursos/twitter-summary-card-for-joomla-articles-plugin/ [R=301,L]")
-out.append("RewriteRule ^media/weTnwLzC8MAT47xS/25_cosas.*\\.pdf$ /recursos/25-cosas-que-hacer-en-la-web-para-tener-mas-trafico-y-clientes/ [R=301,L]")
+out.append("RewriteRule ^media/weTnwLzC8MAT47xS/plg_websitepreloader\\.zip/?$ /recursos/website-preloader-joomla-plugin/ [R=301,L]")
+out.append("RewriteRule ^media/weTnwLzC8MAT47xS/plg_TwitterSummaryCardforArticles\\.zip/?$ /recursos/twitter-summary-card-for-joomla-articles-plugin/ [R=301,L]")
+out.append("RewriteRule ^media/weTnwLzC8MAT47xS/25_cosas.*\\.pdf/?$ /recursos/25-cosas-que-hacer-en-la-web-para-tener-mas-trafico-y-clientes/ [R=301,L]")
 out.append("</IfModule>")
 
 dest = ROOT / "migracion" / "redirecciones.htaccess"
