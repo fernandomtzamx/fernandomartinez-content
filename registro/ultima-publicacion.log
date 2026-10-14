@@ -1,24 +1,24 @@
-fecha: 2026-10-13T23:32:23Z
-commit: 3883b3d96fcc3d081f20a71dc2d4ed7fc13186f4
+fecha: 2026-10-14T00:20:30Z
+commit: 8ad06ee0e58ddf718140f05fc178cbf33ba6fd63
 evento: push
 publicar: success | setup: skipped | verificar: success
-run: https://github.com/fernandomtzamx/fernandomartinez-content/actions/runs/38484818717
+run: https://github.com/fernandomtzamx/fernandomartinez-content/actions/runs/38489536573
 ---
 WP_URL: presente
 WP_USER: presente
 WP_APP_PASSWORD: presente
-Plan: publicar='content/paginas/contacto.md ' setup='' verificar='1' info=''
+Plan: publicar='content/blog/13-5-pilares.md content/blog/14-que-es-inbound.md content/blog/15-joomla-velocidad.md content/blog/22-joomla-admin.md content/blog/36-considerar-inbound.md content/blog/42-especialista-inbound-mexico.md content/blog/43-experto-joomla-mexico.md content/paginas/programador-joomla.md content/paginas/sobre-mi.md ' setup='' verificar='1' info=''
 ok    content/blog/12-teleton.md: 499 palabras, 1 fuentes
-ok    content/blog/13-5-pilares.md: 532 palabras, 0 fuentes
-ok    content/blog/14-que-es-inbound.md: 454 palabras, 0 fuentes
-ok    content/blog/15-joomla-velocidad.md: 565 palabras, 3 fuentes
+ok    content/blog/13-5-pilares.md: 550 palabras, 0 fuentes
+ok    content/blog/14-que-es-inbound.md: 471 palabras, 0 fuentes
+ok    content/blog/15-joomla-velocidad.md: 582 palabras, 3 fuentes
 ok    content/blog/16-blog.md: 444 palabras, 1 fuentes
       ! corta (444 palabras)
 ok    content/blog/17-10-palabras.md: 517 palabras, 0 fuentes
 ok    content/blog/2-gente-exitosa.md: 451 palabras, 1 fuentes
 ok    content/blog/20-reconocimiento-marca.md: 496 palabras, 0 fuentes
-ok    content/blog/22-joomla-admin.md: 431 palabras, 0 fuentes
-      ! corta (431 palabras)
+ok    content/blog/22-joomla-admin.md: 430 palabras, 0 fuentes
+      ! corta (430 palabras)
 ok    content/blog/24-h2h.md: 512 palabras, 0 fuentes
 ok    content/blog/26-iot.md: 495 palabras, 1 fuentes
 ok    content/blog/27-buyer-personas.md: 499 palabras, 0 fuentes
@@ -32,12 +32,14 @@ ok    content/blog/33-redes-usuarios.md: 449 palabras, 1 fuentes
       ! corta (449 palabras)
 ok    content/blog/34-redes-sociales.md: 451 palabras, 0 fuentes
 ok    content/blog/35-realidad-virtual.md: 486 palabras, 1 fuentes
-ok    content/blog/36-considerar-inbound.md: 513 palabras, 1 fuentes
+ok    content/blog/36-considerar-inbound.md: 529 palabras, 1 fuentes
 ok    content/blog/37-marketing-automotriz-olimpicos.md: 595 palabras, 1 fuentes
 ok    content/blog/38-instagram-stories.md: 453 palabras, 1 fuentes
 ok    content/blog/39-shopify.md: 746 palabras, 3 fuentes
 ok    content/blog/40-chat.md: 614 palabras, 1 fuentes
 ok    content/blog/41-credito-automotriz.md: 661 palabras, 2 fuentes
+ok    content/blog/42-especialista-inbound-mexico.md: 866 palabras, 2 fuentes
+ok    content/blog/43-experto-joomla-mexico.md: 792 palabras, 4 fuentes
 ok    content/blog/5-activismo.md: 434 palabras, 0 fuentes
       ! corta (434 palabras)
 ok    content/blog/6-lealtad.md: 455 palabras, 0 fuentes
@@ -49,8 +51,8 @@ ok    content/paginas/como-te-ayudo.md: 453 palabras, 0 fuentes
 ok    content/paginas/contacto.md: 147 palabras, 1 fuentes
 ok    content/paginas/gnu.md: 147 palabras, 2 fuentes
 ok    content/paginas/inicio.md: 420 palabras, 0 fuentes
-ok    content/paginas/programador-joomla.md: 377 palabras, 1 fuentes
-ok    content/paginas/sobre-mi.md: 693 palabras, 12 fuentes
+ok    content/paginas/programador-joomla.md: 400 palabras, 1 fuentes
+ok    content/paginas/sobre-mi.md: 695 palabras, 12 fuentes
 ok    content/recursos/25-cosas.md: 966 palabras, 2 fuentes
 ok    content/recursos/brand-remover.md: 181 palabras, 2 fuentes
 ok    content/recursos/herramientas.md: 883 palabras, 62 fuentes
@@ -60,11 +62,32 @@ ok    content/recursos/sumome.md: 161 palabras, 0 fuentes
 ok    content/recursos/twitter-summary-card.md: 197 palabras, 1 fuentes
 ok    content/recursos/website-preloader.md: 222 palabras, 1 fuentes
 
-45 archivos, 0 con errores
+47 archivos, 0 con errores
 Endpoint: https://fernandomartinez.mx/dev/wp-json/ (HTTP 200)
 Métodos de autenticación anunciados: application-passwords
 Conectado como soporte (roles: administrator)
-content/paginas/contacto.md: page actualizada (publish) id=10 https://www.fernandomartinez.mx/dev/contacto/
+content/paginas/programador-joomla.md: page actualizada (publish) id=13 https://www.fernandomartinez.mx/dev/programador-web-especialista-en-joomla-en-mexico/
+  = imagen reutilizada: fernando-martinez-enginecx (id 14)
+content/paginas/sobre-mi.md: page actualizada (publish) id=15 https://www.fernandomartinez.mx/dev/fernando-arturo-martinez-aguilar/
+  = imagen reutilizada: como-funciona-los-5-pilares-del-inbound-marketing (id 47)
+content/blog/13-5-pilares.md: post actualizada (publish) id=48 https://www.fernandomartinez.mx/dev/blog/como-funciona-los-5-pilares-del-inbound-marketing/
+  = imagen reutilizada: que-es-el-inbound-marketing (id 49)
+content/blog/14-que-es-inbound.md: post actualizada (publish) id=50 https://www.fernandomartinez.mx/dev/blog/que-es-el-inbound-marketing/
+  = imagen reutilizada: reducir-tiempo-carga-sitio-web-joomla (id 51)
+content/blog/15-joomla-velocidad.md: post actualizada (publish) id=52 https://www.fernandomartinez.mx/dev/blog/reducir-tiempo-carga-sitio-web-joomla/
+  = imagen reutilizada: plantillas-administrador-joomla (id 59)
+content/blog/22-joomla-admin.md: post actualizada (publish) id=60 https://www.fernandomartinez.mx/dev/blog/plantillas-administrador-joomla/
+  = imagen reutilizada: porque-deberias-considerar-el-inbound-marketing (id 81)
+content/blog/36-considerar-inbound.md: post actualizada (publish) id=82 https://www.fernandomartinez.mx/dev/blog/porque-deberias-considerar-el-inbound-marketing/
+  + etiqueta creada: especialista en inbound marketing
+  + etiqueta creada: agencias
+  + imagen subida: especialista-en-inbound-marketing-en-mexico.png (id 163)
+content/blog/42-especialista-inbound-mexico.md: post creada (publish) id=164 https://www.fernandomartinez.mx/dev/blog/especialista-en-inbound-marketing-en-mexico/
+  + etiqueta creada: experto en Joomla
+  + etiqueta creada: programador Joomla
+  + etiqueta creada: migración
+  + imagen subida: experto-en-joomla-en-mexico.png (id 165)
+content/blog/43-experto-joomla-mexico.md: post creada (publish) id=166 https://www.fernandomartinez.mx/dev/blog/experto-en-joomla-en-mexico/
 ## Páginas publicadas
 
 Problemas en páginas o referidos: 0. Externos con error: 7

@@ -30,6 +30,8 @@
 | 200 | https://www.fernandomartinez.mx/dev/blog/como-abrir-una-tienda-en-linea-en-mexico-con-shopify/ | content/blog/39-shopify.md | 2/2 ok |
 | 200 | https://www.fernandomartinez.mx/dev/blog/5-datos-duros-para-considerar-implementar-un-chat/ | content/blog/40-chat.md |  |
 | 200 | https://www.fernandomartinez.mx/dev/blog/credito-automotriz-en-linea-disrupcion-venta-de-autos/ | content/blog/41-credito-automotriz.md |  |
+| 200 | https://www.fernandomartinez.mx/dev/blog/especialista-en-inbound-marketing-en-mexico/ | content/blog/42-especialista-inbound-mexico.md |  |
+| 200 | https://www.fernandomartinez.mx/dev/blog/experto-en-joomla-en-mexico/ | content/blog/43-experto-joomla-mexico.md |  |
 | 200 | https://www.fernandomartinez.mx/dev/blog/activismo-con-hashtags/ | content/blog/5-activismo.md |  |
 | 200 | https://www.fernandomartinez.mx/dev/blog/crear-lealtad-a-tu-marca-no-se-logra-solo-con-comunicacion/ | content/blog/6-lealtad.md |  |
 | 200 | https://www.fernandomartinez.mx/dev/blog/manifiesto-de-marketing-digital-de-fernando-martinez/ | content/blog/7-manifiesto.md |  |
@@ -63,7 +65,7 @@
 | 200 | https://backlinko.com/blog |  | content/recursos/herramientas.md |
 | 200 | https://blog.hubspot.es/ |  | content/recursos/herramientas.md |
 | 200 | https://blog.hubspot.es/marketing/anatomia-de-un-portal-de-ventas-ecommerce-estilo-inbound |  | content/paginas/sobre-mi.md |
-| 200 | https://blog.hubspot.es/marketing/author/fernando-martinez |  | content/paginas/sobre-mi.md |
+| 200 | https://blog.hubspot.es/marketing/author/fernando-martinez |  | content/blog/42-especialista-inbound-mexico.md, content/paginas/sobre-mi.md |
 | 200 | https://blog.hubspot.es/marketing/como-crear-un-plan-de-compensacion-para-tu-equipo-de-ventas |  | content/blog/3-compensacion.md, content/paginas/sobre-mi.md |
 | 200 | https://blog.hubspot.es/marketing/que-son-y-como-se-construyen-los-buyer-personas |  | content/paginas/sobre-mi.md |
 | 200 | https://buffer.com/resources/ |  | content/recursos/herramientas.md |
@@ -75,17 +77,18 @@
 | 403 ⚠ | https://claude.ai/ | https://claude.ai/login | content/recursos/herramientas.md |
 | 200 | https://clicky.com/ |  | content/recursos/herramientas.md |
 | 200 | https://commons.wikimedia.org/ | https://commons.wikimedia.org/wiki/Main_Page | content/recursos/imagenes-libres.md |
-| 200 | https://community.joomla.org/service-providers-directory.html |  | content/paginas/programador-joomla.md |
+| 200 | https://community.joomla.org/service-providers-directory.html |  | content/blog/43-experto-joomla-mexico.md, content/paginas/programador-joomla.md |
 | 200 | https://contentmarketingworld.com/ | https://www.contentmarketingworld.com/ | content/recursos/herramientas.md |
 | 200 | https://copyblogger.com/blog/ |  | content/recursos/herramientas.md |
 | 200 | https://developers.google.com/search/docs/essentials |  | content/recursos/herramientas.md |
 | 200 | https://developers.google.com/search/docs/fundamentals/seo-starter-guide |  | content/recursos/herramientas.md |
 | 200 | https://en.wikipedia.org/wiki/Ego_depletion |  | content/blog/2-gente-exitosa.md |
 | 200 | https://expansion.mx/tecnologia/2025/03/11/mexicanos-confia-whatsapp-comunicarse-empresas | https://expansion.mx/tecnologia/2025/03/11/tu-proxima-compra-sera-por-whatsapp | content/blog/40-chat.md |
+| 200 | https://extensions.joomla.org/ |  | content/blog/43-experto-joomla-mexico.md |
 | 200 | https://extensions.joomla.org/extensions/extension/administration/admin-styling/administrator-brand-remover | https://extensions.joomla.org/extension/administration/admin-styling/administrator-brand-remover/ | content/recursos/brand-remover.md |
 | 200 | https://extensions.joomla.org/extensions/extension/core-enhancements/performance/website-preloader | https://extensions.joomla.org/extension/core-enhancements/performance/website-preloader/ | content/recursos/website-preloader.md |
 | 200 | https://extensions.joomla.org/extensions/extension/social-web/social-media/twitter-summary-card-for-articles | https://extensions.joomla.org/extension/social-web/social-media/twitter-summary-card-for-articles/ | content/recursos/twitter-summary-card.md |
-| 200 | https://extensions.joomla.org/profile/profile/details/213613 | https://extensions.joomla.org/profile/profile/details/213613/ | content/paginas/sobre-mi.md |
+| 200 | https://extensions.joomla.org/profile/profile/details/213613 | https://extensions.joomla.org/profile/profile/details/213613/ | content/blog/43-experto-joomla-mexico.md, content/paginas/sobre-mi.md |
 | 200 | https://gemini.google.com/ |  | content/recursos/herramientas.md |
 | 200 | https://gulfnews.com/technology/companies/linkedin-hits-1-billion-members-adds-ai-features-for-job-seekers-1.1698852824808 |  | content/blog/33-redes-usuarios.md |
 | 200 | https://hunter.io/ |  | content/recursos/herramientas.md |
@@ -105,12 +108,12 @@
 | 403 ⚠ | https://openverse.org/es |  | content/recursos/imagenes-libres.md |
 | 200 | https://pagespeed.web.dev/ |  | content/blog/15-joomla-velocidad.md, content/recursos/25-cosas.md |
 | 403 ⚠ | https://pixabay.com/es/ |  | content/recursos/imagenes-libres.md |
-| 200 | https://postmaster.google.com/ | https://accounts.google.com/v3/signin/identifier?continue=https://postmaster.google.com/&followup=https://postmaster.google.com/&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S-570242447:1791934336788688 | content/recursos/herramientas.md |
+| 200 | https://postmaster.google.com/ | https://accounts.google.com/v3/signin/identifier?continue=https://postmaster.google.com/&followup=https://postmaster.google.com/&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S-570242447:1791937223469024 | content/recursos/herramientas.md |
 | 200 | https://pulse2.com/kavak-300-million-series-f/ |  | content/blog/41-credito-automotriz.md |
 | 200 | https://search.google.com/search-console/about |  | content/recursos/25-cosas.md |
 | 403 ⚠ | https://searchengineland.com/ |  | content/recursos/herramientas.md |
 | 200 | https://segment.com/ | https://www.twilio.com/en-us/segment | content/recursos/herramientas.md |
-| 200 | https://shopify.pxf.io/prueba-gratis-shop | https://www.shopify.com/mx/prueba-gratis?irclickid=1XSyGLQFHxyZTBcTvQxG20BvUkr1jQU2IV2B0U0&irgwc=1&partner=2878770&affpt=excluded&utm_channel=affiliates&utm_source=2878770-impact&utm_medium=cpa&iradid=1061744 | content/blog/39-shopify.md, content/recursos/herramientas.md |
+| 200 | https://shopify.pxf.io/prueba-gratis-shop | https://www.shopify.com/mx/prueba-gratis?irclickid=0cNWejQFtxyZRR7X3ZWx3WInUkr1jiQAgWtuRc0&irgwc=1&partner=2878770&affpt=excluded&utm_channel=affiliates&utm_source=2878770-impact&utm_medium=cpa&iradid=1061744 | content/blog/39-shopify.md, content/recursos/herramientas.md |
 | 200 | https://statcounter.com/ |  | content/recursos/herramientas.md |
 | 200 | https://thewrap.com/instagram-stories-just-passed-500-million-daily-users | https://www.thewrap.com/instagram-stories-just-passed-500-million-daily-users/ | content/blog/38-instagram-stories.md |
 | 403 ⚠ | https://unsplash.com/ |  | content/recursos/imagenes-libres.md |
@@ -131,11 +134,12 @@
 | 200 | https://www.heap.io/ |  | content/recursos/herramientas.md |
 | 200 | https://www.hotjar.com/ | https://contentsquare.com/hotjar/?utm_campaign=exp__hj_hp_redirection | content/recursos/herramientas.md |
 | 200 | https://www.hubspot.es/ |  | content/recursos/herramientas.md |
-| 200 | https://www.inbound.com.mx/ |  | content/paginas/sobre-mi.md |
+| 200 | https://www.inbound.com.mx/ |  | content/blog/42-especialista-inbound-mexico.md, content/paginas/sobre-mi.md |
 | 200 | https://www.inbound.com.mx/inbound-blog/11-enfocate-en-tu-sitio-corporativo-no-en-redes-sociales | https://www.inbound.com.mx/enfocate-en-tu-sitio-corporativo-no-en-redes-sociales/ | content/paginas/sobre-mi.md |
 | 200 | https://www.inbound.com.mx/inbound-blog/2-todos-tus-empleados-son-parte-de-tu-area-de-marketing | https://www.inbound.com.mx/todos-tus-empleados-son-parte-de-tu-area-de-marketing/ | content/paginas/sobre-mi.md |
 | 200 | https://www.inbound.com/ | https://unbound.hubspot.com/ | content/recursos/herramientas.md |
 | 200 | https://www.jch-optimize.net/ |  | content/blog/15-joomla-velocidad.md |
+| 200 | https://www.joomla.org/announcements/release-news.html |  | content/blog/43-experto-joomla-mexico.md |
 | 999 ⚠ | https://www.linkedin.com/in/fernandomtza/ | https://www.linkedin.com/in/fernandomtza | content/paginas/contacto.md, content/paginas/sobre-mi.md |
 | 200 | https://www.litmus.com/ |  | content/recursos/herramientas.md |
 | 200 | https://www.mailinator.com/ |  | content/recursos/herramientas.md |
