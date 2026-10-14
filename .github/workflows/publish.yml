@@ -11,6 +11,7 @@ on:
       - "scripts/publish.py"
       - "scripts/site_setup.py"
       - "scripts/article.css"
+      - "scripts/article-nav.js"
       - "scripts/wp_info.py"
       - "scripts/check_alt.py"
       - ".github/workflows/publish.yml"
@@ -75,7 +76,7 @@ jobs:
               CHANGED=$(git diff --name-only "$BEFORE" "${{ github.sha }}")
             fi
             # Si cambió la plantilla de artículo o el publicador, se republica todo
-            if echo "$CHANGED" | grep -qE '^scripts/(article\.css|publish\.py)$'; then
+            if echo "$CHANGED" | grep -qE '^scripts/(article\.css|article-nav\.js|publish\.py)$'; then
               PUBLISH="--all"
             else
               PUBLISH=$(echo "$CHANGED" | grep -E '^content/.*\.md$' | while read f; do [ -f "$f" ] && echo "$f"; done | tr '\n' ' ')

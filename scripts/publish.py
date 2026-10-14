@@ -241,6 +241,10 @@ def parse(path):
                 '<a href="/fernando-arturo-martinez-aguilar/">Más sobre mí</a> · '
                 '<a href="/contacto/">Escríbeme</a></p></div>')
         html = f'<style>\n{css}</style>\n<div class="fm-article">\n{html}\n{footer}\n</div>'
+        # Entradas largas: barra fija para ir a la sección anterior o siguiente (se activa con 6+ H2).
+        if html.count('<h2 id=') >= 6:
+            js = (ROOT / 'scripts' / 'article-nav.js').read_text(encoding='utf-8')
+            html += f'\n<script>\n{js}</script>'
     return meta, nofollow_external(html)
 
 
