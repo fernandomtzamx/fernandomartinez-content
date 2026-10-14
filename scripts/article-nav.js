@@ -1,6 +1,6 @@
 (function () {
   var art = document.querySelector(".fm-article");
-  if (!art || !("IntersectionObserver" in window)) return;
+  if (!art) return;
   var heads = Array.prototype.slice.call(art.querySelectorAll("h2[id]"));
   if (heads.length < 6) return;
 
@@ -10,9 +10,12 @@
   nav.innerHTML =
     '<button type="button" class="fm-navsec-btn" data-dir="-1" aria-label="Sección anterior"><span aria-hidden="true">&#8593;</span><span class="fm-navsec-txt">Anterior</span></button>' +
     '<button type="button" class="fm-navsec-cur" aria-haspopup="true" aria-expanded="false"><span class="fm-navsec-num"></span><span class="fm-navsec-name"></span></button>' +
-    '<button type="button" class="fm-navsec-btn" data-dir="1" aria-label="Sección siguiente"><span class="fm-navsec-txt">Siguiente</span><span aria-hidden="true">&#8595;</span></button>' +
-    '<ul class="fm-navsec-list" hidden></ul>';
-  var list = nav.querySelector(".fm-navsec-list");
+    '<button type="button" class="fm-navsec-btn" data-dir="1" aria-label="Sección siguiente"><span class="fm-navsec-txt">Siguiente</span><span aria-hidden="true">&#8595;</span></button>';
+  // Sin etiquetas de bloque en cadenas: wpautop las envuelve en <p> y rompe el script.
+  var list = document.createElement("ul");
+  list.className = "fm-navsec-list";
+  list.hidden = true;
+  nav.appendChild(list);
   heads.forEach(function (h, i) {
     var li = document.createElement("li");
     var a = document.createElement("a");
