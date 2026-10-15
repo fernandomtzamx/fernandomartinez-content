@@ -423,9 +423,59 @@ add_action( 'wp_body_open', function () {{
         en_body = f"ns.html?id={gtm}" in cuerpo
         print(f"Analítica: verificación portada -> script en head: {'sí' if en_head else 'NO'} | noscript en body: {'sí' if en_body else 'NO'}")
 
+    def seo():
+        """Expone en la API REST los campos de Rank Math que escribe publish.py (título, descripción,
+        frase clave y robots) con un fragmento persistente de Code Snippets. Solo usuarios que editan."""
+        nombre = "fm: Rank Math en la API"
+
+        def cs(method, route, **kw):
+            r = wp.s.request(method, f"{root}/code-snippets/v1/{route}", timeout=30, **kw)
+            if r.status_code >= 400:
+                raise RuntimeError(f"{method} code-snippets/{route} -> {r.status_code}: {r.text[:300]}")
+            return r.json()
+
+        activos = [x.get("plugin") for x in wp.req("GET", "plugins") if x.get("status") == "active"]
+        if not any(str(a).startswith("seo-by-rank-math/") for a in activos):
+            raise RuntimeError("Rank Math no está activo")
+        if not any(str(a).startswith("code-snippets/") for a in activos):
+            raise RuntimeError("Code Snippets no está activo (lo instala el paso analítica)")
+        code = """add_action( 'init', function () {
+	$puede = function () { return current_user_can( 'edit_posts' ); };
+	foreach ( array( 'post', 'page' ) as $tipo ) {
+		foreach ( array( 'rank_math_title', 'rank_math_description', 'rank_math_focus_keyword' ) as $clave ) {
+			register_post_meta( $tipo, $clave, array( 'type' => 'string', 'single' => true, 'show_in_rest' => true, 'auth_callback' => $puede ) );
+		}
+		register_post_meta( $tipo, 'rank_math_robots', array(
+			'type' => 'array', 'single' => true, 'auth_callback' => $puede,
+			'show_in_rest' => array( 'schema' => array( 'type' => 'array', 'items' => array( 'type' => 'string', 'enum' => array( 'index', 'noindex', 'follow', 'nofollow', 'noarchive', 'noimageindex', 'nosnippet' ) ) ) ),
+		) );
+	}
+}, 20 );"""
+        datos = {"name": nombre, "code": code, "scope": "global", "active": True,
+                 "desc": "Lo administra scripts/site_setup.py (paso seo). No editar a mano."}
+        actuales = [x for x in cs("GET", "snippets") if x.get("name") == nombre]
+        if actuales:
+            x = actuales[0]
+            for extra in actuales[1:]:
+                cs("DELETE", f"snippets/{extra['id']}")
+            if x.get("code", "").strip() != code.strip() or x.get("scope") != "global":
+                x = cs("POST", f"snippets/{x['id']}", json=datos)
+                print(f"SEO: fragmento {x.get('id')} actualizado")
+        else:
+            x = cs("POST", "snippets", json=datos)
+            print(f"SEO: fragmento {x.get('id')} creado")
+        if not x.get("active"):
+            cs("POST", f"snippets/{x['id']}/activate")
+        # Verificación: la API ya debe devolver los campos de Rank Math en una página.
+        pagina = wp.req("GET", "pages", params={"per_page": 1, "context": "edit"})
+        claves = sorted(k for k in ((pagina[0].get("meta") or {}) if pagina else {}) if k.startswith("rank_math_"))
+        print(f"SEO: campos de Rank Math en la API -> {', '.join(claves) or 'NINGUNO'}")
+        if len(claves) < 4:
+            raise RuntimeError("la API no expone los campos de Rank Math")
+
     for name, fn in [("ajustes", ajustes), ("autor", autor), ("categorías", categorias), ("marca", marca),
                      ("menú", menu), ("encabezado", encabezado), ("estilos", estilos), ("plantillas", plantillas),
-                     ("entrada", entrada), ("pie", pie), ("analítica", analitica), ("borrar", borrar)]:
+                     ("entrada", entrada), ("pie", pie), ("analítica", analitica), ("seo", seo), ("borrar", borrar)]:
         step(name, fn, errors)
     if errors:
         sys.exit(f"{len(errors)} paso(s) con error: {', '.join(errors)}")
