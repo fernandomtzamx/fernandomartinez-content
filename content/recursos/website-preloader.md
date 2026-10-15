@@ -5,6 +5,9 @@ type: page
 parent: recursos
 status: publish
 excerpt: "Website Preloader: plugin de Joomla que muestra una pantalla de carga elegante mientras tu sitio termina de cargar. Descarga gratuita para Joomla 3."
+seo_title: "Website Preloader: plugin para Joomla"
+seo_description: "Website Preloader: plugin de Joomla que muestra una pantalla de carga elegante mientras tu sitio termina de cargar. Descarga gratuita para Joomla 3."
+focus_keyword: "preloader joomla"
 ---
 
 <div class="fm-box" markdown="1">

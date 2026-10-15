@@ -6,6 +6,9 @@ status: publish
 date: 2026-10-13 12:50
 original: /blog/41-credito-automotriz-en-linea-disrupcion-venta-de-autos
 excerpt: "En México casi todos los autos se venden a crédito y el financiamiento rompe récords. Cinco dolores de las agencias que el crédito en línea resuelve (o expone)."
+seo_title: "Crédito automotriz en línea en México"
+seo_description: "En México casi todos los autos se venden a crédito y el financiamiento rompe récords. Cinco dolores de las agencias que el crédito en línea resuelve."
+focus_keyword: "crédito automotriz en línea"
 categories: [automotriz]
 tags: [crédito automotriz, concesionarias, Kavak, financiamiento, experiencia del cliente]
 featured_image: images/credito-automotriz-en-linea-disrupcion-venta-de-autos.png

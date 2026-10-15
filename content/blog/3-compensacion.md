@@ -6,6 +6,9 @@ status: publish
 date: 2026-10-13 08:10
 original: /blog/3-como-crear-un-plan-de-compensacion-para-tu-equipo-de-ventas
 excerpt: "Sueldo base, comisiones, metas y aceleradores. Cómo diseñar un plan de compensación de ventas que premie lo que de verdad quieres que pase, y que el CRM pueda medir."
+seo_title: "Plan de compensación para vendedores"
+seo_description: "Sueldo base, comisiones, metas y aceleradores: cómo diseñar un plan de compensación de ventas que premie lo que quieres que pase y que el CRM mida."
+focus_keyword: "plan de compensación de ventas"
 categories: [ventas-y-liderazgo]
 tags: [ventas, compensación, comisiones, equipos de trabajo, CRM]
 featured_image: images/como-crear-un-plan-de-compensacion-para-tu-equipo-de-ventas.png

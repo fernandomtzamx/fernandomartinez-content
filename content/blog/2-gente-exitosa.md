@@ -6,6 +6,9 @@ status: publish
 date: 2026-10-13 08:00
 original: /blog/2-5-cosas-que-hace-la-gente-super-exitosa
 excerpt: "Hábitos menos obvios de la gente que destaca en lo que hace: decidir menos, proteger su tiempo, aprender en público. Con una advertencia honesta sobre la ciencia detrás."
+seo_title: "5 hábitos de la gente muy exitosa"
+seo_description: "Decidir menos, proteger su tiempo, aprender en público: cinco hábitos poco obvios de la gente que destaca, con una advertencia honesta sobre la ciencia."
+focus_keyword: "hábitos de la gente exitosa"
 categories: [ventas-y-liderazgo]
 tags: [productividad, hábitos, liderazgo, toma de decisiones]
 featured_image: images/5-cosas-que-hace-la-gente-super-exitosa.png

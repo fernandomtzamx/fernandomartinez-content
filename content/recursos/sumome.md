@@ -5,6 +5,10 @@ type: page
 parent: recursos
 status: publish
 excerpt: "Plugin que instalaba las herramientas de SumoMe (hoy Sumo) en sitios Joomla 3: captura de correos, botones para compartir y analítica, sin tocar código."
+seo_title: "SumoMe para Joomla (plugin archivado)"
+seo_description: "Plugin que instalaba las herramientas de SumoMe (hoy Sumo) en sitios Joomla 3: captura de correos, botones para compartir y analítica, sin tocar código."
+focus_keyword: "sumome joomla"
+noindex: true
 ---
 
 <div class="fm-box" markdown="1">

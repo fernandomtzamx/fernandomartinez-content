@@ -5,6 +5,9 @@ type: page
 parent: recursos
 status: publish
 excerpt: "La lista para que tu sitio deje de ser un gasto y empiece a traer clientes: que te encuentren, que se entienda, que convenza y que convierta. Edición 2026."
+seo_title: "25 cosas para que tu web traiga clientes"
+seo_description: "La lista para que tu sitio deje de ser un gasto y empiece a traer clientes: que te encuentren, que se entienda, que convenza y que convierta. Edición 2026."
+focus_keyword: "más tráfico y clientes"
 ---
 
 Hace años aquí había un ebook descargable. Te pedía tu correo, te mandaba un PDF de 50 páginas y, seamos honestos, probablemente nunca lo abriste.

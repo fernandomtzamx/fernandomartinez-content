@@ -6,6 +6,9 @@ status: publish
 date: 2026-10-13 11:00
 original: /blog/29-los-consumidores-tienen-el-control
 excerpt: "El cliente elige qué ver, cuándo y en qué canal. En 2026, además, le pide a una IA que compare por él. Qué significa para las marcas que todavía piensan en interrumpir."
+seo_title: "El consumidor tiene el control (y una IA)"
+seo_description: "El cliente elige qué ver, cuándo y en qué canal, y ahora le pide a una IA que compare por él. Qué significa para las marcas que aún interrumpen."
+focus_keyword: "los consumidores tienen el control"
 categories: [marketing]
 tags: [consumidor, experiencia del cliente, IA, publicidad, lealtad de marca]
 featured_image: images/los-consumidores-tienen-el-control.png

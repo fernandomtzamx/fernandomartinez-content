@@ -6,6 +6,9 @@ status: publish
 date: 2026-10-13 11:10
 original: /blog/31-physical-web-el-nuevo-paso-para-los-negocios
 excerpt: "En 2016 la Physical Web prometía darle una URL a cada objeto. Google la apagó en 2018. La idea sobrevivió en el código QR. Lecciones para no enamorarse de la tecnología."
+seo_title: "Physical Web: qué fue y qué aprendimos"
+seo_description: "La Physical Web prometía una URL para cada objeto; Google la apagó en 2018 y la idea sobrevivió en el QR. Lecciones para no enamorarse de la tecnología."
+focus_keyword: "physical web"
 categories: [ia-y-tecnologia]
 tags: [Physical Web, beacons, códigos QR, Google, innovación]
 featured_image: images/physical-web-el-nuevo-paso-para-los-negocios.png

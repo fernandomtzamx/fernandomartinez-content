@@ -19,6 +19,13 @@ Frontmatter soportado:
     categories:   lista de slugs de categoría (se crean si no existen)
     tags:         lista de nombres de etiqueta (se crean si no existen)
     parent:       slug de la página padre (solo páginas)
+    seo_title:    título para Google (Rank Math). Se le agrega " | Fernando Martínez" salvo que ya lo lleve.
+    seo_description: meta descripción (Rank Math), 120 a 158 caracteres
+    focus_keyword: frase clave principal (Rank Math)
+    noindex:      true para sacar la página del índice de Google (Rank Math)
+
+Los campos de Rank Math se escriben como metadatos por la API; los expone el fragmento
+"fm: Rank Math en la API" que instala scripts/site_setup.py (paso "seo").
 
 Si ya existe una entrada o página con el mismo slug, se actualiza en lugar de duplicarse.
 """
@@ -177,6 +184,25 @@ def media_url(self, file_path, alt=""):
 WP.media_url = media_url
 
 
+MARCA = "Fernando Martínez"
+
+
+def seo_meta(meta):
+    """Metadatos de Rank Math a partir del frontmatter (vacío si no hay campos SEO)."""
+    if not any(meta.get(k) for k in ("seo_title", "seo_description", "focus_keyword", "noindex")):
+        return {}
+    title = str(meta.get("seo_title") or meta["title"]).strip()
+    if not ("Fernando" in title and "Martínez" in title):
+        title = f"{title} | {MARCA}"
+    return {
+        "rank_math_title": title,
+        "rank_math_description": str(meta.get("seo_description") or meta.get("excerpt") or "").strip(),
+        "rank_math_focus_keyword": str(meta.get("focus_keyword") or "").strip(),
+        # Vacío = valores globales de Rank Math (index, follow).
+        "rank_math_robots": ["noindex", "follow"] if meta.get("noindex") else [],
+    }
+
+
 INTERNAL_HOSTS = ("fernandomartinez.mx", "www.fernandomartinez.mx")
 # Enlaces de afiliado: se publican EXACTOS, con rel="sponsored" y en pestaña nueva.
 # Agrega aquí cualquier dominio de referidos nuevo; scripts/lint.py verifica que no se alteren.
@@ -300,6 +326,9 @@ def publish(wp, path):
         if not parent:
             raise RuntimeError(f"no existe la página padre '{meta['parent']}'")
         payload["parent"] = parent["id"]
+    seo = seo_meta(meta)
+    if seo:
+        payload["meta"] = seo
     if meta.get("featured_image"):
         payload["featured_media"] = wp.media_id(
             ROOT / meta["featured_image"], meta.get("featured_alt", meta["title"]))
@@ -319,6 +348,13 @@ def publish(wp, path):
         res = wp.req("POST", endpoint, json=payload)
         action = "creada"
     print(f"{path.relative_to(ROOT)}: {kind} {action} ({res['status']}) id={res['id']} {res['link']}")
+    if seo:
+        got = res.get("meta") or {}
+        bad = [k for k, v in seo.items() if (got.get(k) or []) != v and (got.get(k) or "") != v]
+        if bad:
+            raise RuntimeError(f"Rank Math no guardó {', '.join(bad)}: falta el fragmento "
+                               f"'fm: Rank Math en la API' (corre site_setup.py)")
+        print(f"  seo: {seo['rank_math_title']}" + (" [noindex]" if seo["rank_math_robots"] else ""))
 
 
 def order_key(path):

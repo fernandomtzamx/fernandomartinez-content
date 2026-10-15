@@ -6,6 +6,9 @@ status: publish
 date: 2026-10-13 10:40
 original: /blog/27-como-identificar-y-crear-mis-buyer-personas
 excerpt: "Una buyer persona inventada en una junta es ficción con logotipo. Cómo construirlas con entrevistas reales, cuatro preguntas clave y un uso responsable de la IA."
+seo_title: "Cómo crear buyer personas reales"
+seo_description: "Una buyer persona inventada en una junta es ficción. Cómo crearlas con entrevistas reales, cuatro preguntas clave y un uso responsable de la IA."
+focus_keyword: "cómo crear buyer personas"
 categories: [crm-y-datos]
 tags: [buyer persona, investigación de clientes, inbound marketing, IA, ventas]
 featured_image: images/como-identificar-y-crear-mis-buyer-personas.png

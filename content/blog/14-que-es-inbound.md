@@ -6,6 +6,9 @@ status: publish
 date: 2026-10-13 09:20
 original: /blog/14-que-es-el-inbound-marketing
 excerpt: "El inbound marketing es atraer clientes ayudándoles en lugar de interrumpirlos. Qué es, cómo funciona, en qué se diferencia del outbound y qué cambió con la IA."
+seo_title: "Qué es el inbound marketing, sin humo"
+seo_description: "Qué es el inbound marketing, cómo funciona, en qué se diferencia del outbound y qué cambió con la IA. Explicado por alguien que lo hizo por años."
+focus_keyword: "qué es el inbound marketing"
 categories: [marketing]
 tags: [inbound marketing, outbound, contenido, HubSpot, generación de leads]
 featured_image: images/que-es-el-inbound-marketing.png

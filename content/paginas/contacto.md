@@ -5,6 +5,9 @@ type: page
 status: publish
 menu_order: 4
 excerpt: "Escríbele a Fernando Martínez: correo o LinkedIn. Cuéntame qué está pasando con tu CRM, tu IA o tus leads y te respondo personalmente."
+seo_title: "Contacto"
+seo_description: "Escríbele a Fernando Martínez por correo o LinkedIn. Cuéntame qué pasa con tu CRM, tu IA o tus leads y te respondo personalmente."
+focus_keyword: "contacto Fernando Martínez"
 ---
 
 <div class="fm-hero" markdown="1">

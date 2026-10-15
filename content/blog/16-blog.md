@@ -6,6 +6,9 @@ status: publish
 date: 2026-10-13 09:40
 original: /blog/16-para-que-sirve-un-blog-en-mi-sitio-web
 excerpt: "Con la IA respondiendo en los buscadores, ¿vale la pena un blog? Sí, pero por razones distintas a 2016: autoridad, ser citado y responder a tus clientes antes que nadie."
+seo_title: "¿Para qué sirve un blog en tu sitio web?"
+seo_description: "Con la IA respondiendo en los buscadores, ¿vale la pena un blog? Sí: da autoridad, te vuelve citable y responde a tus clientes antes que nadie."
+focus_keyword: "para qué sirve un blog"
 categories: [seo-y-geo, marketing]
 tags: [blog, contenido, SEO, IA, autoridad]
 featured_image: images/para-que-sirve-un-blog-en-mi-sitio-web.png

@@ -6,6 +6,9 @@ status: publish
 date: 2026-10-13 12:40
 original: /blog/40-5-datos-duros-para-considerar-implementar-un-chat
 excerpt: "En 2016 hablábamos de poner un chat en tu sitio. En 2026 la conversación vive en WhatsApp y la contesta, en parte, una IA. Datos actuales para México y qué hacer."
+seo_title: "Chat en tu sitio o WhatsApp: 5 datos duros"
+seo_description: "En 2016 hablábamos de poner un chat en tu sitio; en 2026 la conversación vive en WhatsApp y la contesta, en parte, una IA. Datos para México."
+focus_keyword: "chat whatsapp para empresas"
 categories: [martech, ia-y-tecnologia]
 tags: [WhatsApp, chat, atención al cliente, IA, marketing conversacional]
 featured_image: images/5-datos-duros-para-considerar-implementar-un-chat.png

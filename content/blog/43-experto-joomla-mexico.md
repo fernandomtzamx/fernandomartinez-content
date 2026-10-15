@@ -5,6 +5,9 @@ type: post
 status: publish
 date: 2026-10-13 17:10
 excerpt: "Qué hace un experto en Joomla en México, cuándo vale la pena contratarlo y qué preguntarle. Por alguien que programó más de 200 sitios en Joomla."
+seo_title: "Experto en Joomla en México"
+seo_description: "Cuándo necesitas un experto en Joomla en México, cómo elegirlo y qué preguntarle. Lo explica alguien que programó más de 200 sitios en Joomla."
+focus_keyword: "experto en joomla"
 categories: [desarrollo-web]
 tags: [Joomla, experto en Joomla, programador Joomla, México, migración]
 featured_image: images/experto-en-joomla-en-mexico.png

@@ -6,6 +6,9 @@ status: publish
 date: 2026-10-13 12:20
 original: /blog/38-como-aprovechar-instagram-stories-en-tu-marketing
 excerpt: "Instagram Stories nació copiando a Snapchat y le ganó. Qué aprendimos en una década de historias de 24 horas y cómo usarlas hoy para vender, no solo para aparecer."
+seo_title: "Cómo usar Instagram Stories para vender"
+seo_description: "Instagram Stories nació copiando a Snapchat y le ganó. Lo que aprendimos en diez años de historias y cómo usarlas hoy para vender, no solo aparecer."
+focus_keyword: "instagram stories"
 categories: [marketing]
 tags: [Instagram, Stories, redes sociales, contenido, Meta]
 featured_image: images/como-aprovechar-instagram-stories-en-tu-marketing.png

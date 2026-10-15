@@ -6,6 +6,9 @@ status: publish
 date: 2026-10-13 08:40
 original: /blog/7-manifiesto-de-marketing-digital-de-fernando-martinez
 excerpt: "21 puntos que escribí sobre marketing digital para empresas de México, releídos en 2026. Cuáles sostengo, cuáles corregí y cuáles la IA volvió más ciertos que nunca."
+seo_title: "Manifiesto de marketing digital, revisado"
+seo_description: "21 puntos sobre marketing digital para empresas de México, releídos en 2026: cuáles sostengo, cuáles corregí y cuáles la IA volvió más ciertos."
+focus_keyword: "manifiesto de marketing digital"
 categories: [marketing]
 tags: [manifiesto, marketing digital, métricas, estrategia, opinión]
 featured_image: images/manifiesto-de-marketing-digital-de-fernando-martinez.png

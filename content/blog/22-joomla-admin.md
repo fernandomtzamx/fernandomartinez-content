@@ -6,6 +6,9 @@ status: publish
 date: 2026-10-13 10:10
 original: /blog/22-plantillas-administrador-joomla
 excerpt: "Personalizar el administrador de Joomla con plantillas de terceros complica el mantenimiento. Desde Joomla 4 ya puedes poner tu logo y colores sin instalar nada. Así se hace."
+seo_title: "Personalizar el administrador de Joomla"
+seo_description: "Las plantillas de terceros para el administrador de Joomla complican el mantenimiento. Desde Joomla 4 pones tu logo y colores sin instalar nada."
+focus_keyword: "plantillas administrador joomla"
 categories: [desarrollo-web]
 tags: [Joomla, administrador, plantillas, extensiones, mantenimiento]
 featured_image: images/plantillas-administrador-joomla.png

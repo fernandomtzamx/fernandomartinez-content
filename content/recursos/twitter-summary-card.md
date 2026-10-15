@@ -5,6 +5,9 @@ type: page
 parent: recursos
 status: publish
 excerpt: "Plugin gratuito de Joomla que agrega los metadatos de Twitter Summary Card a tus artículos para que se vean con vista previa al compartirlos en X."
+seo_title: "Twitter Summary Card para Joomla"
+seo_description: "Plugin gratuito de Joomla que agrega los metadatos de Twitter Summary Card a tus artículos para que se vean con vista previa al compartirlos en X."
+focus_keyword: "twitter summary card joomla"
 ---
 
 <div class="fm-box" markdown="1">

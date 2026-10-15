@@ -6,6 +6,9 @@ status: publish
 date: 2026-10-13 11:50
 original: /blog/35-3-formas-de-hacer-marketing-digital-con-realidad-virtual
 excerpt: "En 2016 la realidad virtual iba a cambiarlo todo. No pasó así, pero tres usos sí sobrevivieron: inmobiliario, producto y eventos. Qué funciona hoy y qué no."
+seo_title: "Marketing con realidad virtual: 3 usos"
+seo_description: "La realidad virtual no lo cambió todo, pero tres usos en marketing sí sobrevivieron: inmobiliario, producto y eventos. Qué funciona hoy y qué no."
+focus_keyword: "marketing con realidad virtual"
 categories: [ia-y-tecnologia]
 tags: [realidad virtual, realidad aumentada, experiencia de usuario, innovación]
 featured_image: images/3-formas-de-hacer-marketing-digital-con-realidad-virtual.png

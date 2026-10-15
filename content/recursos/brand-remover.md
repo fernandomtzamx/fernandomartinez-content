@@ -5,6 +5,9 @@ type: page
 parent: recursos
 status: publish
 excerpt: "Administrator Brand Remover: plugin ligero que quita los logotipos y textos de Joomla del panel de administración para entregar sitios con una vista limpia."
+seo_title: "Administrator Brand Remover para Joomla"
+seo_description: "Plugin ligero de Joomla que quita los logotipos y textos de Joomla del panel de administración para entregar sitios con una vista limpia. Gratis."
+focus_keyword: "administrator brand remover"
 ---
 
 <div class="fm-box" markdown="1">

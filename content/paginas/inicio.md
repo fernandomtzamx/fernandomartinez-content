@@ -6,6 +6,9 @@ status: publish
 template: page-no-title
 menu_order: 0
 excerpt: "Fernando Martínez, director de tecnología (CTO) que todavía programa y que vino del marketing. Experiencia y opiniones sobre inbound marketing, SEO y GEO, desarrollo y martech."
+seo_title: "Fernando Martínez, director de tecnología (CTO)"
+seo_description: "Fernando Martínez, CTO que todavía programa y que vino del marketing. Experiencia y opiniones sobre inbound marketing, SEO y GEO, desarrollo y Martech."
+focus_keyword: "Fernando Martínez"
 ---
 
 <div class="fm-hero" markdown="1">

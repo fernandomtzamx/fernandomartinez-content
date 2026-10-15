@@ -6,6 +6,9 @@ status: publish
 date: 2026-10-13 10:30
 original: /blog/26-que-es-el-internet-de-las-cosas-iot-internet-of-things
 excerpt: "El internet de las cosas ya no es tendencia: son miles de millones de dispositivos conectados, incluido tu auto. Qué es, cómo se usa en negocios y qué cambió con la IA."
+seo_title: "Qué es el internet de las cosas (IoT)"
+seo_description: "Qué es el internet de las cosas (IoT), cómo se usa en los negocios y qué cambió con la IA. Miles de millones de dispositivos, incluido tu auto."
+focus_keyword: "qué es el internet de las cosas"
 categories: [ia-y-tecnologia]
 tags: [internet de las cosas, IoT, autos conectados, datos, IA]
 featured_image: images/que-es-el-internet-de-las-cosas-iot-internet-of-things.png

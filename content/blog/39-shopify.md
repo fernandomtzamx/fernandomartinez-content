@@ -6,6 +6,9 @@ status: publish
 date: 2026-10-13 12:30
 original: /blog/39-como-abrir-una-tienda-en-linea-en-mexico-con-shopify
 excerpt: "Planes, comisiones y los pasos para abrir tu tienda en línea en México con Shopify, actualizados a 2026. Sin promesas de hacerte rico desde tu sala."
+seo_title: "Tienda en línea en México con Shopify"
+seo_description: "Planes, comisiones y pasos para abrir tu tienda en línea en México con Shopify, actualizados a 2026. Sin promesas de hacerte rico desde tu sala."
+focus_keyword: "tienda en línea shopify méxico"
 categories: [desarrollo-web]
 tags: [Shopify, ecommerce, tienda en línea, emprendimiento, México]
 featured_image: images/como-abrir-una-tienda-en-linea-en-mexico-con-shopify.png

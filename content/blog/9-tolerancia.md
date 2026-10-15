@@ -6,6 +6,9 @@ status: publish
 date: 2026-10-13 08:50
 original: /blog/9-en-contra-de-la-tolerancia
 excerpt: "Tolerar es soportar lo que nos disgusta; respetar es reconocer al otro como igual. Una reflexión de hace años que hoy, con tanta polarización, sigue vigente."
+seo_title: "Contra la tolerancia, a favor del respeto"
+seo_description: "Tolerar es soportar lo que nos disgusta; respetar es reconocer al otro como igual. Una reflexión de hace años que, con tanta polarización, sigue vigente."
+focus_keyword: "tolerancia y respeto"
 categories: [opinion]
 tags: [filosofía, respeto, tolerancia, polarización, opinión]
 featured_image: images/en-contra-de-la-tolerancia.png

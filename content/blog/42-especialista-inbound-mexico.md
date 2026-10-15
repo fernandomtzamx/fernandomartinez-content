@@ -5,6 +5,9 @@ type: post
 status: publish
 date: 2026-10-13 17:00
 excerpt: "Qué hace un especialista en inbound marketing en México, qué preguntarle antes de contratarlo y las señales de alerta. Escrito por el fundador de Inbound México."
+seo_title: "Especialista en inbound marketing México"
+seo_description: "Qué hace un especialista en inbound marketing en México, qué preguntarle antes de contratarlo y las señales de alerta. Por quien fundó Inbound México."
+focus_keyword: "especialista en inbound marketing"
 categories: [marketing, martech]
 tags: [inbound marketing, especialista en inbound marketing, México, HubSpot, agencias]
 featured_image: images/especialista-en-inbound-marketing-en-mexico.png

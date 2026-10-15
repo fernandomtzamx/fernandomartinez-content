@@ -5,6 +5,9 @@ type: page
 parent: recursos
 status: publish
 excerpt: "Mi directorio de herramientas para SEO, analítica, correo, CRM, automatización, IA y ecommerce. Depurado en 2026: sin herramientas muertas ni relleno."
+seo_title: "Herramientas de SEO, marketing e IA"
+seo_description: "Mi directorio de herramientas para SEO, analítica, correo, CRM, automatización, IA y ecommerce. Depurado en 2026: sin herramientas muertas ni relleno."
+focus_keyword: "herramientas de seo"
 ---
 
 La primera versión de esta página presumía "más de 200 herramientas". Era una lista enorme, y como toda lista enorme, envejeció mal: cuando la revisé en 2026, varias ya no existían, otras habían cambiado de nombre y algunas yo ya no las recomendaría ni a mi peor competidor.

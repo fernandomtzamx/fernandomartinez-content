@@ -5,6 +5,9 @@ type: page
 status: publish
 menu_order: 5
 excerpt: "Herramientas que sí uso, una guía para que tu sitio genere clientes y mis extensiones de Joomla, con la historia completa de cada una. Todo gratis."
+seo_title: "Recursos gratis de SEO, marketing y Joomla"
+seo_description: "Herramientas que sí uso, una guía para que tu sitio genere clientes y mis extensiones de Joomla, con la historia completa de cada una. Todo gratis."
+focus_keyword: "recursos seo y marketing"
 ---
 
 Aquí junto lo que he ido regalando en el camino. Algunas cosas siguen frescas. Otras son piezas de museo, y te lo digo en cada una para que no pierdas el tiempo.

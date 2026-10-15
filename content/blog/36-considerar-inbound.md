@@ -7,6 +7,9 @@ status: publish
 date: 2026-10-13 12:00
 original: /blog/36-porque-deberias-considerar-el-inbound-marketing
 excerpt: "El inbound sigue funcionando, pero la IA en los buscadores cambió las reglas: menos clics, más competencia por ser la respuesta. Qué se mantiene y qué ajustar."
+seo_title: "Ventajas del inbound marketing en 2026"
+seo_description: "El inbound marketing sigue funcionando, pero la IA en los buscadores cambió las reglas: menos clics y más competencia por ser la respuesta."
+focus_keyword: "ventajas del inbound marketing"
 categories: [marketing, seo-y-geo]
 tags: [inbound marketing, contenido, SEO, IA, generación de leads]
 featured_image: images/por-que-deberias-considerar-el-inbound-marketing.png

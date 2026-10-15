@@ -6,6 +6,9 @@ status: publish
 date: 2026-10-13 10:00
 original: /blog/20-la-grave-desconexion-entre-el-reconocimiento-de-marca-y-las-ventas
 excerpt: "Que todos conozcan tu marca no significa que te compren. Pero tampoco es cierto que la marca no venda. Una opinión que sostuve por años, revisada con más matices."
+seo_title: "Reconocimiento de marca vs. ventas"
+seo_description: "Que todos conozcan tu marca no significa que te compren, pero tampoco es cierto que la marca no venda. Una opinión revisada con más matices."
+focus_keyword: "reconocimiento de marca"
 categories: [marketing]
 tags: [branding, publicidad, ventas, Super Bowl, medición]
 featured_image: images/la-grave-desconexion-entre-el-reconocimiento-de-marca-y-las-ventas.png

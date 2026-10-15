@@ -4,6 +4,9 @@ slug: programador-web-especialista-en-joomla-en-mexico
 type: page
 status: publish
 excerpt: "Programé más de 200 sitios en Joomla y extensiones con más de 100 mil usuarios. Hoy hago otras cosas, pero esto es lo que te recomiendo si tienes un sitio Joomla."
+seo_title: "Programador web especialista en Joomla"
+seo_description: "Programé más de 200 sitios en Joomla y extensiones con más de 100 mil usuarios. Esto es lo que te recomiendo hoy si tienes un sitio en Joomla."
+focus_keyword: "programador joomla"
 ---
 
 Durante años esta página decía que yo era tu programador de Joomla en México. Era cierto: programé más de 200 sitios en Joomla para empresas mexicanas, fui de los pocos mexicanos en el directorio oficial de proveedores de Joomla y publiqué extensiones gratuitas que hoy usan más de 100 mil personas.

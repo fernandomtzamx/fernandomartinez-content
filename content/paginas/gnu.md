@@ -4,6 +4,10 @@ slug: gnu-general-public-license
 type: page
 status: publish
 excerpt: "Las extensiones de Joomla de Fernando Martínez se publicaron bajo la Licencia Pública General de GNU (GPL). Qué significa y dónde leer el texto completo."
+seo_title: "Licencia GPL de mis extensiones Joomla"
+seo_description: "Las extensiones de Joomla de Fernando Martínez se publicaron bajo la Licencia Pública General de GNU (GPL). Qué significa y dónde leer el texto completo."
+focus_keyword: "licencia pública general de GNU"
+noindex: true
 ---
 
 Todas las extensiones de Joomla que publiqué en este sitio se distribuyen bajo la **Licencia Pública General de GNU (GNU GPL)**, la misma licencia de Joomla.

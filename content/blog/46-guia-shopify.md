@@ -5,6 +5,9 @@ type: post
 status: publish
 date: 2026-10-14 13:30
 excerpt: "Cómo escoger plataforma, abrir tu tienda en Shopify, cobrar con tarjeta, OXXO y meses sin intereses, enviar, facturar y llegar a las primeras ventas en México."
+seo_title: "Guía de Shopify para principiantes 2026"
+seo_description: "Guía para abrir tu tienda en Shopify en México: plataforma, pagos con tarjeta, OXXO y meses sin intereses, envíos, facturación y primeras ventas."
+focus_keyword: "shopify para principiantes"
 categories: [desarrollo-web, marketing]
 tags: [Shopify, ecommerce, tienda en línea, emprendimiento, México, SEO, GEO, marketing digital]
 featured_image: images/guia-definitiva-shopify-principiantes-mexico-2026.png

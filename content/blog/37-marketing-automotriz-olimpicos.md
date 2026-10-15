@@ -6,6 +6,9 @@ status: publish
 date: 2026-10-13 12:10
 original: /blog/37-marketing-automotriz-en-los-juegos-olimpicos
 excerpt: "Nissan en Río 2016, Hyundai con el futbol coreano y Toyota saliéndose del olimpismo. Qué enseña el patrocinio deportivo a las marcas de autos, y qué no."
+seo_title: "Marketing automotriz en los Olímpicos"
+seo_description: "Nissan en Río 2016, Hyundai con el futbol coreano y Toyota saliéndose del olimpismo: qué enseña el patrocinio deportivo a las marcas de autos."
+focus_keyword: "marketing automotriz"
 categories: [automotriz]
 tags: [patrocinio, Juegos Olímpicos, marketing deportivo, Nissan, Toyota, Hyundai]
 featured_image: images/marketing-automotriz-en-los-juegos-olimpicos.png

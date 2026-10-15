@@ -6,6 +6,9 @@ status: publish
 date: 2026-10-13 08:20
 original: /blog/5-activismo-con-hashtags
 excerpt: "Dar like o compartir un hashtag hace sentir que contribuimos a una causa. Para las marcas, esa ola puede convertirse en crisis. Cómo distinguir el ruido de un problema real."
+seo_title: "Activismo con hashtags y las marcas"
+seo_description: "Dar like o compartir un hashtag nos hace sentir parte de una causa. Para las marcas, esa ola puede volverse crisis. Cómo distinguir ruido de problema."
+focus_keyword: "activismo con hashtags"
 categories: [opinion]
 tags: [activismo, hashtags, crisis de marca, redes sociales, reputación]
 featured_image: images/activismo-con-hashtags.png

@@ -6,6 +6,9 @@ status: publish
 date: 2026-10-13 11:40
 original: /blog/34-5-ideas-para-fortalecer-tu-marketing-digital-en-redes-sociales
 excerpt: "Si tu estrategia en redes es publicar en automático lo que ya tienes, estás dejando dinero en la mesa. Cinco ideas actualizadas: video, nicho, datos, utilidad y creadores."
+seo_title: "5 ideas para tu marketing en redes"
+seo_description: "Publicar más no es estrategia. Cinco ideas para fortalecer tu marketing digital en redes sociales: video, nicho, datos, utilidad y creadores."
+focus_keyword: "marketing en redes sociales"
 categories: [marketing]
 tags: [redes sociales, video, influencers, analítica, contenido]
 featured_image: images/5-ideas-para-fortalecer-tu-marketing-digital-en-redes-sociales.png

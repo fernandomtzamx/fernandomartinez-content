@@ -6,6 +6,9 @@ status: publish
 date: 2026-10-13 09:50
 original: /blog/17-10-palabras-que-debes-quitar-de-tu-sitio-web-ya
 excerpt: "'Líderes en', 'soluciones integrales', 'innovador'. La jerga corporativa le resta credibilidad a tu sitio. Diez palabras para borrar hoy, más las nuevas que trajo la IA."
+seo_title: "10 palabras que debes quitar de tu web"
+seo_description: "'Líderes en', 'soluciones integrales', 'innovador': diez palabras de jerga corporativa que le restan credibilidad a tu sitio web, y las nuevas de la IA."
+focus_keyword: "palabras que debes quitar de tu sitio web"
 categories: [seo-y-geo, marketing]
 tags: [copywriting, sitio web, jerga corporativa, conversión, contenido]
 featured_image: images/10-palabras-que-debes-quitar-de-tu-sitio-web-ya.png

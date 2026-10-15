@@ -5,6 +5,9 @@ type: post
 status: publish
 date: 2026-10-13 19:00
 excerpt: "El SEO no murió, pero ya no basta. Qué es el GEO, cómo aparecer en las respuestas de la IA y qué cambiar en tu sitio esta semana, explicado sin humo."
+seo_title: "Posicionamiento web SEO y GEO en 2026"
+seo_description: "El SEO no murió, pero ya no basta. Qué es el GEO, cómo aparecer en las respuestas de la IA y qué cambiar en tu sitio esta semana, explicado sin humo."
+focus_keyword: "posicionamiento web"
 categories: [seo-y-geo]
 tags: [posicionamiento web, SEO, GEO, IA, Google, buscadores]
 featured_image: images/posicionamiento-web-seo-geo.png

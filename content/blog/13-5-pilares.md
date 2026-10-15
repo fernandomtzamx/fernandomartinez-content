@@ -6,6 +6,9 @@ status: publish
 date: 2026-10-13 09:10
 original: /blog/13-como-funciona-los-5-pilares-del-inbound-marketing
 excerpt: "Atracción, conversión, automatización, fidelización y sincronización. Los cinco pilares del inbound, actualizados con lo que hoy hacen el CRM, WhatsApp y la IA."
+seo_title: "Los 5 pilares del inbound marketing"
+seo_description: "Atracción, conversión, automatización, fidelización y sincronización: cómo funcionan los 5 pilares del inbound marketing con CRM, WhatsApp e IA."
+focus_keyword: "pilares del inbound marketing"
 categories: [marketing, martech]
 tags: [inbound marketing, lead scoring, lead nurturing, automatización, CRM]
 featured_image: images/como-funciona-los-5-pilares-del-inbound-marketing.png

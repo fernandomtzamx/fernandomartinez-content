@@ -3,6 +3,8 @@
 
 Errores (bloquean): frontmatter incompleto, guion largo o medio, enlace interno a una URL que no existe
 en el repo, archivo local inexistente, enlace de referido alterado o sin aviso de afiliado, portada faltante.
+SEO (errores): seo_title y seo_description obligatorios; título para Google de más de 62 caracteres
+con la marca; descripción fuera de 120 a 158 caracteres; seo_title repetido en otro archivo.
 Avisos: entradas cortas, pocas fuentes, extracto fuera de rango, título largo.
 """
 import pathlib
@@ -13,7 +15,8 @@ import yaml
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 CONTENT = ROOT / "content"
-REQ = ["title", "slug", "type", "status", "excerpt"]
+REQ = ["title", "slug", "type", "status", "excerpt", "seo_title", "seo_description", "focus_keyword"]
+MARCA = " | Fernando Martínez"
 # Referidos conocidos: URL exacta (ver migracion/origen/enlaces.json, weblink id=100)
 REFERRALS = {"shopify.pxf.io": ["https://shopify.pxf.io/prueba-gratis-shop"]}
 # Parámetros permitidos sobre el enlace base: deep link (u) y medición de impact.com.
@@ -103,6 +106,13 @@ def check(p, urls):
             warns.append(f"corta ({words} palabras)")
     if len(str(meta.get("title", ""))) > 90:
         warns.append("título de más de 90 caracteres")
+    st = str(meta.get("seo_title") or "")
+    full = st if ("Fernando" in st and "Martínez" in st) else st + MARCA
+    if st and len(full) > 62:
+        errs.append(f"título para Google de {len(full)} caracteres con la marca (máximo 62): {full}")
+    sd = len(str(meta.get("seo_description") or ""))
+    if sd and not 120 <= sd <= 158:
+        errs.append(f"seo_description de {sd} caracteres (120 a 158)")
     ex = len(str(meta.get("excerpt", "")))
     if not 110 <= ex <= 175:
         warns.append(f"extracto de {ex} caracteres (ideal 140 a 160)")
@@ -113,6 +123,7 @@ def main():
     files = [pathlib.Path(f) for f in sys.argv[1:]] or sorted(CONTENT.rglob("*.md"))
     urls = url_index()
     slugs = {}
+    seo_titles = {}
     bad = 0
     for p in files:
         words, sources, errs, warns = check(p, urls)
@@ -121,6 +132,10 @@ def main():
         if key in slugs:
             errs.append(f"slug duplicado con {slugs[key]}")
         slugs[key] = p.name
+        st = str(meta.get("seo_title") or "").lower()
+        if st and st in seo_titles:
+            errs.append(f"seo_title repetido con {seo_titles[st]}")
+        seo_titles[st] = p.name
         print(f"{'ERROR' if errs else 'ok':5} {p.relative_to(ROOT)}: {words} palabras, {sources} fuentes")
         for e in errs:
             print(f"      x {e}")

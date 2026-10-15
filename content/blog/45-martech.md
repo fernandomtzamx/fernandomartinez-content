@@ -5,6 +5,9 @@ type: post
 status: publish
 date: 2026-10-13 19:10
 excerpt: "Martech es la tecnología que usa marketing para atraer, convertir y retener clientes. Qué incluye, cómo armar tu stack por etapas y los errores que veo como CTO."
+seo_title: "Qué es Martech y cómo armar tu stack"
+seo_description: "Martech es la tecnología que usa marketing para atraer, convertir y retener clientes. Qué incluye, cómo armar tu stack por etapas y errores comunes."
+focus_keyword: "qué es martech"
 categories: [martech]
 tags: [martech, CRM, automatización, stack tecnológico, IA, datos]
 featured_image: images/que-es-martech.png

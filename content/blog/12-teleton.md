@@ -6,6 +6,9 @@ status: publish
 date: 2026-10-13 09:00
 original: /blog/12-entre-aportar-al-teleton-y-el-odio-a-televisa
 excerpt: "Una opinión de hace años sobre el Teletón, el enojo contra sus patrocinadores y la desinformación en redes. La sostengo, con datos actualizados y algunos matices."
+seo_title: "Teletón y Televisa: aportar o no aportar"
+seo_description: "¿Aportar al Teletón aunque lo patrocine Televisa? Mi opinión sobre el enojo en redes, la desinformación y lo que dicen los datos actualizados."
+focus_keyword: "teletón televisa"
 categories: [opinion]
 tags: [Teletón, Televisa, opinión, redes sociales, causas sociales]
 featured_image: images/entre-aportar-al-teleton-y-el-odio-a-televisa.png

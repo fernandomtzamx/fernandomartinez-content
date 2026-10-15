@@ -5,6 +5,9 @@ type: page
 parent: recursos
 status: publish
 excerpt: "Dónde descargar imágenes gratis y legales para tu blog, tu sitio y tus redes, qué revisar en cada licencia y cuándo conviene una imagen generada con IA."
+seo_title: "Imágenes libres de derechos gratis"
+seo_description: "Dónde descargar imágenes gratis y legales para tu blog, tu sitio y tus redes, qué revisar en cada licencia y cuándo conviene una imagen generada con IA."
+focus_keyword: "imágenes libres de derechos"
 ---
 
 Durante años esta página fue una galería con cientos de fotos para descargar. Fue útil, pero tenía un problema: mantener una galería propia cuando existen bancos enormes, mejor organizados y con licencias claras ya no tiene mucho sentido.

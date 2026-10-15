@@ -7,6 +7,9 @@ status: publish
 date: 2026-10-13 10:50
 original: /blog/28-como-enriquecer-mi-base-de-datos-de-clientes-para-mi-estrategia-de-marketing-digital
 excerpt: "Seis preguntas, un plan para obtener las respuestas y el consentimiento que exige la nueva ley de datos en México. Cómo enriquecer tu base de clientes con datos útiles."
+seo_title: "Enriquecer tu base de datos de clientes"
+seo_description: "Seis preguntas, un plan para obtener las respuestas y el consentimiento que pide la ley de datos en México para enriquecer tu base de clientes."
+focus_keyword: "base de datos de clientes"
 categories: [martech, crm-y-datos]
 tags: [CRM, datos de clientes, perfilamiento progresivo, privacidad, marketing digital]
 featured_image: images/como-enriquecer-tu-base-de-datos-de-clientes.png

@@ -5,6 +5,9 @@ type: page
 status: publish
 menu_order: 2
 excerpt: "IA aplicada, CRM, Martech y automatización para empresas que ya se cansaron de pilotos eternos y reportes bonitos. Así trabajo y así se ve una primera plática."
+seo_title: "Cómo te ayudo: IA, CRM y Martech"
+seo_description: "IA aplicada, CRM, Martech y automatización para empresas cansadas de pilotos eternos y reportes bonitos. Así trabajo y así es una primera plática."
+focus_keyword: "IA aplicada, CRM y Martech"
 ---
 
 <div class="fm-hero" markdown="1">

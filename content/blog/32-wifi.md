@@ -6,6 +6,9 @@ status: publish
 date: 2026-10-13 11:20
 original: /blog/32-deberias-ofrecer-wi-fi-gratis-en-tu-negocio
 excerpt: "Con datos móviles baratos, el Wi-Fi gratis ya no atrae clientes por sí solo. Pero bien usado mejora la experiencia, da datos de visita y alimenta tu CRM, con consentimiento."
+seo_title: "¿Wi-Fi gratis en tu negocio? Sí, pero así"
+seo_description: "Con datos móviles baratos, el Wi-Fi gratis ya no atrae clientes por sí solo. Bien usado mejora la experiencia, da datos de visita y alimenta tu CRM."
+focus_keyword: "wifi gratis en tu negocio"
 categories: [marketing]
 tags: [Wi-Fi, experiencia del cliente, datos personales, punto de venta, privacidad]
 featured_image: images/deberias-ofrecer-wi-fi-gratis-en-tu-negocio.png
