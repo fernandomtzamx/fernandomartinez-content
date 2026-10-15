@@ -1,7 +1,7 @@
 # Prueba de redirecciones: Apache local con migracion/redirecciones.htaccess, destinos en https://www.fernandomartinez.mx
 
-- URLs viejas probadas: **951**
-- Correctas (301 a una página que responde 200, o URL que se conserva igual): **950**
+- URLs viejas probadas: **583**
+- Correctas (301 a una página que responde 200, o URL que se conserva igual): **582**
 - Para revisar: **1**
 - Sin equivalente o con error: **0**
 
@@ -9,20 +9,17 @@
 
 | Sitemap | HTTP | URLs |
 |---|---|---|
-| https://www.fernandomartinez.mx/wp-sitemap.xml | 200 | 6 |
-| https://www.fernandomartinez.mx/sitemap.xml | 200 | 6 |
-| https://www.fernandomartinez.mx/sitemap_index.xml | 404 | 0 |
+| https://www.fernandomartinez.mx/sitemap_index.xml | 200 | 4 |
+| https://www.fernandomartinez.mx/sitemap.xml | 200 | 4 |
 | https://www.fernandomartinez.mx/index.php?option=com_osmap&view=xml&id=1 | 200 | 0 |
 | https://www.fernandomartinez.mx/component/osmap/?view=xml&id=1 | 404 | 0 |
 | https://www.fernandomartinez.mx/index.php?option=com_xmap&view=xml&id=1 | 200 | 0 |
 | https://www.fernandomartinez.mx/component/xmap/?view=xml&id=1 | 404 | 0 |
 | https://www.fernandomartinez.mx/index.php?option=com_jmap&view=sitemap&format=xml | 200 | 0 |
-| https://www.fernandomartinez.mx/wp-sitemap-posts-post-1.xml | 200 | 35 |
-| https://www.fernandomartinez.mx/wp-sitemap-posts-page-1.xml | 200 | 15 |
-| https://www.fernandomartinez.mx/wp-sitemap-posts-uicore-cd-1.xml | 200 | 2 |
-| https://www.fernandomartinez.mx/wp-sitemap-taxonomies-category-1.xml | 200 | 9 |
-| https://www.fernandomartinez.mx/wp-sitemap-taxonomies-post_tag-1.xml | 200 | 121 |
-| https://www.fernandomartinez.mx/wp-sitemap-users-1.xml | 200 | 1 |
+| https://www.fernandomartinez.mx/post-sitemap.xml | 200 | 36 |
+| https://www.fernandomartinez.mx/page-sitemap.xml | 200 | 13 |
+| https://www.fernandomartinez.mx/uicore-cd-sitemap.xml | 200 | 2 |
+| https://www.fernandomartinez.mx/category-sitemap.xml | 200 | 9 |
 
 ## Errores y casos a revisar
 
@@ -112,8 +109,6 @@
 | ok | /blog/9-en-contra-de-la-tolerancia/ | variante con diagonal | 1 | /blog/en-contra-de-la-tolerancia/ |
 | ok | /blog/activismo-con-hashtags/ | sitemap | 0 | /blog/activismo-con-hashtags/ |
 | ok | /blog/activismo-con-hashtags// | variante con diagonal | 0 | /blog/activismo-con-hashtags// |
-| ok | /blog/author/soporte/ | sitemap | 0 | /blog/author/soporte/ |
-| ok | /blog/author/soporte// | variante con diagonal | 0 | /blog/author/soporte// |
 | ok | /blog/como-abrir-una-tienda-en-linea-en-mexico-con-shopify/ | sitemap | 0 | /blog/como-abrir-una-tienda-en-linea-en-mexico-con-shopify/ |
 | ok | /blog/como-abrir-una-tienda-en-linea-en-mexico-con-shopify// | variante con diagonal | 0 | /blog/como-abrir-una-tienda-en-linea-en-mexico-con-shopify// |
 | ok | /blog/como-aprovechar-instagram-stories-en-tu-marketing/ | sitemap | 0 | /blog/como-aprovechar-instagram-stories-en-tu-marketing/ |
@@ -334,8 +329,7 @@
 | ok | /fernando-arturo-martinez-aguilar/ | sitemap | 0 | /fernando-arturo-martinez-aguilar/ |
 | ok | /fernando-arturo-martinez-aguilar// | variante con diagonal | 0 | /fernando-arturo-martinez-aguilar// |
 | ok | /gnu-general-public-license | rastreo | 0 | /gnu-general-public-license |
-| ok | /gnu-general-public-license/ | sitemap | 0 | /gnu-general-public-license/ |
-| ok | /gnu-general-public-license// | variante con diagonal | 0 | /gnu-general-public-license// |
+| ok | /gnu-general-public-license/ | variante con diagonal | 0 | /gnu-general-public-license/ |
 | ok | /images/blog/10-palabras-que-debes-quitar-de-tu-sitio-web-ya.png | imagen | 1 | /blog/10-palabras-que-debes-quitar-de-tu-sitio-web-ya/ |
 | ok | /images/blog/5-ideas-para-fortalecer-tu-marketing-digital-en-redes-sociales.png | imagen | 1 | /blog/5-ideas-para-fortalecer-tu-marketing-digital-en-redes-sociales/ |
 | ok | /images/blog/activismo-con-hashtags.png | imagen | 1 | /blog/activismo-con-hashtags/ |
@@ -412,7 +406,6 @@
 | ok | /index.php/blog/7-manifiesto-de-marketing-digital-de-fernando-martinez | variante index.php | 2 | /blog/manifiesto-de-marketing-digital-de-fernando-martinez/ |
 | ok | /index.php/blog/9-en-contra-de-la-tolerancia | variante index.php | 2 | /blog/en-contra-de-la-tolerancia/ |
 | ok | /index.php/blog/activismo-con-hashtags/ | variante index.php | 1 | /blog/activismo-con-hashtags/ |
-| ok | /index.php/blog/author/soporte/ | variante index.php | 1 | /blog/author/soporte/ |
 | ok | /index.php/blog/como-abrir-una-tienda-en-linea-en-mexico-con-shopify/ | variante index.php | 1 | /blog/como-abrir-una-tienda-en-linea-en-mexico-con-shopify/ |
 | ok | /index.php/blog/como-aprovechar-instagram-stories-en-tu-marketing/ | variante index.php | 1 | /blog/como-aprovechar-instagram-stories-en-tu-marketing/ |
 | ok | /index.php/blog/como-crear-un-plan-de-compensacion-para-tu-equipo-de-ventas/ | variante index.php | 1 | /blog/como-crear-un-plan-de-compensacion-para-tu-equipo-de-ventas/ |
@@ -470,7 +463,6 @@
 | ok | /index.php/fernando-arturo-martinez-aguilar | variante index.php | 1 | /fernando-arturo-martinez-aguilar |
 | ok | /index.php/fernando-arturo-martinez-aguilar/ | variante index.php | 1 | /fernando-arturo-martinez-aguilar/ |
 | ok | /index.php/gnu-general-public-license | variante index.php | 1 | /gnu-general-public-license |
-| ok | /index.php/gnu-general-public-license/ | variante index.php | 1 | /gnu-general-public-license/ |
 | ok | /index.php/mapa-de-sitio | variante index.php | 2 | / |
 | ok | /index.php/media/weTnwLzC8MAT47xS/25_cosas_que_hacer_en_la_web_para_tener_mas_trafico_y_clientes.pdf | variante index.php | 2 | /recursos/25-cosas-que-hacer-en-la-web-para-tener-mas-trafico-y-clientes/ |
 | ok | /index.php/media/weTnwLzC8MAT47xS/plg_TwitterSummaryCardforArticles.zip | variante index.php | 2 | /recursos/twitter-summary-card-for-joomla-articles-plugin/ |
@@ -494,127 +486,6 @@
 | ok | /index.php/recursos/twitter-summary-card-for-joomla-articles-plugin/ | variante index.php | 1 | /recursos/twitter-summary-card-for-joomla-articles-plugin/ |
 | ok | /index.php/recursos/website-preloader-joomla-plugin | variante index.php | 1 | /recursos/website-preloader-joomla-plugin |
 | ok | /index.php/recursos/website-preloader-joomla-plugin/ | variante index.php | 1 | /recursos/website-preloader-joomla-plugin/ |
-| ok | /index.php/tema/activismo/ | variante index.php | 1 | /tema/activismo/ |
-| ok | /index.php/tema/administrador/ | variante index.php | 1 | /tema/administrador/ |
-| ok | /index.php/tema/agencias/ | variante index.php | 1 | /tema/agencias/ |
-| ok | /index.php/tema/analitica/ | variante index.php | 1 | /tema/analitica/ |
-| ok | /index.php/tema/atencion-al-cliente/ | variante index.php | 1 | /tema/atencion-al-cliente/ |
-| ok | /index.php/tema/automatizacion/ | variante index.php | 1 | /tema/automatizacion/ |
-| ok | /index.php/tema/autoridad/ | variante index.php | 1 | /tema/autoridad/ |
-| ok | /index.php/tema/autos-conectados/ | variante index.php | 1 | /tema/autos-conectados/ |
-| ok | /index.php/tema/b2b/ | variante index.php | 1 | /tema/b2b/ |
-| ok | /index.php/tema/beacons/ | variante index.php | 1 | /tema/beacons/ |
-| ok | /index.php/tema/blog/ | variante index.php | 1 | /tema/blog/ |
-| ok | /index.php/tema/branding/ | variante index.php | 1 | /tema/branding/ |
-| ok | /index.php/tema/buscadores/ | variante index.php | 1 | /tema/buscadores/ |
-| ok | /index.php/tema/buyer-persona/ | variante index.php | 1 | /tema/buyer-persona/ |
-| ok | /index.php/tema/causas-sociales/ | variante index.php | 1 | /tema/causas-sociales/ |
-| ok | /index.php/tema/chat/ | variante index.php | 1 | /tema/chat/ |
-| ok | /index.php/tema/codigos-qr/ | variante index.php | 1 | /tema/codigos-qr/ |
-| ok | /index.php/tema/comisiones/ | variante index.php | 1 | /tema/comisiones/ |
-| ok | /index.php/tema/compensacion/ | variante index.php | 1 | /tema/compensacion/ |
-| ok | /index.php/tema/comunidad/ | variante index.php | 1 | /tema/comunidad/ |
-| ok | /index.php/tema/concesionarias/ | variante index.php | 1 | /tema/concesionarias/ |
-| ok | /index.php/tema/consumidor/ | variante index.php | 1 | /tema/consumidor/ |
-| ok | /index.php/tema/contenido/ | variante index.php | 1 | /tema/contenido/ |
-| ok | /index.php/tema/conversion/ | variante index.php | 1 | /tema/conversion/ |
-| ok | /index.php/tema/copywriting/ | variante index.php | 1 | /tema/copywriting/ |
-| ok | /index.php/tema/core-web-vitals/ | variante index.php | 1 | /tema/core-web-vitals/ |
-| ok | /index.php/tema/credito-automotriz/ | variante index.php | 1 | /tema/credito-automotriz/ |
-| ok | /index.php/tema/crisis-de-marca/ | variante index.php | 1 | /tema/crisis-de-marca/ |
-| ok | /index.php/tema/crm/ | variante index.php | 1 | /tema/crm/ |
-| ok | /index.php/tema/datos-de-clientes/ | variante index.php | 1 | /tema/datos-de-clientes/ |
-| ok | /index.php/tema/datos-personales/ | variante index.php | 1 | /tema/datos-personales/ |
-| ok | /index.php/tema/datos/ | variante index.php | 1 | /tema/datos/ |
-| ok | /index.php/tema/ecommerce/ | variante index.php | 1 | /tema/ecommerce/ |
-| ok | /index.php/tema/emprendimiento/ | variante index.php | 1 | /tema/emprendimiento/ |
-| ok | /index.php/tema/equipos-de-trabajo/ | variante index.php | 1 | /tema/equipos-de-trabajo/ |
-| ok | /index.php/tema/equipos/ | variante index.php | 1 | /tema/equipos/ |
-| ok | /index.php/tema/especialista-en-inbound-marketing/ | variante index.php | 1 | /tema/especialista-en-inbound-marketing/ |
-| ok | /index.php/tema/estrategia/ | variante index.php | 1 | /tema/estrategia/ |
-| ok | /index.php/tema/experiencia-de-usuario/ | variante index.php | 1 | /tema/experiencia-de-usuario/ |
-| ok | /index.php/tema/experiencia-del-cliente/ | variante index.php | 1 | /tema/experiencia-del-cliente/ |
-| ok | /index.php/tema/experto-en-joomla/ | variante index.php | 1 | /tema/experto-en-joomla/ |
-| ok | /index.php/tema/extensiones/ | variante index.php | 1 | /tema/extensiones/ |
-| ok | /index.php/tema/facebook/ | variante index.php | 1 | /tema/facebook/ |
-| ok | /index.php/tema/filosofia/ | variante index.php | 1 | /tema/filosofia/ |
-| ok | /index.php/tema/financiamiento/ | variante index.php | 1 | /tema/financiamiento/ |
-| ok | /index.php/tema/generacion-de-leads/ | variante index.php | 1 | /tema/generacion-de-leads/ |
-| ok | /index.php/tema/geo/ | variante index.php | 1 | /tema/geo/ |
-| ok | /index.php/tema/google/ | variante index.php | 1 | /tema/google/ |
-| ok | /index.php/tema/h2h/ | variante index.php | 1 | /tema/h2h/ |
-| ok | /index.php/tema/habitos/ | variante index.php | 1 | /tema/habitos/ |
-| ok | /index.php/tema/hashtags/ | variante index.php | 1 | /tema/hashtags/ |
-| ok | /index.php/tema/hubspot/ | variante index.php | 1 | /tema/hubspot/ |
-| ok | /index.php/tema/hyundai/ | variante index.php | 1 | /tema/hyundai/ |
-| ok | /index.php/tema/ia/ | variante index.php | 1 | /tema/ia/ |
-| ok | /index.php/tema/inbound-marketing/ | variante index.php | 1 | /tema/inbound-marketing/ |
-| ok | /index.php/tema/influencers/ | variante index.php | 1 | /tema/influencers/ |
-| ok | /index.php/tema/innovacion/ | variante index.php | 1 | /tema/innovacion/ |
-| ok | /index.php/tema/instagram/ | variante index.php | 1 | /tema/instagram/ |
-| ok | /index.php/tema/internet-de-las-cosas/ | variante index.php | 1 | /tema/internet-de-las-cosas/ |
-| ok | /index.php/tema/investigacion-de-clientes/ | variante index.php | 1 | /tema/investigacion-de-clientes/ |
-| ok | /index.php/tema/iot/ | variante index.php | 1 | /tema/iot/ |
-| ok | /index.php/tema/jerga-corporativa/ | variante index.php | 1 | /tema/jerga-corporativa/ |
-| ok | /index.php/tema/joomla/ | variante index.php | 1 | /tema/joomla/ |
-| ok | /index.php/tema/juegos-olimpicos/ | variante index.php | 1 | /tema/juegos-olimpicos/ |
-| ok | /index.php/tema/kavak/ | variante index.php | 1 | /tema/kavak/ |
-| ok | /index.php/tema/lead-nurturing/ | variante index.php | 1 | /tema/lead-nurturing/ |
-| ok | /index.php/tema/lead-scoring/ | variante index.php | 1 | /tema/lead-scoring/ |
-| ok | /index.php/tema/lealtad-de-marca/ | variante index.php | 1 | /tema/lealtad-de-marca/ |
-| ok | /index.php/tema/liderazgo/ | variante index.php | 1 | /tema/liderazgo/ |
-| ok | /index.php/tema/linkedin/ | variante index.php | 1 | /tema/linkedin/ |
-| ok | /index.php/tema/manifiesto/ | variante index.php | 1 | /tema/manifiesto/ |
-| ok | /index.php/tema/mantenimiento/ | variante index.php | 1 | /tema/mantenimiento/ |
-| ok | /index.php/tema/marketing-conversacional/ | variante index.php | 1 | /tema/marketing-conversacional/ |
-| ok | /index.php/tema/marketing-deportivo/ | variante index.php | 1 | /tema/marketing-deportivo/ |
-| ok | /index.php/tema/marketing-digital/ | variante index.php | 1 | /tema/marketing-digital/ |
-| ok | /index.php/tema/martech/ | variante index.php | 1 | /tema/martech/ |
-| ok | /index.php/tema/medicion/ | variante index.php | 1 | /tema/medicion/ |
-| ok | /index.php/tema/meta/ | variante index.php | 1 | /tema/meta/ |
-| ok | /index.php/tema/metricas/ | variante index.php | 1 | /tema/metricas/ |
-| ok | /index.php/tema/mexico/ | variante index.php | 1 | /tema/mexico/ |
-| ok | /index.php/tema/migracion/ | variante index.php | 1 | /tema/migracion/ |
-| ok | /index.php/tema/nissan/ | variante index.php | 1 | /tema/nissan/ |
-| ok | /index.php/tema/opinion/ | variante index.php | 1 | /tema/opinion/ |
-| ok | /index.php/tema/optimizacion/ | variante index.php | 1 | /tema/optimizacion/ |
-| ok | /index.php/tema/outbound/ | variante index.php | 1 | /tema/outbound/ |
-| ok | /index.php/tema/patrocinio/ | variante index.php | 1 | /tema/patrocinio/ |
-| ok | /index.php/tema/perfilamiento-progresivo/ | variante index.php | 1 | /tema/perfilamiento-progresivo/ |
-| ok | /index.php/tema/physical-web/ | variante index.php | 1 | /tema/physical-web/ |
-| ok | /index.php/tema/plantillas/ | variante index.php | 1 | /tema/plantillas/ |
-| ok | /index.php/tema/plataformas/ | variante index.php | 1 | /tema/plataformas/ |
-| ok | /index.php/tema/polarizacion/ | variante index.php | 1 | /tema/polarizacion/ |
-| ok | /index.php/tema/posicionamiento-web/ | variante index.php | 1 | /tema/posicionamiento-web/ |
-| ok | /index.php/tema/privacidad/ | variante index.php | 1 | /tema/privacidad/ |
-| ok | /index.php/tema/productividad/ | variante index.php | 1 | /tema/productividad/ |
-| ok | /index.php/tema/programador-joomla/ | variante index.php | 1 | /tema/programador-joomla/ |
-| ok | /index.php/tema/publicidad/ | variante index.php | 1 | /tema/publicidad/ |
-| ok | /index.php/tema/punto-de-venta/ | variante index.php | 1 | /tema/punto-de-venta/ |
-| ok | /index.php/tema/realidad-aumentada/ | variante index.php | 1 | /tema/realidad-aumentada/ |
-| ok | /index.php/tema/realidad-virtual/ | variante index.php | 1 | /tema/realidad-virtual/ |
-| ok | /index.php/tema/redes-sociales/ | variante index.php | 1 | /tema/redes-sociales/ |
-| ok | /index.php/tema/reputacion/ | variante index.php | 1 | /tema/reputacion/ |
-| ok | /index.php/tema/respeto/ | variante index.php | 1 | /tema/respeto/ |
-| ok | /index.php/tema/seo-tecnico/ | variante index.php | 1 | /tema/seo-tecnico/ |
-| ok | /index.php/tema/seo/ | variante index.php | 1 | /tema/seo/ |
-| ok | /index.php/tema/shopify/ | variante index.php | 1 | /tema/shopify/ |
-| ok | /index.php/tema/sitio-web/ | variante index.php | 1 | /tema/sitio-web/ |
-| ok | /index.php/tema/stack-tecnologico/ | variante index.php | 1 | /tema/stack-tecnologico/ |
-| ok | /index.php/tema/stories/ | variante index.php | 1 | /tema/stories/ |
-| ok | /index.php/tema/super-bowl/ | variante index.php | 1 | /tema/super-bowl/ |
-| ok | /index.php/tema/teleton/ | variante index.php | 1 | /tema/teleton/ |
-| ok | /index.php/tema/televisa/ | variante index.php | 1 | /tema/televisa/ |
-| ok | /index.php/tema/tienda-en-linea/ | variante index.php | 1 | /tema/tienda-en-linea/ |
-| ok | /index.php/tema/tolerancia/ | variante index.php | 1 | /tema/tolerancia/ |
-| ok | /index.php/tema/toma-de-decisiones/ | variante index.php | 1 | /tema/toma-de-decisiones/ |
-| ok | /index.php/tema/toyota/ | variante index.php | 1 | /tema/toyota/ |
-| ok | /index.php/tema/velocidad-web/ | variante index.php | 1 | /tema/velocidad-web/ |
-| ok | /index.php/tema/ventas-consultivas/ | variante index.php | 1 | /tema/ventas-consultivas/ |
-| ok | /index.php/tema/ventas/ | variante index.php | 1 | /tema/ventas/ |
-| ok | /index.php/tema/video/ | variante index.php | 1 | /tema/video/ |
-| ok | /index.php/tema/whatsapp/ | variante index.php | 1 | /tema/whatsapp/ |
-| ok | /index.php/tema/wi-fi/ | variante index.php | 1 | /tema/wi-fi/ |
 | ok | /index.php/temas | variante index.php | 2 | /blog/ |
 | ok | /index.php/temas/10-equipos-de-trabajo | variante index.php | 2 | /blog/ |
 | ok | /index.php/temas/11-marketing-digital | variante index.php | 2 | /blog/ |
@@ -687,248 +558,6 @@
 | ok | /recursos/website-preloader-joomla-plugin | rastreo | 0 | /recursos/website-preloader-joomla-plugin |
 | ok | /recursos/website-preloader-joomla-plugin/ | sitemap | 0 | /recursos/website-preloader-joomla-plugin/ |
 | ok | /recursos/website-preloader-joomla-plugin// | variante con diagonal | 0 | /recursos/website-preloader-joomla-plugin// |
-| ok | /tema/activismo/ | sitemap | 0 | /tema/activismo/ |
-| ok | /tema/activismo// | variante con diagonal | 0 | /tema/activismo// |
-| ok | /tema/administrador/ | sitemap | 0 | /tema/administrador/ |
-| ok | /tema/administrador// | variante con diagonal | 0 | /tema/administrador// |
-| ok | /tema/agencias/ | sitemap | 0 | /tema/agencias/ |
-| ok | /tema/agencias// | variante con diagonal | 0 | /tema/agencias// |
-| ok | /tema/analitica/ | sitemap | 0 | /tema/analitica/ |
-| ok | /tema/analitica// | variante con diagonal | 0 | /tema/analitica// |
-| ok | /tema/atencion-al-cliente/ | sitemap | 0 | /tema/atencion-al-cliente/ |
-| ok | /tema/atencion-al-cliente// | variante con diagonal | 0 | /tema/atencion-al-cliente// |
-| ok | /tema/automatizacion/ | sitemap | 0 | /tema/automatizacion/ |
-| ok | /tema/automatizacion// | variante con diagonal | 0 | /tema/automatizacion// |
-| ok | /tema/autoridad/ | sitemap | 0 | /tema/autoridad/ |
-| ok | /tema/autoridad// | variante con diagonal | 0 | /tema/autoridad// |
-| ok | /tema/autos-conectados/ | sitemap | 0 | /tema/autos-conectados/ |
-| ok | /tema/autos-conectados// | variante con diagonal | 0 | /tema/autos-conectados// |
-| ok | /tema/b2b/ | sitemap | 0 | /tema/b2b/ |
-| ok | /tema/b2b// | variante con diagonal | 0 | /tema/b2b// |
-| ok | /tema/beacons/ | sitemap | 0 | /tema/beacons/ |
-| ok | /tema/beacons// | variante con diagonal | 0 | /tema/beacons// |
-| ok | /tema/blog/ | sitemap | 0 | /tema/blog/ |
-| ok | /tema/blog// | variante con diagonal | 0 | /tema/blog// |
-| ok | /tema/branding/ | sitemap | 0 | /tema/branding/ |
-| ok | /tema/branding// | variante con diagonal | 0 | /tema/branding// |
-| ok | /tema/buscadores/ | sitemap | 0 | /tema/buscadores/ |
-| ok | /tema/buscadores// | variante con diagonal | 0 | /tema/buscadores// |
-| ok | /tema/buyer-persona/ | sitemap | 0 | /tema/buyer-persona/ |
-| ok | /tema/buyer-persona// | variante con diagonal | 0 | /tema/buyer-persona// |
-| ok | /tema/causas-sociales/ | sitemap | 0 | /tema/causas-sociales/ |
-| ok | /tema/causas-sociales// | variante con diagonal | 0 | /tema/causas-sociales// |
-| ok | /tema/chat/ | sitemap | 0 | /tema/chat/ |
-| ok | /tema/chat// | variante con diagonal | 0 | /tema/chat// |
-| ok | /tema/codigos-qr/ | sitemap | 0 | /tema/codigos-qr/ |
-| ok | /tema/codigos-qr// | variante con diagonal | 0 | /tema/codigos-qr// |
-| ok | /tema/comisiones/ | sitemap | 0 | /tema/comisiones/ |
-| ok | /tema/comisiones// | variante con diagonal | 0 | /tema/comisiones// |
-| ok | /tema/compensacion/ | sitemap | 0 | /tema/compensacion/ |
-| ok | /tema/compensacion// | variante con diagonal | 0 | /tema/compensacion// |
-| ok | /tema/comunidad/ | sitemap | 0 | /tema/comunidad/ |
-| ok | /tema/comunidad// | variante con diagonal | 0 | /tema/comunidad// |
-| ok | /tema/concesionarias/ | sitemap | 0 | /tema/concesionarias/ |
-| ok | /tema/concesionarias// | variante con diagonal | 0 | /tema/concesionarias// |
-| ok | /tema/consumidor/ | sitemap | 0 | /tema/consumidor/ |
-| ok | /tema/consumidor// | variante con diagonal | 0 | /tema/consumidor// |
-| ok | /tema/contenido/ | sitemap | 0 | /tema/contenido/ |
-| ok | /tema/contenido// | variante con diagonal | 0 | /tema/contenido// |
-| ok | /tema/conversion/ | sitemap | 0 | /tema/conversion/ |
-| ok | /tema/conversion// | variante con diagonal | 0 | /tema/conversion// |
-| ok | /tema/copywriting/ | sitemap | 0 | /tema/copywriting/ |
-| ok | /tema/copywriting// | variante con diagonal | 0 | /tema/copywriting// |
-| ok | /tema/core-web-vitals/ | sitemap | 0 | /tema/core-web-vitals/ |
-| ok | /tema/core-web-vitals// | variante con diagonal | 0 | /tema/core-web-vitals// |
-| ok | /tema/credito-automotriz/ | sitemap | 0 | /tema/credito-automotriz/ |
-| ok | /tema/credito-automotriz// | variante con diagonal | 0 | /tema/credito-automotriz// |
-| ok | /tema/crisis-de-marca/ | sitemap | 0 | /tema/crisis-de-marca/ |
-| ok | /tema/crisis-de-marca// | variante con diagonal | 0 | /tema/crisis-de-marca// |
-| ok | /tema/crm/ | sitemap | 0 | /tema/crm/ |
-| ok | /tema/crm// | variante con diagonal | 0 | /tema/crm// |
-| ok | /tema/datos-de-clientes/ | sitemap | 0 | /tema/datos-de-clientes/ |
-| ok | /tema/datos-de-clientes// | variante con diagonal | 0 | /tema/datos-de-clientes// |
-| ok | /tema/datos-personales/ | sitemap | 0 | /tema/datos-personales/ |
-| ok | /tema/datos-personales// | variante con diagonal | 0 | /tema/datos-personales// |
-| ok | /tema/datos/ | sitemap | 0 | /tema/datos/ |
-| ok | /tema/datos// | variante con diagonal | 0 | /tema/datos// |
-| ok | /tema/ecommerce/ | sitemap | 0 | /tema/ecommerce/ |
-| ok | /tema/ecommerce// | variante con diagonal | 0 | /tema/ecommerce// |
-| ok | /tema/emprendimiento/ | sitemap | 0 | /tema/emprendimiento/ |
-| ok | /tema/emprendimiento// | variante con diagonal | 0 | /tema/emprendimiento// |
-| ok | /tema/equipos-de-trabajo/ | sitemap | 0 | /tema/equipos-de-trabajo/ |
-| ok | /tema/equipos-de-trabajo// | variante con diagonal | 0 | /tema/equipos-de-trabajo// |
-| ok | /tema/equipos/ | sitemap | 0 | /tema/equipos/ |
-| ok | /tema/equipos// | variante con diagonal | 0 | /tema/equipos// |
-| ok | /tema/especialista-en-inbound-marketing/ | sitemap | 0 | /tema/especialista-en-inbound-marketing/ |
-| ok | /tema/especialista-en-inbound-marketing// | variante con diagonal | 0 | /tema/especialista-en-inbound-marketing// |
-| ok | /tema/estrategia/ | sitemap | 0 | /tema/estrategia/ |
-| ok | /tema/estrategia// | variante con diagonal | 0 | /tema/estrategia// |
-| ok | /tema/experiencia-de-usuario/ | sitemap | 0 | /tema/experiencia-de-usuario/ |
-| ok | /tema/experiencia-de-usuario// | variante con diagonal | 0 | /tema/experiencia-de-usuario// |
-| ok | /tema/experiencia-del-cliente/ | sitemap | 0 | /tema/experiencia-del-cliente/ |
-| ok | /tema/experiencia-del-cliente// | variante con diagonal | 0 | /tema/experiencia-del-cliente// |
-| ok | /tema/experto-en-joomla/ | sitemap | 0 | /tema/experto-en-joomla/ |
-| ok | /tema/experto-en-joomla// | variante con diagonal | 0 | /tema/experto-en-joomla// |
-| ok | /tema/extensiones/ | sitemap | 0 | /tema/extensiones/ |
-| ok | /tema/extensiones// | variante con diagonal | 0 | /tema/extensiones// |
-| ok | /tema/facebook/ | sitemap | 0 | /tema/facebook/ |
-| ok | /tema/facebook// | variante con diagonal | 0 | /tema/facebook// |
-| ok | /tema/filosofia/ | sitemap | 0 | /tema/filosofia/ |
-| ok | /tema/filosofia// | variante con diagonal | 0 | /tema/filosofia// |
-| ok | /tema/financiamiento/ | sitemap | 0 | /tema/financiamiento/ |
-| ok | /tema/financiamiento// | variante con diagonal | 0 | /tema/financiamiento// |
-| ok | /tema/generacion-de-leads/ | sitemap | 0 | /tema/generacion-de-leads/ |
-| ok | /tema/generacion-de-leads// | variante con diagonal | 0 | /tema/generacion-de-leads// |
-| ok | /tema/geo/ | sitemap | 0 | /tema/geo/ |
-| ok | /tema/geo// | variante con diagonal | 0 | /tema/geo// |
-| ok | /tema/google/ | sitemap | 0 | /tema/google/ |
-| ok | /tema/google// | variante con diagonal | 0 | /tema/google// |
-| ok | /tema/h2h/ | sitemap | 0 | /tema/h2h/ |
-| ok | /tema/h2h// | variante con diagonal | 0 | /tema/h2h// |
-| ok | /tema/habitos/ | sitemap | 0 | /tema/habitos/ |
-| ok | /tema/habitos// | variante con diagonal | 0 | /tema/habitos// |
-| ok | /tema/hashtags/ | sitemap | 0 | /tema/hashtags/ |
-| ok | /tema/hashtags// | variante con diagonal | 0 | /tema/hashtags// |
-| ok | /tema/hubspot/ | sitemap | 0 | /tema/hubspot/ |
-| ok | /tema/hubspot// | variante con diagonal | 0 | /tema/hubspot// |
-| ok | /tema/hyundai/ | sitemap | 0 | /tema/hyundai/ |
-| ok | /tema/hyundai// | variante con diagonal | 0 | /tema/hyundai// |
-| ok | /tema/ia/ | sitemap | 0 | /tema/ia/ |
-| ok | /tema/ia// | variante con diagonal | 0 | /tema/ia// |
-| ok | /tema/inbound-marketing/ | sitemap | 0 | /tema/inbound-marketing/ |
-| ok | /tema/inbound-marketing// | variante con diagonal | 0 | /tema/inbound-marketing// |
-| ok | /tema/influencers/ | sitemap | 0 | /tema/influencers/ |
-| ok | /tema/influencers// | variante con diagonal | 0 | /tema/influencers// |
-| ok | /tema/innovacion/ | sitemap | 0 | /tema/innovacion/ |
-| ok | /tema/innovacion// | variante con diagonal | 0 | /tema/innovacion// |
-| ok | /tema/instagram/ | sitemap | 0 | /tema/instagram/ |
-| ok | /tema/instagram// | variante con diagonal | 0 | /tema/instagram// |
-| ok | /tema/internet-de-las-cosas/ | sitemap | 0 | /tema/internet-de-las-cosas/ |
-| ok | /tema/internet-de-las-cosas// | variante con diagonal | 0 | /tema/internet-de-las-cosas// |
-| ok | /tema/investigacion-de-clientes/ | sitemap | 0 | /tema/investigacion-de-clientes/ |
-| ok | /tema/investigacion-de-clientes// | variante con diagonal | 0 | /tema/investigacion-de-clientes// |
-| ok | /tema/iot/ | sitemap | 0 | /tema/iot/ |
-| ok | /tema/iot// | variante con diagonal | 0 | /tema/iot// |
-| ok | /tema/jerga-corporativa/ | sitemap | 0 | /tema/jerga-corporativa/ |
-| ok | /tema/jerga-corporativa// | variante con diagonal | 0 | /tema/jerga-corporativa// |
-| ok | /tema/joomla/ | sitemap | 0 | /tema/joomla/ |
-| ok | /tema/joomla// | variante con diagonal | 0 | /tema/joomla// |
-| ok | /tema/juegos-olimpicos/ | sitemap | 0 | /tema/juegos-olimpicos/ |
-| ok | /tema/juegos-olimpicos// | variante con diagonal | 0 | /tema/juegos-olimpicos// |
-| ok | /tema/kavak/ | sitemap | 0 | /tema/kavak/ |
-| ok | /tema/kavak// | variante con diagonal | 0 | /tema/kavak// |
-| ok | /tema/lead-nurturing/ | sitemap | 0 | /tema/lead-nurturing/ |
-| ok | /tema/lead-nurturing// | variante con diagonal | 0 | /tema/lead-nurturing// |
-| ok | /tema/lead-scoring/ | sitemap | 0 | /tema/lead-scoring/ |
-| ok | /tema/lead-scoring// | variante con diagonal | 0 | /tema/lead-scoring// |
-| ok | /tema/lealtad-de-marca/ | sitemap | 0 | /tema/lealtad-de-marca/ |
-| ok | /tema/lealtad-de-marca// | variante con diagonal | 0 | /tema/lealtad-de-marca// |
-| ok | /tema/liderazgo/ | sitemap | 0 | /tema/liderazgo/ |
-| ok | /tema/liderazgo// | variante con diagonal | 0 | /tema/liderazgo// |
-| ok | /tema/linkedin/ | sitemap | 0 | /tema/linkedin/ |
-| ok | /tema/linkedin// | variante con diagonal | 0 | /tema/linkedin// |
-| ok | /tema/manifiesto/ | sitemap | 0 | /tema/manifiesto/ |
-| ok | /tema/manifiesto// | variante con diagonal | 0 | /tema/manifiesto// |
-| ok | /tema/mantenimiento/ | sitemap | 0 | /tema/mantenimiento/ |
-| ok | /tema/mantenimiento// | variante con diagonal | 0 | /tema/mantenimiento// |
-| ok | /tema/marketing-conversacional/ | sitemap | 0 | /tema/marketing-conversacional/ |
-| ok | /tema/marketing-conversacional// | variante con diagonal | 0 | /tema/marketing-conversacional// |
-| ok | /tema/marketing-deportivo/ | sitemap | 0 | /tema/marketing-deportivo/ |
-| ok | /tema/marketing-deportivo// | variante con diagonal | 0 | /tema/marketing-deportivo// |
-| ok | /tema/marketing-digital/ | sitemap | 0 | /tema/marketing-digital/ |
-| ok | /tema/marketing-digital// | variante con diagonal | 0 | /tema/marketing-digital// |
-| ok | /tema/martech/ | sitemap | 0 | /tema/martech/ |
-| ok | /tema/martech// | variante con diagonal | 0 | /tema/martech// |
-| ok | /tema/medicion/ | sitemap | 0 | /tema/medicion/ |
-| ok | /tema/medicion// | variante con diagonal | 0 | /tema/medicion// |
-| ok | /tema/meta/ | sitemap | 0 | /tema/meta/ |
-| ok | /tema/meta// | variante con diagonal | 0 | /tema/meta// |
-| ok | /tema/metricas/ | sitemap | 0 | /tema/metricas/ |
-| ok | /tema/metricas// | variante con diagonal | 0 | /tema/metricas// |
-| ok | /tema/mexico/ | sitemap | 0 | /tema/mexico/ |
-| ok | /tema/mexico// | variante con diagonal | 0 | /tema/mexico// |
-| ok | /tema/migracion/ | sitemap | 0 | /tema/migracion/ |
-| ok | /tema/migracion// | variante con diagonal | 0 | /tema/migracion// |
-| ok | /tema/nissan/ | sitemap | 0 | /tema/nissan/ |
-| ok | /tema/nissan// | variante con diagonal | 0 | /tema/nissan// |
-| ok | /tema/opinion/ | sitemap | 0 | /tema/opinion/ |
-| ok | /tema/opinion// | variante con diagonal | 0 | /tema/opinion// |
-| ok | /tema/optimizacion/ | sitemap | 0 | /tema/optimizacion/ |
-| ok | /tema/optimizacion// | variante con diagonal | 0 | /tema/optimizacion// |
-| ok | /tema/outbound/ | sitemap | 0 | /tema/outbound/ |
-| ok | /tema/outbound// | variante con diagonal | 0 | /tema/outbound// |
-| ok | /tema/patrocinio/ | sitemap | 0 | /tema/patrocinio/ |
-| ok | /tema/patrocinio// | variante con diagonal | 0 | /tema/patrocinio// |
-| ok | /tema/perfilamiento-progresivo/ | sitemap | 0 | /tema/perfilamiento-progresivo/ |
-| ok | /tema/perfilamiento-progresivo// | variante con diagonal | 0 | /tema/perfilamiento-progresivo// |
-| ok | /tema/physical-web/ | sitemap | 0 | /tema/physical-web/ |
-| ok | /tema/physical-web// | variante con diagonal | 0 | /tema/physical-web// |
-| ok | /tema/plantillas/ | sitemap | 0 | /tema/plantillas/ |
-| ok | /tema/plantillas// | variante con diagonal | 0 | /tema/plantillas// |
-| ok | /tema/plataformas/ | sitemap | 0 | /tema/plataformas/ |
-| ok | /tema/plataformas// | variante con diagonal | 0 | /tema/plataformas// |
-| ok | /tema/polarizacion/ | sitemap | 0 | /tema/polarizacion/ |
-| ok | /tema/polarizacion// | variante con diagonal | 0 | /tema/polarizacion// |
-| ok | /tema/posicionamiento-web/ | sitemap | 0 | /tema/posicionamiento-web/ |
-| ok | /tema/posicionamiento-web// | variante con diagonal | 0 | /tema/posicionamiento-web// |
-| ok | /tema/privacidad/ | sitemap | 0 | /tema/privacidad/ |
-| ok | /tema/privacidad// | variante con diagonal | 0 | /tema/privacidad// |
-| ok | /tema/productividad/ | sitemap | 0 | /tema/productividad/ |
-| ok | /tema/productividad// | variante con diagonal | 0 | /tema/productividad// |
-| ok | /tema/programador-joomla/ | sitemap | 0 | /tema/programador-joomla/ |
-| ok | /tema/programador-joomla// | variante con diagonal | 0 | /tema/programador-joomla// |
-| ok | /tema/publicidad/ | sitemap | 0 | /tema/publicidad/ |
-| ok | /tema/publicidad// | variante con diagonal | 0 | /tema/publicidad// |
-| ok | /tema/punto-de-venta/ | sitemap | 0 | /tema/punto-de-venta/ |
-| ok | /tema/punto-de-venta// | variante con diagonal | 0 | /tema/punto-de-venta// |
-| ok | /tema/realidad-aumentada/ | sitemap | 0 | /tema/realidad-aumentada/ |
-| ok | /tema/realidad-aumentada// | variante con diagonal | 0 | /tema/realidad-aumentada// |
-| ok | /tema/realidad-virtual/ | sitemap | 0 | /tema/realidad-virtual/ |
-| ok | /tema/realidad-virtual// | variante con diagonal | 0 | /tema/realidad-virtual// |
-| ok | /tema/redes-sociales/ | sitemap | 0 | /tema/redes-sociales/ |
-| ok | /tema/redes-sociales// | variante con diagonal | 0 | /tema/redes-sociales// |
-| ok | /tema/reputacion/ | sitemap | 0 | /tema/reputacion/ |
-| ok | /tema/reputacion// | variante con diagonal | 0 | /tema/reputacion// |
-| ok | /tema/respeto/ | sitemap | 0 | /tema/respeto/ |
-| ok | /tema/respeto// | variante con diagonal | 0 | /tema/respeto// |
-| ok | /tema/seo-tecnico/ | sitemap | 0 | /tema/seo-tecnico/ |
-| ok | /tema/seo-tecnico// | variante con diagonal | 0 | /tema/seo-tecnico// |
-| ok | /tema/seo/ | sitemap | 0 | /tema/seo/ |
-| ok | /tema/seo// | variante con diagonal | 0 | /tema/seo// |
-| ok | /tema/shopify/ | sitemap | 0 | /tema/shopify/ |
-| ok | /tema/shopify// | variante con diagonal | 0 | /tema/shopify// |
-| ok | /tema/sitio-web/ | sitemap | 0 | /tema/sitio-web/ |
-| ok | /tema/sitio-web// | variante con diagonal | 0 | /tema/sitio-web// |
-| ok | /tema/stack-tecnologico/ | sitemap | 0 | /tema/stack-tecnologico/ |
-| ok | /tema/stack-tecnologico// | variante con diagonal | 0 | /tema/stack-tecnologico// |
-| ok | /tema/stories/ | sitemap | 0 | /tema/stories/ |
-| ok | /tema/stories// | variante con diagonal | 0 | /tema/stories// |
-| ok | /tema/super-bowl/ | sitemap | 0 | /tema/super-bowl/ |
-| ok | /tema/super-bowl// | variante con diagonal | 0 | /tema/super-bowl// |
-| ok | /tema/teleton/ | sitemap | 0 | /tema/teleton/ |
-| ok | /tema/teleton// | variante con diagonal | 0 | /tema/teleton// |
-| ok | /tema/televisa/ | sitemap | 0 | /tema/televisa/ |
-| ok | /tema/televisa// | variante con diagonal | 0 | /tema/televisa// |
-| ok | /tema/tienda-en-linea/ | sitemap | 0 | /tema/tienda-en-linea/ |
-| ok | /tema/tienda-en-linea// | variante con diagonal | 0 | /tema/tienda-en-linea// |
-| ok | /tema/tolerancia/ | sitemap | 0 | /tema/tolerancia/ |
-| ok | /tema/tolerancia// | variante con diagonal | 0 | /tema/tolerancia// |
-| ok | /tema/toma-de-decisiones/ | sitemap | 0 | /tema/toma-de-decisiones/ |
-| ok | /tema/toma-de-decisiones// | variante con diagonal | 0 | /tema/toma-de-decisiones// |
-| ok | /tema/toyota/ | sitemap | 0 | /tema/toyota/ |
-| ok | /tema/toyota// | variante con diagonal | 0 | /tema/toyota// |
-| ok | /tema/velocidad-web/ | sitemap | 0 | /tema/velocidad-web/ |
-| ok | /tema/velocidad-web// | variante con diagonal | 0 | /tema/velocidad-web// |
-| ok | /tema/ventas-consultivas/ | sitemap | 0 | /tema/ventas-consultivas/ |
-| ok | /tema/ventas-consultivas// | variante con diagonal | 0 | /tema/ventas-consultivas// |
-| ok | /tema/ventas/ | sitemap | 0 | /tema/ventas/ |
-| ok | /tema/ventas// | variante con diagonal | 0 | /tema/ventas// |
-| ok | /tema/video/ | sitemap | 0 | /tema/video/ |
-| ok | /tema/video// | variante con diagonal | 0 | /tema/video// |
-| ok | /tema/whatsapp/ | sitemap | 0 | /tema/whatsapp/ |
-| ok | /tema/whatsapp// | variante con diagonal | 0 | /tema/whatsapp// |
-| ok | /tema/wi-fi/ | sitemap | 0 | /tema/wi-fi/ |
-| ok | /tema/wi-fi// | variante con diagonal | 0 | /tema/wi-fi// |
 | ok | /temas | rastreo | 1 | /blog/ |
 | ok | /temas/ | variante con diagonal | 1 | /blog/ |
 | ok | /temas/10-equipos-de-trabajo | rastreo | 1 | /blog/ |
