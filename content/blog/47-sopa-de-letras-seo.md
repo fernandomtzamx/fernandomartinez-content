@@ -2,7 +2,7 @@
 title: "De SEO a GEO, AEO, LLMO y otras doce siglas: la sopa de letras que no cambia el trabajo"
 slug: seo-geo-aeo-llmo-sopa-de-letras
 type: post
-status: publish
+status: draft
 date: 2026-10-21 11:00
 excerpt: "GEO, AEO, LLMO, AIO, SXO, VSO, KGO. Quince siglas para optimizar para la IA, un solo trabajo de fondo y una decisión: quién lo dirige en tu empresa (spoiler: tecnología)."
 seo_title: "SEO, GEO, AEO y LLMO: la sopa de letras"
