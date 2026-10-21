@@ -1,82 +1,44 @@
-fecha: 2026-10-21T16:52:30Z
-commit: 92e6a9b30afc05fd6f93c6b0ca42a6bb5b155330
+fecha: 2026-10-21T17:47:21Z
+commit: 1e62a3ed37f5b3ac7de3bd8e9266c2f8c850b3d8
 evento: push
-publicar: success | setup: skipped | verificar: failure
-run: https://github.com/fernandomtzamx/fernandomartinez-content/actions/runs/39638443062
+publicar: skipped | setup: success | verificar: skipped
+run: https://github.com/fernandomtzamx/fernandomartinez-content/actions/runs/39646797672
 ---
 WP_URL: presente
 WP_USER: presente
 WP_APP_PASSWORD: presente
-Plan: publicar='content/blog/47-sopa-de-letras-seo.md ' setup='' verificar='1' info=''
-ok    content/blog/12-teleton.md: 499 palabras, 1 fuentes
-ok    content/blog/13-5-pilares.md: 563 palabras, 0 fuentes
-ok    content/blog/14-que-es-inbound.md: 471 palabras, 0 fuentes
-ok    content/blog/15-joomla-velocidad.md: 582 palabras, 3 fuentes
-ok    content/blog/16-blog.md: 459 palabras, 1 fuentes
-ok    content/blog/17-10-palabras.md: 517 palabras, 0 fuentes
-ok    content/blog/2-gente-exitosa.md: 451 palabras, 1 fuentes
-ok    content/blog/20-reconocimiento-marca.md: 496 palabras, 0 fuentes
-ok    content/blog/22-joomla-admin.md: 430 palabras, 0 fuentes
-      ! corta (430 palabras)
-ok    content/blog/24-h2h.md: 512 palabras, 0 fuentes
-ok    content/blog/26-iot.md: 495 palabras, 1 fuentes
-ok    content/blog/27-buyer-personas.md: 499 palabras, 0 fuentes
-ok    content/blog/28-base-de-datos.md: 552 palabras, 1 fuentes
-ok    content/blog/29-consumidores.md: 408 palabras, 0 fuentes
-      ! corta (408 palabras)
-ok    content/blog/3-compensacion.md: 549 palabras, 1 fuentes
-ok    content/blog/31-physical-web.md: 496 palabras, 1 fuentes
-ok    content/blog/32-wifi.md: 473 palabras, 1 fuentes
-ok    content/blog/33-redes-usuarios.md: 449 palabras, 1 fuentes
-      ! corta (449 palabras)
-ok    content/blog/34-redes-sociales.md: 451 palabras, 0 fuentes
-ok    content/blog/35-realidad-virtual.md: 486 palabras, 1 fuentes
-ok    content/blog/36-considerar-inbound.md: 529 palabras, 1 fuentes
-ok    content/blog/37-marketing-automotriz-olimpicos.md: 595 palabras, 1 fuentes
-ok    content/blog/38-instagram-stories.md: 453 palabras, 1 fuentes
-ok    content/blog/39-shopify.md: 772 palabras, 3 fuentes
-ok    content/blog/40-chat.md: 614 palabras, 1 fuentes
-ok    content/blog/41-credito-automotriz.md: 661 palabras, 2 fuentes
-ok    content/blog/42-especialista-inbound-mexico.md: 898 palabras, 2 fuentes
-ok    content/blog/43-experto-joomla-mexico.md: 792 palabras, 4 fuentes
-ok    content/blog/44-seo-geo.md: 781 palabras, 4 fuentes
-ok    content/blog/45-martech.md: 709 palabras, 1 fuentes
-ok    content/blog/46-guia-shopify.md: 20302 palabras, 67 fuentes
-ok    content/blog/47-sopa-de-letras-seo.md: 2437 palabras, 9 fuentes
-ok    content/blog/5-activismo.md: 434 palabras, 0 fuentes
-      ! corta (434 palabras)
-ok    content/blog/6-lealtad.md: 455 palabras, 0 fuentes
-ok    content/blog/7-manifiesto.md: 892 palabras, 0 fuentes
-ok    content/blog/9-tolerancia.md: 433 palabras, 0 fuentes
-      ! corta (433 palabras)
-ok    content/paginas/blog.md: 0 palabras, 0 fuentes
-ok    content/paginas/como-te-ayudo.md: 453 palabras, 0 fuentes
-ok    content/paginas/contacto.md: 147 palabras, 1 fuentes
-ok    content/paginas/gnu.md: 147 palabras, 2 fuentes
-ok    content/paginas/inicio.md: 959 palabras, 0 fuentes
-      ! extracto de 176 caracteres (ideal 140 a 160)
-ok    content/paginas/programador-joomla.md: 400 palabras, 1 fuentes
-ok    content/paginas/sobre-mi.md: 695 palabras, 12 fuentes
-ok    content/recursos/25-cosas.md: 966 palabras, 2 fuentes
-ok    content/recursos/brand-remover.md: 181 palabras, 2 fuentes
-ok    content/recursos/herramientas.md: 883 palabras, 62 fuentes
-ok    content/recursos/imagenes-libres.md: 334 palabras, 5 fuentes
-ok    content/recursos/recursos.md: 278 palabras, 0 fuentes
-ok    content/recursos/sumome.md: 161 palabras, 0 fuentes
-ok    content/recursos/twitter-summary-card.md: 197 palabras, 1 fuentes
-ok    content/recursos/website-preloader.md: 222 palabras, 1 fuentes
-
-51 archivos, 0 con errores
+Plan: publicar='' setup='1' verificar='' info=''
 Endpoint: https://fernandomartinez.mx/wp-json/ (HTTP 200)
 Métodos de autenticación anunciados: application-passwords
-Conectado como soporte (roles: administrator)
-  + etiqueta creada: AEO
-  + etiqueta creada: LLMO
-  + etiqueta creada: arquitectura de soluciones
-  + etiqueta creada: dirección de tecnología
-  + imagen subida: seo-geo-aeo-llmo-sopa-de-letras.png (id 745)
-content/blog/47-sopa-de-letras-seo.md: post creada (draft) id=746 https://www.fernandomartinez.mx/?p=746
-  seo: SEO, GEO, AEO y LLMO: la sopa de letras | Fernando Martínez
+Ajustes: Fernando Martínez | portada=12 blog=8 | zona=America/Mexico_City
+Autor: Fernando Martínez
+Categoría: ia-y-tecnologia -> IA y tecnología
+Categoría: marketing -> Marketing
+Categoría: seo-y-geo -> SEO y GEO
+Categoría: martech -> Martech
+Categoría: crm-y-datos -> CRM y datos
+Categoría: automotriz -> Automotriz
+Categoría: desarrollo-web -> Desarrollo web
+Categoría: ventas-y-liderazgo -> Ventas y liderazgo
+Categoría: opinion -> Opinión
+  = imagen reutilizada: fernando-martinez-logo (id 213)
+  = imagen reutilizada: fernando-martinez-icono (id 214)
+  = imagen reutilizada: fernando-martinez-logo-blanco (id 215)
+Marca: logo=213 ícono=214
+Menú actualizado (id 93)
+Aviso: no encontré el bloque de navegación en el encabezado
+Encabezado con logo, menú 93 y botón 'Platiquemos'
+Estilos globales aplicados (id 7)
+Plantilla home actualizada
+Plantilla archive actualizada
+Plantilla single actualizada
+Pie de página actualizado
+Analítica: GTM-5PTRT2J activo en el sitio
+Analítica: verificación portada -> script en head: sí | noscript en body: sí
+SEO: campos de Rank Math en la API -> rank_math_description, rank_math_focus_keyword, rank_math_robots, rank_math_title
+Ya en papelera: posts/1
+Ya en papelera: posts/6
+Ya en papelera: pages/2
 
 - Imágenes que no tenían alt y se corrigieron: **0**
 
@@ -85,6 +47,3 @@ content/blog/47-sopa-de-letras-seo.md: post creada (draft) id=746 https://www.fe
 - Páginas revisadas: **62**
 - Imágenes revisadas: **395**
 - Sin alt: **0**
-## Páginas publicadas
-
-Problemas en páginas o referidos: 4. Externos con error: 30
