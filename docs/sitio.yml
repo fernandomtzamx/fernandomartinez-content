@@ -89,6 +89,7 @@ css: |
   .wp-site-blocks>header.wp-block-template-part{position:sticky;top:0;z-index:50}
   .admin-bar .wp-site-blocks>header.wp-block-template-part{top:32px}
   @media (max-width:782px){.admin-bar .wp-site-blocks>header.wp-block-template-part{top:46px}}
+  @media (max-width:600px){.admin-bar .wp-site-blocks>header.wp-block-template-part{top:0}}
   .fm-header{background:#fff;border-bottom:1px solid var(--wp--preset--color--accent-2)}
   .fm-header .wp-block-navigation__responsive-container.is-menu-open{z-index:100000;padding:var(--wp--preset--spacing--50)}
   .fm-header .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-item__content{font-size:1.4rem;font-weight:700;padding:.35em 0}
