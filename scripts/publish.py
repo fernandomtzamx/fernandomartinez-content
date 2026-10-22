@@ -123,6 +123,7 @@ class WP:
         if key in self._term_cache:
             return self._term_cache[key]
         params = {"slug": value} if by == "slug" else {"search": value}
+        params["per_page"] = 100
         found = [t for t in self.req("GET", taxonomy, params=params)
                  if (t["slug"] == value if by == "slug" else t["name"].lower() == value.lower())]
         if found:
@@ -131,9 +132,16 @@ class WP:
             payload = {"name": value.replace("-", " ").capitalize() if by == "slug" else value}
             if by == "slug":
                 payload["slug"] = value
-            tid = self.req("POST", taxonomy, json=payload)["id"]
-            label = {"categories": "categoría", "tags": "etiqueta"}.get(taxonomy, taxonomy)
-            print(f"  + {label} creada: {value}")
+            try:
+                tid = self.req("POST", taxonomy, json=payload)["id"]
+                label = {"categories": "categoría", "tags": "etiqueta"}.get(taxonomy, taxonomy)
+                print(f"  + {label} creada: {value}")
+            except RuntimeError as e:
+                # El término ya existe con otro nombre o mayúsculas (p. ej. "IA" vs "ia"): WordPress devuelve su id.
+                m = re.search(r'"term_exists".*?"term_id":(\d+)', str(e))
+                if not m:
+                    raise
+                tid = int(m.group(1))
         self._term_cache[key] = tid
         return tid
 
