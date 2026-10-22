@@ -2,7 +2,7 @@
 title: "Por qué el 95% de los pilotos de IA no llegan a nada (y qué haría yo distinto)"
 slug: por-que-los-pilotos-de-ia-no-llegan-a-produccion
 type: post
-status: draft
+status: publish
 date: 2026-10-21 11:00
 excerpt: "Casi todos los pilotos de IA en empresas se quedan en demo. No es culpa del modelo: es del problema que eligieron, de los datos y de quién lo dirige. Lo que haría yo como CTO."
 seo_title: "Por qué los pilotos de IA mueren en demo"

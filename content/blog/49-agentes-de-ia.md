@@ -2,7 +2,7 @@
 title: "Agentes de IA: qué son de verdad y dónde sí los pondría en una empresa hoy"
 slug: agentes-de-ia-que-son-y-donde-usarlos
 type: post
-status: draft
+status: publish
 date: 2026-10-22 11:00
 excerpt: "Un agente de IA no es un chatbot con nombre nuevo. Qué lo distingue, por qué Gartner prevé que el 40% de los proyectos se cancele y los cuatro lugares donde sí lo pondría hoy."
 seo_title: "Agentes de IA: qué son y dónde usarlos"

@@ -2,7 +2,7 @@
 title: "Programar con IA en una empresa real: qué dejo que escriba y qué no"
 slug: programar-con-ia-en-una-empresa-real
 type: post
-status: draft
+status: publish
 date: 2026-10-23 11:00
 excerpt: "Programo desde 2008 y hoy la IA escribe buena parte de mi código. Lo que le dejo, lo que no, lo que dicen los estudios y las tres reglas que aplico con mi equipo."
 seo_title: "Programar con IA: qué le dejo y qué no"
