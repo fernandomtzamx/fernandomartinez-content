@@ -6,6 +6,6 @@
 
 ## HTML publicado
 
-- Páginas revisadas: **62**
+- Páginas revisadas: **65**
 - Imágenes revisadas: **395**
 - Sin alt: **0**
