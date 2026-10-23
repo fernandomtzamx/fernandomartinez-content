@@ -1,7 +1,7 @@
 # Prueba de redirecciones: Apache local con migracion/redirecciones.htaccess, destinos en https://www.fernandomartinez.mx
 
-- URLs viejas probadas: **583**
-- Correctas (301 a una página que responde 200, o URL que se conserva igual): **582**
+- URLs viejas probadas: **589**
+- Correctas (301 a una página que responde 200, o URL que se conserva igual): **588**
 - Para revisar: **1**
 - Sin equivalente o con error: **0**
 
@@ -16,7 +16,7 @@
 | https://www.fernandomartinez.mx/index.php?option=com_xmap&view=xml&id=1 | 200 | 0 |
 | https://www.fernandomartinez.mx/component/xmap/?view=xml&id=1 | 404 | 0 |
 | https://www.fernandomartinez.mx/index.php?option=com_jmap&view=sitemap&format=xml | 200 | 0 |
-| https://www.fernandomartinez.mx/post-sitemap.xml | 200 | 36 |
+| https://www.fernandomartinez.mx/post-sitemap.xml | 200 | 38 |
 | https://www.fernandomartinez.mx/page-sitemap.xml | 200 | 13 |
 | https://www.fernandomartinez.mx/uicore-cd-sitemap.xml | 200 | 2 |
 | https://www.fernandomartinez.mx/category-sitemap.xml | 200 | 9 |
@@ -109,6 +109,8 @@
 | ok | /blog/9-en-contra-de-la-tolerancia/ | variante con diagonal | 1 | /blog/en-contra-de-la-tolerancia/ |
 | ok | /blog/activismo-con-hashtags/ | sitemap | 0 | /blog/activismo-con-hashtags/ |
 | ok | /blog/activismo-con-hashtags// | variante con diagonal | 0 | /blog/activismo-con-hashtags// |
+| ok | /blog/agentes-de-ia-que-son-y-donde-usarlos/ | sitemap | 0 | /blog/agentes-de-ia-que-son-y-donde-usarlos/ |
+| ok | /blog/agentes-de-ia-que-son-y-donde-usarlos// | variante con diagonal | 0 | /blog/agentes-de-ia-que-son-y-donde-usarlos// |
 | ok | /blog/como-abrir-una-tienda-en-linea-en-mexico-con-shopify/ | sitemap | 0 | /blog/como-abrir-una-tienda-en-linea-en-mexico-con-shopify/ |
 | ok | /blog/como-abrir-una-tienda-en-linea-en-mexico-con-shopify// | variante con diagonal | 0 | /blog/como-abrir-una-tienda-en-linea-en-mexico-con-shopify// |
 | ok | /blog/como-aprovechar-instagram-stories-en-tu-marketing/ | sitemap | 0 | /blog/como-aprovechar-instagram-stories-en-tu-marketing/ |
@@ -157,6 +159,8 @@
 | ok | /blog/plantillas-administrador-joomla// | variante con diagonal | 0 | /blog/plantillas-administrador-joomla// |
 | ok | /blog/por-que-deberias-considerar-el-inbound-marketing/ | sitemap | 0 | /blog/por-que-deberias-considerar-el-inbound-marketing/ |
 | ok | /blog/por-que-deberias-considerar-el-inbound-marketing// | variante con diagonal | 0 | /blog/por-que-deberias-considerar-el-inbound-marketing// |
+| ok | /blog/por-que-los-pilotos-de-ia-no-llegan-a-produccion/ | sitemap | 0 | /blog/por-que-los-pilotos-de-ia-no-llegan-a-produccion/ |
+| ok | /blog/por-que-los-pilotos-de-ia-no-llegan-a-produccion// | variante con diagonal | 0 | /blog/por-que-los-pilotos-de-ia-no-llegan-a-produccion// |
 | ok | /blog/posicionamiento-web-seo-geo/ | sitemap | 0 | /blog/posicionamiento-web-seo-geo/ |
 | ok | /blog/posicionamiento-web-seo-geo// | variante con diagonal | 0 | /blog/posicionamiento-web-seo-geo// |
 | ok | /blog/que-es-el-inbound-marketing/ | sitemap | 0 | /blog/que-es-el-inbound-marketing/ |
@@ -406,6 +410,7 @@
 | ok | /index.php/blog/7-manifiesto-de-marketing-digital-de-fernando-martinez | variante index.php | 2 | /blog/manifiesto-de-marketing-digital-de-fernando-martinez/ |
 | ok | /index.php/blog/9-en-contra-de-la-tolerancia | variante index.php | 2 | /blog/en-contra-de-la-tolerancia/ |
 | ok | /index.php/blog/activismo-con-hashtags/ | variante index.php | 1 | /blog/activismo-con-hashtags/ |
+| ok | /index.php/blog/agentes-de-ia-que-son-y-donde-usarlos/ | variante index.php | 1 | /blog/agentes-de-ia-que-son-y-donde-usarlos/ |
 | ok | /index.php/blog/como-abrir-una-tienda-en-linea-en-mexico-con-shopify/ | variante index.php | 1 | /blog/como-abrir-una-tienda-en-linea-en-mexico-con-shopify/ |
 | ok | /index.php/blog/como-aprovechar-instagram-stories-en-tu-marketing/ | variante index.php | 1 | /blog/como-aprovechar-instagram-stories-en-tu-marketing/ |
 | ok | /index.php/blog/como-crear-un-plan-de-compensacion-para-tu-equipo-de-ventas/ | variante index.php | 1 | /blog/como-crear-un-plan-de-compensacion-para-tu-equipo-de-ventas/ |
@@ -430,6 +435,7 @@
 | ok | /index.php/blog/physical-web-el-nuevo-paso-para-los-negocios/ | variante index.php | 1 | /blog/physical-web-el-nuevo-paso-para-los-negocios/ |
 | ok | /index.php/blog/plantillas-administrador-joomla/ | variante index.php | 1 | /blog/plantillas-administrador-joomla/ |
 | ok | /index.php/blog/por-que-deberias-considerar-el-inbound-marketing/ | variante index.php | 1 | /blog/por-que-deberias-considerar-el-inbound-marketing/ |
+| ok | /index.php/blog/por-que-los-pilotos-de-ia-no-llegan-a-produccion/ | variante index.php | 1 | /blog/por-que-los-pilotos-de-ia-no-llegan-a-produccion/ |
 | ok | /index.php/blog/posicionamiento-web-seo-geo/ | variante index.php | 1 | /blog/posicionamiento-web-seo-geo/ |
 | ok | /index.php/blog/que-es-el-inbound-marketing/ | variante index.php | 1 | /blog/que-es-el-inbound-marketing/ |
 | ok | /index.php/blog/que-es-el-internet-de-las-cosas-iot-internet-of-things/ | variante index.php | 1 | /blog/que-es-el-internet-de-las-cosas-iot-internet-of-things/ |
