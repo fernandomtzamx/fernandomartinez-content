@@ -1,16 +1,16 @@
 # Enlace de afiliado de Shopify
 
 - **Máscara (enlace de afiliado):** https://shopify.pxf.io/prueba-gratis-shop
-- **Destino final:** https://www.shopify.com/mx/prueba-gratis?irclickid=3jAROtVg8xyZU%3A-Tl4XcRW6QUkr3cRVwYXzY3w0&irgwc=1&partner=2878770&affpt=excluded&utm_channel=affiliates&utm_source=2878770-impact&utm_medium=cpa&iradid=1061744
+- **Destino final:** https://www.shopify.com/mx/prueba-gratis?irclickid=V7I0W4Vg8xyZWdfxKcxrVSZwUkr3cWR8g3Lqww0&irgwc=1&partner=2878770&affpt=excluded&utm_channel=affiliates&utm_source=2878770-impact&utm_medium=cpa&iradid=1061744
 
 ## Saltos
 
 | HTTP | URL | Redirige a |
 |---|---|---|
 | 302 | https://shopify.pxf.io/prueba-gratis-shop | https://www.ojrq.net/p/?return=https%3A%2F%2Fshopify.pxf.io%2Fc%2F2878770%2F1061744%2F13624%3Fu%3Dhttps%253A%252F%252Fwww.shopify.com%252Fmx%252Fprueba-gratis%26svlink%3D7021425%26level%3D1&cid=13624&tpsync=yes&auth=5b384fd7b0200f8b |
-| 302 | https://www.ojrq.net/p/?return=https%3A%2F%2Fshopify.pxf.io%2Fc%2F2878770%2F1061744%2F13624%3Fu%3Dhttps%253A%252F%252Fwww.shopify.com%252Fmx%252Fprueba-gratis%26svlink%3D7021425%26level%3D1&cid=13624&tpsync=yes&auth=5b384fd7b0200f8b | https://shopify.pxf.io/c/2878770/1061744/13624?u=https%3A%2F%2Fwww.shopify.com%2Fmx%2Fprueba-gratis&svlink=7021425&level=1&brwsr=64dc9aa5-d538-11f1-8ebe-b57cec09afcc&brwsrsig=XLS0hG33gSniXzaTwPWARWJX2-DUDs |
-| 301 | https://shopify.pxf.io/c/2878770/1061744/13624?u=https%3A%2F%2Fwww.shopify.com%2Fmx%2Fprueba-gratis&svlink=7021425&level=1&brwsr=64dc9aa5-d538-11f1-8ebe-b57cec09afcc&brwsrsig=XLS0hG33gSniXzaTwPWARWJX2-DUDs | https://www.shopify.com/mx/prueba-gratis?irclickid=3jAROtVg8xyZU%3A-Tl4XcRW6QUkr3cRVwYXzY3w0&irgwc=1&partner=2878770&affpt=excluded&utm_channel=affiliates&utm_source=2878770-impact&utm_medium=cpa&iradid=1061744 |
-| 200 | https://www.shopify.com/mx/prueba-gratis?irclickid=3jAROtVg8xyZU%3A-Tl4XcRW6QUkr3cRVwYXzY3w0&irgwc=1&partner=2878770&affpt=excluded&utm_channel=affiliates&utm_source=2878770-impact&utm_medium=cpa&iradid=1061744 |  |
+| 302 | https://www.ojrq.net/p/?return=https%3A%2F%2Fshopify.pxf.io%2Fc%2F2878770%2F1061744%2F13624%3Fu%3Dhttps%253A%252F%252Fwww.shopify.com%252Fmx%252Fprueba-gratis%26svlink%3D7021425%26level%3D1&cid=13624&tpsync=yes&auth=5b384fd7b0200f8b | https://shopify.pxf.io/c/2878770/1061744/13624?u=https%3A%2F%2Fwww.shopify.com%2Fmx%2Fprueba-gratis&svlink=7021425&level=1&brwsr=deec02bc-d538-11f1-ad76-1bf018cdfc44&brwsrsig=0eeRDsQnUx8fX3tyDmxL2xtKTLcwLs |
+| 301 | https://shopify.pxf.io/c/2878770/1061744/13624?u=https%3A%2F%2Fwww.shopify.com%2Fmx%2Fprueba-gratis&svlink=7021425&level=1&brwsr=deec02bc-d538-11f1-ad76-1bf018cdfc44&brwsrsig=0eeRDsQnUx8fX3tyDmxL2xtKTLcwLs | https://www.shopify.com/mx/prueba-gratis?irclickid=V7I0W4Vg8xyZWdfxKcxrVSZwUkr3cWR8g3Lqww0&irgwc=1&partner=2878770&affpt=excluded&utm_channel=affiliates&utm_source=2878770-impact&utm_medium=cpa&iradid=1061744 |
+| 200 | https://www.shopify.com/mx/prueba-gratis?irclickid=V7I0W4Vg8xyZWdfxKcxrVSZwUkr3cWR8g3Lqww0&irgwc=1&partner=2878770&affpt=excluded&utm_channel=affiliates&utm_source=2878770-impact&utm_medium=cpa&iradid=1061744 |  |
 
 ## Comprobaciones
 
