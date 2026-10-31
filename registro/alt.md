@@ -7,5 +7,5 @@
 ## HTML publicado
 
 - Páginas revisadas: **67**
-- Imágenes revisadas: **428**
+- Imágenes revisadas: **436**
 - Sin alt: **0**
