@@ -3,7 +3,7 @@ title: "Los mejores podcasts para un director de tecnología (y la mayoría no s
 slug: podcasts-para-directores-de-tecnologia
 type: post
 status: publish
-date: 2026-10-31 09:00
+date: 2026-10-31 09:30
 excerpt: "Veintiún podcasts que sí escucho como CTO: negocio, emprendimiento, criterio, dirigir ingenieros y filtrar la IA. Vigentes en 2026, y los que ya murieron."
 seo_title: "Podcasts para directores de tecnología"
 seo_description: "Veintiún podcasts que sí escucho como CTO: entender el negocio, emprender, pensar con criterio, dirigir ingenieros y filtrar el ruido de la IA. Activos hoy."
