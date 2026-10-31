@@ -1,88 +1,13 @@
-fecha: 2026-10-31T14:18:10Z
-commit: ab2cfae66559444c2b52ffb134797f2ff255d2db
-evento: push
-publicar: failure | setup: skipped | verificar: failure
-run: https://github.com/fernandomtzamx/fernandomartinez-content/actions/runs/41209476548
+fecha: 2026-10-31T14:21:10Z
+commit: b5ceeb5a2dc28e9f96baf44704cf4efd070043aa
+evento: workflow_dispatch
+publicar: success | setup: skipped | verificar: skipped
+run: https://github.com/fernandomtzamx/fernandomartinez-content/actions/runs/41209717574
 ---
 WP_URL: presente
 WP_USER: presente
 WP_APP_PASSWORD: presente
-Plan: publicar='content/blog/52-podcasts-para-cto.md ' setup='' verificar='1' info=''
-ok    content/blog/12-teleton.md: 499 palabras, 1 fuentes
-ok    content/blog/13-5-pilares.md: 563 palabras, 0 fuentes
-ok    content/blog/14-que-es-inbound.md: 471 palabras, 0 fuentes
-ok    content/blog/15-joomla-velocidad.md: 582 palabras, 3 fuentes
-ok    content/blog/16-blog.md: 459 palabras, 1 fuentes
-ok    content/blog/17-10-palabras.md: 517 palabras, 0 fuentes
-ok    content/blog/2-gente-exitosa.md: 451 palabras, 1 fuentes
-ok    content/blog/20-reconocimiento-marca.md: 496 palabras, 0 fuentes
-ok    content/blog/22-joomla-admin.md: 430 palabras, 0 fuentes
-      ! corta (430 palabras)
-ok    content/blog/24-h2h.md: 512 palabras, 0 fuentes
-ok    content/blog/26-iot.md: 495 palabras, 1 fuentes
-ok    content/blog/27-buyer-personas.md: 499 palabras, 0 fuentes
-ok    content/blog/28-base-de-datos.md: 552 palabras, 1 fuentes
-ok    content/blog/29-consumidores.md: 408 palabras, 0 fuentes
-      ! corta (408 palabras)
-ok    content/blog/3-compensacion.md: 549 palabras, 1 fuentes
-ok    content/blog/31-physical-web.md: 496 palabras, 1 fuentes
-ok    content/blog/32-wifi.md: 473 palabras, 1 fuentes
-ok    content/blog/33-redes-usuarios.md: 449 palabras, 1 fuentes
-      ! corta (449 palabras)
-ok    content/blog/34-redes-sociales.md: 451 palabras, 0 fuentes
-ok    content/blog/35-realidad-virtual.md: 486 palabras, 1 fuentes
-ok    content/blog/36-considerar-inbound.md: 529 palabras, 1 fuentes
-ok    content/blog/37-marketing-automotriz-olimpicos.md: 595 palabras, 1 fuentes
-ok    content/blog/38-instagram-stories.md: 453 palabras, 1 fuentes
-ok    content/blog/39-shopify.md: 772 palabras, 3 fuentes
-ok    content/blog/40-chat.md: 614 palabras, 1 fuentes
-ok    content/blog/41-credito-automotriz.md: 661 palabras, 2 fuentes
-ok    content/blog/42-especialista-inbound-mexico.md: 898 palabras, 2 fuentes
-ok    content/blog/43-experto-joomla-mexico.md: 792 palabras, 4 fuentes
-ok    content/blog/44-seo-geo.md: 781 palabras, 4 fuentes
-ok    content/blog/45-martech.md: 709 palabras, 1 fuentes
-ok    content/blog/46-guia-shopify.md: 20302 palabras, 67 fuentes
-ok    content/blog/47-sopa-de-letras-seo.md: 2437 palabras, 9 fuentes
-ok    content/blog/48-pilotos-de-ia.md: 1193 palabras, 3 fuentes
-ok    content/blog/49-agentes-de-ia.md: 1102 palabras, 2 fuentes
-ok    content/blog/5-activismo.md: 434 palabras, 0 fuentes
-      ! corta (434 palabras)
-ok    content/blog/50-programar-con-ia.md: 1085 palabras, 6 fuentes
-ok    content/blog/51-trafico-no-paga.md: 1239 palabras, 2 fuentes
-ok    content/blog/52-podcasts-para-cto.md: 1593 palabras, 44 fuentes
-ok    content/blog/6-lealtad.md: 455 palabras, 0 fuentes
-ok    content/blog/7-manifiesto.md: 892 palabras, 0 fuentes
-ok    content/blog/9-tolerancia.md: 433 palabras, 0 fuentes
-      ! corta (433 palabras)
-ok    content/paginas/blog.md: 0 palabras, 0 fuentes
-ok    content/paginas/como-te-ayudo.md: 453 palabras, 0 fuentes
-ok    content/paginas/contacto.md: 147 palabras, 1 fuentes
-ok    content/paginas/gnu.md: 147 palabras, 2 fuentes
-ok    content/paginas/inicio.md: 959 palabras, 0 fuentes
-      ! extracto de 176 caracteres (ideal 140 a 160)
-ok    content/paginas/programador-joomla.md: 400 palabras, 1 fuentes
-ok    content/paginas/sobre-mi.md: 695 palabras, 12 fuentes
-ok    content/recursos/25-cosas.md: 966 palabras, 2 fuentes
-ok    content/recursos/brand-remover.md: 181 palabras, 2 fuentes
-ok    content/recursos/herramientas.md: 883 palabras, 62 fuentes
-ok    content/recursos/imagenes-libres.md: 334 palabras, 5 fuentes
-ok    content/recursos/recursos.md: 278 palabras, 0 fuentes
-ok    content/recursos/sumome.md: 161 palabras, 0 fuentes
-ok    content/recursos/twitter-summary-card.md: 197 palabras, 1 fuentes
-ok    content/recursos/website-preloader.md: 222 palabras, 1 fuentes
-
-56 archivos, 0 con errores
+Plan: publicar='--check' setup='' verificar='' info=''
 Endpoint: https://fernandomartinez.mx/wp-json/ (HTTP 200)
-Aviso: /wp-json/ no devolvió JSON
-DIAGNÓSTICO: el servidor respondió 200 sin JSON (posible bloqueo o caché). server=cloudflare | inicio: '<!DOCTYPE html>\n<html lang="en">\n<head>\n  <meta charset="utf8">\n  <meta name="viewport" content="width=device-width,initial-scale=1.0">\n  <script>\n      (function(){\n          setTimeout(function(){\n '
-    for c in wp.req("GET", "categories", params={"per_page": 100}):
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/fernandomartinez-content/fernandomartinez-content/scripts/publish.py", line 88, in req
-    return r.json()
-           ^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/requests/models.py", line 978, in json
-    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
-requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
-  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/requests/models.py", line 978, in json
-    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
-requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Métodos de autenticación anunciados: application-passwords
+Conectado como soporte (roles: administrator)
