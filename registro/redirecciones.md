@@ -1,7 +1,7 @@
 # Prueba de redirecciones: Apache local con migracion/redirecciones.htaccess, destinos en https://www.fernandomartinez.mx
 
-- URLs viejas probadas: **589**
-- Correctas (301 a una página que responde 200, o URL que se conserva igual): **588**
+- URLs viejas probadas: **595**
+- Correctas (301 a una página que responde 200, o URL que se conserva igual): **594**
 - Para revisar: **1**
 - Sin equivalente o con error: **0**
 
@@ -16,7 +16,7 @@
 | https://www.fernandomartinez.mx/index.php?option=com_xmap&view=xml&id=1 | 200 | 0 |
 | https://www.fernandomartinez.mx/component/xmap/?view=xml&id=1 | 404 | 0 |
 | https://www.fernandomartinez.mx/index.php?option=com_jmap&view=sitemap&format=xml | 200 | 0 |
-| https://www.fernandomartinez.mx/post-sitemap.xml | 200 | 38 |
+| https://www.fernandomartinez.mx/post-sitemap.xml | 200 | 40 |
 | https://www.fernandomartinez.mx/page-sitemap.xml | 200 | 13 |
 | https://www.fernandomartinez.mx/uicore-cd-sitemap.xml | 200 | 2 |
 | https://www.fernandomartinez.mx/category-sitemap.xml | 200 | 9 |
@@ -163,6 +163,8 @@
 | ok | /blog/por-que-los-pilotos-de-ia-no-llegan-a-produccion// | variante con diagonal | 0 | /blog/por-que-los-pilotos-de-ia-no-llegan-a-produccion// |
 | ok | /blog/posicionamiento-web-seo-geo/ | sitemap | 0 | /blog/posicionamiento-web-seo-geo/ |
 | ok | /blog/posicionamiento-web-seo-geo// | variante con diagonal | 0 | /blog/posicionamiento-web-seo-geo// |
+| ok | /blog/programar-con-ia-en-una-empresa-real/ | sitemap | 0 | /blog/programar-con-ia-en-una-empresa-real/ |
+| ok | /blog/programar-con-ia-en-una-empresa-real// | variante con diagonal | 0 | /blog/programar-con-ia-en-una-empresa-real// |
 | ok | /blog/que-es-el-inbound-marketing/ | sitemap | 0 | /blog/que-es-el-inbound-marketing/ |
 | ok | /blog/que-es-el-inbound-marketing// | variante con diagonal | 0 | /blog/que-es-el-inbound-marketing// |
 | ok | /blog/que-es-el-internet-de-las-cosas-iot-internet-of-things/ | sitemap | 0 | /blog/que-es-el-internet-de-las-cosas-iot-internet-of-things/ |
@@ -171,6 +173,8 @@
 | ok | /blog/que-es-martech// | variante con diagonal | 0 | /blog/que-es-martech// |
 | ok | /blog/reducir-tiempo-carga-sitio-web-joomla/ | sitemap | 0 | /blog/reducir-tiempo-carga-sitio-web-joomla/ |
 | ok | /blog/reducir-tiempo-carga-sitio-web-joomla// | variante con diagonal | 0 | /blog/reducir-tiempo-carga-sitio-web-joomla// |
+| ok | /blog/trafico-seo-no-paga-la-nomina/ | sitemap | 0 | /blog/trafico-seo-no-paga-la-nomina/ |
+| ok | /blog/trafico-seo-no-paga-la-nomina// | variante con diagonal | 0 | /blog/trafico-seo-no-paga-la-nomina// |
 | ok | /blog/uicore-cd/ui-cd-to/ | sitemap | 0 | /blog/uicore-cd/ui-cd-to/ |
 | ok | /blog/uicore-cd/ui-cd-to// | variante con diagonal | 0 | /blog/uicore-cd/ui-cd-to// |
 | ok | /blog/uicore-cd/ui-cd-wp/ | sitemap | 0 | /blog/uicore-cd/ui-cd-wp/ |
@@ -437,10 +441,12 @@
 | ok | /index.php/blog/por-que-deberias-considerar-el-inbound-marketing/ | variante index.php | 1 | /blog/por-que-deberias-considerar-el-inbound-marketing/ |
 | ok | /index.php/blog/por-que-los-pilotos-de-ia-no-llegan-a-produccion/ | variante index.php | 1 | /blog/por-que-los-pilotos-de-ia-no-llegan-a-produccion/ |
 | ok | /index.php/blog/posicionamiento-web-seo-geo/ | variante index.php | 1 | /blog/posicionamiento-web-seo-geo/ |
+| ok | /index.php/blog/programar-con-ia-en-una-empresa-real/ | variante index.php | 1 | /blog/programar-con-ia-en-una-empresa-real/ |
 | ok | /index.php/blog/que-es-el-inbound-marketing/ | variante index.php | 1 | /blog/que-es-el-inbound-marketing/ |
 | ok | /index.php/blog/que-es-el-internet-de-las-cosas-iot-internet-of-things/ | variante index.php | 1 | /blog/que-es-el-internet-de-las-cosas-iot-internet-of-things/ |
 | ok | /index.php/blog/que-es-martech/ | variante index.php | 1 | /blog/que-es-martech/ |
 | ok | /index.php/blog/reducir-tiempo-carga-sitio-web-joomla/ | variante index.php | 1 | /blog/reducir-tiempo-carga-sitio-web-joomla/ |
+| ok | /index.php/blog/trafico-seo-no-paga-la-nomina/ | variante index.php | 1 | /blog/trafico-seo-no-paga-la-nomina/ |
 | ok | /index.php/blog/uicore-cd/ui-cd-to/ | variante index.php | 1 | /blog/uicore-cd/ui-cd-to/ |
 | ok | /index.php/blog/uicore-cd/ui-cd-wp/ | variante index.php | 1 | /blog/uicore-cd/ui-cd-wp/ |
 | ok | /index.php/busqueda | variante index.php | 2 | /blog/ |
