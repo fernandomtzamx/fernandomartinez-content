@@ -53,12 +53,20 @@ def env(name):
     return value
 
 
+# Cloudflare reta a los agentes que no parecen navegador y devuelve HTML en vez de JSON.
+UA_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) "
+                  "Chrome/130.0.0.0 Safari/537.36 fm-agente/1.1",
+    "Accept": "application/json, */*;q=0.1",
+    "Accept-Language": "es-MX,es;q=0.9",
+}
+
+
 class WP:
     def __init__(self, base, user, password):
         # Resolver redirecciones (http->https, sin www->www) antes de autenticar:
         # requests descarta el encabezado Authorization al cambiar de host.
-        probe = requests.get(base.rstrip("/") + "/wp-json/", timeout=30,
-                             headers={"User-Agent": "fm-agente/1.0"})
+        probe = requests.get(base.rstrip("/") + "/wp-json/", timeout=30, headers=UA_HEADERS)
         final = probe.url.split("/wp-json")[0]
         if final.rstrip("/") != base.rstrip("/"):
             print(f"Aviso: {base} redirige a {final}; uso la URL final.")
@@ -74,7 +82,7 @@ class WP:
         self.api = final.rstrip("/") + "/wp-json/wp/v2"
         self.s = requests.Session()
         self.s.auth = (user, password.replace(" ", ""))
-        self.s.headers["User-Agent"] = "fm-agente/1.0"
+        self.s.headers.update(UA_HEADERS)
         # Copia de la credencial en un encabezado propio, por si el servidor borra Authorization
         # (lo recibe el mu-plugin wordpress/mu-plugins/agente-auth.php).
         token = base64.b64encode(f"{user}:{password.replace(' ', '')}".encode()).decode()
