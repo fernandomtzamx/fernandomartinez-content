@@ -1,13 +1,13 @@
-fecha: 2026-10-23T06:06:34Z
-commit: d4540cdd6ffb6a137bcb779d0076a48af42abf53
+fecha: 2026-10-31T14:18:10Z
+commit: ab2cfae66559444c2b52ffb134797f2ff255d2db
 evento: push
-publicar: success | setup: skipped | verificar: failure
-run: https://github.com/fernandomtzamx/fernandomartinez-content/actions/runs/39909428084
+publicar: failure | setup: skipped | verificar: failure
+run: https://github.com/fernandomtzamx/fernandomartinez-content/actions/runs/41209476548
 ---
 WP_URL: presente
 WP_USER: presente
 WP_APP_PASSWORD: presente
-Plan: publicar='content/blog/51-trafico-no-paga.md ' setup='' verificar='1' info=''
+Plan: publicar='content/blog/52-podcasts-para-cto.md ' setup='' verificar='1' info=''
 ok    content/blog/12-teleton.md: 499 palabras, 1 fuentes
 ok    content/blog/13-5-pilares.md: 563 palabras, 0 fuentes
 ok    content/blog/14-que-es-inbound.md: 471 palabras, 0 fuentes
@@ -49,6 +49,7 @@ ok    content/blog/5-activismo.md: 434 palabras, 0 fuentes
       ! corta (434 palabras)
 ok    content/blog/50-programar-con-ia.md: 1085 palabras, 6 fuentes
 ok    content/blog/51-trafico-no-paga.md: 1239 palabras, 2 fuentes
+ok    content/blog/52-podcasts-para-cto.md: 1593 palabras, 44 fuentes
 ok    content/blog/6-lealtad.md: 455 palabras, 0 fuentes
 ok    content/blog/7-manifiesto.md: 892 palabras, 0 fuentes
 ok    content/blog/9-tolerancia.md: 433 palabras, 0 fuentes
@@ -70,26 +71,18 @@ ok    content/recursos/sumome.md: 161 palabras, 0 fuentes
 ok    content/recursos/twitter-summary-card.md: 197 palabras, 1 fuentes
 ok    content/recursos/website-preloader.md: 222 palabras, 1 fuentes
 
-55 archivos, 0 con errores
+56 archivos, 0 con errores
 Endpoint: https://fernandomartinez.mx/wp-json/ (HTTP 200)
-Métodos de autenticación anunciados: application-passwords
-Conectado como soporte (roles: administrator)
-  + etiqueta creada: tráfico orgánico
-  + etiqueta creada: ingresos
-  + etiqueta creada: pipeline
-  + etiqueta creada: búsqueda con IA
-  + etiqueta creada: reportes
-  + imagen subida: trafico-seo-no-paga-la-nomina.png (id 758)
-content/blog/51-trafico-no-paga.md: post creada (future) id=759 https://www.fernandomartinez.mx/?p=759
-  seo: El tráfico SEO no paga la nómina | Fernando Martínez
-
-- Imágenes que no tenían alt y se corrigieron: **0**
-
-## HTML publicado
-
-- Páginas revisadas: **66**
-- Imágenes revisadas: **412**
-- Sin alt: **0**
-## Páginas publicadas
-
-Problemas en páginas o referidos: 6. Externos con error: 12
+Aviso: /wp-json/ no devolvió JSON
+DIAGNÓSTICO: el servidor respondió 200 sin JSON (posible bloqueo o caché). server=cloudflare | inicio: '<!DOCTYPE html>\n<html lang="en">\n<head>\n  <meta charset="utf8">\n  <meta name="viewport" content="width=device-width,initial-scale=1.0">\n  <script>\n      (function(){\n          setTimeout(function(){\n '
+    for c in wp.req("GET", "categories", params={"per_page": 100}):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/fernandomartinez-content/fernandomartinez-content/scripts/publish.py", line 88, in req
+    return r.json()
+           ^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/requests/models.py", line 978, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/requests/models.py", line 978, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
