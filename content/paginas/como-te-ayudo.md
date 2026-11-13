@@ -41,10 +41,6 @@ Limpieza mínima viable, reglas de asignación, seguimiento y un solo número qu
 ### IA aplicada y agentes
 Casos de uso con dueño, métrica y límites claros: calificación de leads, atención en WhatsApp, recordatorios de servicio, resúmenes para el asesor.
 </div>
-<div class="fm-card" markdown="1">
-### Automotriz, mi casa
-Fabricantes, distribuidores y aseguradoras: posventa, financiamiento en línea, retención y experiencia del cliente.
-</div>
 </div>
 
 ## Cómo trabajo
