@@ -16,7 +16,7 @@ featured_alt: "Portada: especialista en inbound marketing en México, cómo eleg
 
 Durante años, si buscabas "especialista en inbound marketing en México", una de las primeras páginas que aparecían era la mía. Fundé [Inbound México](https://www.inbound.com.mx/), escribí para el [blog en español de HubSpot](https://blog.hubspot.es/marketing/author/fernando-martinez) y vendí estrategias de atracción cuando todavía había que explicar por qué un blog servía para algo.
 
-Hoy dirijo tecnología en la industria automotriz, pero sigo recibiendo la misma pregunta: "¿a quién contrato para hacer inbound?". Esta es mi respuesta larga.
+Hoy dirijo tecnología en Grupo Gayosso, pero sigo recibiendo la misma pregunta: "¿a quién contrato para hacer inbound?". Esta es mi respuesta larga.
 
 <div class="fm-tldr" markdown="1">
 **La versión corta:** un buen especialista en inbound marketing en México no te vende contenido; te vende clientes y te enseña cómo se miden. Pídele casos con números, pregúntale cómo conecta el contenido con tu CRM y con WhatsApp, y desconfía de quien te prometa tráfico sin hablar de ventas.

@@ -4,9 +4,9 @@ slug: fernando-arturo-martinez-aguilar
 type: page
 status: publish
 menu_order: 1
-excerpt: "Fernando Arturo Martínez Aguilar: CTO en EngineCX, ingeniero en computación por la UNAM, programador open source desde 2008 y fundador de Inbound México y Publi2.0."
+excerpt: "Fernando Arturo Martínez Aguilar: CTO en Grupo Gayosso, ingeniero en computación por la UNAM, programador open source desde 2008 y fundador de Inbound México y Publi2.0."
 seo_title: "Quién es Fernando Arturo Martínez Aguilar"
-seo_description: "Fernando Arturo Martínez Aguilar: CTO en EngineCX, ingeniero en computación por la UNAM, programador desde 2008 y fundador de Inbound México y Publi2.0."
+seo_description: "Fernando Arturo Martínez Aguilar: CTO en Grupo Gayosso, ingeniero en computación por la UNAM, programador desde 2008 y fundador de Inbound México y Publi2.0."
 focus_keyword: "Fernando Arturo Martínez Aguilar"
 ---
 
@@ -19,16 +19,18 @@ La versión corta: soy el CTO que todavía abre el editor de código, el ingenie
 <div class="fm-tldr" markdown="1">
 **En 30 segundos:**
 
-- **Hoy:** Chief Technology Officer en **EngineCX**, armando un hub de tecnología y datos para la industria automotriz en varios países.
-- **Antes:** programador open source desde 2008, extensiones de Joomla con más de 100 mil usuarios, fundador de Inbound México y Publi2.0.
+- **Hoy:** Chief Technology Officer en **Grupo Gayosso**, empresa mexicana de servicios funerarios fundada en 1875.
+- **Antes:** CTO en EngineCX (industria automotriz), programador open source desde 2008, extensiones de Joomla con más de 100 mil usuarios, fundador de Inbound México y Publi2.0.
 - **Me obsesiona:** que la IA, el CRM y la automatización lleguen a la operación diaria y se noten en ventas, no solo en la presentación.
 </div>
 
 ## Lo que hago hoy
 
-Como CTO de EngineCX lidero la estrategia tecnológica de un grupo que trabaja para fabricantes de autos, distribuidores y aseguradoras. Estamos construyendo un hub de tecnología y datos multipaís que junta CRM, inteligencia artificial, Martech, herramientas low-code y no-code, y arquitecturas que aguanten crecer sin romperse.
+Soy CTO de Grupo Gayosso, donde lidero la estrategia tecnológica de una empresa mexicana de servicios funerarios fundada en 1875.
 
-En la práctica eso significa cosas muy concretas: orquestar WhatsApp, correo y CRM para que el cliente no tenga que repetir su historia; automatizar los procesos críticos de posventa y atención; y medir todo con analítica y experimentos, no con corazonadas.
+Llegué ahí después de ser CTO de EngineCX, un grupo que trabaja para fabricantes de autos, distribuidores y aseguradoras. Ahí armamos un hub de tecnología y datos multipaís que junta CRM, inteligencia artificial, Martech, herramientas low-code y no-code, y arquitecturas que aguanten crecer sin romperse.
+
+En la práctica eso significó cosas muy concretas: orquestar WhatsApp, correo y CRM para que el cliente no tenga que repetir su historia; automatizar los procesos críticos de posventa y atención; y medir todo con analítica y experimentos, no con corazonadas.
 
 ## Cómo pienso
 
@@ -42,7 +44,7 @@ Soy estratégico, pero *hands-on*. Me gusta pensar en el futuro y también escri
 
 **Después, el marketing.** Fundé [Inbound México](https://www.inbound.com.mx/), emkt.mx y [Publi2.0](https://www.publi20.com/). Escribí sobre ventas e inbound para el [blog en español de HubSpot](https://blog.hubspot.es/marketing/author/fernando-martinez) y columnas de negocios y talento para Publi2.0. Vendí estrategias de atracción cuando todavía había que explicar por qué un blog servía para algo. (Si buscas a alguien para eso hoy, escribí [cómo elegir a un especialista en inbound marketing en México](/blog/especialista-en-inbound-marketing-en-mexico/).)
 
-**Ahora, la operación.** Todo lo anterior desembocó en lo que hago hoy: arquitecturas operativas impulsadas por IA para la industria automotriz. En el camino colaboré con empresas como Pfizer, Bayer, Abbott y PwC en proyectos que conectan ventas, marketing, operaciones y tecnología en un mismo ecosistema.
+**Ahora, la operación.** Todo lo anterior desembocó en la dirección de tecnología: primero en EngineCX, con arquitecturas operativas impulsadas por IA para la industria automotriz, y hoy en Grupo Gayosso. En el camino colaboré con empresas como Pfizer, Bayer, Abbott y PwC en proyectos que conectan ventas, marketing, operaciones y tecnología en un mismo ecosistema.
 
 ## Formación y certificaciones
 

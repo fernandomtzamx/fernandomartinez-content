@@ -69,7 +69,7 @@ Cuando el CRM no es el centro, pasa lo que llamo el Frankenstein: cinco herramie
 
 ## Martech en la industria automotriz
 
-Es donde paso mis días. Un distribuidor de autos típico tiene sitio web, portal de la marca, anuncios, WhatsApp, CRM, sistema de taller y financieras. Cuando esas piezas se hablan, puedes avisarle a un cliente que le toca servicio, ofrecerle financiamiento antes de que lo busque en otro lado y saber qué campaña vendió el auto. Cuando no, cada área trabaja a ciegas. Lo cuento con datos en [el crédito automotriz en línea](/blog/credito-automotriz-en-linea-disrupcion-venta-de-autos/).
+Es la industria que mejor conozco por dentro. Un distribuidor de autos típico tiene sitio web, portal de la marca, anuncios, WhatsApp, CRM, sistema de taller y financieras. Cuando esas piezas se hablan, puedes avisarle a un cliente que le toca servicio, ofrecerle financiamiento antes de que lo busque en otro lado y saber qué campaña vendió el auto. Cuando no, cada área trabaja a ciegas. Lo cuento con datos en [el crédito automotriz en línea](/blog/credito-automotriz-en-linea-disrupcion-venta-de-autos/).
 
 <div class="fm-cta" markdown="1">
 Esta entrada es parte del [blog de un director de tecnología](/blog/) que viene del marketing. Si tu stack de Martech se parece más a un Frankenstein que a un sistema, eso es justo lo que me gusta ordenar. [Platiquemos](/contacto/).

@@ -56,5 +56,5 @@ Durante años, el IoT generó más datos de los que las empresas podían aprovec
 3. **Utilidad:** conectar algo solo porque se puede no es estrategia. Empieza por la decisión que quieres mejorar.
 
 <div class="fm-cta" markdown="1">
-Convertir datos de dispositivos en atención y ventas es parte de lo que hago en la industria automotriz. Si tienes datos que nadie está usando, [platiquemos](/contacto/).
+Convertir datos de dispositivos en atención y ventas fue parte de lo que hice en la industria automotriz. Si tienes datos que nadie está usando, [platiquemos](/contacto/).
 </div>

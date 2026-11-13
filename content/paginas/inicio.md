@@ -18,9 +18,9 @@ focus_keyword: "Fernando Martínez"
 
 # Director de tecnología que todavía programa (y que vino del marketing)
 
-Dirijo la tecnología de EngineCX, donde juntamos CRM, inteligencia artificial y automatización para marcas automotrices, distribuidores y aseguradoras en varios países.
+Dirijo la tecnología de Grupo Gayosso, empresa mexicana de servicios funerarios fundada en 1875. Vengo de hacer lo mismo en EngineCX, donde juntamos CRM, inteligencia artificial y automatización para marcas automotrices, distribuidores y aseguradoras en varios países.
 
-Antes de eso pasé años del otro lado de la mesa: haciendo inbound marketing, posicionando sitios en Google y programando extensiones de Joomla que hoy usan más de 100 mil personas. Esa mezcla rara es justo la que más uso.
+Antes de todo eso pasé años del otro lado de la mesa: haciendo inbound marketing, posicionando sitios en Google y programando extensiones de Joomla que hoy usan más de 100 mil personas. Esa mezcla rara es justo la que más uso.
 
 [Platiquemos](/contacto/){: .fm-btn } [Conoce mi historia](/fernando-arturo-martinez-aguilar/){: .fm-btn .alt }
 </div>
@@ -34,7 +34,7 @@ Llegué a ese puesto por un camino poco ordenado, y de cada tramo me traje algo:
 <div class="fm-grid" markdown="1">
 <div class="fm-card" markdown="1">
 ### Dirección de tecnología
-Estrategia, arquitectura y equipo. Decido qué se construye, qué se compra y qué, con todo cariño, se apaga. Hoy lo hago para la industria automotriz, con CRM, IA y datos en varios países.
+Estrategia, arquitectura y equipo. Decido qué se construye, qué se compra y qué, con todo cariño, se apaga. Hoy lo hago en Grupo Gayosso; antes, en la industria automotriz, con CRM, IA y datos en varios países.
 </div>
 <div class="fm-card" markdown="1">
 ### Inbound marketing
@@ -56,7 +56,7 @@ Programo desde 2008: más de 200 sitios, extensiones open source y hoy integraci
 1. **2008, el código.** Empecé como programador open source. Escribí extensiones de Joomla que hoy usan más de 100 mil personas y programé más de 200 sitios para empresas mexicanas.
 2. **Después, el marketing.** Fundé Inbound México y Publi2.0, y expliqué inbound marketing cuando todavía había que justificar por qué un blog servía para algo.
 3. **En medio, el posicionamiento.** SEO para más de 400 clientes en Latinoamérica. Ahí aprendí que Google premia la paciencia más que los trucos.
-4. **Hoy, la dirección de tecnología.** CTO en EngineCX, con CRM, IA y datos para la industria automotriz en varios países.
+4. **Hoy, la dirección de tecnología.** CTO en Grupo Gayosso. Antes, CTO en EngineCX, con CRM, IA y datos para la industria automotriz en varios países.
 </div>
 
 La versión larga (con certificaciones y todo) está en [quién soy](/fernando-arturo-martinez-aguilar/).
@@ -109,7 +109,7 @@ Decide qué tecnología usa la empresa, cómo se conecta y quién la construye, 
 <details markdown="1">
 <summary>¿Solo trabajas en la industria automotriz?</summary>
 
-Hoy, como CTO, sí. Pero antes trabajé con empresas de muchas industrias (Pfizer, Bayer, Abbott y PwC entre ellas). Los problemas se parecen más de lo que uno creería.
+No. Fui CTO en la industria automotriz y hoy lo soy en Grupo Gayosso, en servicios funerarios. Antes trabajé con empresas de muchas industrias (Pfizer, Bayer, Abbott y PwC entre ellas). Los problemas se parecen más de lo que uno creería.
 </details>
 
 <details markdown="1">

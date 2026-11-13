@@ -16,7 +16,7 @@ featured_alt: "Portada: experto en Joomla en México, cuándo necesitas uno y c�
 
 Si escribes "experto en Joomla en México" en Google, es probable que llegues aquí. Tiene sentido: desde 2008 programé más de 200 sitios en Joomla para empresas mexicanas, fui de los pocos mexicanos en el directorio de proveedores de Joomla y publiqué extensiones que hoy usan más de 100 mil personas. Mi [perfil de desarrollador](https://extensions.joomla.org/profile/profile/details/213613) sigue en el Directorio de Extensiones de Joomla.
 
-Hoy dirijo tecnología en la industria automotriz y ya no tomo proyectos de sitios Joomla. Pero sé exactamente qué separa a un buen experto en Joomla de alguien que solo instala plantillas, y eso es lo que te cuento aquí.
+Hoy dirijo tecnología en Grupo Gayosso y ya no tomo proyectos de sitios Joomla. Pero sé exactamente qué separa a un buen experto en Joomla de alguien que solo instala plantillas, y eso es lo que te cuento aquí.
 
 <div class="fm-tldr" markdown="1">
 **La versión corta:** necesitas un experto en Joomla si tu sitio sigue en Joomla 3, si tiene extensiones a la medida, si es lento o si ya te hackearon una vez. Pídele que te explique el plan de actualización, el respaldo y la seguridad antes que el diseño. Y si tu sitio es sencillo, pregúntale con honestidad si Joomla sigue siendo la mejor opción para ti.

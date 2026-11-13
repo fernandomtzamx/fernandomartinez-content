@@ -11,7 +11,7 @@ focus_keyword: "programador joomla"
 
 Durante años esta página decía que yo era tu programador de Joomla en México. Era cierto: programé más de 200 sitios en Joomla para empresas mexicanas, fui de los pocos mexicanos en el directorio oficial de proveedores de Joomla y publiqué extensiones gratuitas que hoy usan más de 100 mil personas.
 
-Hoy dirijo tecnología en la industria automotriz y ya no tomo proyectos de desarrollo de sitios Joomla. Pero si llegaste aquí con un sitio Joomla y un problema, no te voy a dejar con las manos vacías.
+Hoy dirijo tecnología en Grupo Gayosso y ya no tomo proyectos de desarrollo de sitios Joomla. Pero si llegaste aquí con un sitio Joomla y un problema, no te voy a dejar con las manos vacías.
 
 <div class="fm-tldr" markdown="1">
 **Si tienes un sitio Joomla hoy:**
