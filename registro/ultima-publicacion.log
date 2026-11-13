@@ -1,13 +1,13 @@
-fecha: 2026-10-31T14:34:50Z
-commit: 2680976f9ea75af1f9ab19fbc067b4fa16fd389d
+fecha: 2026-11-13T15:16:17Z
+commit: ab38c28ab07c05e5fe140df6afc1c328bdd53208
 evento: push
-publicar: success | setup: skipped | verificar: failure
-run: https://github.com/fernandomtzamx/fernandomartinez-content/actions/runs/41210672096
+publicar: success | setup: success | verificar: failure
+run: https://github.com/fernandomtzamx/fernandomartinez-content/actions/runs/43450493386
 ---
 WP_URL: presente
 WP_USER: presente
 WP_APP_PASSWORD: presente
-Plan: publicar='content/blog/52-podcasts-para-cto.md ' setup='' verificar='1' info=''
+Plan: publicar='content/blog/26-iot.md content/blog/42-especialista-inbound-mexico.md content/blog/43-experto-joomla-mexico.md content/blog/45-martech.md content/paginas/como-te-ayudo.md content/paginas/inicio.md content/paginas/programador-joomla.md content/paginas/sobre-mi.md ' setup='1' verificar='1' info=''
 ok    content/blog/12-teleton.md: 499 palabras, 1 fuentes
 ok    content/blog/13-5-pilares.md: 563 palabras, 0 fuentes
 ok    content/blog/14-que-es-inbound.md: 471 palabras, 0 fuentes
@@ -37,10 +37,10 @@ ok    content/blog/38-instagram-stories.md: 453 palabras, 1 fuentes
 ok    content/blog/39-shopify.md: 772 palabras, 3 fuentes
 ok    content/blog/40-chat.md: 614 palabras, 1 fuentes
 ok    content/blog/41-credito-automotriz.md: 661 palabras, 2 fuentes
-ok    content/blog/42-especialista-inbound-mexico.md: 898 palabras, 2 fuentes
-ok    content/blog/43-experto-joomla-mexico.md: 792 palabras, 4 fuentes
+ok    content/blog/42-especialista-inbound-mexico.md: 897 palabras, 2 fuentes
+ok    content/blog/43-experto-joomla-mexico.md: 791 palabras, 4 fuentes
 ok    content/blog/44-seo-geo.md: 781 palabras, 4 fuentes
-ok    content/blog/45-martech.md: 709 palabras, 1 fuentes
+ok    content/blog/45-martech.md: 712 palabras, 1 fuentes
 ok    content/blog/46-guia-shopify.md: 20302 palabras, 67 fuentes
 ok    content/blog/47-sopa-de-letras-seo.md: 2437 palabras, 9 fuentes
 ok    content/blog/48-pilotos-de-ia.md: 1193 palabras, 3 fuentes
@@ -55,13 +55,13 @@ ok    content/blog/7-manifiesto.md: 892 palabras, 0 fuentes
 ok    content/blog/9-tolerancia.md: 433 palabras, 0 fuentes
       ! corta (433 palabras)
 ok    content/paginas/blog.md: 0 palabras, 0 fuentes
-ok    content/paginas/como-te-ayudo.md: 453 palabras, 0 fuentes
+ok    content/paginas/como-te-ayudo.md: 437 palabras, 0 fuentes
 ok    content/paginas/contacto.md: 147 palabras, 1 fuentes
 ok    content/paginas/gnu.md: 147 palabras, 2 fuentes
-ok    content/paginas/inicio.md: 959 palabras, 0 fuentes
+ok    content/paginas/inicio.md: 997 palabras, 0 fuentes
       ! extracto de 176 caracteres (ideal 140 a 160)
-ok    content/paginas/programador-joomla.md: 400 palabras, 1 fuentes
-ok    content/paginas/sobre-mi.md: 695 palabras, 12 fuentes
+ok    content/paginas/programador-joomla.md: 399 palabras, 1 fuentes
+ok    content/paginas/sobre-mi.md: 722 palabras, 12 fuentes
 ok    content/recursos/25-cosas.md: 966 palabras, 2 fuentes
 ok    content/recursos/brand-remover.md: 181 palabras, 2 fuentes
 ok    content/recursos/herramientas.md: 883 palabras, 62 fuentes
@@ -75,9 +75,57 @@ ok    content/recursos/website-preloader.md: 222 palabras, 1 fuentes
 Endpoint: https://fernandomartinez.mx/wp-json/ (HTTP 200)
 Métodos de autenticación anunciados: application-passwords
 Conectado como soporte (roles: administrator)
-  = imagen reutilizada: podcasts-para-directores-de-tecnologia (id 761)
-content/blog/52-podcasts-para-cto.md: post actualizada (publish) id=762 https://www.fernandomartinez.mx/blog/podcasts-para-directores-de-tecnologia/
-  seo: Podcasts para directores de tecnología | Fernando Martínez
+content/paginas/como-te-ayudo.md: page actualizada (publish) id=9 https://www.fernandomartinez.mx/como-te-ayudo/
+  seo: Cómo te ayudo: IA, CRM y Martech | Fernando Martínez
+content/paginas/inicio.md: page actualizada (publish) id=12 https://www.fernandomartinez.mx/
+  seo: Fernando Martínez, director de tecnología (CTO)
+content/paginas/programador-joomla.md: page actualizada (publish) id=13 https://www.fernandomartinez.mx/programador-web-especialista-en-joomla-en-mexico/
+  seo: Programador web especialista en Joomla | Fernando Martínez
+content/paginas/sobre-mi.md: page actualizada (publish) id=15 https://www.fernandomartinez.mx/fernando-arturo-martinez-aguilar/
+  seo: Quién es Fernando Arturo Martínez Aguilar
+  = imagen reutilizada: que-es-el-internet-de-las-cosas-iot-internet-of-things (id 63)
+content/blog/26-iot.md: post actualizada (publish) id=64 https://www.fernandomartinez.mx/blog/que-es-el-internet-de-las-cosas-iot-internet-of-things/
+  seo: Qué es el internet de las cosas (IoT) | Fernando Martínez
+  = imagen reutilizada: especialista-en-inbound-marketing-en-mexico (id 163)
+content/blog/42-especialista-inbound-mexico.md: post actualizada (publish) id=164 https://www.fernandomartinez.mx/blog/especialista-en-inbound-marketing-en-mexico/
+  seo: Especialista en inbound marketing México | Fernando Martínez
+  = imagen reutilizada: experto-en-joomla-en-mexico (id 165)
+content/blog/43-experto-joomla-mexico.md: post actualizada (publish) id=166 https://www.fernandomartinez.mx/blog/experto-en-joomla-en-mexico/
+  seo: Experto en Joomla en México | Fernando Martínez
+  = imagen reutilizada: que-es-martech (id 403)
+content/blog/45-martech.md: post actualizada (publish) id=404 https://www.fernandomartinez.mx/blog/que-es-martech/
+  seo: Qué es Martech y cómo armar tu stack | Fernando Martínez
+Endpoint: https://fernandomartinez.mx/wp-json/ (HTTP 200)
+Métodos de autenticación anunciados: application-passwords
+Ajustes: Fernando Martínez | portada=12 blog=8 | zona=America/Mexico_City
+Autor: Fernando Martínez
+Categoría: ia-y-tecnologia -> IA y tecnología
+Categoría: marketing -> Marketing
+Categoría: seo-y-geo -> SEO y GEO
+Categoría: martech -> Martech
+Categoría: crm-y-datos -> CRM y datos
+Categoría: automotriz -> Automotriz
+Categoría: desarrollo-web -> Desarrollo web
+Categoría: ventas-y-liderazgo -> Ventas y liderazgo
+Categoría: opinion -> Opinión
+  = imagen reutilizada: fernando-martinez-logo (id 213)
+  = imagen reutilizada: fernando-martinez-icono (id 214)
+  = imagen reutilizada: fernando-martinez-logo-blanco (id 215)
+Marca: logo=213 ícono=214
+Menú actualizado (id 93)
+Aviso: no encontré el bloque de navegación en el encabezado
+Encabezado con logo, menú 93 y botón 'Platiquemos'
+Estilos globales aplicados (id 7)
+Plantilla home actualizada
+Plantilla archive actualizada
+Plantilla single actualizada
+Pie de página actualizado
+Analítica: GTM-5PTRT2J activo en el sitio
+Analítica: verificación portada -> script en head: sí | noscript en body: sí
+SEO: campos de Rank Math en la API -> rank_math_description, rank_math_focus_keyword, rank_math_robots, rank_math_title
+Ya en papelera: posts/1
+Ya en papelera: posts/6
+Ya en papelera: pages/2
 
 - Imágenes que no tenían alt y se corrigieron: **0**
 
@@ -88,4 +136,4 @@ content/blog/52-podcasts-para-cto.md: post actualizada (publish) id=762 https://
 - Sin alt: **0**
 ## Páginas publicadas
 
-Problemas en páginas o referidos: 4. Externos con error: 25
+Problemas en páginas o referidos: 4. Externos con error: 15
