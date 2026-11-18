@@ -1,17 +1,18 @@
 ---
-title: "De SEO a GEO, AEO, LLMO y otras doce siglas: la sopa de letras que no cambia el trabajo"
-slug: seo-geo-aeo-llmo-sopa-de-letras
+title: "SEO, GEO y AEO: qué son, diferencias y cuál necesita tu empresa"
+id: 746
+slug: seo-geo-aeo-diferencias
 type: post
-status: draft
-date: 2026-10-21 11:00
-excerpt: "GEO, AEO, LLMO, AIO, SXO, VSO, KGO. Quince siglas para optimizar para la IA, un solo trabajo de fondo y una decisión: quién lo dirige en tu empresa (spoiler: tecnología)."
-seo_title: "SEO, GEO, AEO y LLMO: la sopa de letras"
-seo_description: "Quince siglas para optimizar para la IA y un solo trabajo de fondo: buen SEO con criterio humano. Qué significa cada una y por qué tecnología debe dirigirlo."
-focus_keyword: "seo geo aeo llmo"
+status: publish
+date: 2026-11-18 11:00
+excerpt: "Qué es SEO, GEO, AEO y LLMO, en qué se diferencian y cuál necesita tu empresa. Lo que dice Google, lo que sí cambió con la IA y quién debe dirigirlo."
+seo_title: "SEO, GEO y AEO: qué son y sus diferencias"
+seo_description: "Qué es SEO, GEO, AEO y LLMO, en qué se diferencian y cuál necesita tu empresa. Lo que dice Google sobre la IA y lo que sí cambió en el trabajo de fondo."
+focus_keyword: "seo geo aeo diferencias"
 categories: [seo-y-geo]
 tags: [SEO, GEO, AEO, LLMO, IA, buscadores, arquitectura de soluciones, dirección de tecnología]
-featured_image: images/seo-geo-aeo-llmo-sopa-de-letras.png
-featured_alt: "Portada: de SEO a GEO, AEO, LLMO y otras siglas"
+featured_image: images/seo-geo-aeo-diferencias.png
+featured_alt: "Portada: SEO, GEO y AEO, qué son y sus diferencias"
 ---
 
 Esta semana me llegaron tres propuestas de agencias. Una vendía GEO, otra AEO y la tercera "AI SEO + LLMO". Las tres cobraban distinto. Las tres proponían exactamente lo mismo que un buen SEO de 2019 con dos párrafos nuevos sobre ChatGPT.
@@ -29,7 +30,7 @@ No es que mientan. Es que la industria descubrió que cambiar la sigla es más b
 
 [TOC]
 
-## De dónde salieron tantas siglas
+## Por qué hay tantas siglas para el SEO con IA
 
 El SEO tardó veinte años en tener un nombre. La optimización para IA lleva tres y ya tiene quince. Esto fue lo que pasó, en orden:
 
@@ -39,7 +40,7 @@ El SEO tardó veinte años en tener un nombre. La optimización para IA lleva tr
 
 Spoiler: ninguna sigla describe una disciplina distinta. Describen el ángulo desde el que te la quieren vender.
 
-## La sopa de letras, traducida
+## Qué significa cada sigla: SEO, GEO, AEO, LLMO y las demás
 
 Esta tabla es lo que le mando a quien me pide que le explique "la diferencia". La columna que importa es la última.
 

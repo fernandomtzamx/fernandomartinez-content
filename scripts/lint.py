@@ -120,7 +120,7 @@ def check(p, urls):
 
 
 def main():
-    files = [pathlib.Path(f) for f in sys.argv[1:]] or sorted(CONTENT.rglob("*.md"))
+    files = [pathlib.Path(f).resolve() for f in sys.argv[1:]] or sorted(CONTENT.rglob("*.md"))
     urls = url_index()
     slugs = {}
     seo_titles = {}

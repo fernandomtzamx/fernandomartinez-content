@@ -1,173 +1,115 @@
-# Calendario editorial: octubre 2026 a junio 2027
+# Calendario editorial: noviembre 2026 a junio 2027
 
-Tres entradas por semana con enfoque en visión de tecnología e IA, desde la perspectiva de un CTO práctico y pragmático. Ritmo fijo:
+Tres entradas por semana (lunes, miércoles y viernes a las 11:00) sobre tecnología e inteligencia artificial, desde la perspectiva de un CTO práctico y pragmático.
 
-- **Lunes, visión:** opinión, tendencia, lo que viene. Firmado, discutible.
-- **Miércoles, práctica:** cómo lo haría yo, checklist, guía con pasos o código.
-- **Viernes, contrapeso:** un mito desmontado, una crítica a un hype o la lista "lo que sí funciona".
+Reglas de títulos (desde el 18 nov 2026): el título usa la forma en que la gente busca el tema, con la palabra clave al inicio. Nada de juegos de palabras ni metáforas en el título; la opinión y el tono van en el texto. El slug de la tabla es fijo.
 
-Reglas de producción: cada entrada sigue docs/guia-de-voz.md, pasa scripts/lint.py (sin guiones largos, cifras con fuente y año, SEO completo) y lleva portada hecha con scripts/cover.py. Las fechas son de publicación; el borrador se escribe la semana anterior. Los títulos son de trabajo y se afinan al redactar. Hora de publicación sugerida: 11:00.
+Este archivo se genera con `python3 scripts/calendario.py`: para cambiar títulos, fechas u orden se edita la lista del script y se vuelve a correr. El estado sale solo de content/blog: publicado, borrador o por-escribir. No hay publicación el 25 de diciembre ni el 1 de enero.
 
-Nota: la entrada 47 (sopa de letras SEO, GEO, AEO) sigue en borrador y puede entrar en cualquier viernes como contrapeso.
+Publicadas antes de este calendario (21 oct a 18 nov 2026): entradas 47 a 52 de content/blog.
 
-## Semana 0: esta semana (21 a 23 oct 2026)
+| Fecha | Día | Título | Slug | Palabra clave | Categoría | Estado |
+|---|---|---|---|---|---|---|
+| 2026-11-20 | viernes | Estrategia de inteligencia artificial para empresas: cómo empezar | estrategia-de-inteligencia-artificial-para-empresas | estrategia de inteligencia artificial | ia-y-tecnologia | por-escribir |
+| 2026-11-23 | lunes | Casos de uso de inteligencia artificial en empresas: cómo elegir el primero | casos-de-uso-de-inteligencia-artificial-en-empresas | casos de uso de inteligencia artificial | ia-y-tecnologia | por-escribir |
+| 2026-11-25 | miércoles | Calidad de datos para inteligencia artificial: qué necesitas antes de empezar | calidad-de-datos-para-inteligencia-artificial | calidad de datos para ia | crm-y-datos | por-escribir |
+| 2026-11-27 | viernes | Comprar o desarrollar inteligencia artificial: cómo decidir | comprar-o-desarrollar-inteligencia-artificial | comprar o desarrollar ia | ia-y-tecnologia | por-escribir |
+| 2026-11-30 | lunes | Cuánto cuesta implementar inteligencia artificial en una empresa | cuanto-cuesta-implementar-inteligencia-artificial | cuánto cuesta implementar inteligencia artificial | ia-y-tecnologia | por-escribir |
+| 2026-12-02 | miércoles | Ejemplos de inteligencia artificial en empresas mexicanas | ejemplos-de-inteligencia-artificial-en-empresas | ejemplos de inteligencia artificial en empresas | ia-y-tecnologia | por-escribir |
+| 2026-12-04 | viernes | Automatización de procesos con inteligencia artificial: guía para empresas | automatizacion-de-procesos-con-inteligencia-artificial | automatización de procesos con ia | ia-y-tecnologia | por-escribir |
+| 2026-12-07 | lunes | Qué es RAG en inteligencia artificial y para qué sirve | que-es-rag-inteligencia-artificial | qué es rag | ia-y-tecnologia | por-escribir |
+| 2026-12-09 | miércoles | Cómo evaluar un agente de IA antes de comprarlo | como-evaluar-un-agente-de-ia | evaluar agente de ia | ia-y-tecnologia | por-escribir |
+| 2026-12-11 | viernes | Modelos de IA de código abierto vs. cerrados: diferencias para empresas | modelos-de-ia-codigo-abierto-vs-cerrados | modelos de ia de código abierto | ia-y-tecnologia | por-escribir |
+| 2026-12-14 | lunes | Cómo medir el ROI de un proyecto de inteligencia artificial | como-medir-el-roi-de-la-inteligencia-artificial | roi de la inteligencia artificial | ia-y-tecnologia | por-escribir |
+| 2026-12-16 | miércoles | Chatbot con inteligencia artificial para atención al cliente: cuándo sí conviene | chatbot-con-ia-para-atencion-al-cliente | chatbot con ia para atención al cliente | ia-y-tecnologia | por-escribir |
+| 2026-12-18 | viernes | Shadow AI: qué es y cómo controlarlo en tu empresa | shadow-ai-que-es | shadow ai | ia-y-tecnologia | por-escribir |
+| 2026-12-21 | lunes | Política de uso de inteligencia artificial para empresas (plantilla) | politica-de-uso-de-inteligencia-artificial-plantilla | política de uso de inteligencia artificial | ia-y-tecnologia | por-escribir |
+| 2026-12-23 | miércoles | Cómo preparar tu sitio web para el Buen Fin y picos de tráfico | preparar-sitio-web-para-picos-de-trafico | preparar sitio web para picos de tráfico | desarrollo-web | por-escribir |
+| 2026-12-28 | lunes | Presupuesto de TI 2027: cómo armarlo y en qué invertir | presupuesto-de-ti-2027 | presupuesto de ti | ventas-y-liderazgo | por-escribir |
+| 2026-12-30 | miércoles | Cómo elegir un proveedor de inteligencia artificial: preguntas clave | como-elegir-proveedor-de-inteligencia-artificial | proveedor de inteligencia artificial | ia-y-tecnologia | por-escribir |
+| 2027-01-04 | lunes | Deuda técnica: qué es, cómo medirla y cómo reducirla | deuda-tecnica-que-es | deuda técnica | desarrollo-web | por-escribir |
+| 2027-01-06 | miércoles | Auditoría de herramientas de software: cómo reducir licencias que no usas | auditoria-de-herramientas-de-software | auditoría de software | martech | por-escribir |
+| 2027-01-08 | viernes | Herramientas de automatización para empresas: cuáles valen la pena | herramientas-de-automatizacion-para-empresas | herramientas de automatización | ia-y-tecnologia | por-escribir |
+| 2027-01-11 | lunes | Cómo explicar un proyecto de IA a la dirección general | como-presentar-un-proyecto-de-ia-a-direccion | presentar proyecto de ia | ventas-y-liderazgo | por-escribir |
+| 2027-01-13 | miércoles | Inteligencia artificial para pymes: plan de 90 días | inteligencia-artificial-para-pymes | inteligencia artificial para pymes | ia-y-tecnologia | por-escribir |
+| 2027-01-15 | viernes | Herramientas para un CTO: software que uso todos los días | herramientas-para-un-cto | herramientas para cto | ia-y-tecnologia | por-escribir |
+| 2027-01-18 | lunes | Tendencias de inteligencia artificial 2027 para empresas | tendencias-de-inteligencia-artificial-2027 | tendencias inteligencia artificial 2027 | ia-y-tecnologia | por-escribir |
+| 2027-01-20 | miércoles | Libros de tecnología y liderazgo recomendados para 2027 | libros-de-tecnologia-y-liderazgo-2027 | libros de tecnología | ventas-y-liderazgo | por-escribir |
+| 2027-01-22 | viernes | Roadmap tecnológico: qué es y cómo hacerlo (con plantilla) | roadmap-tecnologico-como-hacerlo | roadmap tecnológico | ventas-y-liderazgo | por-escribir |
+| 2027-01-25 | lunes | Empleos que cambiará la inteligencia artificial en México | empleos-que-cambiara-la-inteligencia-artificial | empleos inteligencia artificial | ia-y-tecnologia | por-escribir |
+| 2027-01-27 | miércoles | Arquitectura de datos para inteligencia artificial: guía práctica | arquitectura-de-datos-para-inteligencia-artificial | arquitectura de datos | desarrollo-web | por-escribir |
+| 2027-01-29 | viernes | Cómo armar un equipo de tecnología en una empresa mediana | como-armar-un-equipo-de-tecnologia | equipo de tecnología | ventas-y-liderazgo | por-escribir |
+| 2027-02-01 | lunes | Chief AI Officer: qué hace y cuándo lo necesita tu empresa | chief-ai-officer-que-hace | chief ai officer | ventas-y-liderazgo | por-escribir |
+| 2027-02-03 | miércoles | Agentes de IA para automatizar tareas: ejemplos reales | agentes-de-ia-para-automatizar-tareas | agentes de ia ejemplos | ia-y-tecnologia | por-escribir |
+| 2027-02-05 | viernes | Qué es MCP (Model Context Protocol) y para qué sirve | que-es-mcp-model-context-protocol | qué es mcp | ia-y-tecnologia | por-escribir |
+| 2027-02-08 | lunes | Pruebas automatizadas con inteligencia artificial: cómo empezar | pruebas-automatizadas-con-inteligencia-artificial | pruebas automatizadas con ia | desarrollo-web | por-escribir |
+| 2027-02-10 | miércoles | Inyección de prompts: qué es y cómo proteger tu aplicación | inyeccion-de-prompts-que-es | inyección de prompts | ia-y-tecnologia | por-escribir |
+| 2027-02-12 | viernes | Seguridad en aplicaciones con LLM: checklist para empresas | seguridad-en-aplicaciones-con-llm | seguridad llm | ia-y-tecnologia | por-escribir |
+| 2027-02-15 | lunes | Cómo evaluar una demo de inteligencia artificial | como-evaluar-una-demo-de-inteligencia-artificial | demo de inteligencia artificial | ia-y-tecnologia | por-escribir |
+| 2027-02-17 | miércoles | Datos propios como ventaja competitiva: cómo aprovecharlos con IA | datos-propios-ventaja-competitiva | datos propios ventaja competitiva | crm-y-datos | por-escribir |
+| 2027-02-19 | viernes | Base de conocimiento para IA: cómo crearla paso a paso | base-de-conocimiento-para-ia | base de conocimiento para ia | ia-y-tecnologia | por-escribir |
+| 2027-02-22 | lunes | Cómo escribir prompts para ChatGPT y Claude en el trabajo | como-escribir-prompts-en-el-trabajo | cómo escribir prompts | ia-y-tecnologia | por-escribir |
+| 2027-02-24 | miércoles | CRM con inteligencia artificial: qué es y cómo usarlo | crm-con-inteligencia-artificial | crm con inteligencia artificial | crm-y-datos | por-escribir |
+| 2027-02-26 | viernes | Automatización de ventas en el CRM: ejemplos que funcionan | automatizacion-de-ventas-en-el-crm | automatización de ventas crm | crm-y-datos | por-escribir |
+| 2027-03-01 | lunes | Enriquecimiento de leads con inteligencia artificial: cómo hacerlo bien | enriquecimiento-de-leads-con-ia | enriquecimiento de leads | crm-y-datos | por-escribir |
+| 2027-03-03 | miércoles | Personalización con inteligencia artificial en marketing: límites y ejemplos | personalizacion-con-inteligencia-artificial | personalización con ia | martech | por-escribir |
+| 2027-03-05 | viernes | Pipeline de datos: qué es y cómo armar uno sencillo | pipeline-de-datos-que-es | pipeline de datos | crm-y-datos | por-escribir |
+| 2027-03-08 | lunes | Dashboard de indicadores para dirección: qué métricas incluir | dashboard-de-indicadores-para-direccion | dashboard de indicadores | crm-y-datos | por-escribir |
+| 2027-03-10 | miércoles | Atención al cliente con inteligencia artificial: casos y errores comunes | atencion-al-cliente-con-inteligencia-artificial | atención al cliente con ia | ia-y-tecnologia | por-escribir |
+| 2027-03-12 | viernes | Cómo transferir de un chatbot a un agente humano | transferir-de-chatbot-a-agente-humano | chatbot a agente humano | ia-y-tecnologia | por-escribir |
+| 2027-03-15 | lunes | Métricas de un chatbot: cuáles medir y cuáles no | metricas-de-un-chatbot | métricas chatbot | ia-y-tecnologia | por-escribir |
+| 2027-03-17 | miércoles | Inteligencia artificial y protección de datos personales en México | inteligencia-artificial-y-proteccion-de-datos-personales | ia y protección de datos personales | crm-y-datos | por-escribir |
+| 2027-03-19 | viernes | Cómo anonimizar datos personales antes de usar IA | como-anonimizar-datos-personales | anonimizar datos | crm-y-datos | por-escribir |
+| 2027-03-22 | lunes | Dónde se guardan tus datos en la nube: residencia de datos en México | residencia-de-datos-en-la-nube-mexico | residencia de datos | ia-y-tecnologia | por-escribir |
+| 2027-03-24 | miércoles | Vibe coding: qué es y cuándo usarlo en producción | vibe-coding-que-es | vibe coding | desarrollo-web | por-escribir |
+| 2027-03-26 | viernes | Cómo revisar código generado por IA: checklist | como-revisar-codigo-generado-por-ia | revisar código generado por ia | desarrollo-web | por-escribir |
+| 2027-03-29 | lunes | Refactorizar código con inteligencia artificial: guía práctica | refactorizar-codigo-con-inteligencia-artificial | refactorizar código con ia | desarrollo-web | por-escribir |
+| 2027-03-31 | miércoles | Desarrolladores junior e inteligencia artificial: cómo cambia el trabajo | desarrolladores-junior-e-inteligencia-artificial | desarrolladores junior ia | ventas-y-liderazgo | por-escribir |
+| 2027-04-02 | viernes | Cómo capacitar a un equipo de desarrollo en inteligencia artificial | capacitar-equipo-de-desarrollo-en-ia | capacitación en ia para desarrolladores | ventas-y-liderazgo | por-escribir |
+| 2027-04-05 | lunes | ¿Hay que aprender a programar con la inteligencia artificial? | aprender-a-programar-con-inteligencia-artificial | aprender a programar con ia | desarrollo-web | por-escribir |
+| 2027-04-07 | miércoles | Inteligencia artificial en WordPress y Shopify: qué cambia para tu sitio | inteligencia-artificial-en-wordpress-y-shopify | inteligencia artificial wordpress | desarrollo-web | por-escribir |
+| 2027-04-09 | viernes | Cómo publicar en WordPress desde Git con la API REST | publicar-en-wordpress-desde-git-api-rest | wordpress api rest | desarrollo-web | por-escribir |
+| 2027-04-12 | lunes | Mejores plugins de inteligencia artificial para WordPress | mejores-plugins-de-inteligencia-artificial-para-wordpress | plugins de ia para wordpress | desarrollo-web | por-escribir |
+| 2027-04-14 | miércoles | Velocidad de carga de un sitio web: por qué sigue importando | velocidad-de-carga-de-un-sitio-web | velocidad de carga sitio web | seo-y-geo | por-escribir |
+| 2027-04-16 | viernes | Core Web Vitals: cómo medirlos y mejorarlos | core-web-vitals-como-mejorarlos | core web vitals | desarrollo-web | por-escribir |
+| 2027-04-19 | lunes | Pruebas de carga para sitios web: herramientas y cómo hacerlas | pruebas-de-carga-para-sitios-web | pruebas de carga | desarrollo-web | por-escribir |
+| 2027-04-21 | miércoles | Nube o servidor propio: cómo elegir para tu empresa | nube-o-servidor-propio | nube o servidor propio | desarrollo-web | por-escribir |
+| 2027-04-23 | viernes | Cómo reducir costos de nube al usar inteligencia artificial | reducir-costos-de-nube-con-ia | reducir costos de nube | desarrollo-web | por-escribir |
+| 2027-04-26 | lunes | Serverless: qué es, ventajas y costos reales | serverless-que-es-costos | serverless costos | desarrollo-web | por-escribir |
+| 2027-04-28 | miércoles | Marketing con inteligencia artificial: guía para empresas | marketing-con-inteligencia-artificial | marketing con inteligencia artificial | martech | por-escribir |
+| 2027-04-30 | viernes | Cómo crear contenido con inteligencia artificial sin perder calidad | crear-contenido-con-inteligencia-artificial | crear contenido con ia | martech | por-escribir |
+| 2027-05-03 | lunes | Investigación de mercado con inteligencia artificial: cómo hacerla | investigacion-de-mercado-con-inteligencia-artificial | investigación de mercado con ia | martech | por-escribir |
+| 2027-05-05 | miércoles | Qué es GEO (Generative Engine Optimization) y cómo aplicarlo | que-es-geo-generative-engine-optimization | qué es geo | seo-y-geo | por-escribir |
+| 2027-05-07 | viernes | Cómo aparecer en ChatGPT, Perplexity y AI Overviews | como-aparecer-en-chatgpt-y-ai-overviews | cómo aparecer en chatgpt | seo-y-geo | por-escribir |
+| 2027-05-10 | lunes | Qué es llms.txt y si tu sitio lo necesita | que-es-llms-txt | llms.txt | seo-y-geo | por-escribir |
+| 2027-05-12 | miércoles | Performance Max: qué es y cómo auditar tus campañas | performance-max-como-auditar | performance max | martech | por-escribir |
+| 2027-05-14 | viernes | Meta Advantage+: cómo funciona y cuándo usarlo | meta-advantage-plus-como-funciona | advantage+ | martech | por-escribir |
+| 2027-05-17 | lunes | Anuncios creados con inteligencia artificial: herramientas y resultados | anuncios-con-inteligencia-artificial | anuncios con ia | martech | por-escribir |
+| 2027-05-19 | miércoles | Stack de martech: cómo elegir herramientas en 2027 | stack-de-martech-como-elegir | stack de martech | martech | por-escribir |
+| 2027-05-21 | viernes | Cómo consolidar herramientas de marketing sin perder datos | consolidar-herramientas-de-marketing | consolidar herramientas de marketing | martech | por-escribir |
+| 2027-05-24 | lunes | Qué es un CDP (Customer Data Platform) y si lo necesitas | que-es-un-cdp-customer-data-platform | qué es un cdp | martech | por-escribir |
+| 2027-05-26 | miércoles | Qué hace un CTO: funciones y responsabilidades | que-hace-un-cto-funciones | qué hace un cto | ventas-y-liderazgo | por-escribir |
+| 2027-05-28 | viernes | Entrevista técnica para desarrolladores en la era de la IA | entrevista-tecnica-para-desarrolladores | entrevista técnica desarrolladores | ventas-y-liderazgo | por-escribir |
+| 2027-05-31 | lunes | Cómo organizar reuniones de equipo de ingeniería efectivas | reuniones-de-equipo-de-ingenieria | reuniones de ingeniería | ventas-y-liderazgo | por-escribir |
+| 2027-06-02 | miércoles | Cómo justificar el presupuesto de tecnología ante dirección | justificar-presupuesto-de-tecnologia | presupuesto de tecnología | ventas-y-liderazgo | por-escribir |
+| 2027-06-04 | viernes | Caso de negocio para un proyecto de tecnología (plantilla) | caso-de-negocio-proyecto-de-tecnologia | caso de negocio | ventas-y-liderazgo | por-escribir |
+| 2027-06-07 | lunes | Cómo demostrar el valor del área de TI en la empresa | valor-del-area-de-ti | valor de ti en la empresa | ventas-y-liderazgo | por-escribir |
+| 2027-06-09 | miércoles | Agencia, freelancer o equipo interno de desarrollo: cómo elegir | agencia-freelancer-o-equipo-interno | agencia o freelancer | ventas-y-liderazgo | por-escribir |
+| 2027-06-11 | viernes | Contrato de desarrollo de software: cláusulas sobre inteligencia artificial | contrato-de-desarrollo-de-software-clausulas-ia | contrato de desarrollo de software | ventas-y-liderazgo | por-escribir |
+| 2027-06-14 | lunes | Certificaciones de TI: cuáles valen la pena al contratar | certificaciones-de-ti-al-contratar | certificaciones de ti | ventas-y-liderazgo | por-escribir |
+| 2027-06-16 | miércoles | Dependencia de un proveedor de IA (vendor lock-in): cómo evitarla | vendor-lock-in-inteligencia-artificial | vendor lock-in | ia-y-tecnologia | por-escribir |
+| 2027-06-18 | viernes | Cómo cambiar de modelo de IA sin reescribir tu aplicación | cambiar-de-modelo-de-ia | cambiar de modelo de ia | desarrollo-web | por-escribir |
+| 2027-06-21 | lunes | Evals de IA: cómo evaluar un modelo para tu caso de uso | evals-de-ia-como-evaluar-un-modelo | evaluar modelos de ia | ia-y-tecnologia | por-escribir |
+| 2027-06-23 | miércoles | Inteligencia artificial en la industria automotriz: ventas y agencias | inteligencia-artificial-en-la-industria-automotriz | inteligencia artificial automotriz | automotriz | por-escribir |
+| 2027-06-25 | viernes | Seguimiento de leads automotrices con inteligencia artificial | seguimiento-de-leads-automotrices-con-ia | leads automotrices | automotriz | por-escribir |
+| 2027-06-28 | lunes | Asistente virtual para agencias de autos: qué puede y qué no | asistente-virtual-para-agencias-de-autos | asistente virtual agencia de autos | automotriz | por-escribir |
+| 2027-06-30 | miércoles | Resultados de la inteligencia artificial en empresas: balance 2027 | resultados-de-la-inteligencia-artificial-en-empresas-2027 | resultados inteligencia artificial empresas | ia-y-tecnologia | por-escribir |
 
-| Fecha | Día | Título de trabajo | Categoría | Palabra clave | Estado |
-|---|---|---|---|---|---|
-| 21 oct 2026 | miércoles | Por qué el 95% de los pilotos de IA no llegan a nada (y qué haría yo distinto) | ia-y-tecnologia | pilotos de ia | borrador |
-| 22 oct 2026 | jueves | Agentes de IA: qué son de verdad y dónde sí los pondría en una empresa hoy | ia-y-tecnologia | agentes de ia | borrador |
-| 23 oct 2026 | viernes | Programar con IA en una empresa real: qué dejo que escriba y qué no | desarrollo-web | programar con ia | borrador |
+## Sin fecha (reserva)
 
-## Arco 1: IA en la empresa real (26 oct a 27 nov 2026)
-
-| Fecha | Día | Slot | Título de trabajo | Categoría | Palabra clave |
-|---|---|---|---|---|---|
-| 26 oct 2026 | lunes | Visión | Un CTO no necesita una estrategia de IA, necesita una lista de problemas | ia-y-tecnologia | estrategia de ia |
-| 28 oct 2026 | miércoles | Práctica | Cómo elegir el primer caso de uso de IA: diez preguntas antes de gastar un peso | ia-y-tecnologia | caso de uso de ia |
-| 30 oct 2026 | viernes | Contrapeso | El mito del dato limpio: qué tan desordenados pueden estar tus datos para que la IA sirva | crm-y-datos | calidad de datos ia |
-| 2 nov 2026 | lunes | Visión | Comprar o construir IA: la regla que uso y las veces que me equivoqué | ia-y-tecnologia | comprar o construir ia |
-| 4 nov 2026 | miércoles | Práctica | Cuánto cuesta de verdad poner un LLM en producción (hagamos cuentas) | ia-y-tecnologia | costo de un llm en producción |
-| 6 nov 2026 | viernes | Contrapeso | Lo que sí funciona: cinco usos aburridos de IA que pagan su costo | ia-y-tecnologia | usos de ia en empresas |
-| 9 nov 2026 | lunes | Visión | La IA no te va a quitar el trabajo, pero tu proceso sí | ia-y-tecnologia | ia y procesos |
-| 11 nov 2026 | miércoles | Práctica | RAG explicado para directores: conectar la IA a tus documentos sin reentrenar nada | ia-y-tecnologia | qué es rag |
-| 13 nov 2026 | viernes | Contrapeso | Agent washing: cómo detectar un chatbot con nombre nuevo | ia-y-tecnologia | agent washing |
-| 16 nov 2026 | lunes | Visión | Modelos abiertos o cerrados: lo que de verdad le importa a una empresa mexicana | ia-y-tecnologia | modelos de ia abiertos |
-| 18 nov 2026 | miércoles | Práctica | Cómo medir un piloto de IA: las tres métricas que acepto y las que rechazo | ia-y-tecnologia | medir piloto de ia |
-| 20 nov 2026 | viernes | Contrapeso | El error de empezar la IA por atención a clientes | ia-y-tecnologia | ia en atención a clientes |
-| 23 nov 2026 | lunes | Visión | Shadow AI: tu equipo ya usa IA, la pregunta es con qué datos | ia-y-tecnologia | shadow ai |
-| 25 nov 2026 | miércoles | Práctica | Política de uso de IA en una sola página (plantilla para descargar) | ia-y-tecnologia | política de uso de ia |
-| 27 nov 2026 | viernes | Contrapeso | Lo que aprendí del Buen Fin: picos de tráfico, IA y servidores que no avisan | desarrollo-web | buen fin tráfico web |
-
-## Arco 2: Presupuesto y cierre de año (30 nov a 25 dic 2026)
-
-| Fecha | Día | Slot | Título de trabajo | Categoría | Palabra clave |
-|---|---|---|---|---|---|
-| 30 nov 2026 | lunes | Visión | Presupuesto de tecnología 2027: dónde pondría el dinero y dónde no | ventas-y-liderazgo | presupuesto de tecnología 2027 |
-| 2 dic 2026 | miércoles | Práctica | Cómo evaluar a un proveedor de IA: las preguntas incómodas | ia-y-tecnologia | evaluar proveedor de ia |
-| 4 dic 2026 | viernes | Contrapeso | Las predicciones de 2026 sobre IA que no se cumplieron | ia-y-tecnologia | predicciones ia 2026 |
-| 7 dic 2026 | lunes | Visión | Deuda técnica e IA: el interés compuesto que nadie pone en el presupuesto | desarrollo-web | deuda técnica |
-| 9 dic 2026 | miércoles | Práctica | Auditoría de fin de año del stack: qué apagaría mañana | martech | auditoría de stack tecnológico |
-| 11 dic 2026 | viernes | Contrapeso | Lo que sí funciona: automatizaciones que sobrevivieron todo el año | ia-y-tecnologia | automatizaciones que funcionan |
-| 14 dic 2026 | lunes | Visión | El CTO como traductor: explicar la IA al consejo sin vender humo | ventas-y-liderazgo | explicar ia a dirección |
-| 16 dic 2026 | miércoles | Práctica | Plan de IA de 90 días para una pyme (sin contratar a nadie) | ia-y-tecnologia | plan de ia para pymes |
-| 18 dic 2026 | viernes | Contrapeso | Herramientas que pagaría de mi bolsa: la lista de un CTO | ia-y-tecnologia | herramientas para cto |
-| 21 dic 2026 | lunes | Visión | Lo que aprendí en 2026: retro de un CTO que todavía programa | ia-y-tecnologia | retro 2026 cto |
-| 23 dic 2026 | miércoles | Práctica | Cómo documentar lo que la IA hizo este año (y lo que no hizo) | ia-y-tecnologia | documentar proyectos de ia |
-| 25 dic 2026 | viernes | Contrapeso | Mis lecturas de 2026 sobre tecnología e IA | ia-y-tecnologia | libros de tecnología 2026 |
-
-## Arco 3: Arquitectura y equipos para 2027 (28 dic 2026 a 29 ene 2027)
-
-| Fecha | Día | Slot | Título de trabajo | Categoría | Palabra clave |
-|---|---|---|---|---|---|
-| 28 dic 2026 | lunes | Visión | 2027 en tecnología: cinco apuestas y tres dudas | ia-y-tecnologia | tendencias tecnología 2027 |
-| 30 dic 2026 | miércoles | Práctica | Cómo hacer un roadmap técnico que no sea una lista de deseos | ventas-y-liderazgo | roadmap técnico |
-| 1 ene 2027 | viernes | Contrapeso | El mito de que la IA lo reemplaza todo en 2027 | ia-y-tecnologia | ia reemplazo de trabajos |
-| 4 ene 2027 | lunes | Visión | Arquitectura para la IA: menos microservicios, más datos ordenados | desarrollo-web | arquitectura para ia |
-| 6 ene 2027 | miércoles | Práctica | Cómo armar un equipo de tecnología pequeño que entregue (roles de 2027) | ventas-y-liderazgo | equipo de tecnología pequeño |
-| 8 ene 2027 | viernes | Contrapeso | ¿Necesitas un Chief AI Officer? Probablemente no | ventas-y-liderazgo | chief ai officer |
-| 11 ene 2027 | lunes | Visión | Agentes que ejecutan: el salto de responder a hacer | ia-y-tecnologia | agentes de ia que ejecutan |
-| 13 ene 2027 | miércoles | Práctica | MCP y conectores: cómo darle manos a la IA sin darle las llaves | ia-y-tecnologia | qué es mcp |
-| 15 ene 2027 | viernes | Contrapeso | Lo que sí funciona: pruebas automáticas escritas con IA | desarrollo-web | pruebas automáticas con ia |
-| 18 ene 2027 | lunes | Visión | La inyección de prompt es el nuevo SQL injection | ia-y-tecnologia | inyección de prompt |
-| 20 ene 2027 | miércoles | Práctica | Checklist de seguridad para un proyecto con LLM | ia-y-tecnologia | seguridad llm |
-| 22 ene 2027 | viernes | Contrapeso | Por qué sigo desconfiando de las demos de IA | ia-y-tecnologia | demos de ia |
-| 25 ene 2027 | lunes | Visión | Datos propios: la única ventaja que la IA no te puede copiar | crm-y-datos | datos propios ventaja competitiva |
-| 27 ene 2027 | miércoles | Práctica | Cómo construir una base de conocimiento que la IA pueda usar | ia-y-tecnologia | base de conocimiento para ia |
-| 29 ene 2027 | viernes | Contrapeso | El mito del prompt perfecto | ia-y-tecnologia | prompt perfecto |
-
-## Arco 4: Datos, CRM y clientes (1 a 26 feb 2027)
-
-| Fecha | Día | Slot | Título de trabajo | Categoría | Palabra clave |
-|---|---|---|---|---|---|
-| 1 feb 2027 | lunes | Visión | Tu CRM es el mejor dataset que tienes (y el peor cuidado) | crm-y-datos | crm e ia |
-| 3 feb 2027 | miércoles | Práctica | IA en el CRM: tres automatizaciones que sí mueven ventas | crm-y-datos | automatizaciones de crm con ia |
-| 5 feb 2027 | viernes | Contrapeso | Lo que sí funciona: enriquecer leads con IA sin inventar datos | crm-y-datos | enriquecer leads con ia |
-| 8 feb 2027 | lunes | Visión | Personalización con IA: hasta dónde sin ser espeluznante | martech | personalización con ia |
-| 10 feb 2027 | miércoles | Práctica | Cómo armar un pipeline de datos sencillo (sin data lake ni consultores) | crm-y-datos | pipeline de datos sencillo |
-| 12 feb 2027 | viernes | Contrapeso | Dashboards: el mito de verlo todo | crm-y-datos | dashboards de negocio |
-| 15 feb 2027 | lunes | Visión | Atención a clientes con IA: lo que vi funcionar y lo que vi explotar | ia-y-tecnologia | atención a clientes con ia |
-| 17 feb 2027 | miércoles | Práctica | Cómo diseñar la entrega a un humano en un chatbot | ia-y-tecnologia | chatbot entrega a humano |
-| 19 feb 2027 | viernes | Contrapeso | Por qué no mediría el éxito de un bot en conversaciones | ia-y-tecnologia | métricas de chatbot |
-| 22 feb 2027 | lunes | Visión | Lo que revisaría antes de mandar datos personales a un modelo de IA | crm-y-datos | datos personales e ia |
-| 24 feb 2027 | miércoles | Práctica | Cómo anonimizar datos antes de usar IA (sin arruinar el análisis) | crm-y-datos | anonimizar datos |
-| 26 feb 2027 | viernes | Contrapeso | El mito de que tus datos se quedan en México | ia-y-tecnologia | datos en la nube méxico |
-
-## Arco 5: Software con IA (1 mar a 2 abr 2027)
-
-| Fecha | Día | Slot | Título de trabajo | Categoría | Palabra clave |
-|---|---|---|---|---|---|
-| 1 mar 2027 | lunes | Visión | Vibe coding en producción: por qué sí y cuándo no | desarrollo-web | vibe coding |
-| 3 mar 2027 | miércoles | Práctica | Cómo reviso código escrito por IA: mi checklist | desarrollo-web | revisar código de ia |
-| 5 mar 2027 | viernes | Contrapeso | Lo que sí funciona: refactorizar con agentes | desarrollo-web | refactorizar con ia |
-| 8 mar 2027 | lunes | Visión | El desarrollador junior no desaparece, cambia de trabajo | ventas-y-liderazgo | desarrolladores junior ia |
-| 10 mar 2027 | miércoles | Práctica | Cómo enseñar a un equipo a programar con IA sin perder criterio | ventas-y-liderazgo | equipo programar con ia |
-| 12 mar 2027 | viernes | Contrapeso | El mito de que ya no hace falta saber programar | desarrollo-web | saber programar con ia |
-| 15 mar 2027 | lunes | Visión | WordPress, Shopify y la IA: qué cambia para quien tiene un sitio | desarrollo-web | wordpress shopify ia |
-| 17 mar 2027 | miércoles | Práctica | Cómo publico este blog con Git y la API de WordPress (mi flujo, con código) | desarrollo-web | publicar wordpress con git |
-| 19 mar 2027 | viernes | Contrapeso | Plugins de IA para WordPress: la lista corta | desarrollo-web | plugins de ia wordpress |
-| 22 mar 2027 | lunes | Visión | La velocidad web sigue importando, aunque te responda un asistente | seo-y-geo | velocidad web 2027 |
-| 24 mar 2027 | miércoles | Práctica | Cómo medir rendimiento sin obsesionarse con Lighthouse | desarrollo-web | medir rendimiento web |
-| 26 mar 2027 | viernes | Contrapeso | Lo que sí funciona: pruebas de carga con IA | desarrollo-web | pruebas de carga |
-| 29 mar 2027 | lunes | Visión | Infraestructura: nube, servidor propio o ambas | desarrollo-web | nube o servidor propio |
-| 31 mar 2027 | miércoles | Práctica | Cómo controlar la factura de nube cuando metes IA | desarrollo-web | costos de nube ia |
-| 2 abr 2027 | viernes | Contrapeso | El mito del serverless gratis | desarrollo-web | serverless costos |
-
-## Arco 6: Marketing, SEO y GEO con IA (5 a 30 abr 2027)
-
-| Fecha | Día | Slot | Título de trabajo | Categoría | Palabra clave |
-|---|---|---|---|---|---|
-| 5 abr 2027 | lunes | Visión | Marketing con IA: la diferencia entre más contenido y mejor contenido | martech | marketing con ia |
-| 7 abr 2027 | miércoles | Práctica | Cómo armar un flujo de contenido con IA que un humano firme | martech | flujo de contenido con ia |
-| 9 abr 2027 | viernes | Contrapeso | Lo que sí funciona: IA para investigar, no para redactar la versión final | martech | ia para investigación |
-| 12 abr 2027 | lunes | Visión | GEO un año después: qué cambió y qué no | seo-y-geo | geo 2027 |
-| 14 abr 2027 | miércoles | Práctica | Cómo medir si la IA te cita (sin pagar una herramienta nueva) | seo-y-geo | medir citas en ia |
-| 16 abr 2027 | viernes | Contrapeso | El mito de llms.txt | seo-y-geo | llms.txt |
-| 19 abr 2027 | lunes | Visión | Anuncios con IA: quién decide cuando la máquina puja | martech | anuncios automáticos ia |
-| 21 abr 2027 | miércoles | Práctica | Cómo auditar campañas automáticas (Performance Max y Advantage+) | martech | auditar performance max |
-| 23 abr 2027 | viernes | Contrapeso | Lo que sí funciona: creatividades con IA que convirtieron | martech | creatividades con ia |
-| 26 abr 2027 | lunes | Visión | Martech e IA: el stack se achica | martech | martech 2027 |
-| 28 abr 2027 | miércoles | Práctica | Cómo consolidar herramientas sin romper nada | martech | consolidar herramientas martech |
-| 30 abr 2027 | viernes | Contrapeso | El mito del CDP | martech | qué es un cdp |
-
-## Arco 7: Liderazgo técnico (3 may a 4 jun 2027)
-
-| Fecha | Día | Slot | Título de trabajo | Categoría | Palabra clave |
-|---|---|---|---|---|---|
-| 3 may 2027 | lunes | Visión | Lo que un CTO hace de verdad (versión 2027) | ventas-y-liderazgo | qué hace un cto |
-| 5 may 2027 | miércoles | Práctica | Cómo entrevistar a un desarrollador cuando la IA resuelve la prueba técnica | ventas-y-liderazgo | entrevista técnica ia |
-| 7 may 2027 | viernes | Contrapeso | Lo que sí funciona: reuniones de ingeniería de quince minutos | ventas-y-liderazgo | reuniones de ingeniería |
-| 10 may 2027 | lunes | Visión | El presupuesto es una conversación: tecnología y dirección | ventas-y-liderazgo | presupuesto de tecnología |
-| 12 may 2027 | miércoles | Práctica | Cómo escribir un caso de negocio para un proyecto técnico | ventas-y-liderazgo | caso de negocio técnico |
-| 14 may 2027 | viernes | Contrapeso | El mito de que tecnología es un centro de costos | ventas-y-liderazgo | tecnología centro de costos |
-| 17 may 2027 | lunes | Visión | Proveedores, agencias y freelancers: cómo decidir con IA en la mesa | ventas-y-liderazgo | proveedores de tecnología |
-| 19 may 2027 | miércoles | Práctica | Cláusulas de IA en un contrato de desarrollo: las que pediría | ventas-y-liderazgo | contrato de desarrollo ia |
-| 21 may 2027 | viernes | Contrapeso | Por qué no contrato por certificaciones | ventas-y-liderazgo | certificaciones tecnología |
-| 24 may 2027 | lunes | Visión | El riesgo de depender de un solo proveedor de IA | ia-y-tecnologia | dependencia proveedor ia |
-| 26 may 2027 | miércoles | Práctica | Cómo diseñar para cambiar de modelo de IA sin reescribir | desarrollo-web | cambiar de modelo de ia |
-| 28 may 2027 | viernes | Contrapeso | Lo que sí funciona: evaluaciones propias (evals) antes de creerle al benchmark | ia-y-tecnologia | evals de ia |
-| 31 may 2027 | lunes | Visión | Automotriz e IA: lo que cambia en la venta de autos | automotriz | ia venta de autos |
-| 2 jun 2027 | miércoles | Práctica | Cómo integrar IA en el seguimiento de leads automotrices | automotriz | leads automotrices ia |
-| 4 jun 2027 | viernes | Contrapeso | El mito del vendedor virtual | automotriz | vendedor virtual ia |
-
-## Arco 8: Mitad de año y lo que viene (7 a 30 jun 2027)
-
-| Fecha | Día | Slot | Título de trabajo | Categoría | Palabra clave |
-|---|---|---|---|---|---|
-| 7 jun 2027 | lunes | Visión | Medio año de IA: resultados, no promesas | ia-y-tecnologia | resultados de ia 2027 |
-| 9 jun 2027 | miércoles | Práctica | Cómo calcular el ROI real de la IA en tu operación | ia-y-tecnologia | roi de la ia |
-| 11 jun 2027 | viernes | Contrapeso | Lo que sí funciona: la lista de junio | ia-y-tecnologia | ia que funciona |
-| 14 jun 2027 | lunes | Visión | Lo que viene en la segunda mitad de 2027 (con escepticismo) | ia-y-tecnologia | tendencias ia segundo semestre 2027 |
-| 16 jun 2027 | miércoles | Práctica | Cómo preparar el presupuesto 2028 desde junio | ventas-y-liderazgo | presupuesto 2028 |
-| 18 jun 2027 | viernes | Contrapeso | Tecnologías que pasaron de moda (IoT, realidad virtual, Physical Web) y lo que enseñan | ia-y-tecnologia | tecnologías que pasaron de moda |
-| 21 jun 2027 | lunes | Visión | Ética práctica: las tres reglas que aplico con IA | ia-y-tecnologia | ética de la ia práctica |
-| 23 jun 2027 | miércoles | Práctica | Cómo explicar a tus clientes que usas IA | martech | transparencia uso de ia |
-| 25 jun 2027 | viernes | Contrapeso | El mito de la IA neutral | ia-y-tecnologia | sesgos de la ia |
-| 28 jun 2027 | lunes | Visión | Lo que aprendí en nueve meses de publicar tres veces por semana | ventas-y-liderazgo | publicar tres veces por semana |
-| 30 jun 2027 | miércoles | Práctica | Cómo construir tu calendario editorial con IA sin perder la voz | martech | calendario editorial con ia |
-
-## Resumen
-
-- Total: 110 entradas, del 21 de octubre de 2026 al 30 jun 2027.
-- Ocho arcos temáticos de cuatro a cinco semanas, para que las entradas se enlacen entre sí y cada arco cierre con material para una guía larga.
-- Enlaces internos obligatorios: cada entrada enlaza a su pilar más cercano (/blog/que-es-martech/, /blog/posicionamiento-web-seo-geo/, /blog/especialista-en-inbound-marketing-en-mexico/) y a /blog/ con el texto "blog de un director de tecnología" cuando venga al caso.
-- Revisión del calendario: el último viernes de cada arco, ajustar los títulos del siguiente con lo que haya pasado en la industria.
+- Cómo calcular el retorno de inversión de la automatización (retorno-de-inversion-de-la-automatizacion)
+- Presupuesto de TI 2028: cómo empezar a planearlo (presupuesto-de-ti-2028)
+- Ética en la inteligencia artificial para empresas: reglas prácticas (etica-en-la-inteligencia-artificial-para-empresas)
+- Cómo informar a tus clientes que usas inteligencia artificial (informar-a-clientes-uso-de-inteligencia-artificial)
+- Sesgos en la inteligencia artificial: qué son y cómo detectarlos (sesgos-en-la-inteligencia-artificial)
+- Calendario editorial con inteligencia artificial: cómo hacerlo (calendario-editorial-con-inteligencia-artificial)
