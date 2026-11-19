@@ -1,7 +1,7 @@
 # Prueba de redirecciones: Apache local con migracion/redirecciones.htaccess, destinos en https://www.fernandomartinez.mx
 
-- URLs viejas probadas: **595**
-- Correctas (301 a una página que responde 200, o URL que se conserva igual): **594**
+- URLs viejas probadas: **601**
+- Correctas (301 a una página que responde 200, o URL que se conserva igual): **600**
 - Para revisar: **1**
 - Sin equivalente o con error: **0**
 
@@ -16,7 +16,7 @@
 | https://www.fernandomartinez.mx/index.php?option=com_xmap&view=xml&id=1 | 200 | 0 |
 | https://www.fernandomartinez.mx/component/xmap/?view=xml&id=1 | 404 | 0 |
 | https://www.fernandomartinez.mx/index.php?option=com_jmap&view=sitemap&format=xml | 200 | 0 |
-| https://www.fernandomartinez.mx/post-sitemap.xml | 200 | 40 |
+| https://www.fernandomartinez.mx/post-sitemap.xml | 200 | 42 |
 | https://www.fernandomartinez.mx/page-sitemap.xml | 200 | 13 |
 | https://www.fernandomartinez.mx/uicore-cd-sitemap.xml | 200 | 2 |
 | https://www.fernandomartinez.mx/category-sitemap.xml | 200 | 9 |
@@ -157,6 +157,8 @@
 | ok | /blog/physical-web-el-nuevo-paso-para-los-negocios// | variante con diagonal | 0 | /blog/physical-web-el-nuevo-paso-para-los-negocios// |
 | ok | /blog/plantillas-administrador-joomla/ | sitemap | 0 | /blog/plantillas-administrador-joomla/ |
 | ok | /blog/plantillas-administrador-joomla// | variante con diagonal | 0 | /blog/plantillas-administrador-joomla// |
+| ok | /blog/podcasts-para-directores-de-tecnologia/ | sitemap | 0 | /blog/podcasts-para-directores-de-tecnologia/ |
+| ok | /blog/podcasts-para-directores-de-tecnologia// | variante con diagonal | 0 | /blog/podcasts-para-directores-de-tecnologia// |
 | ok | /blog/por-que-deberias-considerar-el-inbound-marketing/ | sitemap | 0 | /blog/por-que-deberias-considerar-el-inbound-marketing/ |
 | ok | /blog/por-que-deberias-considerar-el-inbound-marketing// | variante con diagonal | 0 | /blog/por-que-deberias-considerar-el-inbound-marketing// |
 | ok | /blog/por-que-los-pilotos-de-ia-no-llegan-a-produccion/ | sitemap | 0 | /blog/por-que-los-pilotos-de-ia-no-llegan-a-produccion/ |
@@ -173,6 +175,8 @@
 | ok | /blog/que-es-martech// | variante con diagonal | 0 | /blog/que-es-martech// |
 | ok | /blog/reducir-tiempo-carga-sitio-web-joomla/ | sitemap | 0 | /blog/reducir-tiempo-carga-sitio-web-joomla/ |
 | ok | /blog/reducir-tiempo-carga-sitio-web-joomla// | variante con diagonal | 0 | /blog/reducir-tiempo-carga-sitio-web-joomla// |
+| ok | /blog/seo-geo-aeo-diferencias/ | sitemap | 0 | /blog/seo-geo-aeo-diferencias/ |
+| ok | /blog/seo-geo-aeo-diferencias// | variante con diagonal | 0 | /blog/seo-geo-aeo-diferencias// |
 | ok | /blog/trafico-seo-no-paga-la-nomina/ | sitemap | 0 | /blog/trafico-seo-no-paga-la-nomina/ |
 | ok | /blog/trafico-seo-no-paga-la-nomina// | variante con diagonal | 0 | /blog/trafico-seo-no-paga-la-nomina// |
 | ok | /blog/uicore-cd/ui-cd-to/ | sitemap | 0 | /blog/uicore-cd/ui-cd-to/ |
@@ -438,6 +442,7 @@
 | ok | /index.php/blog/para-que-sirve-un-blog-en-mi-sitio-web/ | variante index.php | 1 | /blog/para-que-sirve-un-blog-en-mi-sitio-web/ |
 | ok | /index.php/blog/physical-web-el-nuevo-paso-para-los-negocios/ | variante index.php | 1 | /blog/physical-web-el-nuevo-paso-para-los-negocios/ |
 | ok | /index.php/blog/plantillas-administrador-joomla/ | variante index.php | 1 | /blog/plantillas-administrador-joomla/ |
+| ok | /index.php/blog/podcasts-para-directores-de-tecnologia/ | variante index.php | 1 | /blog/podcasts-para-directores-de-tecnologia/ |
 | ok | /index.php/blog/por-que-deberias-considerar-el-inbound-marketing/ | variante index.php | 1 | /blog/por-que-deberias-considerar-el-inbound-marketing/ |
 | ok | /index.php/blog/por-que-los-pilotos-de-ia-no-llegan-a-produccion/ | variante index.php | 1 | /blog/por-que-los-pilotos-de-ia-no-llegan-a-produccion/ |
 | ok | /index.php/blog/posicionamiento-web-seo-geo/ | variante index.php | 1 | /blog/posicionamiento-web-seo-geo/ |
@@ -446,6 +451,7 @@
 | ok | /index.php/blog/que-es-el-internet-de-las-cosas-iot-internet-of-things/ | variante index.php | 1 | /blog/que-es-el-internet-de-las-cosas-iot-internet-of-things/ |
 | ok | /index.php/blog/que-es-martech/ | variante index.php | 1 | /blog/que-es-martech/ |
 | ok | /index.php/blog/reducir-tiempo-carga-sitio-web-joomla/ | variante index.php | 1 | /blog/reducir-tiempo-carga-sitio-web-joomla/ |
+| ok | /index.php/blog/seo-geo-aeo-diferencias/ | variante index.php | 1 | /blog/seo-geo-aeo-diferencias/ |
 | ok | /index.php/blog/trafico-seo-no-paga-la-nomina/ | variante index.php | 1 | /blog/trafico-seo-no-paga-la-nomina/ |
 | ok | /index.php/blog/uicore-cd/ui-cd-to/ | variante index.php | 1 | /blog/uicore-cd/ui-cd-to/ |
 | ok | /index.php/blog/uicore-cd/ui-cd-wp/ | variante index.php | 1 | /blog/uicore-cd/ui-cd-wp/ |
