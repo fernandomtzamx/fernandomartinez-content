@@ -1,13 +1,13 @@
-fecha: 2026-11-18T13:53:47Z
-commit: 181a38202959ea8882629b1d5a8b858145f705c9
+fecha: 2026-11-19T13:33:38Z
+commit: 22c011548b6fefae3c0a5150572e4d6f1cb2c50f
 evento: push
 publicar: success | setup: skipped | verificar: failure
-run: https://github.com/fernandomtzamx/fernandomartinez-content/actions/runs/44318161075
+run: https://github.com/fernandomtzamx/fernandomartinez-content/actions/runs/44534425486
 ---
 WP_URL: presente
 WP_USER: presente
 WP_APP_PASSWORD: presente
-Plan: publicar='content/blog/47-seo-geo-aeo-diferencias.md ' setup='' verificar='1' info=''
+Plan: publicar='content/blog/53-estrategia-de-inteligencia-artificial-para-empresas.md ' setup='' verificar='1' info=''
 ok    content/blog/12-teleton.md: 499 palabras, 1 fuentes
 ok    content/blog/13-5-pilares.md: 563 palabras, 0 fuentes
 ok    content/blog/14-que-es-inbound.md: 471 palabras, 0 fuentes
@@ -50,6 +50,7 @@ ok    content/blog/5-activismo.md: 434 palabras, 0 fuentes
 ok    content/blog/50-programar-con-ia.md: 1085 palabras, 6 fuentes
 ok    content/blog/51-trafico-no-paga.md: 1239 palabras, 2 fuentes
 ok    content/blog/52-podcasts-para-cto.md: 1593 palabras, 44 fuentes
+ok    content/blog/53-estrategia-de-inteligencia-artificial-para-empresas.md: 1510 palabras, 4 fuentes
 ok    content/blog/6-lealtad.md: 455 palabras, 0 fuentes
 ok    content/blog/7-manifiesto.md: 892 palabras, 0 fuentes
 ok    content/blog/9-tolerancia.md: 433 palabras, 0 fuentes
@@ -71,21 +72,22 @@ ok    content/recursos/sumome.md: 161 palabras, 0 fuentes
 ok    content/recursos/twitter-summary-card.md: 197 palabras, 1 fuentes
 ok    content/recursos/website-preloader.md: 222 palabras, 1 fuentes
 
-56 archivos, 0 con errores
+57 archivos, 0 con errores
 Endpoint: https://fernandomartinez.mx/wp-json/ (HTTP 200)
 Métodos de autenticación anunciados: application-passwords
 Conectado como soporte (roles: administrator)
-  + imagen subida: seo-geo-aeo-diferencias.png (id 773)
-content/blog/47-seo-geo-aeo-diferencias.md: post actualizada (future) id=746 https://www.fernandomartinez.mx/?p=746
-  seo: SEO, GEO y AEO: qué son y sus diferencias | Fernando Martínez
+  + etiqueta creada: estrategia de inteligencia artificial
+  + imagen subida: estrategia-de-inteligencia-artificial-para-empresas.png (id 775)
+content/blog/53-estrategia-de-inteligencia-artificial-para-empresas.md: post creada (future) id=776 https://www.fernandomartinez.mx/?p=776
+  seo: Estrategia de IA en empresas: cómo empezar | Fernando Martínez
 
 - Imágenes que no tenían alt y se corrigieron: **0**
 
 ## HTML publicado
 
-- Páginas revisadas: **67**
-- Imágenes revisadas: **436**
+- Páginas revisadas: **68**
+- Imágenes revisadas: **444**
 - Sin alt: **0**
 ## Páginas publicadas
 
-Problemas en páginas o referidos: 4. Externos con error: 15
+Problemas en páginas o referidos: 4. Externos con error: 30
