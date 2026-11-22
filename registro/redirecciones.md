@@ -1,7 +1,7 @@
 # Prueba de redirecciones: Apache local con migracion/redirecciones.htaccess, destinos en https://www.fernandomartinez.mx
 
-- URLs viejas probadas: **601**
-- Correctas (301 a una página que responde 200, o URL que se conserva igual): **600**
+- URLs viejas probadas: **604**
+- Correctas (301 a una página que responde 200, o URL que se conserva igual): **603**
 - Para revisar: **1**
 - Sin equivalente o con error: **0**
 
@@ -16,7 +16,7 @@
 | https://www.fernandomartinez.mx/index.php?option=com_xmap&view=xml&id=1 | 200 | 0 |
 | https://www.fernandomartinez.mx/component/xmap/?view=xml&id=1 | 404 | 0 |
 | https://www.fernandomartinez.mx/index.php?option=com_jmap&view=sitemap&format=xml | 200 | 0 |
-| https://www.fernandomartinez.mx/post-sitemap.xml | 200 | 42 |
+| https://www.fernandomartinez.mx/post-sitemap.xml | 200 | 43 |
 | https://www.fernandomartinez.mx/page-sitemap.xml | 200 | 13 |
 | https://www.fernandomartinez.mx/uicore-cd-sitemap.xml | 200 | 2 |
 | https://www.fernandomartinez.mx/category-sitemap.xml | 200 | 9 |
@@ -137,6 +137,8 @@
 | ok | /blog/entre-aportar-al-teleton-y-el-odio-a-televisa// | variante con diagonal | 0 | /blog/entre-aportar-al-teleton-y-el-odio-a-televisa// |
 | ok | /blog/especialista-en-inbound-marketing-en-mexico/ | sitemap | 0 | /blog/especialista-en-inbound-marketing-en-mexico/ |
 | ok | /blog/especialista-en-inbound-marketing-en-mexico// | variante con diagonal | 0 | /blog/especialista-en-inbound-marketing-en-mexico// |
+| ok | /blog/estrategia-de-inteligencia-artificial-para-empresas/ | sitemap | 0 | /blog/estrategia-de-inteligencia-artificial-para-empresas/ |
+| ok | /blog/estrategia-de-inteligencia-artificial-para-empresas// | variante con diagonal | 0 | /blog/estrategia-de-inteligencia-artificial-para-empresas// |
 | ok | /blog/experto-en-joomla-en-mexico/ | sitemap | 0 | /blog/experto-en-joomla-en-mexico/ |
 | ok | /blog/experto-en-joomla-en-mexico// | variante con diagonal | 0 | /blog/experto-en-joomla-en-mexico// |
 | ok | /blog/guia-definitiva-shopify-principiantes-mexico-2026/ | sitemap | 0 | /blog/guia-definitiva-shopify-principiantes-mexico-2026/ |
@@ -432,6 +434,7 @@
 | ok | /index.php/blog/en-contra-de-la-tolerancia/ | variante index.php | 1 | /blog/en-contra-de-la-tolerancia/ |
 | ok | /index.php/blog/entre-aportar-al-teleton-y-el-odio-a-televisa/ | variante index.php | 1 | /blog/entre-aportar-al-teleton-y-el-odio-a-televisa/ |
 | ok | /index.php/blog/especialista-en-inbound-marketing-en-mexico/ | variante index.php | 1 | /blog/especialista-en-inbound-marketing-en-mexico/ |
+| ok | /index.php/blog/estrategia-de-inteligencia-artificial-para-empresas/ | variante index.php | 1 | /blog/estrategia-de-inteligencia-artificial-para-empresas/ |
 | ok | /index.php/blog/experto-en-joomla-en-mexico/ | variante index.php | 1 | /blog/experto-en-joomla-en-mexico/ |
 | ok | /index.php/blog/guia-definitiva-shopify-principiantes-mexico-2026/ | variante index.php | 1 | /blog/guia-definitiva-shopify-principiantes-mexico-2026/ |
 | ok | /index.php/blog/inbound-marketing-audiencia-ideal/ | variante index.php | 1 | /blog/inbound-marketing-audiencia-ideal/ |
