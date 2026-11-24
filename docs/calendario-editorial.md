@@ -12,7 +12,7 @@ Publicadas antes de este calendario (21 oct a 18 nov 2026): entradas 47 a 52 de 
 |---|---|---|---|---|---|---|
 | 2026-11-20 | viernes | Estrategia de inteligencia artificial para empresas: cómo empezar | estrategia-de-inteligencia-artificial-para-empresas | estrategia de inteligencia artificial | ia-y-tecnologia | publicado |
 | 2026-11-23 | lunes | Casos de uso de inteligencia artificial en empresas: cómo elegir el primero | casos-de-uso-de-inteligencia-artificial-en-empresas | casos de uso de inteligencia artificial | ia-y-tecnologia | publicado |
-| 2026-11-25 | miércoles | Calidad de datos para inteligencia artificial: qué necesitas antes de empezar | calidad-de-datos-para-inteligencia-artificial | calidad de datos para ia | crm-y-datos | por-escribir |
+| 2026-11-25 | miércoles | Calidad de datos para inteligencia artificial: qué necesitas antes de empezar | calidad-de-datos-para-inteligencia-artificial | calidad de datos para ia | crm-y-datos | publicado |
 | 2026-11-27 | viernes | Comprar o desarrollar inteligencia artificial: cómo decidir | comprar-o-desarrollar-inteligencia-artificial | comprar o desarrollar ia | ia-y-tecnologia | por-escribir |
 | 2026-11-30 | lunes | Cuánto cuesta implementar inteligencia artificial en una empresa | cuanto-cuesta-implementar-inteligencia-artificial | cuánto cuesta implementar inteligencia artificial | ia-y-tecnologia | por-escribir |
 | 2026-12-02 | miércoles | Ejemplos de inteligencia artificial en empresas mexicanas | ejemplos-de-inteligencia-artificial-en-empresas | ejemplos de inteligencia artificial en empresas | ia-y-tecnologia | por-escribir |
