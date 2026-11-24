@@ -1,7 +1,7 @@
 # Prueba de redirecciones: Apache local con migracion/redirecciones.htaccess, destinos en https://www.fernandomartinez.mx
 
-- URLs viejas probadas: **604**
-- Correctas (301 a una página que responde 200, o URL que se conserva igual): **603**
+- URLs viejas probadas: **607**
+- Correctas (301 a una página que responde 200, o URL que se conserva igual): **606**
 - Para revisar: **1**
 - Sin equivalente o con error: **0**
 
@@ -16,7 +16,7 @@
 | https://www.fernandomartinez.mx/index.php?option=com_xmap&view=xml&id=1 | 200 | 0 |
 | https://www.fernandomartinez.mx/component/xmap/?view=xml&id=1 | 404 | 0 |
 | https://www.fernandomartinez.mx/index.php?option=com_jmap&view=sitemap&format=xml | 200 | 0 |
-| https://www.fernandomartinez.mx/post-sitemap.xml | 200 | 43 |
+| https://www.fernandomartinez.mx/post-sitemap.xml | 200 | 44 |
 | https://www.fernandomartinez.mx/page-sitemap.xml | 200 | 13 |
 | https://www.fernandomartinez.mx/uicore-cd-sitemap.xml | 200 | 2 |
 | https://www.fernandomartinez.mx/category-sitemap.xml | 200 | 9 |
@@ -111,6 +111,8 @@
 | ok | /blog/activismo-con-hashtags// | variante con diagonal | 0 | /blog/activismo-con-hashtags// |
 | ok | /blog/agentes-de-ia-que-son-y-donde-usarlos/ | sitemap | 0 | /blog/agentes-de-ia-que-son-y-donde-usarlos/ |
 | ok | /blog/agentes-de-ia-que-son-y-donde-usarlos// | variante con diagonal | 0 | /blog/agentes-de-ia-que-son-y-donde-usarlos// |
+| ok | /blog/casos-de-uso-de-inteligencia-artificial-en-empresas/ | sitemap | 0 | /blog/casos-de-uso-de-inteligencia-artificial-en-empresas/ |
+| ok | /blog/casos-de-uso-de-inteligencia-artificial-en-empresas// | variante con diagonal | 0 | /blog/casos-de-uso-de-inteligencia-artificial-en-empresas// |
 | ok | /blog/como-abrir-una-tienda-en-linea-en-mexico-con-shopify/ | sitemap | 0 | /blog/como-abrir-una-tienda-en-linea-en-mexico-con-shopify/ |
 | ok | /blog/como-abrir-una-tienda-en-linea-en-mexico-con-shopify// | variante con diagonal | 0 | /blog/como-abrir-una-tienda-en-linea-en-mexico-con-shopify// |
 | ok | /blog/como-aprovechar-instagram-stories-en-tu-marketing/ | sitemap | 0 | /blog/como-aprovechar-instagram-stories-en-tu-marketing/ |
@@ -421,6 +423,7 @@
 | ok | /index.php/blog/9-en-contra-de-la-tolerancia | variante index.php | 2 | /blog/en-contra-de-la-tolerancia/ |
 | ok | /index.php/blog/activismo-con-hashtags/ | variante index.php | 1 | /blog/activismo-con-hashtags/ |
 | ok | /index.php/blog/agentes-de-ia-que-son-y-donde-usarlos/ | variante index.php | 1 | /blog/agentes-de-ia-que-son-y-donde-usarlos/ |
+| ok | /index.php/blog/casos-de-uso-de-inteligencia-artificial-en-empresas/ | variante index.php | 1 | /blog/casos-de-uso-de-inteligencia-artificial-en-empresas/ |
 | ok | /index.php/blog/como-abrir-una-tienda-en-linea-en-mexico-con-shopify/ | variante index.php | 1 | /blog/como-abrir-una-tienda-en-linea-en-mexico-con-shopify/ |
 | ok | /index.php/blog/como-aprovechar-instagram-stories-en-tu-marketing/ | variante index.php | 1 | /blog/como-aprovechar-instagram-stories-en-tu-marketing/ |
 | ok | /index.php/blog/como-crear-un-plan-de-compensacion-para-tu-equipo-de-ventas/ | variante index.php | 1 | /blog/como-crear-un-plan-de-compensacion-para-tu-equipo-de-ventas/ |
